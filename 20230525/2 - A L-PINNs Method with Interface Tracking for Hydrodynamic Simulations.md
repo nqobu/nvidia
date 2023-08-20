@@ -5,7 +5,7 @@ National Applied Research Laboratories\
 Heng-Chuan KAN, Ph.D. (甘恆全 博士)\
 Research Fellow
 
-(slide not avilable)
+(This slide is not avilable now)
 
 <!--
   vim:ft=markdown et wrap sw=4 sts=4:
