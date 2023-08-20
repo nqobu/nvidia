@@ -1,4 +1,4 @@
-# NVIDIA Technical Update Workshop
+# NVIDIA Technical Update 2021
 
  1. Accelerating Scientific Computing: NVIDIA Quantum Infiniband Platform
  2. Clara Federated Learning with Homomorphic Encryption
