@@ -1,4 +1,4 @@
-# NVIDIA Technical Sharing Workshop 2023
+# NVIDIA Techniques Sharing 2023
 
  1. NVIDIA NeMo For LLM
  2. Large Language Model for Drug Discovery and Medical Imaging Generative AI
