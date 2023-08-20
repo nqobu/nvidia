@@ -1,4 +1,4 @@
-# NVIDIA Technical Sharing Workshop 2021
+# NVIDIA Techniques Sharing 2021
 
  1. Federated Learning with Clara
  2. NVIDIA GDS
