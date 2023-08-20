@@ -1,4 +1,4 @@
-# NVIDIA Technical update 2022
+# NVIDIA Techniques update 2022
 
  1. cUQuantum and Quantum Computing at NVIDIA
  2. cuTensorNet Python API Tutorial: Overview of key concepts and algorithms
