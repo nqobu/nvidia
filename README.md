@@ -3,6 +3,7 @@
   - 20210412 - NVIDIA Technical Sharing Workshop 2021
   - 20210706 - NCHC Technical Sharing Workshop 2021
   - 20211202 - NVIDIA Technical Update 2021
+  - 20211221 - AI+HPC - 利用 NVIDIA Modulus 實踐 PINN 於物理模擬
   - 20220415 - NVIDIA Technical Update 2022
   - 20220530 - NCHC-NVIDIA Technical Sharing Workshop 2022
   - 20220629 - PINN 與 NVIDIA Modulus 實作訓練營
