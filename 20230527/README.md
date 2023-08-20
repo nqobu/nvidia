@@ -1,7 +1,7 @@
 # AI for Science: NVIDIA Modulus 及 NVIDIA Omniverse 實作
 
-**活動日期：**2023/05/25（四）08:50&ndash;16:00
-**活動地點：**國網中心新竹本部—新竹市東區研發六路7號，B 教室
+**活動日期：**2023/05/25（四）08:50&ndash;16:00\
+**活動地點：**國網中心新竹本部—新竹市東區研發六路7號，B 教室\
 **課程規劃：**
 
 |      時間      | 活動內容 |
@@ -20,7 +20,7 @@
 | 15:00&ndash;16:00 | \[Lab3\] Introduction to NVIDIA Omniverse: Application Visualization Using Omniverse Extension |
 
 **附註：**
- 1. 如果您不熟悉 Python，建議先透過以下教學資源做初步的了解
+ 1. 如果您不熟悉 Python，建議先透過以下教學資源做初步的了解\
     <https://wiki.python.org/moin/BeginnersGuide/Programmers>
- 2. 本次教育訓練內容 NVIDIA 也開源在以下的網址供大家參考
+ 2. 本次教育訓練內容 NVIDIA 也開源在以下的網址供大家參考\
     <https://github.com/openhackathons-org/End-to-End-AI-for-Science>
