@@ -1,4 +1,4 @@
-# NVIDIA Technical Update Workshop 2022
+# NVIDIA Techniques Update 2022
 
  1. NVIDIA Hopper Update
  2. GTC Update -- Modulus & cuQuantum
