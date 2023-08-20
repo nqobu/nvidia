@@ -1,2 +1,1 @@
-# nvidia
-Repo of NCHC-NVIDIA Joint Lab
+# Repository of NCHC-NVIDIA Joint Lab
