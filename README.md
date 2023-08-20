@@ -12,7 +12,7 @@
   - 2023-517 - NVIDIA Technical Briefing: NVIDIA Federated Learning
   - 20230525 - AI for Science: NVIDIA Modulus 及 NVIDIA Omniverse 實作
   - 20230727 - N-Ways to GPU Programming Bootcamp / 多 GPU 程式設計訓練課程
-  - 20230821 - NVIDIA Techniques Salon: Programming the NVIDIA Superchip
+  - 20230821 - NVIDIA Techniques Salon 2023: Programming the NVIDIA Superchip
 
 <!--
   vim:ft=markdown et wrap sw=4 sts=4:
