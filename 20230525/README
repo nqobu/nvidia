@@ -19,6 +19,11 @@
 | 14:55--15:00 | break |
 | 15:00--16:00 | \[Lab3\] Introduction to NVIDIA Omniverse: Application Visualization Using Omniverse Extension |
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 附註：
  1. 如果您不熟悉 Python，建議先透過以下教學資源做初步的了解
     <https://wiki.python.org/moin/BeginnersGuide/Programmers>
