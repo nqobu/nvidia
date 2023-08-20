@@ -35,6 +35,13 @@
 | 14:30&ndash;16:00 | Physics Driven Lab 2: Solve Transient Problems and Inverse Problems |
 | 15:00&ndash;16:00 | Physics Driven Challenge: Solve a Fluid Mechanics Problem |
 
+**附註：**
+
+ 1. 要下載 NVIDIA Modulus，請至以下網址\
+    <https://developer.nvidia.com/modulus-downloads>
+ 3. 更多關於 PINN 的說明，請參考 Division of Applied Mathematics at Brown University 的 The CRUNCH group
+   <https://sites.brown.edu/crunch-group/>
+
 <!--
   vim:ft=markdown et wrap sw=4 sts=4:
   -->
