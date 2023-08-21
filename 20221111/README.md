@@ -15,12 +15,12 @@
 | 11:00&ndash;11:40 | Bridging Classical and Quantum Computation: From Tensor Network to Quantum Circuit, 陳柏中（清大物理） |
 | 11:40&ndash;12:00 | 主機服務現況與新主機建置說明, 王順泰（國網中心） |
 | 12:00&ndash;01:30 | Lunch |
-| 01:30&ndash;02:00 | 課程: cuQuantum and Quantum Computing |
-| 02:00&ndash;02:30 | 課程: cuTensorNet API Tutorial |
-| 02:30&ndash;03:10 | 實作 1: Google Cirq Accelerated with cuQuantum |
-| 03:10&ndash;03:30 | 休息 |
-| 03:30&ndash;04:10 | 實作 2: cuQuantum Tensor Network |
-| 04:10&ndash;04:50 | 實作 3: cuQuantum-Accelerated Quantum Machine Learning Simulation in Pennylane |
+| 01:30&ndash;02:00 | \[Lecture 1\] cuQuantum and Quantum Computing |
+| 02:00&ndash;02:30 | \[Lecture 2\] cuTensorNet API Tutorial |
+| 02:30&ndash;03:10 | \[Lab 1\] Google Cirq Accelerated with cuQuantum |
+| 03:10&ndash;03:30 | Break |
+| 03:30&ndash;04:10 | \[Lab 2\] cuQuantum Tensor Network |
+| 04:10&ndash;04:50 | \[Lab 3\] cuQuantum-Accelerated Quantum Machine Learning Simulation in Pennylane |
 | 04:50&ndash;05:00 | Q&amp;A |
 
 <!--
