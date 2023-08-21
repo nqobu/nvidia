@@ -20,7 +20,7 @@
 
 **活動日期：** 2022/06/30（四）09:15&ndash;16:00
 
-**活動地點：** 國網中心新竹本部—新竹市東區研發六路7號，B 教室
+**活動地點：** 國網中心新竹本部—新竹市東區研發六路 7 號，B 教室
 
 **課程規劃：**
 
@@ -39,8 +39,8 @@
 
  1. 要下載 NVIDIA Modulus，請至以下網址\
     <https://developer.nvidia.com/modulus-downloads>
- 3. 更多關於 PINN 的說明，請參考 Division of Applied Mathematics at Brown University 的 The CRUNCH group
-   <https://sites.brown.edu/crunch-group/>
+ 2. 更多關於 PINN 的說明，請參考 Division of Applied Mathematics at Brown University 的 The CRUNCH group\
+    <https://sites.brown.edu/crunch-group/>
 
 <!--
   vim:ft=markdown et wrap sw=4 sts=4:
