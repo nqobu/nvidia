@@ -8,13 +8,13 @@
 
 |     時間     | 活動內容 |
 | :----------: | -------- |
-| 09:30&ndash;09:40 | 歡迎 |
+| 09:30&ndash;09:40 | Welcome |
 | 09:40&ndash;10:00 | Quantum Computing with NVIDIA, Timothy Costa (NVIDIA) |
 | 10:00&ndash;10:40 | Faster and Larger Quantum Computing Simulation, 洪士灝（臺大資工） |
-| 10:40&ndash;11:00 | 休息 |
+| 10:40&ndash;11:00 | Break |
 | 11:00&ndash;11:40 | Bridging Classical and Quantum Computation: From Tensor Network to Quantum Circuit, 陳柏中（清大物理） |
 | 11:40&ndash;12:00 | 主機服務現況與新主機建置說明, 王順泰（國網中心） |
-| 12:00&ndash;01:30 | 用餐 |
+| 12:00&ndash;01:30 | Lunch |
 | 01:30&ndash;02:00 | 課程: cuQuantum and Quantum Computing |
 | 02:00&ndash;02:30 | 課程: cuTensorNet API Tutorial |
 | 02:30&ndash;03:10 | 實作 1: Google Cirq Accelerated with cuQuantum |
