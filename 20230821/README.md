@@ -14,11 +14,13 @@
 **參考資料：**
   - NVIDIA Grace CPU Superchip Whitepaper\
     <https://resources.nvidia.com/en-us-grace-cpu/nvidia-grace-cpu-superchip>\
-    <https://nvdam.widen.net/s/nkzcxhmd2f/nvidia-grace-cpu-superchip-whitepaper.pdf>\
+    <https://nvdam.widen.net/s/nkzcxhmd2f/nvidia-grace-cpu-superchip-whitepaper.pdf>
+  - NVIDIA Grace CPU Superchip: The world's first no-compromise data center CPU\
     <https://nvdam.widen.net/s/nlzxscf5mz/hpc-datasheet-grace-cpu-superchip-datasheet-2705400.pdf>
   - NVIDIA Grace Hopper Superchip Architecture Whitepaper\
     <https://resources.nvidia.com/en-us-grace-cpu/nvidia-grace-hopper>\
-    <https://nvdam.widen.net/s/qjzrmfdn2j/nvidia-grace-hopper-superchip-architecture-whitepaper-v1.0.pdf>\
+    <https://nvdam.widen.net/s/qjzrmfdn2j/nvidia-grace-hopper-superchip-architecture-whitepaper-v1.0.pdf>
+  - NVIDIA Grace Hopper Superchip: The breakthrough accelerated CPU for large-scale AI and high-performance computing (HPC) applications\
     <https://nvdam.widen.net/s/sjs69pnmgg/grace-hopper-superchip-datasheet-nvidia-2705455.pdf>
 
 <!--
