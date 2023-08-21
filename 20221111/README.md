@@ -1,4 +1,4 @@
-# Quantum Computing Workshop / 子計算模擬實作
+# Quantum Computing Workshop / 量子計算模擬實作
 
 **活動日期：** 2022/11/11（五）09:30&ndash;17:00
 
