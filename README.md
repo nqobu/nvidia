@@ -7,7 +7,7 @@
   - 20220415 - NVIDIA Techniques Update 2022
   - 20220530 - NCHC-NVIDIA Techniques Sharing 2022
   - 20220629 - PINN 與 NVIDIA Modulus 實作訓練營
-  - 20221111 - NCHC Quantum Computing Workshop / 國網中心量子計算模擬實作
+  - 20221111 - Quantum Computing Workshop / 量子計算模擬實作
   - 20230413 - NVIDIA Techniques Sharing 2023
   - 20230517 - NVIDIA Techniques Briefing: NVIDIA Federated Learning
   - 20230525 - AI for Science: NVIDIA Modulus 及 NVIDIA Omniverse 實作
