@@ -1,5 +1,53 @@
 
-# 2023 NCHC Open Hackathon
+# NCHC Open Hackathons 2023
+
+Open Hackathons 是為期數天密集的實作活動，目的在讓活動參與團隊透過與 GPU 平行程式編寫和開發經驗豐富的專業導師配對，一起將應用程式移植到 GPU 平臺，並透過使用及優化 GPU 應用程式來實現效能的提昇，進而加速成果的產出。參與團隊在活動結束後，將取得可在 GPU 上執行的應用程式或 GPU 的相關使用與開發體驗。
+
+## 報名日期
+
+自即日起到 2023 年 10 月 13 日 截止
+
+## 活動日期
+
+2023 年 11 月 16 日 -- 2023 年 12 月 07 日
+
+## 活動形式
+
+本次 Open Hackathon 2023 將於臺灣標準時間（UTC+8）在線上舉辦，將透過 email 作為主要溝通與交流工具。每個團隊將與導師配對，共同討論與優化程式碼，並於活動期間向所有團隊分享進度。
+
+## 活動行程
+
+（以下日期與時間，均以臺灣標準時間 UTC+8 為準）
+
+**2023/10/13**: 報名截止
+
+**2023/11/16**: 啟動會議（線上）
+
+  - 14:00 -- 14:20: Welcome and event overview
+  - 14:20 -- 15:00: Team self-introduction and getting to know the mentor.
+  - 15:00 -- 16:00: Introduction to computing resources
+  - 16:00 -- 17:00: Introduction to Nsight Analysis Tools
+  - 17:00 -- 18:00: Online communication
+
+**2023/11/23**: Scrum 會議 #1（線上）
+
+  - 14:00 -- 15:00: (5 mins presentation per team)
+
+**2023/11/30**: Scrum 會議 #2（線上）
+
+  - 14:00 -- 15:00: (5 mins presentation per team)
+
+**2023/12/07:** 成果展示（**必須到 NCHC 進行現場展示**）
+
+  - 10:00 -- 10:30: Welcome and event description
+  - 10:30 -- 12:00: Result presentation (12 presentation + 3 QA minutes per team)
+  - 12:00 -- 13:30: Lunch time
+  - 13:30 -- 15:00: Result presentation (12 presentation + 3 QA minutes per team)
+  - 15:00 -- 16:00: Ending
+
+---
+
+## 參與團隊
 
  1. Quantum Computing Ising Machine, Schrodinger's cat
  2. Full Optimization for Quantum Circuit Simulation, haofan2023
