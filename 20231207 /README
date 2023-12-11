@@ -1,4 +1,17 @@
-# Open Hackathon 2023
+# 2023 NCHC Open Hackathon
+
+ 1. Quantum Computing Ising Machine, Schrodinger's cat
+ 2. Full Optimization for Quantum Circuit Simulation, haofan2023
+ 3. Service Discovery Mechanism with Security Auditing, NTHU-LSALAB
+ 4. GPU Accelerated TIGER-F code, NTUST CFD Lab
+ 5. Mesh Generation for MPAS Model, CWA
+ 6. Artificial Intelligence in Otoscopic Diagnosis, CYCU BME
+ 7. Comparative Performance Analysis of Global Ensemble model Verification on CPU and GPU Platforms, CWA_GVER
+ 8. Ectopic Heartbeats Detection System, WTMH
+ 9. CWAGFS-TCo - Numerical Weather Prediction Model, 氣象署-興⼤應數聯隊
+10. Accelerate Encrypt/Decrypt Operation in Functional Encryption, YSS Team
+11. X-ray Background Correction Model, TXM AI Group
+12. LLM Inference with TensorRT-LLM on NCHC servers, NCHC Speedrunning Team
 
 <!--
   vim:ft=markdown ic noet norl wrap sw=8 ts=8 sts=4:
