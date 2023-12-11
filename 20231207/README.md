@@ -35,16 +35,16 @@ Open Hackathons 是為期數天密集的實作活動，目的在讓活動參與�
 
 ## 參與團隊
 
- 1. Quantum Computing Ising Machine, Schrodinger's cat
- 2. Full Optimization for Quantum Circuit Simulation, haofan2023
- 3. Service Discovery Mechanism with Security Auditing, NTHU-LSALAB
- 4. GPU Accelerated TIGER-F code, NTUST CFD Lab
- 5. Mesh Generation for MPAS Model, CWA
- 6. Artificial Intelligence in Otoscopic Diagnosis, CYCU BME
- 7. Comparative Performance Analysis of Global Ensemble model Verification on CPU and GPU Platforms, CWA_GVER
- 8. Ectopic Heartbeats Detection System, WTMH
+ 1. Quantum-Inspired Algorithm (QUBO), Schrödinger's cat
+ 2. Quantum Circuit Simulation (QFT, QAOA), haofan2023
+ 3. 5G SBA (Service Based Architecture), NTHU-LSALAB
+ 4. 3D-CFD (Direct Forcing Immersed Boundary, LES turbulence model), NTUST CFD Lab
+ 5. Mesh Generation for MPAS Model, CWA mesh generation
+ 6. A.I. in Otoscopic Diagnosis, CYCU BME
+ 7. Global Ensemble model Verification, CWA_GVER
+ 8. Arrhythmia Screening of Real-Time Single-Lead ECG, WTMH
  9. CWAGFS-TCo - Numerical Weather Prediction Model, 氣象署-興⼤應數聯隊
-10. Accelerate Encrypt/Decrypt Operation in Functional Encryption, YSS Team
+10. Functional Encryption (BSGS) apply in Machine Learning Service, YSS Team
 11. X-ray Background Correction Model, TXM AI Group
 12. LLM Inference with TensorRT-LLM on NCHC servers, NCHC Speedrunning Team
 
