@@ -44,7 +44,7 @@ Open Hackathons 是為期數天密集的實作活動，目的在讓活動參與�
  7. Global Ensemble model Verification, CWA_GVER
  8. Arrhythmia Screening of Real-Time Single-Lead ECG, WTMH
  9. CWAGFS-TCo - Numerical Weather Prediction Model, 氣象署-興⼤應數聯隊
-10. Functional Encryption (BSGS) apply in Machine Learning Service, YSS Team
+10. Accelerate Encrypt/Decrypt Operation in Functional Encryption, YSS Team
 11. X-ray Background Correction Model, TXM AI Group
 12. LLM Inference with TensorRT-LLM on NCHC servers, NCHC Speedrunning Team
 
