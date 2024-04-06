@@ -53,7 +53,7 @@
      -  利用 LangChain 正規化來開發對話管理和文件檢索解決方案
      -  用最先進的模型練習，明確有關產品化和框架探索的後續步驟
 
-    適合熟悉 LLM 及其相關組合框架 (如 LangChain)，具有中級 Python 水平，最好有網路工程和開發運維背景的人群學習。
+    適合熟悉 LLM 及其相關組合框架 (如 LangChain)，具有中級 Python 水準，最好具備網路工程和開發維運背景。
 
  -  [Accelerate Data Science Workflows with Zero Code Changes / 零程式碼更改加速資料科學工作流](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+T-DS-03+V1)
 
