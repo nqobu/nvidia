@@ -70,11 +70,13 @@
  -  [How to Perform Large-Scale Image Classification / 如何進行大規模影像分類](https://www.classcentral.com/course/youtube-grandmaster-series-how-to-perform-large-scale-image-classification-130184)
 
     課程內容：如何進行大規模影像分類，涵蓋挑戰、建模技術和驗證策略。
+
     適合資料科學家、機器學習從業者以及對深度學習競賽感興趣的人觀看。
 
  -  [Mastering Recommender Systems / 掌握推薦系統](https://www.classcentral.com/course/youtube-grandmaster-series-mastering-recommender-systems-184298)
 
     課程內容：有關 NVIDIA Kaggle Grandmasters 構建電子商務推薦系統的策略，涵蓋 2 階段模型、候選模型生成、特徵工程和整合方法。
+
     適合資料科學家、機器學習工程師以及對推薦系統和資料科學競賽感興趣的人觀看。
 
  -  [Introduction to AI in the Data Center / 資料中心的 AI](https://www.coursera.org/learn/introduction-ai-data-center)
