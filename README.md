@@ -16,6 +16,7 @@
  -  20231207 - NCHC Open Hackathon 2023
 
 ---
+
 # [NVIDIA 免費 AI 線上課程](https://twitter.com/heyshrutimishra/status/1771206798881825005)
 
  -  [Generative AI Explained / 解釋生成式 AI](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1)
