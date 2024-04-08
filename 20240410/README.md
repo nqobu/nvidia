@@ -1,5 +1,13 @@
 # NCHC Quantum Computing Bootcamp 2024
 
+量子技術快速發展，高效能運算模擬推進了量子研究的突破。為了滿足量子應用、演算法甚至量子硬體的開發，新型量子運算平臺至關重要。[CUDA Quantum] 提供開發人員所需的統一軟體平臺，能將古典計算與量子計算整合為一，對於推動量子系統的開發更加便利。
+
+在這次活動的上半場，將會先簡介 NVIDIA Quantum Platform，可藉著個機會了解 NVIDIA 在量子研究中各種有用的軟硬體工具，緊接著深入熟悉 [CUDA Quantum] 的運作原理與功能。
+
+而在這次活動的下半場，將透過實作課程，讓大家練習如何運用 [CUDA Quantum] 來進行各式量子計算與應用，包含混和量子-古典神經網路，以及多 GPU 加速的量子模擬，實現分散式量子運算，引領您從三維世界一窺高維 Hilbert Space 裡的好玩工具 -- CUDA Quantum (https://github.com/NVIDIA/cuda-quantum)。
+
+[CUDA Quantum]: https://developer.nvidia.com/cuda-q
+
  -  活動日期: 2024/04/10（三）10:00--16:00
  -  活動地點: 國網中心新竹本部—新竹市東區研發六路7號，B 教室
  -  人數限制: 40 人次
