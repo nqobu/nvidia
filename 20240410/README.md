@@ -4,7 +4,7 @@
 
 在這次活動的上半場，將會先簡介 NVIDIA Quantum Platform，可藉著個機會了解 NVIDIA 在量子研究中各種有用的軟硬體工具，緊接著深入熟悉 [CUDA Quantum] 的運作原理與功能。
 
-而在這次活動的下半場，將透過實作課程，讓大家練習如何運用 [CUDA Quantum] 來進行各式量子計算與應用，包含混和量子-古典神經網路，以及多 GPU 加速的量子模擬，實現分散式量子運算，引領您從三維世界一窺高維 Hilbert Space 裡的好玩工具 -- [CUDA Quantum] <https://github.com/NVIDIA/cuda-quantum>。
+而在這次活動的下半場，將透過實作課程，讓大家練習如何運用 [CUDA Quantum] 來進行各式量子計算與應用，包含混和量子-古典神經網路，以及多 GPU 加速的量子模擬，實現分散式量子運算，引領您從三維世界一窺高維 Hilbert Space 裡的好玩工具 -- [CUDA Quantum](https://github.com/NVIDIA/cuda-quantum "C++ and Python support for the CUDA Quantum programming model for heterogeneous quantum-classical workflows")。
 
 [CUDA Quantum]: https://developer.nvidia.com/cuda-q
 
