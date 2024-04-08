@@ -44,7 +44,7 @@
     課程內容：
      -  RAG 基礎知識
      -  RAG 檢索過程
-     -  英偉達 AI 基礎和 RAG 模型元件
+     -  NVIDIA AI 基礎和 RAG 模型元件
 
  -  [Building RAG Agents with LLMs / 使用 LLM 構建 RAG 智慧體](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-15+V1)
 
