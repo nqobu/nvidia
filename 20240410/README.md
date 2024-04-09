@@ -53,7 +53,7 @@ Learn more about [CUDA-Q](https://developer.nvidia.com/cuda-q) and follow the st
 
  6. Within Jypyter Notebook open a **Terminal** and run the following commands to access built-in tutorials inside CUDA Quantum
 
-    <img src="https://github.com/Squirtle007/CUDA_Quantum/assets/66664309/b7fe4abb-8c91-4655-941f-e55a5230c7d7" width="600">
+    <img src="https://github.com/Squirtle007/CUDA_Quantum/assets/66664309/b7fe4abb-8c91-4655-941f-e55a5230c7d7" width="800">
 
     ```shell
     sudo chown -R `stat . -c %u:%g` /home/cudaq/
