@@ -25,6 +25,28 @@
 | 14:50 PM - 15:10 PM | 進階實作：Multi-GPU Acceleration by CUDA Quantum       |
 | 15:10 PM - 15:30 PM | Q&A + 交流時間                                         |
 
+---
+
+# Running CUDA-Q on Taiwan Computing Clond (TWCC)
+
+Learn more about [CUDA-Q](https://developer.nvidia.com/cuda-q) and follow the steps below to set up:
+
+ 1. Sign up [TWCC](https://www.twcc.ai/)
+    ![](https://github.com/Squirtle007/CUDA_Quantum/assets/66664309/225641a3-c7ad-4547-86c3-f1ecdbf308f3)
+ 2. Log in and navigate to **Interactive Container** on the dashboard
+ 3. Select **CREATE** to set up a container
+ 4. Search and select **CUDA Quantum** then specify compute resources and storage, etc.
+ 5. Click on the container (after initialization) to see more details and **LAUNCH** Jupyter Notebook
+ 6. Within Jypyter Notebook open a `Terminal` and run the following commands to access built-in tutorials inside CUDA Quantum
+    ```shell
+    sudo chown -R `stat . -c %u:%g` /home/cudaq/
+    cp -r /home/cudaq/ ~/cudaq
+    ```
+ 7. To access additional tutorials in this repository, use the following `git clone` command
+    ```shell
+    git clone https://github.com/Squirtle007/CUDA_Quantum.git
+    ```
+
 <!--
   vim: ft=markdown ic wrap noet norl sw=8 ts=8 sts=4:
   -->
