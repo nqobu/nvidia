@@ -33,7 +33,7 @@ Learn more about [CUDA-Q](https://developer.nvidia.com/cuda-q) and follow the st
 
  1. Sign up [TWCC](https://www.twcc.ai/)
 
-    ![](https://github.com/Squirtle007/CUDA_Quantum/assets/66664309/225641a3-c7ad-4547-86c3-f1ecdbf308f3 width="800")
+    ![](https://github.com/Squirtle007/CUDA_Quantum/assets/66664309/225641a3-c7ad-4547-86c3-f1ecdbf308f3 | width="800")
 
  2. Log in and navigate to **Interactive Container** on the dashboard
 
