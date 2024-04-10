@@ -25,6 +25,8 @@
 | 14:50 PM - 15:10 PM | 進階實作：Multi-GPU Acceleration by CUDA Quantum       |
 | 15:10 PM - 15:30 PM | Q&A + 交流時間                                         |
 
+See Also:
+
  -  [CUDA Quantum repository](https://github.com/NVIDIA/cuda-quantum)
 
 ---
