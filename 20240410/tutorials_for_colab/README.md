@@ -32,4 +32,4 @@ Follow the steps below to run cudaq tutorials with free T4 GPU backend
     %pip install cuda-quantum==0.6.0
     ```
 
-    <img src="assets/step3.png" width="800">
+    <img src="assets/step4.png" width="800">
