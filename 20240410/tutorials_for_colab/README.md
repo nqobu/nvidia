@@ -1,13 +1,13 @@
 
 # Running CUDA-Q on [Colab](https://colab.research.google.com/)
 
-Follow the steps below to run CUDA-Q tutorials with free T4 GPU backend
+Follow the steps below to run cudaq tutorials with free T4 GPU backend
 
- 1. Sign in [Colab](https://colab.research.google.com/) and click on the `open notebook` under the `file` tab
+ 1. Log in [Colab](https://colab.research.google.com/) and click on the **open notebook** under the **file** tab
 
     <img src="assets/step1.png" width="800">
 
- 2. To access tutorials in this repository, search this repository in the `GitHub` catalog with:
+ 2. To access tutorials in this repository, search this repository in the **GitHub** catalog with:
 
     ```
     Squirtle007/CUDA_Quantum
@@ -15,7 +15,7 @@ Follow the steps below to run CUDA-Q tutorials with free T4 GPU backend
 
     <img src="assets/step2.png" width="800">
     
- 3. Make sure to select `Runtime > Change runtime type > T4 GPU` as the backend for acceleration
+ 3. Make sure to select **Runtime** &rarr; **Change runtime type** &rarr; **T4 GPU** as the backend for acceleration
 
     <img src="assets/step3a.png" width="800">
 
