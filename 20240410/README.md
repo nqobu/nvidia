@@ -1,12 +1,13 @@
+
 # NCHC Quantum Computing Bootcamp 2024
 
-[CUDA-Q]: https://developer.nvidia.com/cuda-q "The high-performance platform for hybrid quantum-classical computing"
+[NVIDIA CUDA-Q]: https://developer.nvidia.com/cuda-q "The high-performance platform for hybrid quantum-classical computing"
 
-量子技術快速發展，高效能運算模擬推進了量子研究的突破。為了滿足量子應用、演算法甚至量子硬體的開發，新型量子運算平臺至關重要。[CUDA-Q] 提供開發人員所需的統一軟體平臺，能將古典計算與量子計算整合為一，對於推動量子系統的開發更加便利。
+量子技術快速發展，高效能運算模擬推進了量子研究的突破。為了滿足量子應用、演算法甚至量子硬體的開發，新型量子運算平臺至關重要。[NVIDIA CUDA-Q] 提供開發人員所需的統一軟體平臺，能將古典計算與量子運算整合為一，對於推動量子系統的開發更加便利。
 
-在這次活動的上半場，將會先簡介 NVIDIA Quantum Platform，可藉著個機會了解 NVIDIA 在量子研究中各種有用的軟硬體工具，緊接著深入熟悉 [CUDA-Q] 的運作原理與功能。
+在活動的上半場，將先簡介 [NVIDIA CUDA-Q] 來了解 [NVIDIA 在量子研究中各種有用的軟硬體工具](https://www.nvidia.com/zh-tw/solutions/quantum-computing/)，緊接著深入熟悉 [NVIDIA CUDA-Q] 的運作原理與功能。
 
-而在這次活動的下半場，將透過實作課程，讓大家練習如何運用 [CUDA-Q] 來進行各式量子計算與應用，包含混和量子-古典神經網路，以及多 GPU 加速的量子模擬，實現分散式量子運算，引領您從三維世界一窺高維 Hilbert Space 裡的好玩工具 -- [CUDA-Q]。
+而活動的下半場，將經由實作課程讓大家練習如何運用 [NVIDIA CUDA-Q] 來進行各式量子運算與應用，包含混和量子-古典神經網路以及多 GPU 加速的量子模擬，實現分散式量子運算並引領您從三維世界一窺高維 Hilbert Space。
 
  -  活動日期: 2024/04/10（三）10:00--16:00
  -  活動地點: 國網中心新竹本部—新竹市東區研發六路7號，B 教室
@@ -27,48 +28,9 @@
 
 See Also:
 
- -  [CUDA Quantum repository](https://github.com/NVIDIA/cuda-quantum)
-
----
-
-# Running CUDA-Q on Taiwan Computing Clond (TWCC)
-
-Learn more about [CUDA-Q] and follow the steps below to set up:
-
- 1. Sign up [TWCC](https://www.twcc.ai/)
-
-    <img src="assets/step1.png" width="800">
-
- 2. Log in and navigate to **Interactive Container** on the dashboard
-
-    <img src="assets/step2.png" width="800">
-
- 3. Select **CREATE** to set up a container
-
-    <img src="assets/step3.png" width="800">
-
- 4. Search and select **CUDA Quantum** then specify compute resources and storage, etc.
-
-    <img src="assets/step4.png" width="800">
-
- 5. Click on the container (after initialization) to see more details and **LAUNCH** Jupyter Notebook
-
-    <img src="assets/step5.png" width="800">
-
- 6. Within Jypyter Notebook open a **Terminal** and run the following commands to access built-in tutorials inside CUDA Quantum
-
-    <img src="assets/step6.png" width="800">
-
-    ```shell
-    sudo chown -R `stat . -c %u:%g` /home/cudaq/
-    cp -r /home/cudaq/ ~/cudaq
-    ```
-
- 7. To access additional tutorials in this repository, use the following `git clone` command
-
-    ```shell
-    git clone https://github.com/Squirtle007/CUDA_Quantum.git
-    ```
+ -  [CUDA Quantum repository](https://github.com/NVIDIA/cuda-quantum “C++ and Python support for the CUDA Quantum programming model for heterogeneous quantum-classical workflows")
+ -  [cuQuantum repository](https://github.com/NVIDIA/cuQuantum "Home for cuQuantum Python & NVIDIA cuQuantum SDK C++ samples")
+ -  [NVIDIA cuQuantum](https://developer.nvidia.com/cuquantum-sdk "An SDK of optimized libraries and tools for accelerating quantum computing workflows")
 
 <!--
   vim: ft=markdown ic wrap noet norl sw=8 ts=8 sts=4:
