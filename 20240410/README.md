@@ -28,7 +28,7 @@
 
 See Also:
 
- -  [CUDA Quantum repository](https://github.com/NVIDIA/cuda-quantum “C++ and Python support for the CUDA Quantum programming model for heterogeneous quantum-classical workflows")
+ -  [CUDA Quantum repository](https://github.com/NVIDIA/cuda-quantum "C++ and Python support for the CUDA Quantum programming model for heterogeneous quantum-classical workflows")
  -  [cuQuantum repository](https://github.com/NVIDIA/cuQuantum "Home for cuQuantum Python & NVIDIA cuQuantum SDK C++ samples")
  -  [NVIDIA cuQuantum](https://developer.nvidia.com/cuquantum-sdk "An SDK of optimized libraries and tools for accelerating quantum computing workflows")
 
