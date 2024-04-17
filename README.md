@@ -15,6 +15,7 @@
  -  20230821 - NVIDIA Techniques Salon 2023: Programming the NVIDIA Superchip
  -  20231207 - NCHC Open Hackathon 2023
  -  20240410 - NCHC Quantum Computing Bootcamp 2024
+ -  tutorials - NVIDIA FREE online courses/tutorials in AI
 
 <!--
   vim:ic noet norl wrap sw=8 ts=8 sts=8 ft=markdown:
