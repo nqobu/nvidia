@@ -1,6 +1,6 @@
 # Repository for NCHC-NVIDIA Joint Lab
 
- -  tutorials - NVIDIA FREE online courses/tutorials in AI/HPC
+ -  tutorials - NVIDIA online courses/tutorials in AI/HPC
  -  20210412 - NVIDIA Techniques Sharing 2021
  -  20210706 - NCHC Techniques Sharing 2021
  -  20211202 - NVIDIA Techniques Update 2021
