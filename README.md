@@ -1,5 +1,6 @@
 # Repository for NCHC-NVIDIA Joint Lab
 
+ -  tutorials - NVIDIA FREE online courses/tutorials in AI/HPC
  -  20210412 - NVIDIA Techniques Sharing 2021
  -  20210706 - NCHC Techniques Sharing 2021
  -  20211202 - NVIDIA Techniques Update 2021
@@ -15,7 +16,6 @@
  -  20230821 - NVIDIA Techniques Salon 2023: Programming the NVIDIA Superchip
  -  20231207 - NCHC Open Hackathon 2023
  -  20240410 - NCHC Quantum Computing Bootcamp 2024
- -  tutorials - NVIDIA FREE online courses/tutorials in AI/HPC
 
 <!--
   vim:ic noet norl wrap sw=8 ts=8 sts=8 ft=markdown:
