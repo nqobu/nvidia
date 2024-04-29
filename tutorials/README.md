@@ -96,6 +96,14 @@
      -  探索乙太網基礎知識及乙太網網路中的資料轉發。
      -  討論網路元件、需求、OSI 模型、TCP/IP 協議。
 
+---
+
+# My Collection
+
+ -  [RAG using Llama 3 by Meta AI](https://lightning.ai/lightning-ai/studios/rag-using-llama-3-by-meta-ai?tab=overview)
+
+    In this studio we are building a completely self-hosted "Chat with your Docs" RAG application using Llama-3, served locally through Ollama.
+
 <!--
   vim:ic noet norl wrap sw=8 ts=8 sts=8 ft=markdown:
   -->
