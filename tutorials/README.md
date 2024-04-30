@@ -106,7 +106,7 @@
 
  -  [Transformers Tutorials](https://github.com/NielsRogge/Transformers-Tutorials)
 
-    This repository contains demos that Niels Rogge made with the Transformers library by HuggingFace. Currently, all of them are implemented in PyTorch.
+    這份線上教學手冊是 Niels Rogge 所收納的 40 餘種各式各樣的任務模型/演算法的程式範例 (Google Colab 筆記、論文連結)
 
 <!--
   vim:ic noet norl wrap sw=8 ts=8 sts=8 ft=markdown:
