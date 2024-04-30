@@ -104,6 +104,10 @@
 
     In this studio we are building a completely self-hosted "Chat with your Docs" RAG application using Llama-3, served locally through Ollama.
 
+ -  [Transformers Tutorials](https://github.com/NielsRogge/Transformers-Tutorials)
+
+    This repository contains demos that Niels Rogge made with the Transformers library by HuggingFace. Currently, all of them are implemented in PyTorch.
+
 <!--
   vim:ic noet norl wrap sw=8 ts=8 sts=8 ft=markdown:
   -->
