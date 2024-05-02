@@ -17,6 +17,8 @@
  -  20231207 - NCHC Open Hackathon 2023
  -  20240410 - NCHC Quantum Computing Bootcamp 2024
 
+> Do NOT add issues, discussion, or files to this repo. Thanks
+
 <!--
   vim:ic noet norl wrap sw=8 ts=8 sts=8 ft=markdown:
   -->
