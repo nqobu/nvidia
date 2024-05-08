@@ -16,6 +16,8 @@
  -  20230821 - NVIDIA Techniques Salon 2023: Programming the NVIDIA Superchip
  -  20231207 - NCHC Open Hackathon 2023
  -  20240410 - NCHC Quantum Computing Bootcamp 2024
+ -  20240506 - AI for Science: NVIDIA Modulus, NVIDIA Omniverse, and NVIDIA Earth-2
+ -  20240508 - NCHC Techniques Sharing 2024
 
 > [!NOTE]
 > Do NOT add issues, discussion, or files to this repo.
