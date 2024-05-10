@@ -1,6 +1,8 @@
 
 # [NVIDIA 免費 AI 線上課程](https://twitter.com/heyshrutimishra/status/1771206798881825005)
 
+## Part 1
+
  -  [Generative AI Explained / 解釋生成式 AI](https://learn.nvidia.com/courses/course-detail?course_id=course-v1:DLI+S-FX-07+V1)
 
     課程內容：
@@ -75,9 +77,7 @@
      -  探索乙太網基礎知識及乙太網網路中的資料轉發。
      -  討論網路元件、需求、OSI 模型、TCP/IP 協議。
 
----
-
-# Others
+## Part 2
 
  -  [Mastering GitHub Copilot for AI Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
  -  [Multi GPU Programming Models](https://github.com/NVIDIA/multi-gpu-programming-models) 
