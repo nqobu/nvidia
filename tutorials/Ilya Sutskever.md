@@ -31,3 +31,7 @@
  -  [Machine Super Intelligence](https://www.vetta.org/documents/Machine_Super_Intelligence.pdf)
  -  [Kolmogorov Complexity and Algorithmic Randomness](https://www.lirmm.fr/~ashen/kolmbook-eng-scan.pdf)
  -  [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/)
+
+<!--
+  vim:ic noet norl wrap sw=8 ts=8 sts=8 ft=markdown:
+  -->
