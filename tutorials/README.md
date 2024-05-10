@@ -100,7 +100,7 @@
 
 # [Ilya Sutskever 的機器學習推薦清單](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE)
 
-> If you really learn all of these, you'll know 90% of what matters today.
+> If you really learn all of these, you'll know 90% of what matters today.\
 > via: <https://twitter.com/keshavchan/status/1787861946173186062>
 
  -  [The Annotated Transformer](https://nlp.seas.harvard.edu/annotated-transformer/)
