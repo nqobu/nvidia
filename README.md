@@ -20,7 +20,7 @@
  -  20240508 - NCHC Techniques Sharing 2024
 
 > [!NOTE]
-> Do NOT add issues, discussion, or files to this repo.
+> DO NOT add issues, discussion, or files to this repo.
 
 <!--
   vim:ic noet norl wrap sw=8 ts=8 sts=8 ft=markdown:
