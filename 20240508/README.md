@@ -26,6 +26,8 @@
  -  **NeMo/TensorRT-LLM** (Cliff Chiu)
  -  **BioNeMo/MONAI/Parabricks** (Ying-Ja Chen)
 
+**活動影片**：<https://youtu.be/AcHohxuXsp4>
+
 <!--
   vim:  ft=markdown ic noet norl wrap sw=8 ts=8 sts=4:
   -->
