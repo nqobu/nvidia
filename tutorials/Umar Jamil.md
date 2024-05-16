@@ -1,5 +1,5 @@
 
-# Umar Jamil -- a Machine Learning Coach
+# [Umar Jamil](https://www.youtube.com/@umarjamilai) -- a Machine Learning Coach
 
  -  Kolmogorov-Arnold Networks: MLP vs KAN, Math, B-Splines, Universal Approximation Theorem. \[[Video](https://youtu.be/-PFIkkwWdnM)\]\[[Slide](https://github.com/hkproj/kan-notes)\]
  -  Direct Preference Optimization (DPO) Explained: Bradley-Terry model, Log Probabilities, Math. \[[Video](https://youtu.be/hvGa5Mba4c8)\]\[[Slide](https://github.com/hkproj/dpo-notes)\]
