@@ -108,6 +108,8 @@
 
     這份線上教學手冊是 Niels Rogge 所收納的 40 餘種各式各樣的任務模型/演算法的程式範例 (Google Colab 筆記、論文連結)
 
+ -  [Umar Jamil, YouTube](https://www.youtube.com/@umarjamilai)
+
  -  [Ilya Sutskever 的機器學習推薦清單](https://arc.net/folder/D0472A20-9C20-4D3F-B145-D2865C0A9FEE)
 
 <!--
