@@ -1,6 +1,7 @@
 
 # [Umar Jamil](https://www.youtube.com/@umarjamilai) -- a Machine Learning Coach
 
+ -  ML Interpretability: Feature visualization, adversarial example, interp. for language models. \[[Video](https://youtu.be/lg1-M8hEX50)\]\[[Slide](https://github.com/hkproj/ml-interpretability-notes)\]
  -  Kolmogorov-Arnold Networks: MLP vs KAN, Math, B-Splines, Universal Approximation Theorem. \[[Video](https://youtu.be/-PFIkkwWdnM)\]\[[Slide](https://github.com/hkproj/kan-notes)\]
  -  Direct Preference Optimization (DPO) Explained: Bradley-Terry model, Log Probabilities, Math. \[[Video](https://youtu.be/hvGa5Mba4c8)\]\[[Slide](https://github.com/hkproj/dpo-notes)\]
  -  Reinforcement Learning from Human Feedback Explained with Math Derivations and the PyTorch Code. \[[Video](https://youtu.be/qGyFrqc34yc)\]\[[Slide](https://github.com/hkproj/rlhf-ppo)\]
