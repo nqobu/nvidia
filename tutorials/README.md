@@ -1,4 +1,8 @@
 
+# [Learn New Technical Skills](https://developer.nvidia.com/join-nvidia-developer-program)
+
+---
+
 # [NVIDIA 免費 AI 線上課程](https://twitter.com/heyshrutimishra/status/1771206798881825005)
 
 ## Part 1
