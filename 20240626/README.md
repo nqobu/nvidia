@@ -28,7 +28,7 @@
 | 02:45 PM - 04:15 PM	| Data-driven approach to an AI for Science application. (Lecture and Lab) |
 | 04:15 PM - 04:30 PM	| Wrap up and Q&A |
 
-**過往課程**：
+**過往活動**：
 
  -  [AI for Science: NVIDIA Modulus, NVIDIA Omniverse, and NVIDIA Earth-2 (2024/05/06)](https://github.com/nqobu/nvidia/tree/main/20240506)
  -  [AI for Science: NVIDIA Modulus 及 NVIDIA Omniverse 實作 (20230525)](https://github.com/nqobu/nvidia/tree/main/20230525)
