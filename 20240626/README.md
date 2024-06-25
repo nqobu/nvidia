@@ -27,3 +27,10 @@
 | 02:30 PM - 02:45 PM	| Break |
 | 02:45 PM - 04:15 PM	| Data-driven approach to an AI for Science application. (Lecture and Lab) |
 | 04:15 PM - 04:30 PM	| Wrap up and Q&A |
+
+**過往課程**：
+
+ -  [AI for Science: NVIDIA Modulus, NVIDIA Omniverse, and NVIDIA Earth-2 (2024/05/06)](https://github.com/nqobu/nvidia/tree/main/20240506)
+ -  [AI for Science: NVIDIA Modulus 及 NVIDIA Omniverse 實作 (20230525)](https://github.com/nqobu/nvidia/tree/main/20230525)
+ -  [PINN 與 NVIDIA Modulus 實作訓練營 (20220629)](https://github.com/nqobu/nvidia/tree/main/20220629)
+ -  [AI+HPC: 利用 NVIDIA Modulus 實踐 PINN 於物理模擬 (20211221)](https://github.com/nqobu/nvidia/tree/main/20211221)
