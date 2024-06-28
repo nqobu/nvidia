@@ -70,4 +70,4 @@
     If you do not receive an approval notice before the event, it means your registration has not been approved.
 
  5. 建議您攜帶自已的筆記型電腦參加本次活動，活動期間將提供 Wi-Fi 連線服務。\
-    You are encouraged to bring your own laptop to the event, and Wi-Fi connectivity will be provided during the event.
+    You are encouraged to bring your own devices to the event, and Wi-Fi connectivity will be provided during the event.
