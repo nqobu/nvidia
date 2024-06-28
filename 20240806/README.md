@@ -2,7 +2,7 @@
 
 **報名日期**：自即日起到 2024 年 07 月 16 日 截止
 
-**報名網址**：(TBD)
+**報名網址**（2024/08/07 的實體課程）：(TBD)
 
 **活動日期**：
 
@@ -57,8 +57,8 @@
 
 **附註**：
 
- 1. **2024/08/06 的實體課程僅限臺灣地區之人士報名參加**，並提供免費午餐。\
-    **The offline course on 2024/08/06 is open to those living in Taiwan only**, and free lunch will be provided during the offline course.
+ 1. **2024/08/07 的實體課程僅限臺灣地區之人士報名參加**，並提供免費午餐。\
+    **The offline course on 2024/08/07 is open to those living in Taiwan only**, and free lunch will be provided during the offline course.
 
  2. 本次活動的通知訊息，都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。\
     Notifications for this event will be sent via email, so please provide a valid email address during registration.
