@@ -43,7 +43,7 @@
     | ---- | -------- |
     | 09:00 AM - 09:30 AM | Welcome and Connecting to a Cluster |
     | 09:30 AM - 10:00 AM | NeMo NIM APIs - Demo |
-    | 10:00 AM - 11:00 AM | Introduction to TensorRT-LLM & Triton Backend ( Lecture )  |
+    | 10:00 AM - 11:00 AM | Introduction to TensorRT-LLM & Triton Backend (Lecture)  |
     | 11:00 AM - 11:45 PM | Hands-on LLaMA 2 optimisation using TRT-LLM (Lab) |
     | 11:45 AM - 12:00 PM | Break |
     | 12:00 PM - 01:00 PM | Hands-on LLaMA 2 deployment using Triton Inference server (Lab)  |
