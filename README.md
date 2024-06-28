@@ -19,6 +19,7 @@
  -  20240506 - AI for Science: NVIDIA Modulus, NVIDIA Omniverse, and NVIDIA Earth-2
  -  20240508 - NCHC Techniques Sharing 2024
  -  20240626 - NCHC AI for Science Bootcamp 2024 - NVIDIA Modulus 物理模擬計算
+ -  20240806 - NCHC End-to-end LLM Bootcamp 2024 - NVIDIA NeMo 大型語言模型框架
 
 > [!NOTE]
 > DO NOT add issues, discussion, or files to this repo.
