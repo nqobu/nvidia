@@ -58,7 +58,7 @@
 **附註**：
 
  1. **本次活動實體課程課程僅限臺灣地區之人士報名參加**，並提供免費午餐。\
-    **The offline program of this event is open to those living in Taiwan only**, and lunch will be provided free of charge.
+    **The offline session of this event is open to those living in Taiwan only**, and free lunch will be provided during the offline session.
 
  2. 本次活動的通知訊息，都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。\
     Notifications for this event will be sent via email, so please provide a valid email address during registration.
