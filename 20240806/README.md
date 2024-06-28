@@ -19,12 +19,9 @@
 **預備知識**：
 
  -  Basic experience with Python and Deep Learning.
- -  Free DLI course to learn fundamentals.\
-    <https://developer.nvidia.com/join-nvidia-developer-program>
- -  LLM Bootcamp Open Source\
-    <https://github.com/openhackathons-org/End-to-End-LLM>
- -  NCHC-NVIDIA Joint Lab Repository\
-    <https://github.com/nqobu/nvidia>
+ -  Free DLI course to learn fundamentals, <https://developer.nvidia.com/join-nvidia-developer-program>
+ -  LLM Bootcamp Open Source, <https://github.com/openhackathons-org/End-to-End-LLM>
+ -  NCHC-NVIDIA Joint Lab Repository, <https://github.com/nqobu/nvidia>
 
 **課程內容**：
 
