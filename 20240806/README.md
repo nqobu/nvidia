@@ -28,7 +28,7 @@
  -  **線上課程**：2024 年 08 月 06 日 09:00 AM - 13:00 PM
 
     | 時間 | 活動內容 |
-    | ---- | -------- |
+    | :--: | -------- |
     | 09:00 AM - 09:30 AM | Welcome and Connecting to a Cluster |
     | 09:30 AM - 10:20 AM | Introduction to End-to-End Large Language Model Pipeline (Lecture) |
     | 10:20 AM - 10:30 AM | Break |
@@ -40,7 +40,7 @@
  -  **實體課程**：2024 年 08 月 07 日 09:00 AM - 16:30 PM
 
     | 時間 | 活動內容 |
-    | ---- | -------- |
+    | :--: | -------- |
     | 09:00 AM - 09:30 AM | Welcome and Connecting to a Cluster |
     | 09:30 AM - 10:00 AM | NeMo NIM APIs - Demo |
     | 10:00 AM - 11:00 AM | Introduction to TensorRT-LLM & Triton Backend (Lecture)  |
