@@ -16,7 +16,7 @@
 
     **活動地點**：國網中心新竹本部（新竹市東區研發六路 7 號）
 
-**活動日期**：
+**師資陣容**：
 
  -  Cliff Chiu (NVIDIA)
  -  Yang-Hsien Lin (NVIDIA)
