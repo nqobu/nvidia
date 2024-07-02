@@ -16,6 +16,14 @@
 
     **活動地點**：國網中心新竹本部（新竹市東區研發六路 7 號）
 
+**活動日期**：
+
+ -  Cliff Chiu (NVIDIA)
+ -  Yang-Hsien Lin (NVIDIA)
+ -  Virginia Chen (NVIDIA)
+ -  Johnson Sun (NVIDIA)
+ -  Jay Chen (NVIDIA)
+
 **預備知識**：
 
  -  Basic experience with Python and Deep Learning.
