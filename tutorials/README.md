@@ -1,7 +1,8 @@
 
-# [Learn New Technical Skills](https://developer.nvidia.com/join-nvidia-developer-program)
-
-Free NVIDIA Deep Learning Institute (DLI) courses for beginners. 
+ -  [NVIDIA Deep Learning Institute](https://learn.nvidia.com/) - Education and training solutions to solve the world’s greatest challenges
+     -  [Learning Paths for Developers and Administrators](https://nvdam.widen.net/s/brxsxxtskb/dli-learning-journey-2009000-r5-web)
+     -  [Course Detail](https://learn.nvidia.com/courses/course-detail)
+ -  [Learn New Technical Skills](https://developer.nvidia.com/join-nvidia-developer-program) - Free NVIDIA Deep Learning Institute (DLI) courses for beginners. 
 
 ---
 
