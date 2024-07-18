@@ -74,7 +74,7 @@
  2. **2024/08/07 的實體課程僅限臺灣地區之人士報名參加。**\
     **The offline course on 2024/08/07 is open to those living in Taiwan only.**
  
- 3. 所有活動的通知訊息，都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。
+ 3. 所有活動的通知訊息，都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。\
     All notifications for this event will be sent via email, so please provide a valid email address during registration.
 
  4. 本主辦單位保留接受報名及審核報名資格之權利，並於活動前寄發相關通知。\
