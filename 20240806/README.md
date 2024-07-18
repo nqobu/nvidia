@@ -68,17 +68,20 @@
 
 **附註**：
 
- 1. 本次活動的通知訊息，都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。\
-    Notifications for this event will be sent via email, so please provide a valid email address during registration.
+ 1. **本次活動將完全以中文進行。**\
+    **This event will be conducted entirely in Mandarin Chinese.**
+ 
+ 2. **2024/08/07 的實體課程僅限臺灣地區之人士報名參加。**\
+    **The offline course on 2024/08/07 is open to those living in Taiwan only.**
+ 
+ 3. 所有活動的通知訊息，都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。
+    All notifications for this event will be sent via email, so please provide a valid email address during registration.
 
- 2. 由於教育訓練的資源有限，本主辦單位保留接受報名及審核報名資格之權利，並於活動前寄發相關通知。\
-    Due to limited resources, the organizer reserves the right to accept applications and review eligibility, and will send relevant notifications before the event.
+ 4. 本主辦單位保留接受報名及審核報名資格之權利，並於活動前寄發相關通知。\
+    The organizer reserves the right to accept applications and review eligibility, and will send relevant notifications before the event.
+ 
+ 5. 活動前如未收到核可通知，即意謂您未通過報名的審核。\
+    If you do not receive an approval notice before the event, it means your application has been denied.
 
- 3. 活動前如未收到核可通知，即意謂您未通過報名的審核。\
-    If you do not receive an approval notice before the event, it means your registration has not been approved.
-
- 4. **2024/08/07 的實體課程僅限臺灣地區之人士報名參加**，並在這個課程期間提供免費午餐。\
-    **The offline course on 2024/08/07 is open to those living in Taiwan only**, and free lunch will be provided during this session.
-
- 5. 建議您攜帶自已的筆記型電腦參加 2024/08/07 的實體課程，課程期間將提供 Wi-Fi 連線服務。\
-    You are encouraged to bring your own devices to the offline course on 2024/08/07, and Wi-Fi connectivity will be provided during this session.
+ 6. 建議您攜帶自已的筆記型電腦參加 2024/08/07 的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
+    You are encouraged to bring your own devices to the offline course on 2024/08/07, during which free WiFi connection and lunch will be provided.
