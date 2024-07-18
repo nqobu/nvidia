@@ -34,6 +34,12 @@
  -  Repository of NCHC-NVIDIA Joint Lab\
     <https://github.com/nqobu/nvidia>
 
+**課外讀物**：
+
+ -  [LLM Twin Course: Building Your Production-Ready AI Replica](https://github.com/decodingml/llm-twin-course)
+ -  [LLM Engineer's Handbook: Master the art of engineering Large Language Models from concept to production](https://www.amazon.com/dp/1836200072)
+ -  [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
+
 **課程內容**：
 
  -  **線上課程**：2024 年 08 月 06 日 09:00 AM - 13:00 PM
