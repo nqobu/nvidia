@@ -35,3 +35,8 @@
  -  [(2022/06/29) PINN 與 NVIDIA Modulus 實作訓練營](https://github.com/nqobu/nvidia/tree/main/20220629)
  -  [(2021/12/21) AI+HPC: 利用 NVIDIA Modulus 實踐 PINN 於物理模擬](https://github.com/nqobu/nvidia/tree/main/20211221)
  -  [(YouTube) Earth-2 Goes Down to Street Level](https://youtu.be/ALigJ5xguMw)
+ -  [End-to-End AI for Science](https://github.com/openhackathons-org/End-to-End-AI-for-Science)
+
+<!--
+  vim: ft=markdown ic noet norl wrap ts=8 sts=4 sw=4:
+  -->
