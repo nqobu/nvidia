@@ -39,6 +39,8 @@
  -  [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
  -  [LLM Twin Course: Building Your Production-Ready AI Replica](https://github.com/decodingml/llm-twin-course)
  -  [LLM Engineer's Handbook: Master the art of engineering Large Language Models from concept to production](https://www.amazon.com/dp/1836200072)
+ -  [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
+ -  [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
 
 **課程內容**：
 
