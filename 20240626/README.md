@@ -28,12 +28,13 @@
 | 02:45 PM - 04:15 PM	| Data-driven approach to an AI for Science application. (Lecture and Lab) |
 | 04:15 PM - 04:30 PM	| Wrap up and Q&A |
 
-**參考資料**：
+**課外讀物**：
 
  -  [(2024/05/06) AI for Science: NVIDIA Modulus, NVIDIA Omniverse, and NVIDIA Earth-2](https://github.com/nqobu/nvidia/tree/main/20240506)
  -  [(2023/05/25) AI for Science: NVIDIA Modulus 及 NVIDIA Omniverse 實作](https://github.com/nqobu/nvidia/tree/main/20230525)
  -  [(2022/06/29) PINN 與 NVIDIA Modulus 實作訓練營](https://github.com/nqobu/nvidia/tree/main/20220629)
  -  [(2021/12/21) AI+HPC: 利用 NVIDIA Modulus 實踐 PINN 於物理模擬](https://github.com/nqobu/nvidia/tree/main/20211221)
+ -  [Physics-Informed Machine Learning: A Survey on Problems, Methods and Applications](https://arxiv.org/abs/2211.08064)
  -  [(YouTube) Earth-2 Goes Down to Street Level](https://youtu.be/ALigJ5xguMw)
  -  [(OpenHackathons) End-to-End AI for Science Bootcamp](https://github.com/openhackathons-org/End-to-End-AI-for-Science)
 
