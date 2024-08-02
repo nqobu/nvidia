@@ -26,13 +26,12 @@
 
 **預備知識**：
 
- -  Basic experience with Python and Deep Learning.
- -  Free DLI course to learn fundamentals\
-    <https://developer.nvidia.com/join-nvidia-developer-program>
- -  LLM Bootcamp Open Source\
-    <https://github.com/openhackathons-org/End-to-End-LLM>
- -  Repository of NCHC-NVIDIA Joint Lab\
-    <https://github.com/nqobu/nvidia>
+ -  Basic experience with Python and Deep Learning
+     -  The Python Tutorial, <https://docs.python.org/3/tutorial/index.html>
+     -  Deep Learning with PyTorch: A 60 Minute Blitz, <https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html>
+ -  Free DLI course to learn fundamentals, <https://developer.nvidia.com/join-nvidia-developer-program>
+ -  LLM Bootcamp Open Source, <https://github.com/openhackathons-org/End-to-End-LLM>
+ -  Repository of NCHC-NVIDIA Joint Lab, <https://github.com/nqobu/nvidia>
 
 **課外讀物**：
 
