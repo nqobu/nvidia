@@ -31,7 +31,6 @@
      -  Deep Learning with PyTorch: A 60 Minute Blitz, <https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html>
  -  Free [NVIDIA Deep Learning Institute (DLI)](https://www.nvidia.com/zh-tw/training/) course to learn fundamentals, <https://developer.nvidia.com/join-nvidia-developer-program>
  -  LLM Bootcamp Open Source, <https://github.com/openhackathons-org/End-to-End-LLM>
- -  Repository of NCHC-NVIDIA Joint Lab, <https://github.com/nqobu/nvidia>
 
 **課外讀物**：
 
@@ -47,6 +46,7 @@
      -  [Sanitized open-source datasets for natural language and code understanding: how we evaluated our 70B model](https://imbue.com/research/70b-evals/)
      -  [From bare metal to a 70B model: infrastructure set-up and scripts](https://imbue.com/research/70b-infrastructure/)
      -  [Open-sourcing CARBS: how we used our hyperparameter optimizer to scale up to a 70B-parameter language model](https://imbue.com/research/70b-carbs/)
+ -  Repository of NCHC-NVIDIA Joint Lab, <https://github.com/nqobu/nvidia>
 
 **課程內容**：
 
