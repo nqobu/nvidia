@@ -47,6 +47,7 @@
      -  [From bare metal to a 70B model: infrastructure set-up and scripts](https://imbue.com/research/70b-infrastructure/)
      -  [Open-sourcing CARBS: how we used our hyperparameter optimizer to scale up to a 70B-parameter language model](https://imbue.com/research/70b-carbs/)
  -  Repository of NCHC-NVIDIA Joint Lab, <https://github.com/nqobu/nvidia>
+ -  [NVIDIA AI-Agent暑期線上訓練營](https://jsj.top/f/ilF0yi)
 
 **課程內容**：
 
