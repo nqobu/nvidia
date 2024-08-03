@@ -39,6 +39,7 @@
  -  [LLM Engineer's Handbook: Master the art of engineering Large Language Models from concept to production](https://www.amazon.com/dp/1836200072)
  -  [End-to-end LLM Workflows Guide](https://www.anyscale.com/blog/end-to-end-llm-workflows-guide)
  -  [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
+ -  [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
  -  [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
  -  [(OpenHackathons) End-to-End LLM Bootcamp](https://github.com/openhackathons-org/End-to-End-LLM)
  -  The three-part series on how Imbue trained their 70B model
