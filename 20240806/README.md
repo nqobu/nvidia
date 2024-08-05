@@ -48,11 +48,11 @@
      -  [From bare metal to a 70B model: infrastructure set-up and scripts](https://imbue.com/research/70b-infrastructure/)
      -  [Open-sourcing CARBS: how we used our hyperparameter optimizer to scale up to a 70B-parameter language model](https://imbue.com/research/70b-carbs/)
  -  Repository of NCHC-NVIDIA Joint Lab, <https://github.com/nqobu/nvidia>
- -  [NVIDIA AI-Agent暑期線上訓練營](https://jsj.top/f/ilF0yi)
  -  [NVIDIA NIM](https://www.nvidia.com/en-us/ai/)
  -  [NVIDIA NeMo](https://www.nvidia.com/en-us/ai-data-science/products/nemo/)
  -  [AI, Go Fetch! New NVIDIA NeMo Retriever Microservices Boost LLM Accuracy and Throughput](https://blogs.nvidia.com/blog/nemo-retriever-microservices/)
  -  [NVIDIA AI Foundry 為全球企業打造客製化 Llama 3.1 生成式 AI 模型](https://blogs.nvidia.com.tw/blog/nvidia-ai-foundry-custom-llama-generative-models/)
+ -  [NVIDIA AI-Agent 暑期線上訓練營](https://jsj.top/f/ilF0yi)
 
 **課程內容**：
 
