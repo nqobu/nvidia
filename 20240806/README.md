@@ -72,6 +72,8 @@
     | 11:30 AM - 12:30 PM | Hands-on Fine-tuning with Custom Data (Lecture and Lab) |
     | 12:30 PM - 01:00 PM | Q&A |
 
+    活動影片：<https://youtu.be/8sXqLQOFgqs>
+
  -  **實體課程**：2024 年 08 月 07 日 09:00 AM - 16:30 PM
 
     | 時間 | 活動內容 |
