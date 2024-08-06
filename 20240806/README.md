@@ -51,6 +51,7 @@
  -  [NVIDIA NIM](https://www.nvidia.com/en-us/ai/)
  -  [NVIDIA NeMo](https://www.nvidia.com/en-us/ai-data-science/products/nemo/)
  -  [NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577)
+ -  [ChipNeMo: Domain-Adapted LLMs for Chip Design](https://arxiv.org/abs/2311.00176)
  -  [AI, Go Fetch! New NVIDIA NeMo Retriever Microservices Boost LLM Accuracy and Throughput](https://blogs.nvidia.com/blog/nemo-retriever-microservices/)
  -  [NVIDIA AI Foundry 為全球企業打造客製化 Llama 3.1 生成式 AI 模型](https://blogs.nvidia.com.tw/blog/nvidia-ai-foundry-custom-llama-generative-models/)
  -  [NVIDIA AI-Agent 暑期線上訓練營](https://jsj.top/f/ilF0yi)
