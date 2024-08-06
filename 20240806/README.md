@@ -35,11 +35,13 @@
 **課外讀物**：
 
  -  [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
+ -  [Understanding Large Language Models: Towards Rigorous and Targeted Interpretability Using Probing Classifiers and Self-Rationalisation](https://liu.diva-portal.org/smash/record.jsf?dswid=-2318&pid=diva2%3A1848043). \[[PDF](https://liu.diva-portal.org/smash/get/diva2:1848043/FULLTEXT01.pdf)\]
  -  [LLM Twin Course: Building Your Production-Ready AI Replica](https://github.com/decodingml/llm-twin-course)
- -  [LLM Engineer's Handbook: Master the art of engineering Large Language Models from concept to production](https://www.amazon.com/dp/1836200072)
  -  [End-to-end LLM Workflows Guide](https://www.anyscale.com/blog/end-to-end-llm-workflows-guide)
- -  [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
  -  [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
+ -  [A Comprehensive Overview of Large Language Models](https://arxiv.org/abs/2307.06435)
+ -  [A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More](https://arxiv.org/abs/2407.16216)
+ -  [Foundational Challenges in Assuring Alignment and Safety of Large Language Models](https://arxiv.org/abs/2404.09932)
  -  [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
  -  [(OpenHackathons) End-to-End LLM Bootcamp](https://github.com/openhackathons-org/End-to-End-LLM)
  -  The three-part series on how Imbue trained their 70B model
@@ -47,16 +49,19 @@
      -  [Sanitized open-source datasets for natural language and code understanding: how we evaluated our 70B model](https://imbue.com/research/70b-evals/)
      -  [From bare metal to a 70B model: infrastructure set-up and scripts](https://imbue.com/research/70b-infrastructure/)
      -  [Open-sourcing CARBS: how we used our hyperparameter optimizer to scale up to a 70B-parameter language model](https://imbue.com/research/70b-carbs/)
- -  Repository of NCHC-NVIDIA Joint Lab, <https://github.com/nqobu/nvidia>
  -  [NVIDIA NIM](https://www.nvidia.com/en-us/ai/)
  -  [NVIDIA NeMo](https://www.nvidia.com/en-us/ai-data-science/products/nemo/)
  -  [NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577)
- -  [A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More](https://arxiv.org/abs/2407.16216)
  -  [ChipNeMo: Domain-Adapted LLMs for Chip Design](https://arxiv.org/abs/2311.00176)
      -  See also: [SEMIKONG](https://www.semikong.ai/) and [SEMIKONG's github](https://github.com/aitomatic/semikong)
  -  [AI, Go Fetch! New NVIDIA NeMo Retriever Microservices Boost LLM Accuracy and Throughput](https://blogs.nvidia.com/blog/nemo-retriever-microservices/)
  -  [NVIDIA AI Foundry 為全球企業打造客製化 Llama 3.1 生成式 AI 模型](https://blogs.nvidia.com.tw/blog/nvidia-ai-foundry-custom-llama-generative-models/)
+<!--
+ -  [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
+ -  Repository of NCHC-NVIDIA Joint Lab, <https://github.com/nqobu/nvidia>
  -  [NVIDIA AI-Agent 暑期線上訓練營](https://jsj.top/f/ilF0yi)
+ -  [LLM Engineer's Handbook: Master the art of engineering Large Language Models from concept to production](https://www.amazon.com/dp/1836200072)
+  -->
 
 **課程內容**：
 
