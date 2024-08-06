@@ -35,13 +35,13 @@
 **課外讀物**：
 
  -  [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
- -  [Understanding Large Language Models: Towards Rigorous and Targeted Interpretability Using Probing Classifiers and Self-Rationalisation](https://liu.diva-portal.org/smash/record.jsf?dswid=-2318&pid=diva2%3A1848043). \[[PDF](https://liu.diva-portal.org/smash/get/diva2:1848043/FULLTEXT01.pdf)\]
  -  [LLM Twin Course: Building Your Production-Ready AI Replica](https://github.com/decodingml/llm-twin-course)
  -  [End-to-end LLM Workflows Guide](https://www.anyscale.com/blog/end-to-end-llm-workflows-guide)
  -  [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
  -  [A Comprehensive Overview of Large Language Models](https://arxiv.org/abs/2307.06435)
  -  [A Comprehensive Survey of LLM Alignment Techniques: RLHF, RLAIF, PPO, DPO and More](https://arxiv.org/abs/2407.16216)
  -  [Foundational Challenges in Assuring Alignment and Safety of Large Language Models](https://arxiv.org/abs/2404.09932)
+ -  [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
  -  [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
  -  [(OpenHackathons) End-to-End LLM Bootcamp](https://github.com/openhackathons-org/End-to-End-LLM)
  -  The three-part series on how Imbue trained their 70B model
@@ -57,10 +57,10 @@
  -  [AI, Go Fetch! New NVIDIA NeMo Retriever Microservices Boost LLM Accuracy and Throughput](https://blogs.nvidia.com/blog/nemo-retriever-microservices/)
  -  [NVIDIA AI Foundry 為全球企業打造客製化 Llama 3.1 生成式 AI 模型](https://blogs.nvidia.com.tw/blog/nvidia-ai-foundry-custom-llama-generative-models/)
 <!--
- -  [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
  -  Repository of NCHC-NVIDIA Joint Lab, <https://github.com/nqobu/nvidia>
  -  [NVIDIA AI-Agent 暑期線上訓練營](https://jsj.top/f/ilF0yi)
  -  [LLM Engineer's Handbook: Master the art of engineering Large Language Models from concept to production](https://www.amazon.com/dp/1836200072)
+ -  [Understanding Large Language Models: Towards Rigorous and Targeted Interpretability Using Probing Classifiers and Self-Rationalisation](https://liu.diva-portal.org/smash/record.jsf?dswid=-2318&pid=diva2%3A1848043). \[[PDF](https://liu.diva-portal.org/smash/get/diva2:1848043/FULLTEXT01.pdf)\]
   -->
 
 **課程內容**：
