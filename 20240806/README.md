@@ -18,11 +18,12 @@
 
 **師資陣容**：
 
- -  Cliff Chiu (NVIDIA)
- -  Yang-Hsien Lin (NVIDIA)
- -  Virginia Chen (NVIDIA)
- -  Johnson Sun (NVIDIA)
- -  Jay Chen (NVIDIA)
+ -  Cliff CHIU (NVIDIA)
+ -  Yang-Hsien LIN (NVIDIA)
+ -  Virginia CHEN (NVIDIA)
+ -  Johnson SUN (NVIDIA)
+ -  Iven FU (NVIDIA)
+ -  Jay CHEN (NVIDIA)
 
 **預備知識**：
 
