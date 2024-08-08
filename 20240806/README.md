@@ -25,6 +25,12 @@
  -  Iven FU (NVIDIA)
  -  Jay CHEN (NVIDIA)
 
+**活動問券**：
+
+您的回饋，是我們舉辦類似活動的依據。麻請撥冗填寫以下的問券。
+
+> <https://forms.office.com/r/F9eAqgv1Wy>
+
 **預備知識**：
 
  -  Basic experience with Python and Deep Learning
@@ -84,15 +90,18 @@
 
     | 時間 | 活動內容 |
     | :--: | -------- |
-    | 09:00 AM - 09:30 AM | Welcome and Connecting to a Cluster |
-    | 09:30 AM - 10:00 AM | NeMo NIM APIs - Demo |
-    | 10:00 AM - 11:00 AM | Introduction to TensorRT-LLM & Triton Backend (Lecture)  |
-    | 11:00 AM - 11:45 PM | Hands-on LLaMA 2 optimisation using TRT-LLM (Lab) |
-    | 11:45 AM - 12:00 PM | Break |
-    | 12:00 PM - 01:00 PM | Hands-on LLaMA 2 deployment using Triton Inference server (Lab)  |
-    | 01:00 PM - 02:00 PM | Lunch |
-    | 02:00 PM - 04:00 PM | Introduction to NeMo Guardrails (Lecture and Lab) |
-    | 04:00 PM - 04:30 PM | Q&A |
+    | 09:00 AM - 09:10 AM | Welcome to End to End LLM Bootcamp |
+    | 09:10 AM - 09:30 AM | environment setup and connecting to the cluster |
+    | 09:30 AM - 12:00 PM | Hands-on with NeMo Framework (Lab) |
+    | 12:00 PM - 01:00 PM | Lunch |
+    | 01:00 PM - 02:00 PM | Hands-on with NeMo Framework (Lab) |
+    | 02:00 PM - 02:10 PM | Break |
+    | 02:10 PM - 03:10 PM | Hands-on LLM deployment using TensorRT-LLM (Lab) |
+    | 03:10 PM - 03:20 PM | Break |
+    | 03:20 PM - 04:20 PM | Introduction to NeMo Guardrails (Lecture and Lab) |
+    | 04:20 PM - 04:30 PM | Q&A |
+
+    活動教材：<https://github.com/j3soon/LLM-Tutorial>
 
 **聯絡窗口**：吳先生 &lt;[z@narlabs.org.tw](mailto:z@narlabs.org.tw)&gt;
 
