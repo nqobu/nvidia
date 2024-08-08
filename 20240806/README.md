@@ -32,15 +32,15 @@
      -  Passcode：Pn8Fmh
   -->
 
-    |        時間         | 活動內容                                                           |
-    | :-----------------: | ------------------------------------------------------------------ |
-    | 09:00 AM - 09:30 AM | Welcome and Connecting to a Cluster                                |
+    |        時間         | 活動內容 |
+    | :-----------------: | -------- |
+    | 09:00 AM - 09:30 AM | Welcome and Connecting to a Cluster |
     | 09:30 AM - 10:20 AM | Introduction to End-to-End Large Language Model Pipeline (Lecture) |
-    | 10:20 AM - 10:30 AM | Break                                                              |
-    | 10:30 AM - 11:20 AM | Hands-on with NeMo Framework (Lab)                                 |
-    | 11:20 AM - 11:30 AM | Break                                                              |
-    | 11:30 AM - 12:30 PM | Hands-on Fine-tuning with Custom Data (Lecture and Lab)            |
-    | 12:30 PM - 01:00 PM | Q&A                                                                |
+    | 10:20 AM - 10:30 AM | Break |
+    | 10:30 AM - 11:20 AM | Hands-on with NeMo Framework (Lab) |
+    | 11:20 AM - 11:30 AM | Break |
+    | 11:30 AM - 12:30 PM | Hands-on Fine-tuning with Custom Data (Lecture and Lab) |
+    | 12:30 PM - 01:00 PM | Q&A |
 
     **活動影片**：<https://youtu.be/8sXqLQOFgqs>
 
@@ -48,18 +48,18 @@
 
     **活動地點**：國網中心新竹本部（新竹市東區研發六路 7 號）
 
-    |        時間         | 活動內容                                          |
-    | :-----------------: | ------------------------------------------------- |
-    | 09:00 AM - 09:10 AM | Welcome to the Bootcamp                           |
-    | 09:10 AM - 09:30 AM | Environment setup and connecting to the cluster   |
-    | 09:30 AM - 12:00 PM | Hands-on with NeMo Framework (Lab)                |
-    | 12:00 PM - 01:00 PM | Lunch                                             |
-    | 01:00 PM - 02:00 PM | Hands-on with NeMo Framework (Lab)                |
-    | 02:00 PM - 02:10 PM | Break                                             |
-    | 02:10 PM - 03:10 PM | Hands-on LLM deployment using TensorRT-LLM (Lab)  |
-    | 03:10 PM - 03:20 PM | Break                                             |
+    |        時間         | 活動內容 |
+    | :-----------------: | -------- |
+    | 09:00 AM - 09:10 AM | Welcome to the Bootcamp |
+    | 09:10 AM - 09:30 AM | Environment setup and connecting to the cluster |
+    | 09:30 AM - 12:00 PM | Hands-on with NeMo Framework (Lab) |
+    | 12:00 PM - 01:00 PM | Lunch |
+    | 01:00 PM - 02:00 PM | Hands-on with NeMo Framework (Lab) |
+    | 02:00 PM - 02:10 PM | Break |
+    | 02:10 PM - 03:10 PM | Hands-on LLM deployment using TensorRT-LLM (Lab) |
+    | 03:10 PM - 03:20 PM | Break |
     | 03:20 PM - 04:20 PM | Introduction to NeMo Guardrails (Lecture and Lab) |
-    | 04:20 PM - 04:30 PM | Q&A                                               |
+    | 04:20 PM - 04:30 PM | Q&A |
 
     **活動教材**：<https://github.com/j3soon/LLM-Tutorial>
 
@@ -89,8 +89,10 @@
  -  [NVIDIA NIM](https://www.nvidia.com/en-us/ai/)
  -  [NVIDIA NeMo](https://www.nvidia.com/en-us/ai-data-science/products/nemo/)
  -  [NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577)
- -  [ChipNeMo: Domain-Adapted LLMs for Chip Design](https://arxiv.org/abs/2311.00176) - See also: [SemiKong](https://www.semikong.ai/) and [SemiKong's github](https://github.com/aitomatic/semikong)
+ -  [ChipNeMo: Domain-Adapted LLMs for Chip Design](https://arxiv.org/abs/2311.00176)
+     -  See also: [SemiKong](https://www.semikong.ai/) and [SemiKong's github](https://github.com/aitomatic/semikong)
 <!--
+
 # Performance
 
 **ChipNeMo**
