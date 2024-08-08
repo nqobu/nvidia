@@ -9,8 +9,9 @@
  -  **線上課程**：2024 年 08 月 06 日 09:00 AM - 13:00 PM
 
     透過 [Microsoft Teams](https://teams.microsoft.com/) 連線舉辦
+
 <--
-    [Join the meeting now](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjcwZjY5MjktM2RlNi00MzI0LWI0ZmItMTYzZjhiY2I0NTMz%40thread.v2/0?context=%7b%22Tid%22%3a%2243083d15-7273-40c1-b7db-39efd9ccc17a%22%2c%22Oid%22%3a%22ce218103-5e8c-4c2f-9459-4cd40d72e332%22%7d)
+[Join the meeting now](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjcwZjY5MjktM2RlNi00MzI0LWI0ZmItMTYzZjhiY2I0NTMz%40thread.v2/0?context=%7b%22Tid%22%3a%2243083d15-7273-40c1-b7db-39efd9ccc17a%22%2c%22Oid%22%3a%22ce218103-5e8c-4c2f-9459-4cd40d72e332%22%7d)
      -  Meeting ID：236 378 647 640
      -  Passcode：Pn8Fmh
   -->
