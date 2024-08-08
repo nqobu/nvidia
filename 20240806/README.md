@@ -8,8 +8,7 @@
 
  -  **線上課程**：2024 年 08 月 06 日 09:00 AM - 13:00 PM
 
-<!--
-    透過 [Microsoft Teams](https://teams.microsoft.com/) 連線舉辦 -- [Join the meeting now](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjcwZjY5MjktM2RlNi00MzI0LWI0ZmItMTYzZjhiY2I0NTMz%40thread.v2/0?context=%7b%22Tid%22%3a%2243083d15-7273-40c1-b7db-39efd9ccc17a%22%2c%22Oid%22%3a%22ce218103-5e8c-4c2f-9459-4cd40d72e332%22%7d)
+    透過 [Microsoft Teams](https://teams.microsoft.com/) 連線舉辦<-- [Join the meeting now](https://teams.microsoft.com/l/meetup-join/19%3ameeting_NjcwZjY5MjktM2RlNi00MzI0LWI0ZmItMTYzZjhiY2I0NTMz%40thread.v2/0?context=%7b%22Tid%22%3a%2243083d15-7273-40c1-b7db-39efd9ccc17a%22%2c%22Oid%22%3a%22ce218103-5e8c-4c2f-9459-4cd40d72e332%22%7d)
      -  Meeting ID：236 378 647 640
      -  Passcode：Pn8Fmh
   -->
@@ -59,9 +58,8 @@
  -  [NVIDIA NIM](https://www.nvidia.com/en-us/ai/)
  -  [NVIDIA NeMo](https://www.nvidia.com/en-us/ai-data-science/products/nemo/)
  -  [NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577)
- -  [ChipNeMo: Domain-Adapted LLMs for Chip Design](https://arxiv.org/abs/2311.00176)
-     -  See also: [SemiKong](https://www.semikong.ai/) and [SemiKong's github](https://github.com/aitomatic/semikong)
-    <!--
+ -  [ChipNeMo: Domain-Adapted LLMs for Chip Design](https://arxiv.org/abs/2311.00176) - See also: [SemiKong](https://www.semikong.ai/) and [SemiKong's github](https://github.com/aitomatic/semikong)
+<!--
 # Performance
 
 **ChipNeMo**
@@ -116,20 +114,18 @@ Features would typically align with the tool's purpose, whether it's simulation,
 
 # Key Differences
 
-- **Specialization vs. Generalization**: ChipNeMo is specialized for chip design, incorporating domain-specific adaptations to enhance performance on related tasks. SemiKong, while not explicitly described, would likely offer a broader set of features or applications outside the narrow scope of chip design.
-
-- **Performance Metrics**: ChipNeMo demonstrates superior performance in several benchmarks relevant to chip design, suggesting it may outperform SemiKong in these specific areas unless SemiKong has been optimized for similar tasks.
-
-- **Usability and Integration**: Both tools would aim for high usability, but ChipNeMo's focus on automating specific aspects of chip design could make it more appealing for users looking for streamlined processes. SemiKong's approach might differ, focusing on broader applicability or integration capabilities.
+ -  **Specialization vs. Generalization**: ChipNeMo is specialized for chip design, incorporating domain-specific adaptations to enhance performance on related tasks. SemiKong, while not explicitly described, would likely offer a broader set of features or applications outside the narrow scope of chip design.
+ -  **Performance Metrics**: ChipNeMo demonstrates superior performance in several benchmarks relevant to chip design, suggesting it may outperform SemiKong in these specific areas unless SemiKong has been optimized for similar tasks.
+ -  **Usability and Integration**: Both tools would aim for high usability, but ChipNeMo's focus on automating specific aspects of chip design could make it more appealing for users looking for streamlined processes. SemiKong's approach might differ, focusing on broader applicability or integration capabilities.
 
 # Summary
 
 ChipNeMo stands out for its specialized performance in chip design tasks, thanks to its domain-adapted LLMs and innovative features like automatic script generation and bug analysis. Without explicit details on SemiKong, it's challenging to make a direct comparison, but typical tools in this space would compete on features, performance, and usability, potentially offering a broader range of applications or easier integration into existing workflows.
 
--  **Usability and Integration**: Both tools would aim for high usability, but ChipNeMo's focus on automating specific aspects of chip design could make it more appealing for users looking for streamlined processes. SemiKong's approach might differ, focusing on broader applicability or integration capabilities.
--  **ChipNeMo** is specialized for optimizing neural networks in the context of chip design, focusing on high performance for specific chip architectures and requiring a good grasp of both neural network and hardware concepts.
--  **SemiKong** provides a broader platform for semiconductor design and optimization, integrating AI for performance improvements and being potentially more accessible to a wider range of users in the semiconductor field.
-      -->
+ -  **Usability and Integration**: Both tools would aim for high usability, but ChipNeMo's focus on automating specific aspects of chip design could make it more appealing for users looking for streamlined processes. SemiKong's approach might differ, focusing on broader applicability or integration capabilities.
+ -  **ChipNeMo** is specialized for optimizing neural networks in the context of chip design, focusing on high performance for specific chip architectures and requiring a good grasp of both neural network and hardware concepts.
+ -  **SemiKong** provides a broader platform for semiconductor design and optimization, integrating AI for performance improvements and being potentially more accessible to a wider range of users in the semiconductor field.
+  -->
  -  [AI, Go Fetch! New NVIDIA NeMo Retriever Microservices Boost LLM Accuracy and Throughput](https://blogs.nvidia.com/blog/nemo-retriever-microservices/)
  -  [NVIDIA AI Foundry 為全球企業打造客製化 Llama 3.1 生成式 AI 模型](https://blogs.nvidia.com.tw/blog/nvidia-ai-foundry-custom-llama-generative-models/)
 <!--
@@ -144,32 +140,32 @@ ChipNeMo stands out for its specialized performance in chip design tasks, thanks
 
  -  **線上課程**：2024 年 08 月 06 日 09:00 AM - 13:00 PM
 
-    | 時間 | 活動內容 |
-    | :--: | -------- |
-    | 09:00 AM - 09:30 AM | Welcome and Connecting to a Cluster |
+    |        時間         | 活動內容                                                           |
+    | :-----------------: | ------------------------------------------------------------------ |
+    | 09:00 AM - 09:30 AM | Welcome and Connecting to a Cluster                                |
     | 09:30 AM - 10:20 AM | Introduction to End-to-End Large Language Model Pipeline (Lecture) |
-    | 10:20 AM - 10:30 AM | Break |
-    | 10:30 AM - 11:20 AM | Hands-on with NeMo Framework (Lab) |
-    | 11:20 AM - 11:30 AM | Break |
-    | 11:30 AM - 12:30 PM | Hands-on Fine-tuning with Custom Data (Lecture and Lab) |
-    | 12:30 PM - 01:00 PM | Q&A |
+    | 10:20 AM - 10:30 AM | Break                                                              |
+    | 10:30 AM - 11:20 AM | Hands-on with NeMo Framework (Lab)                                 |
+    | 11:20 AM - 11:30 AM | Break                                                              |
+    | 11:30 AM - 12:30 PM | Hands-on Fine-tuning with Custom Data (Lecture and Lab)            |
+    | 12:30 PM - 01:00 PM | Q&A                                                                |
 
     活動影片：<https://youtu.be/8sXqLQOFgqs>
 
  -  **實體課程**：2024 年 08 月 07 日 09:00 AM - 16:30 PM
 
-    | 時間 | 活動內容 |
-    | :--: | -------- |
-    | 09:00 AM - 09:10 AM | Welcome to the Bootcamp |
-    | 09:10 AM - 09:30 AM | Environment setup and connecting to the cluster |
-    | 09:30 AM - 12:00 PM | Hands-on with NeMo Framework (Lab) |
-    | 12:00 PM - 01:00 PM | Lunch |
-    | 01:00 PM - 02:00 PM | Hands-on with NeMo Framework (Lab) |
-    | 02:00 PM - 02:10 PM | Break |
-    | 02:10 PM - 03:10 PM | Hands-on LLM deployment using TensorRT-LLM (Lab) |
-    | 03:10 PM - 03:20 PM | Break |
+    |        時間         | 活動內容                                          |
+    | :-----------------: | ------------------------------------------------- |
+    | 09:00 AM - 09:10 AM | Welcome to the Bootcamp                           |
+    | 09:10 AM - 09:30 AM | Environment setup and connecting to the cluster   |
+    | 09:30 AM - 12:00 PM | Hands-on with NeMo Framework (Lab)                |
+    | 12:00 PM - 01:00 PM | Lunch                                             |
+    | 01:00 PM - 02:00 PM | Hands-on with NeMo Framework (Lab)                |
+    | 02:00 PM - 02:10 PM | Break                                             |
+    | 02:10 PM - 03:10 PM | Hands-on LLM deployment using TensorRT-LLM (Lab)  |
+    | 03:10 PM - 03:20 PM | Break                                             |
     | 03:20 PM - 04:20 PM | Introduction to NeMo Guardrails (Lecture and Lab) |
-    | 04:20 PM - 04:30 PM | Q&A |
+    | 04:20 PM - 04:30 PM | Q&A                                               |
 
     活動教材：<https://github.com/j3soon/LLM-Tutorial>
 
@@ -181,18 +177,22 @@ ChipNeMo stands out for its specialized performance in chip design tasks, thanks
 
  1. **本次活動將完全以中文進行。**\
     **This event will be conducted entirely in Mandarin Chinese.**
- 
+
  2. **2024/08/07 的實體課程僅限臺灣地區之人士報名參加。**\
     **The offline course on 2024/08/07 is open to those living in Taiwan only.**
- 
+
  3. 所有活動的通知訊息，都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。\
     All notifications for this event will be sent via email, so please provide a valid email address when applying.
 
- 5. 本主辦單位保留接受報名及審核報名資格之權利，並於活動前寄發相關通知。\
+ 4. 本主辦單位保留接受報名及審核報名資格之權利，並於活動前寄發相關通知。\
     The organizer reserves the right to accept applications and review eligibility, and will send relevant notifications before the event.
- 
- 6. 活動前如未收到核可通知，即意謂您未通過報名的審核。\
+
+ 5. 活動前如未收到核可通知，即意謂您未通過報名的審核。\
     If you do not receive an approval notice before the event, it means your application has been denied.
 
- 7. 建議您攜帶自已的筆記型電腦參加 2024/08/07 的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
+ 6. 建議您攜帶自已的筆記型電腦參加 2024/08/07 的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
     You are encouraged to bring your own devices to the offline course on 2024/08/07, during which free WiFi connection and lunch will be provided.
+
+<!--
+  vim: ft=markdown ic noet nort wrap ts=8 sts=4 sw=4:
+  -->
