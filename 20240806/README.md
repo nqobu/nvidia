@@ -164,11 +164,9 @@ ChipNeMo stands out for its specialized performance in chip design tasks, thanks
  -  [Understanding Large Language Models: Towards Rigorous and Targeted Interpretability Using Probing Classifiers and Self-Rationalisation](https://liu.diva-portal.org/smash/record.jsf?dswid=-2318&pid=diva2%3A1848043). \[[PDF](https://liu.diva-portal.org/smash/get/diva2:1848043/FULLTEXT01.pdf)\]
   -->
 
-<!--
 **聯絡窗口**：吳先生 &lt;[z@narlabs.org.tw](mailto:z@narlabs.org.tw)&gt;
 
 **聯絡電話**：[(03)5776085 分機 220](tel:+886-3-5776085,220)
-  -->
 
 **附註**：
 
