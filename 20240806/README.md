@@ -19,9 +19,9 @@
 **師資陣容**：
 
  -  Cliff CHIU (NVIDIA)
+ -  Johnson SUN (NVIDIA)
  -  Yang-Hsien LIN (NVIDIA)
  -  Virginia CHEN (NVIDIA)
- -  Johnson SUN (NVIDIA)
  -  Iven FU (NVIDIA)
  -  Jay CHEN (NVIDIA)
 
