@@ -90,8 +90,8 @@
 
     | 時間 | 活動內容 |
     | :--: | -------- |
-    | 09:00 AM - 09:10 AM | Welcome to End to End LLM Bootcamp |
-    | 09:10 AM - 09:30 AM | environment setup and connecting to the cluster |
+    | 09:00 AM - 09:10 AM | Welcome to the Bootcamp |
+    | 09:10 AM - 09:30 AM | Environment setup and connecting to the cluster |
     | 09:30 AM - 12:00 PM | Hands-on with NeMo Framework (Lab) |
     | 12:00 PM - 01:00 PM | Lunch |
     | 01:00 PM - 02:00 PM | Hands-on with NeMo Framework (Lab) |
