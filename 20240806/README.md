@@ -64,7 +64,7 @@
     <!--
 # Performance
 
-## ChipNeMo
+**ChipNeMo**
 
 Demonstrates improved performance over baseline models like LLaMA2 across various benchmarks. For instance, ChipNeMo-13B outperforms LLaMA2-13B in several metrics such as MMLU, Reason Code, and others, indicating its effectiveness in adapting to domain-specific tasks like chip design
 
@@ -72,7 +72,7 @@ Demonstrates improved performance over baseline models like LLaMA2 across variou
  -  **Optimization**: ChipNeMo integrates with various optimization techniques for both chip design and neural network training, aiming to enhance performance in specific hardware contexts.
  -  **Scalability**: The focus is on scalability and customization for different chip architectures, potentially offering high performance for specific tasks.
 
-## SemiKong
+**SemiKong**
 
 While specific performance metrics for SemiKong are not provided, similar tools often focus on providing accurate and efficient solutions for their intended domains. Performance would typically be evaluated against industry standards, competitor products, or custom benchmarks relevant to the tool's application area.
 
@@ -82,14 +82,14 @@ While specific performance metrics for SemiKong are not provided, similar tools 
 
 # Usability
 
-## ChipNeMo
+**ChipNeMo**
 
 Offers enhanced usability through features like automatic generation of EDA scripts and bug summarization and analysis, which are crucial for chip design tasks. These functionalities aim to streamline the workflow for users dealing with complex chip designs.
 
  -  **Target Users**: Typically used by engineers and researchers specializing in chip design and hardware optimization.
  -  **Complexity**: ChipNeMo might require a deep understanding of both neural network principles and chip design to effectively utilize its features.
 
-## SemiKong
+**SemiKong**
 
 Usability would likely involve ease of integration into existing workflows, intuitive interfaces for non-experts, and comprehensive documentation. Tools in this space often prioritize user experience to facilitate adoption and effective problem-solving.
 
@@ -98,7 +98,7 @@ Usability would likely involve ease of integration into existing workflows, intu
 
 # Features
 
-## ChipNeMo
+**ChipNeMo**
 
 Incorporates domain-adapted large language models (LLMs) specifically tailored for chip design, leveraging techniques like tokenizer augmentation and parameter-efficient fine-tuning. This specialization allows ChipNeMo to handle domain-specific tasks more effectively
 
@@ -106,7 +106,7 @@ Incorporates domain-adapted large language models (LLMs) specifically tailored f
  -  **Customization**: Offers specialized tools for customizing and optimizing neural networks for specific chip architectures.
  -  **Focus**: Primarily focused on the intersection of hardware design and neural network optimization.
 
-## SemiKong
+**SemiKong**
 
 Features would typically align with the tool's purpose, whether it's simulation, optimization, verification, or another aspect of chip design. Common features might include support for various file formats, integration with popular EDA tools, and advanced analytics capabilities.
 
@@ -126,7 +126,7 @@ Features would typically align with the tool's purpose, whether it's simulation,
 
 ChipNeMo stands out for its specialized performance in chip design tasks, thanks to its domain-adapted LLMs and innovative features like automatic script generation and bug analysis. Without explicit details on SemiKong, it's challenging to make a direct comparison, but typical tools in this space would compete on features, performance, and usability, potentially offering a broader range of applications or easier integration into existing workflows.
 
-- **Usability and Integration**: Both tools would aim for high usability, but ChipNeMo's focus on automating specific aspects of chip design could make it more appealing for users looking for streamlined processes. SemiKong's approach might differ, focusing on broader applicability or integration capabilities.
+-  **Usability and Integration**: Both tools would aim for high usability, but ChipNeMo's focus on automating specific aspects of chip design could make it more appealing for users looking for streamlined processes. SemiKong's approach might differ, focusing on broader applicability or integration capabilities.
 -  **ChipNeMo** is specialized for optimizing neural networks in the context of chip design, focusing on high performance for specific chip architectures and requiring a good grasp of both neural network and hardware concepts.
 -  **SemiKong** provides a broader platform for semiconductor design and optimization, integrating AI for performance improvements and being potentially more accessible to a wider range of users in the semiconductor field.
       -->
