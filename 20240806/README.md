@@ -43,7 +43,6 @@
 
 **課外讀物**：
 
- -  [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
  -  [LLM Twin Course: Building Your Production-Ready AI Replica](https://github.com/decodingml/llm-twin-course)
  -  [End-to-end LLM Workflows Guide](https://www.anyscale.com/blog/end-to-end-llm-workflows-guide)
  -  [A Survey of Large Language Models](https://arxiv.org/abs/2303.18223)
@@ -69,6 +68,7 @@
  -  Repository of NCHC-NVIDIA Joint Lab, <https://github.com/nqobu/nvidia>
  -  [NVIDIA AI-Agent 暑期線上訓練營](https://jsj.top/f/ilF0yi)
  -  [LLM Engineer's Handbook: Master the art of engineering Large Language Models from concept to production](https://www.amazon.com/dp/1836200072)
+ -  [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
  -  [Understanding Large Language Models: Towards Rigorous and Targeted Interpretability Using Probing Classifiers and Self-Rationalisation](https://liu.diva-portal.org/smash/record.jsf?dswid=-2318&pid=diva2%3A1848043). \[[PDF](https://liu.diva-portal.org/smash/get/diva2:1848043/FULLTEXT01.pdf)\]
   -->
 
