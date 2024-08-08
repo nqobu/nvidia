@@ -39,7 +39,7 @@
      -  The Python Tutorial, <https://docs.python.org/3/tutorial/index.html>
      -  Deep Learning with PyTorch: A 60 Minute Blitz, <https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html>
  -  Free [NVIDIA Deep Learning Institute (DLI)](https://www.nvidia.com/zh-tw/training/) course to learn fundamentals, <https://developer.nvidia.com/join-nvidia-developer-program>
- -  LLM Bootcamp Open Source, <https://github.com/openhackathons-org/End-to-End-LLM>
+ -  End-to-End LLM Bootcamp Open Source, <https://github.com/openhackathons-org/End-to-End-LLM>
 
 **課外讀物**：
 
@@ -51,7 +51,6 @@
  -  [Foundational Challenges in Assuring Alignment and Safety of Large Language Models](https://arxiv.org/abs/2404.09932)
  -  [Awesome Generative AI Guide](https://github.com/aishwaryanr/awesome-generative-ai-guide)
  -  [OpenAI Cookbook](https://github.com/openai/openai-cookbook)
- -  [(OpenHackathons) End-to-End LLM Bootcamp](https://github.com/openhackathons-org/End-to-End-LLM)
  -  The three-part series on how Imbue trained their 70B model
      -  [Training a 70B model from scratch: open-source tools, evaluation datasets, and learnings](https://imbue.com/research/70b-intro/)
      -  [Sanitized open-source datasets for natural language and code understanding: how we evaluated our 70B model](https://imbue.com/research/70b-evals/)
@@ -61,7 +60,76 @@
  -  [NVIDIA NeMo](https://www.nvidia.com/en-us/ai-data-science/products/nemo/)
  -  [NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577)
  -  [ChipNeMo: Domain-Adapted LLMs for Chip Design](https://arxiv.org/abs/2311.00176)
-     -  See also: [SEMIKONG](https://www.semikong.ai/) and [SEMIKONG's github](https://github.com/aitomatic/semikong)
+     -  See also: [SemiKong](https://www.semikong.ai/) and [SemiKong's github](https://github.com/aitomatic/semikong)
+    <!--
+# Performance
+
+## ChipNeMo
+
+Demonstrates improved performance over baseline models like LLaMA2 across various benchmarks. For instance, ChipNeMo-13B outperforms LLaMA2-13B in several metrics such as MMLU, Reason Code, and others, indicating its effectiveness in adapting to domain-specific tasks like chip design
+
+ -  **Architecture**: ChipNeMo is designed for efficient chip-level neural network model design and optimization. It provides advanced algorithms to improve the accuracy and efficiency of chip designs.
+ -  **Optimization**: ChipNeMo integrates with various optimization techniques for both chip design and neural network training, aiming to enhance performance in specific hardware contexts.
+ -  **Scalability**: The focus is on scalability and customization for different chip architectures, potentially offering high performance for specific tasks.
+
+## SemiKong
+
+While specific performance metrics for SemiKong are not provided, similar tools often focus on providing accurate and efficient solutions for their intended domains. Performance would typically be evaluated against industry standards, competitor products, or custom benchmarks relevant to the tool's application area.
+
+ -  **Architecture**: SemiKong is a platform designed to optimize the performance of semiconductors and related technologies. It leverages AI and machine learning for chip design and performance analysis.
+ -  **Optimization**: Provides tools for improving semiconductor design and testing, with a focus on enhancing the performance of semiconductor devices.
+ -  **Scalability**: Targets broad applications within the semiconductor industry, potentially offering high performance across a range of semiconductor technologies.
+
+# Usability
+
+## ChipNeMo
+
+Offers enhanced usability through features like automatic generation of EDA scripts and bug summarization and analysis, which are crucial for chip design tasks. These functionalities aim to streamline the workflow for users dealing with complex chip designs.
+
+ -  **Target Users**: Typically used by engineers and researchers specializing in chip design and hardware optimization.
+ -  **Complexity**: ChipNeMo might require a deep understanding of both neural network principles and chip design to effectively utilize its features.
+
+## SemiKong
+
+Usability would likely involve ease of integration into existing workflows, intuitive interfaces for non-experts, and comprehensive documentation. Tools in this space often prioritize user experience to facilitate adoption and effective problem-solving.
+
+ -  **Target Users**: Aimed at semiconductor engineers, designers, and researchers working on semiconductor technology and chip design.
+ -  **Complexity**: Offers tools that may be more user-friendly with a focus on practical applications in semiconductor design, potentially making it more accessible to users less specialized in neural network design.
+
+# Features
+
+## ChipNeMo
+
+Incorporates domain-adapted large language models (LLMs) specifically tailored for chip design, leveraging techniques like tokenizer augmentation and parameter-efficient fine-tuning. This specialization allows ChipNeMo to handle domain-specific tasks more effectively
+
+ -  **Integration**: It integrates with existing EDA (Electronic Design Automation) tools, providing a seamless workflow for chip design.
+ -  **Customization**: Offers specialized tools for customizing and optimizing neural networks for specific chip architectures.
+ -  **Focus**: Primarily focused on the intersection of hardware design and neural network optimization.
+
+## SemiKong
+
+Features would typically align with the tool's purpose, whether it's simulation, optimization, verification, or another aspect of chip design. Common features might include support for various file formats, integration with popular EDA tools, and advanced analytics capabilities.
+
+ -  **Platform Integration**: Provides a comprehensive platform with tools for design, simulation, and testing of semiconductor devices.
+ -  **AI Integration**: Utilizes AI to optimize semiconductor performance, offering advanced analytics and insights.
+ -  **Focus**: Broad focus on the semiconductor industry with tools tailored for various aspects of semiconductor design and optimization.
+
+# Key Differences
+
+- **Specialization vs. Generalization**: ChipNeMo is specialized for chip design, incorporating domain-specific adaptations to enhance performance on related tasks. SemiKong, while not explicitly described, would likely offer a broader set of features or applications outside the narrow scope of chip design.
+
+- **Performance Metrics**: ChipNeMo demonstrates superior performance in several benchmarks relevant to chip design, suggesting it may outperform SemiKong in these specific areas unless SemiKong has been optimized for similar tasks.
+
+- **Usability and Integration**: Both tools would aim for high usability, but ChipNeMo's focus on automating specific aspects of chip design could make it more appealing for users looking for streamlined processes. SemiKong's approach might differ, focusing on broader applicability or integration capabilities.
+
+# Summary
+
+ChipNeMo stands out for its specialized performance in chip design tasks, thanks to its domain-adapted LLMs and innovative features like automatic script generation and bug analysis. Without explicit details on SemiKong, it's challenging to make a direct comparison, but typical tools in this space would compete on features, performance, and usability, potentially offering a broader range of applications or easier integration into existing workflows.
+
+- **Usability and Integration**: Both tools would aim for high usability, but ChipNeMo's focus on automating specific aspects of chip design could make it more appealing for users looking for streamlined processes. SemiKong's approach might differ, focusing on broader applicability or integration capabilities.
+-  **ChipNeMo** is specialized for optimizing neural networks in the context of chip design, focusing on high performance for specific chip architectures and requiring a good grasp of both neural network and hardware concepts.
+-  **SemiKong** provides a broader platform for semiconductor design and optimization, integrating AI for performance improvements and being potentially more accessible to a wider range of users in the semiconductor field.
+      -->
  -  [AI, Go Fetch! New NVIDIA NeMo Retriever Microservices Boost LLM Accuracy and Throughput](https://blogs.nvidia.com/blog/nemo-retriever-microservices/)
  -  [NVIDIA AI Foundry 為全球企業打造客製化 Llama 3.1 生成式 AI 模型](https://blogs.nvidia.com.tw/blog/nvidia-ai-foundry-custom-llama-generative-models/)
 <!--
