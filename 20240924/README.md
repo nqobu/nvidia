@@ -69,7 +69,7 @@
 
 ## 聯絡窗口
 
-吳先生 &lt;[z@narlabs.org.tw](mailto:z@narlabs.org.tw)&gt;
+吳先生 &lt;[z@narlabs.org.tw](mailto:z@narlabs.org.tw)&gt;\
 電話：(03) 5776085 分機 220
 
 <!--
