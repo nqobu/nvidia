@@ -36,28 +36,29 @@
 
     **活動連線**：透過 Microsoft Teams -- [Join the meeting now](#)
 
-    | 時間 | 活動內容 |
-    | :--: | -------- |
-    | 09:00 AM - 09:30 AM | Welcome and connecting to the Cluster |
-    | 09:30 AM - 10:00 AM | Introduction to GPU Programming |
-    | 10:00 AM - 10:30 AM | Introduction to Nsight Systems (Lecture and Read only Lab) |
-    | 10:30 AM - 11:30 AM | Accelerating Standard C++ and Fortran with GPUs (Lecture and Lab) |
-    | 11:30 AM - 12:30 PM | Directive-Based Programming with OpenACC on GPUs (Lecture and Lab) |
+    | Start Time (CST) | End (CST) | Session |
+    | :--: | :--: | -------- |
+    | 09:00am | 09:30am | Welcome and connecting to the Cluster |
+    | 09:30am | 10:00am | Introduction to GPU Programming |
+    | 10:00am | 10:30am | Introduction to Nsight Systems (Lecture and Read only Lab) |
+    | 10:30am | 11:30am | Accelerating Standard C++ and Fortran with GPUs (Lecture and Lab) |
+    | 11:30am | 12:30pm | Directive-Based Programming with OpenACC on GPUs (Lecture and Lab) |
 
  -  **實體課程**：2024 年 09 月 25 日 09:00 AM - 16:30 PM
 
     **活動地點**：國網中心新竹本部（新竹市東區研發六路 7 號）
 
-    | 時間 | 活動內容 |
-    | :--: | -------- |
-    | 09:00 AM - 09:30 AM | Welcome and connecting to the Cluster |
-    | 09:30 AM - 10:45 AM | Directive-Based Programming with OpenACC on GPUs (Lecture and Lab) (Continued) |
-    | 10:45 AM - 11:00 AM | Break |
-    | 11:00 AM - 12:00 PM | CUDA C/Fortran Programming (Lecture + Lab) |
-    | 12:00 PM - 01:00 PM | Lunch |
-    | 01:00 PM - 02:00 PM | CUDA C/Fortran Programming (Lecture + Lab) (Continuation) |
-    | 02:00 PM - 02:30 PM | Memory Coherent CPU-GPU Programming (Lecture + Lab) |
-    | 02:30 PM - 04:30 PM | Coding Challenge |
+    | Start Time (CST) | End (CST) | Session |
+    | :--: | :--: | -------- |
+    | 09:00am | 09:30am | Welcome and connecting to the Cluster |
+    | 09:30am | 10:45am | Directive-Based Programming with OpenACC on GPUs (Lecture and Lab) (Continued) |
+    | 10:45am | 11:00am | Break |
+    | 11:00am | 12:00pm | CUDA C/Fortran Programming (Lecture + Lab) |
+    | 12:00pm | 01:00pm | Lunch |
+    | 01:00pm | 02:00pm | CUDA C/Fortran Programming (Lecture + Lab) (Continuation) |
+    | 02:00pm | 02:30pm | Memory Coherent CPU-GPU Programming (Lecture + Lab) |
+    | 02:30pm | 04:30pm | Coding Challenge |
+    | 04:30pm | 04:40pm | Wrap-up |
 
 ## 預備知識
 
