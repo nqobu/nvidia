@@ -64,7 +64,7 @@
  -  Basic experience with C++/Fortran/Python.
  -  Free DLI course to learn fundamentals, <https://developer.nvidia.com/join-nvidia-developer-program>
  -  Others DLI related to accelerated computing, <https://learn.nvidia.com/en-us/training/self-paced-courses>
- -  N-WAY Bootcamp Open Source, <https://github.com/openhackathons-org/nways_accelerated_programming>
+ -  N-ways to GPU Programming Bootcamp Open Source, <https://github.com/openhackathons-org/nways_accelerated_programming>
  -  NCHC-NVIDIA Joint Lab Repository, <https://github.com/nqobu/nvidia>
 
 ## 聯絡窗口
