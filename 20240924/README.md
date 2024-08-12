@@ -18,7 +18,7 @@
  5. 活動前如未收到核可通知，即意謂您未通過報名的審核。\
     If you do not receive an approval notice before the event, it means your application has been denied.
 
- 6. 建議您攜帶自已的筆記型電腦參加 2024/08/07 的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
+ 6. 建議您攜帶自已的筆記型電腦參加 2024/09/25 的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
     You are encouraged to bring your own devices to the September 25, 2024 in-person course, during which free WiFi and lunch will be provided.
 
 ## 報名日期 (Entry Deadline)
