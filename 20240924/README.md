@@ -3,7 +3,7 @@
 
 ## 注意事項 (Matters Needing Attention)
 
- 1. ==本次活動將完全以中文進行。==\
+ 1. **本次活動將完全以中文進行。**\
     **This event will be conducted entirely in Mandarin.**
 
  2. **2024/09/24 的線上課程無需報名參加，歡迎大家參加。但 2024/09/25 的實體課程僅限臺灣地區之人士報名參加。**\
