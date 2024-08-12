@@ -28,7 +28,7 @@
 ## 報名網址
 
  -  2024/09/24 的線上課程：無需報名，歡迎大家參加
- -  2024/09/25 的實體課程：請到 <https://www.openhackathons.org/s/siteevent/a0CUP00000L44xb2AB/se000344> 報名
+ -  2024/09/25 的實體課程：<!-- 請到 <https://www.openhackathons.org/s/siteevent/a0CUP00000L44xb2AB/se000344> 報名 -->
 
 ## 課程內容
 
