@@ -8,7 +8,7 @@
  2. **2024/09/24 的線上課程無需報名參加，歡迎大家參加。但 2024/09/25 的實體課程僅限臺灣地區之人士報名參加。**\
     **The September 24, 2024 online course requires no application and is open to all. However, the September 25, 2024 in-person course is only open to participants from Taiwan.**
 
- 3. 所有活動的通知訊息，都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。
+ 3. 所有活動的通知訊息，都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。\
     All notifications for this event will be sent via email, so please provide a valid email address with your application.
 
  4. 本主辦單位保留接受報名及審核報名資格之權利，並於活動前寄發相關通知。\
