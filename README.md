@@ -12,7 +12,7 @@
  -  20230413 - NVIDIA Techniques Sharing 2023
  -  20230517 - NVIDIA Techniques Briefing: NVIDIA Federated Learning
  -  20230525 - AI for Science: NVIDIA Modulus 及 NVIDIA Omniverse 實作
- -  20230727 - N-Ways to GPU Programming Bootcamp / 多 GPU 程式設計訓練課程
+ -  20230727 - N-Way to GPU Programming Bootcamp / 多 GPU 程式設計訓練課程
  -  20230821 - NVIDIA Techniques Salon 2023: Programming the NVIDIA Superchip
  -  20231207 - NCHC Open Hackathon 2023
  -  20240410 - NCHC Quantum Computing Bootcamp 2024 - NVIDIA CUDA-Q and cuQuantum
@@ -20,7 +20,7 @@
  -  20240508 - NCHC Techniques Sharing 2024
  -  20240626 - NCHC AI for Science Bootcamp 2024 - NVIDIA Modulus 物理模擬計算
  -  20240806 - NCHC End-to-end LLM Bootcamp 2024 - NVIDIA NeMo 大型語言模型框架
- -  20240924 - NCHC N-way Bootcamp 2024 – NVIDIA GPU 加速運算
+ -  20240924 - NCHC N-Way Bootcamp 2024 – NVIDIA GPU 加速運算
 
 > [!NOTE]
 > DO NOT add issues, discussion, or files to this repo.
