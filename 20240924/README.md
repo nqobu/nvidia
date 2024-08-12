@@ -1,7 +1,7 @@
 
 # NCHC N-WAY Bootcamp 2024 – NVIDIA GPU 加速運算
 
-## 注意事項
+## 注意事項 (Matters needing attention)
 
  1. **本次活動將完全以中文進行。**\
     **This event will be conducted entirely in Mandarin Chinese.**
@@ -21,18 +21,18 @@
  6. 建議您攜帶自已的筆記型電腦參加 2024/08/07 的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
     You are encouraged to bring your own devices to the September 25, 2024 in-person course, during which free WiFi and lunch will be provided.
 
-## 報名日期
+## 報名日期 (Entry Deadline)
 
 自即日起到 2024 年 09 月 03 日 17:00 PM 截止
 
-## 報名網址
+## 報名網址 (Course Registration)
 
  -  2024/09/24 的線上課程：無需報名，歡迎大家參加
  -  2024/09/25 的實體課程：<!-- 請到 <https://www.openhackathons.org/s/siteevent/a0CUP00000L44xb2AB/se000344> 報名 -->
 
-## 課程內容
+## 課程內容 (Agenda)
 
- -  **線上課程**：2024 年 09 月 24 日 09:00 AM - 13:00 PM
+ -  **線上課程** (offline)：2024 年 09 月 24 日 09:00 AM - 13:00 PM
 
     **活動連線**：透過 Microsoft Teams -- [Join the meeting now](#)
 
@@ -44,9 +44,9 @@
     | 10:30am | 11:30am | Accelerating Standard C++ and Fortran with GPUs (Lecture and Lab) |
     | 11:30am | 12:30pm | Directive-Based Programming with OpenACC on GPUs (Lecture and Lab) |
 
- -  **實體課程**：2024 年 09 月 25 日 09:00 AM - 16:30 PM
+ -  **實體課程** (in-person)：2024 年 09 月 25 日 09:00 AM - 16:30 PM
 
-    **活動地點**：國網中心新竹本部（新竹市東區研發六路 7 號）
+    **活動地點** (address)：國網中心新竹本部（新竹市東區研發六路 7 號）
 
     | Start Time (CST) | End (CST) | Session |
     | :--: | :--: | -------- |
@@ -60,7 +60,7 @@
     | 02:30pm | 04:30pm | Coding Challenge |
     | 04:30pm | 04:40pm | Wrap-up |
 
-## 預備知識
+## 預備知識 (Preliminary)
 
  -  Basic experience with C++/Fortran/Python.
  -  Free DLI course to learn fundamentals, <https://developer.nvidia.com/join-nvidia-developer-program>
@@ -68,7 +68,7 @@
  -  N-ways to GPU Programming Bootcamp Open Source, <https://github.com/openhackathons-org/nways_accelerated_programming>
  -  NCHC-NVIDIA Joint Lab Repository, <https://github.com/nqobu/nvidia>
 
-## 聯絡窗口
+## 聯絡窗口 (Contact Window)
 
 吳先生 &lt;[z@narlabs.org.tw](mailto:z@narlabs.org.tw)&gt;\
 電話：(03) 5776085 分機 220
