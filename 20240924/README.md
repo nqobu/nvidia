@@ -7,7 +7,7 @@
     **This event will be conducted entirely in Mandarin.**
 
  2. **2024/09/24 的線上課程無需報名參加，歡迎大家參加。但 2024/09/25 的實體課程僅限臺灣地區之人士報名參加。**\
-    **The on-line course scheduled on September 24th of 2024 is open to all and require no registration. However, the September 25, 2024 on-site training course is only open to participants from Taiwan.**
+    **The Day 1 (2024/09/24) online course is open to public and require no registration. However, the Day 2 (2024/09/25) in-person course is only open to participants from Taiwan.**
 
  3. 本次活動的所有通知訊息都將透過 email 發送，因此請在報名時留下可以聯絡到的 email 信箱。\
     To receive the status of your registration and information of this event, please do provide a valid email address.
@@ -19,7 +19,7 @@
     If you do not receive the approval notice of your registration before the event, we apologize for not being able to accommodate you due to limited vacancies.
 
  6. 建議您攜帶自已的筆記型電腦參加 2024/09/25 的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
-    You are encouraged to bring your own devices for the on-site training course of September 25th of 2024. A free WiFi and lunch will be provided for the training course.
+    You are encouraged to bring your own devices for the Day 2 (2024/09/25) in-person course. A free WiFi and lunch will be provided for the training course.
 
 ## 報名日期 (Entry Deadline)
 
