@@ -27,12 +27,12 @@
 
 ## 報名網址 (Course Registration)
 
- -  2024/09/24 的線上課程：無需報名，歡迎大家參加
- -  2024/09/25 的實體課程：請到 <https://www.openhackathons.org/s/siteevent/a0CUP00000L44xb2AB/se000344> 報名
+ -  第一（09/24）日的線上課程：無需報名，歡迎大家參加
+ -  第二（09/25）日的實體課程：請到 <https://www.openhackathons.org/s/siteevent/a0CUP00000L44xb2AB/se000344> 報名
 
 ## 課程內容 (Agenda)
 
- -  **線上課程** (offline)：2024 年 09 月 24 日 09:00 AM - 13:00 PM
+ -  **線上課程** (online)：2024 年 09 月 24 日 09:00 AM - 13:00 PM
 
     **活動連線**：透過 Microsoft Teams -- [Join the meeting now](#)
 
