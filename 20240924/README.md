@@ -12,7 +12,7 @@
  3. 本次活動的所有通知訊息都將透過 email 發送，因此請在報名時留下可以聯絡到的 email 信箱。\
     To receive the status of your registration and information of this event, please do provide a valid email address.
 
- 4. 本主辦單位保留接受報名及審核報名資格之權利，並於活動前寄發相關通知。\
+ 4. 主辦單位保留接受報名及審核報名資格之權利，並於活動前寄發相關通知。\
     The organizer reserves the right for the acceptance of your registration. The approval notice of your registration along with other information of the event will sent to you by the email registered.
 
  5. 活動前如未收到核可通知，即意謂您未通過報名的審核。\
