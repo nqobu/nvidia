@@ -38,7 +38,7 @@
     Meeting ID: **`231 524 267 62`**\
     Passcode: **`ufJSJR`**
 
-    | Start Time (CST) | End (CST) | Session |
+    | Start Time<br>(CST) | End (CST) | Session |
     | :--: | :--: | -------- |
     | 09:00am | 09:30am | Welcome and connecting to the Cluster |
     | 09:30am | 10:00am | Introduction to GPU Programming |
@@ -50,7 +50,7 @@
 
     **活動地點** (Venue)：國網中心新竹本部（新竹市東區研發六路 7 號）
 
-    | Start Time (CST) | End (CST) | Session |
+    | Start Time<br>(CST) | End (CST) | Session |
     | :--: | :--: | -------- |
     | 09:00am | 09:30am | Welcome and connecting to the Cluster |
     | 09:30am | 10:45am | Directive-Based Programming with OpenACC on GPUs (Lecture and Lab) (Continued) |
