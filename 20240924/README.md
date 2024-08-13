@@ -35,8 +35,8 @@
  -  **線上課程** (online)：2024 年 09 月 24 日 09:00 AM - 13:00 PM
 
     **活動連線**：透過 Microsoft Teams -- [Join the meeting now](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWFhMjgwYjEtNTQ4MS00ZDhiLWI0YzEtYzNiOTZhODYzMDA4%40thread.v2/0?context=%7b%22Tid%22%3a%2243083d15-7273-40c1-b7db-39efd9ccc17a%22%2c%22Oid%22%3a%22ce218103-5e8c-4c2f-9459-4cd40d72e332%22%7d)\
-    Meeting ID: **231 524 267 62**\
-    Passcode: **ufJSJR**
+    Meeting ID: **`231 524 267 62`**\
+    Passcode: **`ufJSJR`**
 
     | Start Time (CST) | End (CST) | Session |
     | :--: | :--: | -------- |
