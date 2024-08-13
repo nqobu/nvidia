@@ -25,16 +25,16 @@
 
 自即日起到 2024 年 09 月 03 日 17:00 PM 截止
 
-## 報名網址 (Course Registration)
+## 報名網址 (Registration)
 
  -  第一（09/24）日的線上課程：無需報名，歡迎大家參加
  -  第二（09/25）日的實體課程：請到 <https://www.openhackathons.org/s/siteevent/a0CUP00000L44xb2AB/se000344> 報名
 
 ## 課程內容 (Agenda)
 
- -  **線上課程** (online)：2024 年 09 月 24 日 09:00 AM - 13:00 PM
+ -  **線上課程** (On-line)：2024 年 09 月 24 日 09:00 AM - 13:00 PM
 
-    **活動連線**：透過 Microsoft Teams -- [Join the meeting now](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWFhMjgwYjEtNTQ4MS00ZDhiLWI0YzEtYzNiOTZhODYzMDA4%40thread.v2/0?context=%7b%22Tid%22%3a%2243083d15-7273-40c1-b7db-39efd9ccc17a%22%2c%22Oid%22%3a%22ce218103-5e8c-4c2f-9459-4cd40d72e332%22%7d)\
+    **活動連線** (Meeting URL)：透過 Microsoft Teams -- [Join the meeting now](https://teams.microsoft.com/l/meetup-join/19%3ameeting_YWFhMjgwYjEtNTQ4MS00ZDhiLWI0YzEtYzNiOTZhODYzMDA4%40thread.v2/0?context=%7b%22Tid%22%3a%2243083d15-7273-40c1-b7db-39efd9ccc17a%22%2c%22Oid%22%3a%22ce218103-5e8c-4c2f-9459-4cd40d72e332%22%7d)\
     Meeting ID: **`231 524 267 62`**\
     Passcode: **`ufJSJR`**
 
@@ -46,9 +46,9 @@
     | 10:30am | 11:30am | Accelerating Standard C++ and Fortran with GPUs (Lecture and Lab) |
     | 11:30am | 12:30pm | Directive-Based Programming with OpenACC on GPUs (Lecture and Lab) |
 
- -  **實體課程** (in-person)：2024 年 09 月 25 日 09:00 AM - 16:30 PM
+ -  **實體課程** (In-person)：2024 年 09 月 25 日 09:00 AM - 16:30 PM
 
-    **活動地點** (address)：國網中心新竹本部（新竹市東區研發六路 7 號）
+    **活動地點** (Venue)：國網中心新竹本部（新竹市東區研發六路 7 號）
 
     | Start Time (CST) | End (CST) | Session |
     | :--: | :--: | -------- |
@@ -62,7 +62,7 @@
     | 02:30pm | 04:30pm | Coding Challenge |
     | 04:30pm | 04:40pm | Wrap-up |
 
-## 預備知識 (Preliminary)
+## 預備知識 (Prerequisites)
 
  -  Basic experience with C++/Fortran/Python.
  -  Free DLI course to learn fundamentals, <https://developer.nvidia.com/join-nvidia-developer-program>
@@ -70,7 +70,7 @@
  -  N-ways to GPU Programming Bootcamp Open Source, <https://github.com/openhackathons-org/nways_accelerated_programming>
  -  NCHC-NVIDIA Joint Lab Repository, <https://github.com/nqobu/nvidia>
 
-## 聯絡窗口 (Contact Window)
+## 聯絡窗口 (Contact Us)
 
 吳先生 &lt;[z@narlabs.org.tw](mailto:z@narlabs.org.tw)&gt;\
 電話：(03) 5776085 分機 220
