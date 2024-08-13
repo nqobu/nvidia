@@ -6,8 +6,8 @@
  1. **本次活動將完全以中文進行。**\
     **This event will be conducted entirely in Mandarin.**
 
- 2. **2024/09/24 的線上課程無需報名參加，歡迎大家參加。但 2024/09/25 的實體課程僅限臺灣地區之人士報名參加。**\
-    **The Day 1 (2024/09/24) online course is open to public and require no registration. However, the Day 2 (2024/09/25) in-person course is only open to participants from Taiwan.**
+ 2. **第一（09/24）日的線上課程無需報名參加，歡迎大家參加。但第二（09/25）日的實體課程僅限臺灣地區之人士報名參加。**\
+    **The Day 1 (September 24) online course is open to public and require no registration. However, the Day 2 (September 25) in-person course is only open to participants from Taiwan.**
 
  3. 本次活動的所有通知訊息都將透過 email 發送，因此請在報名時留下可以聯絡到的 email 信箱。\
     To receive the status of your registration and information of this event, please do provide a valid email address.
@@ -18,8 +18,8 @@
  5. 活動前如未收到核可通知，即意謂您未通過報名的審核。\
     If you do not receive the approval notice of your registration before the event, we apologize for not being able to accommodate you due to limited vacancies.
 
- 6. 建議您攜帶自已的筆記型電腦參加 2024/09/25 的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
-    You are encouraged to bring your own devices for the Day 2 (2024/09/25) in-person course. A free WiFi and lunch will be provided for the training course.
+ 6. 建議您攜帶自已的筆記型電腦參加第二（09/25）日的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
+    You are encouraged to bring your own devices for the Day 2 (September 25) in-person course. A free WiFi and lunch will be provided for the training course.
 
 ## 報名日期 (Entry Deadline)
 
@@ -28,7 +28,7 @@
 ## 報名網址 (Course Registration)
 
  -  2024/09/24 的線上課程：無需報名，歡迎大家參加
- -  2024/09/25 的實體課程：<!-- 請到 <https://www.openhackathons.org/s/siteevent/a0CUP00000L44xb2AB/se000344> 報名 -->
+ -  2024/09/25 的實體課程：請到 <https://www.openhackathons.org/s/siteevent/a0CUP00000L44xb2AB/se000344> 報名
 
 ## 課程內容 (Agenda)
 
