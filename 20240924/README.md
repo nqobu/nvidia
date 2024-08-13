@@ -19,7 +19,7 @@
     If you do not receive the approval notice of your registration before the event, we apologize for not being able to accommodate you due to limited vacancies.
 
  6. 建議您攜帶自已的筆記型電腦參加第二（09/25）日的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
-    You are encouraged to bring your own devices for the Day 2 (September 25) in-person course. A free WiFi and lunch will be provided for the training course.
+    You are encouraged to bring your own devices for the Day 2 (September 25) in-person course. A free WiFi and lunch will be provided for the bootcamp.
 
 ## 報名日期 (Entry Deadline)
 
