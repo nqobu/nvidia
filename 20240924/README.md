@@ -6,19 +6,19 @@
  1. 本次活動將完全以**中文**進行。\
     This event will be conducted entirely in **Mandarin**.
 
- 2. 第一（09/24）日的線上課程歡迎大家參加，且無需報名。但第二（09/25）日的實體課程**僅限臺灣地區之人士報名參加，並且需要報名**。\
-    The Day 1 (September 24) online course is open to the public and requires no registration. However, the Day 2 (September 25) in-person course is **only open to participants from Taiwan and registration is required**.
+ 2. 第一（09/24）日的線上課程歡迎大家參加。但第二（09/25）日的實體課程**僅限臺灣地區之人士報名參加，並且需要報名**。\
+    Day 1 (September 24) will be online and is open to everyone. However, Day 2 (September 25) will happen in-person **in Taiwan at NCHC and registration is required**.
 
- 3. 本次活動的所有通知訊息都將透過 email 發送，因此請在報名時留下可以聯絡到的 email 信箱。\
+ 4. 本次活動的所有通知訊息都將透過 email 發送，因此請在報名時留下可以聯絡到的 email 信箱。\
     To receive the status of your registration and information of this event, please do provide a valid email address.
 
- 4. 主辦單位保留接受報名及審核報名資格之權利，並於活動前寄發相關通知。\
+ 5. 主辦單位保留接受報名及審核報名資格之權利，並於活動前寄發相關通知。\
     The organizer reserves the right for the acceptance of your registration. The approval notice of your registration along with other information of the event will sent to you by the email registered.
 
- 5. 活動前如未收到核可通知，即意謂您未通過報名的審核。\
+ 6. 活動前如未收到核可通知，即意謂您未通過報名的審核。\
     If you do not receive the approval notice of your registration before the event, we apologize for not being able to accommodate you due to limited vacancies.
 
- 6. 建議您攜帶自已的筆記型電腦參加第二（09/25）日的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
+ 7. 建議您攜帶自已的筆記型電腦參加第二（09/25）日的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
     You are encouraged to bring your own devices for the Day 2 (September 25) in-person course. A free WiFi and lunch will be provided for the bootcamp.
 
 ## 報名日期 (Entry Deadline)
