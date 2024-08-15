@@ -6,8 +6,8 @@
  1. 本次活動將完全以**中文**進行。\
     This event will be conducted entirely in **Mandarin**.
 
- 2. 第一（09/24）日的線上課程歡迎大家參加。但第二（09/25）日的實體課程**僅限臺灣地區之人士報名參加，並且需要報名**。\
-    Day 1 (September 24) will be online and is open to everyone. However, Day 2 (September 25) will happen in-person **in Taiwan at NCHC (Hsinchu Headquarters) and registration is required**.
+ 2. 第一（09/24）日的線上課程歡迎大家參加。但第二（09/25）日的實體課程**僅限臺灣地區之人士報名參加**。\
+    Day 1 (September 24) will be online and is open to everyone. However, Day 2 (September 25) will happen in-person **in Taiwan at NCHC (Hsinchu Headquarters)**.
 
  4. 本次活動的所有通知訊息都將透過 email 發送，因此請在報名時留下可以聯絡到的 email 信箱。\
     To receive the status of your registration and information of this event, please do provide a valid email address.
