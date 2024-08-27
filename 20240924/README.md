@@ -30,6 +30,14 @@
  -  第一（09/24）日的線上課程：無需報名，歡迎大家參加
  -  第二（09/25）日的實體課程：請到 <https://www.openhackathons.org/s/siteevent/a0CUP00000L44xb2AB/se000344> 報名
 
+## 師資陣容
+
+Leo Chen
+Anderson Meng
+Frank Lin
+Johnson Sun
+Jay Chen
+
 ## 課程內容 (Agenda)
 
  -  **線上課程** (On-line)：2024 年 09 月 24 日 09:00 AM - 13:00 PM
