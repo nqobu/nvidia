@@ -32,11 +32,11 @@
 
 ## 師資陣容
 
-Leo Chen
-Anderson Meng
-Frank Lin
-Johnson Sun
-Jay Chen
+ -  Leo Chen
+ -  Anderson Meng
+ -  Frank Lin
+ -  Johnson Sun
+ -  Jay Chen
 
 ## 課程內容 (Agenda)
 
