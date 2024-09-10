@@ -70,7 +70,7 @@
     | 02:30pm | 04:30pm | Coding Challenge |
     | 04:30pm | 04:40pm | Wrap-up |
 
-## 預備知識 (Prerequisites)
+## 預備知識 (Preliminary)
 
  -  Basic experience with C++/Fortran/Python.
  -  Free DLI course to learn fundamentals, <https://developer.nvidia.com/join-nvidia-developer-program>
