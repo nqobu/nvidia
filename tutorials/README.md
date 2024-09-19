@@ -107,6 +107,7 @@
 
 # My Collection
 
+ -  [100 Days of ML Coding](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
  -  [RAG using Llama 3 by Meta AI](https://lightning.ai/lightning-ai/studios/rag-using-llama-3-by-meta-ai?tab=overview)\
     In this studio we are building a completely self-hosted "Chat with your Docs" RAG application using Llama-3, served locally through Ollama.
  -  [RAG Techniques](https://github.com/NirDiamant/RAG_Techniques)\
@@ -114,10 +115,9 @@
  -  [GenAI Agents](https://github.com/NirDiamant/GenAI_Agents)\
     提供了從基礎到高級的各種生成式 AI 代理技術的教學和實作
  -  [Transformers Tutorials](https://github.com/NielsRogge/Transformers-Tutorials)\
-    這份線上教學手冊是 Niels Rogge 所收納的 40 餘種各式各樣的任務模型/演算法的程式範例 (Google Colab 筆記、論文連結)
+    這份線上教學手冊是 Niels Rogge 所收集的 40 多種各式各樣的任務模型/演算法的程式範例
  -  [Umar Jamil 的機器學習教學影片](https://github.com/nqobu/nvidia/blob/main/tutorials/Umar%20Jamil.md)
  -  [Ilya Sutskever 的機器學習推薦清單](https://github.com/nqobu/nvidia/blob/main/tutorials/Ilya%20Sutskever.md)
- -  [100 Days of ML Coding](https://github.com/Avik-Jain/100-Days-Of-ML-Code)
 
 <!--
   vim:ic noet norl wrap sw=8 ts=8 sts=8 ft=markdown:
