@@ -1,7 +1,7 @@
 
 # NCHC N-WAY Bootcamp 2024 – NVIDIA GPU 加速運算
 
-## 注意事項 (Matters Needing Attention)
+## 注意事項 (Notice)
 
  1. 本次活動將完全以**中文**進行。\
     This event will be conducted entirely in **Mandarin**.
