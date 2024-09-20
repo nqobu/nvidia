@@ -72,7 +72,7 @@
 
 ## 軟體安裝 (Installation)
 
- -  [N-ways to GPU programming Deployment Guide](https://github.com/openhackathons-org/nways_accelerated_programming/blob/main/Deployment_Guide.md)
+ -  ["N-ways to GPU Programming" Deployment Guide](https://github.com/openhackathons-org/nways_accelerated_programming/blob/main/Deployment_Guide.md)
  -  [Dockerfile for this event](https://github.com/openhackathons-org/nways_accelerated_programming/blob/main/nways_Dockerfile)
 
 ## 預備知識 (Preliminary)
