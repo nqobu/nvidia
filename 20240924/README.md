@@ -70,6 +70,11 @@
     | 02:30pm | 04:30pm | Coding Challenge |
     | 04:30pm | 04:40pm | Wrap-up |
 
+## 軟體安裝 (Installation)
+
+ -  [N-ways to GPU programming Deployment Guide](https://github.com/openhackathons-org/nways_accelerated_programming/blob/main/Deployment_Guide.md)
+ -  [Dockerfile for this event](https://github.com/openhackathons-org/nways_accelerated_programming/blob/main/nways_Dockerfile)
+
 ## 預備知識 (Preliminary)
 
  -  Basic experience with C++/Fortran/Python.
