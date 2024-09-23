@@ -46,7 +46,7 @@
     Meeting ID: **`231 524 267 62`**\
     Passcode: **`ufJSJR`**
 
-    ![](20240925.png | width=300)
+    ![](20240925.png =300x300)
 
     | Start Time<br>(CST) | End (CST) | Session |
     | :--: | :--: | -------- |
