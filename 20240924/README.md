@@ -76,6 +76,7 @@
 
  -  ["N-ways to GPU Programming" Deployment Guide](https://github.com/openhackathons-org/nways_accelerated_programming/blob/main/Deployment_Guide.md)
  -  [Dockerfile for this event](https://github.com/openhackathons-org/nways_accelerated_programming/blob/main/nways_Dockerfile)
+ -  [Running on TWCC](https://github.com/j3soon/nways_accelerated_programming/blob/main/README_TWCC.md)
 
 ## 預備知識 (Preliminary)
 
