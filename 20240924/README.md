@@ -4,6 +4,7 @@
 ## 課程內容 (Agenda)
 
  -  **線上課程** (On-line)：2024 年 09 月 24 日 09:00 AM - 13:00 PM
+ -  **課程影片**：<https://youtu.be/wV-jB-N1V6k>
 
     | Start Time<br>(CST) | End (CST) | Session |
     | :--: | :--: | -------- |
@@ -14,6 +15,7 @@
     | 11:30am | 12:30pm | Directive-Based Programming with OpenACC on GPUs (Lecture and Lab) |
 
  -  **實體課程** (In-person)：2024 年 09 月 25 日 09:00 AM - 16:30 PM
+ -  **課程影片**：<https://youtu.be/g8Hx9RiR1LE>
 
     | Start Time<br>(CST) | End (CST) | Session |
     | :--: | :--: | -------- |
