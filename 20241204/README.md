@@ -13,7 +13,7 @@ Open Hackathons 是為期 3 週密集的實作活動，和以往常見的 Hackat
 
 ## 活動日期
 
-2024 年 11 月 13 日 -- 2024 年 12 月 04 日
+2024 年 11 月 13 日 &mdash; 2024 年 12 月 04 日
 
 ## 參加資格與條件
 
@@ -51,27 +51,27 @@ Open Hackathons 是為期 3 週密集的實作活動，和以往常見的 Hackat
 
 **2024/11/13: 啟動會議 (線上)**
 
- -  14:00 -- 14:20: Welcome and event overview
- -  14:20 -- 15:00: Team self-introduction and getting to know the mentor.
- -  15:00 -- 16:00: Introduction to computing resources
- -  16:00 -- 17:00: Introduction to Nsight Analysis Tools
- -  17:00 -- 18:00: Online communication
+ -  14:00 &mdash; 14:20: Welcome and event overview
+ -  14:20 &mdash; 15:00: Team self-introduction and getting to know the mentor.
+ -  15:00 &mdash; 16:00: Introduction to computing resources
+ -  16:00 &mdash; 17:00: Introduction to Nsight Analysis Tools
+ -  17:00 &mdash; 18:00: Online communication
 
 **2024/11/20: Scrum 會議 #1 (線上)**
 
- -  14:00 -- 15:00: (5 mins presentation per team)
+ -  14:00 &mdash; 15:00: (5 mins presentation per team)
 
 **2024/11/27: Scrum 會議 #2 (線上)**
 
- -  14:00 -- 15:00: (5 mins presentation per team)
+ -  14:00 &mdash; 15:00: (5 mins presentation per team)
 
 **2024/12/04: 成果展示 (必須到 NCHC 進行現場展示)**
 
- -  10:00 -- 10:30: Welcome and event description
- -  10:30 -- 12:00: Result presentation (12 presentation + 3 QA minutes per team)
- -  12:00 -- 13:30: Lunch time
- -  13:30 -- 15:00: Result presentation (12 presentation + 3 QA minutes per team)
- -  15:00 -- 16:00: Ending
+ -  10:00 &mdash; 10:30: Welcome and event description
+ -  10:30 &mdash; 12:00: Result presentation (12 presentation + 3 QA minutes per team)
+ -  12:00 &mdash; 13:30: Lunch time
+ -  13:30 &mdash; 15:00: Result presentation (12 presentation + 3 QA minutes per team)
+ -  15:00 &mdash; 16:00: Ending
 
 ## 參考 Open Hackathon 2023 活動故事
 
@@ -84,3 +84,7 @@ Open Hackathons 是為期 3 週密集的實作活動，和以往常見的 Hackat
  -  醫療心電監控模型 透過 TensorRT+Triton 加速 40 倍 (AI)
 
 活動聯絡人：吳先生 <tel:03-5776085,220>
+
+<!--
+  vim: ft=markdown ic noet norl wrap sw=8 ts=8 sts=4:
+  -->
