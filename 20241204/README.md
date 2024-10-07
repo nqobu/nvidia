@@ -3,6 +3,14 @@
 
 Open Hackathons 是為期 3 週密集的實作活動，和以往常見的 Hackathon 不同，Open Hackathons 的競賽題目自訂，唯一的競賽對手就是前一天的自己！活動目的是藉由團隊成員與經驗豐富業師的互動，來優化運算並進而加速團隊的研究與創新。參賽的團隊，除了在活動後可獲得參賽證明之外，同時還可以將加速後的成果發布於活動配合之平臺。
 
+Together with NVIDIA and OpenACC organization, the NCHC (National Center for High-performance Computing) will host am in-person Open Hackathon starting November 13 and concluding December 4. The hackathon provides exciting opportunities for scientists to accelerate their AI or HPC research under the guidance of expert mentors from national laboratories, universities and industry leaders in a collaborative environment. Representing distinguished scholars and preeminent institutions around the world, the teams of mentors and attendees work together to achieve performance goals and speedups using a variety of programming models, libraries and tools.
+
+The goal of the hackathon is for computational scientists to port, accelerate and optimize their scientific applications to modern computer architectures, including CPUs, GPUs and other computing technologies. The goal is to have participating teams either have their applications accelerated and/or optimized on the latest supercomputing hardware or a have a clear roadmap of the next steps needed to leverage these resources.
+
+This hackathon is open to everyone looking to take their projects to the next level; however, priority acceptance will be given to TWS/NCHC affiliated scientists and their collaborators.
+
+Please note, the event will be held in Taiwanese.
+
 ## 報名日期
 
 自即日起至 2024 年 10 月 15 日 截止
