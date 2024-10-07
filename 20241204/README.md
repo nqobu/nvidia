@@ -9,7 +9,7 @@ The goal of the hackathon is for computational scientists to port, accelerate an
 
 This hackathon is open to everyone looking to take their projects to the next level; however, priority acceptance will be given to TWS/NCHC affiliated scientists and their collaborators.
 
-Please note, the event will be held in Taiwanese.
+**Please note, the event will be held in Taiwanese.**
 
 ## 報名日期
 
