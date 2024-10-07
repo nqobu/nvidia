@@ -91,7 +91,9 @@ This hackathon is open to everyone looking to take their projects to the next le
  -  超大語言模型 透過 TensorRT-LLM 加速 3 倍 (AI)
  -  醫療心電監控模型 透過 TensorRT+Triton 加速 40 倍 (AI)
 
-活動聯絡人：吳先生 <tel:03-5776085,220>
+**聯絡窗口**：吳先生 &lt;[z@narlabs.org.tw](mailto:z@narlabs.org.tw)&gt;
+
+**聯絡電話**：[(03)5776085 分機 220](tel:+886-3-5776085,220)
 
 <!--
   vim: ft=markdown ic noet norl wrap sw=8 ts=8 sts=4:
