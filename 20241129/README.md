@@ -1,5 +1,5 @@
 
-# NCHC X NTU - NVIDIA BioNeMo Protein Design Workshop 2024
+# NCHC &times; NTU - NVIDIA BioNeMo Protein Design Workshop 2024
 
 Join us for an exciting hands-on BioNeMo Protein Design workshop where you’ll explore cutting-edge tools in computational biology. In this session, you’ll learn to predict the structure of proteins using Nobel Prize-winning technologies like AlphaFold2, design novel proteins that bind to specific targets with tools like RFDiffusion, and optimize these sequences for improved binding. We'll also cover evaluation techniques, such as protein docking and further predictions. Whether you're new to the field or eager to deepen your skills, this workshop will provide practical insights into the future of protein design.
 
@@ -69,7 +69,7 @@ Tseng Jiang Hall South Building Room 506. 1, Sec. 4, Roosevelt Rd., Da'an Dist.,
     **This event will be conducted entirely in Mandarin Chinese.**
 
  2. **實體課程僅限臺灣地區之人士報名參加。**\
-    **The offline course on 2024/08/07 is open to those living in Taiwan only.**
+    **The in-person course on 2024/11/29 is open to those living in Taiwan only.**
 
  3. 所有活動的通知訊息，都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。\
     All notifications for this event will be sent via email, so please provide a valid email address when applying.
@@ -81,7 +81,7 @@ Tseng Jiang Hall South Building Room 506. 1, Sec. 4, Roosevelt Rd., Da'an Dist.,
     If you do not receive an approval notice before the event, it means your application has been denied.
 
  6. 建議您攜帶自已的筆記型電腦參加實體課程，期間將提供免費的 WiFi 連線。\
-    You are encouraged to bring your own devices to the offline course, during which free WiFi connection will be provided.
+    You are encouraged to bring your own devices to the in-person course, during which free WiFi connection will be provided.
 
 ---
 
