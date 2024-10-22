@@ -7,10 +7,10 @@ Join us for an exciting hands-on BioNeMo Protein Design workshop where you’ll 
 
 ## 師資陣容 (Instructor and TA)
 
-- Ying-Ja Chen (NVIDIA, Instructor)
-- Warren Tseng (NVIDIA)
-- Ken Liao (NVIDIA)
-- Jay Chen (NVIDIA)
+-  Ying-Ja Chen (NVIDIA, Instructor)
+-  Warren Tseng (NVIDIA)
+-  Ken Liao (NVIDIA)
+-  Jay Chen (NVIDIA)
 
 ## 活動日期 (Date)
 
@@ -36,7 +36,7 @@ Tseng Jiang Hall South Building Room 506. 1, Sec. 4, Roosevelt Rd., Da'an Dist.,
 ## 合作伙伴 (Partners)
 
  -  [NCHC 國家高速網路與計算中心](https://www.nchc.org.tw/)
- -  [NTU ERCBA 台灣大學 智慧農業教學與研究發展中心](https://www.ercba.ntu.edu.tw/Default.html)
+ -  [NTU ERCBA / 臺灣大學智慧農業教學與研究發展中心](https://www.ercba.ntu.edu.tw/Default.html)
  -  [NVIDIA](https://www.nvidia.com/)
  -  [OpenACC](https://www.openacc.org/)
  
@@ -50,12 +50,11 @@ Tseng Jiang Hall South Building Room 506. 1, Sec. 4, Roosevelt Rd., Da'an Dist.,
 
 **Recordings**: To be updated
 
- - 09:30 AM ~ 10:00 AM: NCHC Introduction and Environment Setup
- - 10:00 AM ~ 10:20 AM: Introduction to BioNeMo, NIMs and Protein Design
- - 10:20 AM ~ 10:30 AM: Break
- - 10:30 AM ~ 11:40 AM: Demo & Hands-on Protein Design Workflow
- - 11:40 AM ~ 12:00 PM: Q&A + Open Discussion
-
+ -  09:30 AM ~ 10:00 AM: NCHC Introduction and Environment Setup
+ -  10:00 AM ~ 10:20 AM: Introduction to BioNeMo, NIMs and Protein Design
+ -  10:20 AM ~ 10:30 AM: Break
+ -  10:30 AM ~ 11:40 AM: Demo & Hands-on Protein Design Workflow
+ -  11:40 AM ~ 12:00 PM: Q&A + Open Discussion
 
 ## 相關資訊 (Useful Information)
 
