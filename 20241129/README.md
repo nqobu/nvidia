@@ -87,6 +87,6 @@ Tseng Jiang Hall South Building Room 506. 1, Sec. 4, Roosevelt Rd., Da'an Dist.,
 
 **聯絡窗口**：葉博士 &lt;[z@narlabs.org.tw](mailto:terryyeh@narlabs.org.tw)&gt;
 
-**聯絡電話**：[(03)5776085 分機 283](tel:+886-3-5776085,293)
+**聯絡電話**：[(03)5776085 分機 293](tel:+886-3-5776085,293)
 
 ---
