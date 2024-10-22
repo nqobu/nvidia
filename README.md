@@ -28,5 +28,5 @@
 > DO NOT add issues, discussion, or files to this repo.
 
 <!--
-  vim:ic noet norl wrap sw=8 ts=8 sts=8 ft=markdown:
+  vim: ft=markdown ic noet norl wrap sw=8 ts=8 sts=8:
   -->
