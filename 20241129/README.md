@@ -22,7 +22,7 @@ Join us for an exciting hands-on BioNeMo Protein Design workshop where you’ll 
 
 ## 報名網址 (Registration)
 
-[To Be Updated]()
+[https://www.openhackathons.org/s/siteevent/a0CUP00001AF1CS2A1/se000388](https://www.openhackathons.org/s/siteevent/a0CUP00001AF1CS2A1/se000388)
 
 ## 活動地點 (Address)
 
