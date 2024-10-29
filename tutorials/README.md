@@ -140,9 +140,7 @@
  -  [NeMo: a toolkit for building AI applications using Neural Modules](https://arxiv.org/abs/1909.09577)
  -  [ChipNeMo: Domain-Adapted LLMs for Chip Design](https://arxiv.org/abs/2311.00176)
      -  See also: [SemiKong](https://www.semikong.ai/) and [SemiKong's github](https://github.com/aitomatic/semikong)
-
 <!--
-
 # Performance
 
 **ChipNeMo**
@@ -209,6 +207,9 @@ ChipNeMo stands out for its specialized performance in chip design tasks, thanks
  -  **ChipNeMo** is specialized for optimizing neural networks in the context of chip design, focusing on high performance for specific chip architectures and requiring a good grasp of both neural network and hardware concepts.
  -  **SemiKong** provides a broader platform for semiconductor design and optimization, integrating AI for performance improvements and being potentially more accessible to a wider range of users in the semiconductor field.
   -->
+ -  [LLM Engineer's Handbook: Master the art of engineering Large Language Models from concept to production](https://www.amazon.com/dp/1836200072)
+ -  [Build a Large Language Model (From Scratch)](https://www.manning.com/books/build-a-large-language-model-from-scratch)
+ -  [Understanding Large Language Models: Towards Rigorous and Targeted Interpretability Using Probing Classifiers and Self-Rationalisation](https://liu.diva-portal.org/smash/record.jsf?dswid=-2318&pid=diva2%3A1848043). \[[PDF](https://liu.diva-portal.org/smash/get/diva2:1848043/FULLTEXT01.pdf)\]
 
 <!--
   vim:ic noet norl wrap sw=8 ts=8 sts=8 ft=markdown:
