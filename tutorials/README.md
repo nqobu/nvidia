@@ -135,6 +135,10 @@
      -  [Sanitized open-source datasets for natural language and code understanding: how we evaluated our 70B model](https://imbue.com/research/70b-evals/)
      -  [From bare metal to a 70B model: infrastructure set-up and scripts](https://imbue.com/research/70b-infrastructure/)
      -  [Open-sourcing CARBS: how we used our hyperparameter optimizer to scale up to a 70B-parameter language model](https://imbue.com/research/70b-carbs/)
+ -  [Andrej Karpathy](https://www.youtube.com/@AndrejKarpathy)
+     -  [llm.c](https://github.com/karpathy/llm.c) - LLM training in simple, raw C/CUDA
+     -  [llama2.c](https://github.com/karpathy/llama2.c) - Inference Llama 2 in one file of pure C
+     -  [nanoGPT](https://github.com/karpathy/nanoGPT) - The simplest, fastest repository for training/finetuning medium-sized GPTs
 
 Misc.
 
