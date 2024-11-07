@@ -42,7 +42,7 @@ OTP: XXXXXX				# OPT
 成功後出現
 
 ```
-sftp&gt;
+sftp>
 ```
 
 ## 生醫計算環境節點與費率
