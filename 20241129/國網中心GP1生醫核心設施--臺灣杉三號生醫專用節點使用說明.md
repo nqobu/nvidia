@@ -23,7 +23,7 @@
 請用下面指令登入`sftp`
 
 ```
-sftp youruserid@t3-c4.nchc.org.tw
+sftp YourUserID@t3-c4.nchc.org.tw
 ```
 
 出現下面訊息後，輸入登入方法、主機密碼、OTP
