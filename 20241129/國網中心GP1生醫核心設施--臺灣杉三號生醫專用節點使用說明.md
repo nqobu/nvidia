@@ -304,14 +304,16 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 ### 1. 列出送出的工作
 
 指令：`squeue -u [username]`
-範例：
+
+**範例：**
 
 ![](https://i.imgur.com/6gxdEMo.png)
 
 ### 2. 個別工作詳細資訊
 
 指令：`scontrol show job [job ID]`
-範例：
+
+**範例：**
 
 ![](https://i.imgur.com/5svT6ib.png)
 
