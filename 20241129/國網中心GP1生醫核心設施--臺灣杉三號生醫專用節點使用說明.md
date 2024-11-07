@@ -1,5 +1,5 @@
 
-# [國網中心GP1生醫核心設施--臺灣杉三號生醫專用節點使用說明](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF)
+# [國網中心GP1生醫核心設施 &mdash; 臺灣杉三號生醫專用節點使用說明](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF)
 
 ## 申請加入GP1核心設施服務計畫
 
@@ -12,7 +12,7 @@
  -  請勿使用臺灣杉1號進行計算，如此會衍生出額外的費用，請使用者配合。
  -  亦請勿使用登入節點主機的CPU與GPU進行計算，以免影響登入節點運作與排程系統效能，敬請配合。
  -  帳號密碼：iService內**會員中心-&gt;會員資訊-&gt;主機帳號資訊**，可以找到您的帳號或修改密碼
- -  One Time Password(OTP)請參閱：<https://man.twcc.ai/@TWCC-III-manual/SJwbCxzqO#%E5%8F%96%E5%BE%97-OTP-%E8%AA%8D%E8%AD%89%E7%A2%BC>
+ -  One Time Password（OTP）請參閱：<https://man.twcc.ai/@TWCC-III-manual/SJwbCxzqO#%E5%8F%96%E5%BE%97-OTP-%E8%AA%8D%E8%AD%89%E7%A2%BC>
 
 ## 資料上傳
 
