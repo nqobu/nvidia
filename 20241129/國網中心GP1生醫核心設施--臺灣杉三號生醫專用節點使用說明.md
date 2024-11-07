@@ -622,7 +622,7 @@ $ get_su_balance
     /opt/ohpc/Taiwania3/pkg/biology/SRAToolkit/sratoolkit_v2.11.1/bin/vdb-config --interactive
     ```
 
- 2. 進入界面後，按`s`儲存，按`x`離開。
+ 2. 進入界面後，按<kbd>s</kbd>儲存，按<kbd>x</kbd>離開。
 
     ![](https://cos.twcc.ai/SYS-MANUAL/uploads/upload_fa8f794e5fa8e6cf4a5129a1cb85ad4f.png)
 
@@ -665,7 +665,7 @@ $ get_su_balance
 **範例：**
 
 ```
-  /work/opt/ohpc/Taiwania3/pkg/biology/IGV/IGV_v2.10.3/igv.sh
+/work/opt/ohpc/Taiwania3/pkg/biology/IGV/IGV_v2.10.3/igv.sh
 ```
 
 ![](https://cos.twcc.ai/SYS-MANUAL/uploads/upload_e3f2ed2062e81c34a65f5ff0984d3a50.png)
