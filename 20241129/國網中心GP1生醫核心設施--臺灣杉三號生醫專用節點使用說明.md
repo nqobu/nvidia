@@ -704,7 +704,7 @@ $ get_su_balance
 
 #### 客戶端
 
- 5. 客戶端建立SSH tunnel，`{...}`中填入對應的資訊，就可以使用jupyter notebook做訓練了。
+ 1. 客戶端建立SSH tunnel，`{...}`中填入對應的資訊，就可以使用jupyter notebook做訓練了。
 
     **指令：**`ssh -NfL {localport}:{nodename}:{port} {username}@t3-c4.nchc.org.tw`
 
@@ -714,17 +714,17 @@ $ get_su_balance
     ssh -NfL 10002:gpn3002:8888 u00cwh00@t3-c4.nchc.org.tw
     ```
 
- 6. 使用瀏覽器打開
+ 2. 使用瀏覽器打開
 
-    **網址：**localhost:10002
+    **網址：** localhost:10002
 
     ![](https://cos.twcc.ai/SYS-MANUAL/uploads/upload_1670a613ddc21b43e090a17d08c8dc9a.png)
 
- 7. 範例位置在`/rapids/notebooks/`
+ 3. 範例位置在`/rapids/notebooks/`
 
     可以cp到自己家目錄執行
 
- 8. 使用完成後，請記得刪除保留的GPU資源，以免資源浪費與產生額外的費用
+ 4. 使用完成後，請記得刪除保留的GPU資源，以免資源浪費與產生額外的費用
 
     **指令：**`scancel -i $jobid`
 
