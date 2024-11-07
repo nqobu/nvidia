@@ -8,15 +8,15 @@
 
 ## 登入臺灣杉三號生醫專用節點
 
- -  生醫專用節點主機位置：<t3-c4.nchc.org.tw>或<203.145.216.54>。
+ -  生醫專用節點主機位置：t3-c4.nchc.org.tw或203.145.216.54>。
  -  請勿使用臺灣杉1號進行計算，如此會衍生出額外的費用，請使用者配合。
  -  亦請勿使用登入節點主機的CPU與GPU進行計算，以免影響登入節點運作與排程系統效能，敬請配合。
- -  帳號密碼：iService內**會員中心-&gt;會員資訊-&gt;主機帳號資訊**，可以找到您的帳號或修改密碼
+ -  帳號密碼：iService內**會員中心**&rarr;**會員資訊**&rarr;**主機帳號資訊**，可以找到您的帳號或修改密碼
  -  One Time Password（OTP）請參閱：<https://man.twcc.ai/@TWCC-III-manual/SJwbCxzqO#%E5%8F%96%E5%BE%97-OTP-%E8%AA%8D%E8%AD%89%E7%A2%BC>
 
 ## 資料上傳
 
- -  請使用<t3-c4.nchc.org.tw>節點上傳資料，可以使用`sftp`、`scp`、`rsync`上傳資料。
+ -  請使用t3-c4.nchc.org.tw節點上傳資料，可以使用`sftp`、`scp`、`rsync`上傳資料。
 
 ### SFTP
 
