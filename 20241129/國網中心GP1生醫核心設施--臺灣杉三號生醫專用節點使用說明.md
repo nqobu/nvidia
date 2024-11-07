@@ -124,18 +124,18 @@ sftp>
 
      1. 如要加載`R/4.3.3`、`BWA/0.7.17`
 
-	```
-	module load biology
-	module load R/4.3.3
-	module load BWA/0.7.17
-	```
+        ```
+        module load biology
+        module load R/4.3.3
+        module load BWA/0.7.17
+        ```
 
      2. 如要加載`gcc/12.3.0`
 
-	```
-	module load biology
-	module load gcc/12.3.0
-	```
+        ```
+        module load biology
+        module load gcc/12.3.0
+        ```
 
  -  卸載模組：
 
@@ -342,7 +342,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
     ![](https://i.imgur.com/NmEtvgs.png)
 
      -  `$USER`請輸入您的主機帳號\
-	`5Kstaging:biology`為`/staging/biology/$USER`
+        `5Kstaging:biology`為`/staging/biology/$USER`
 
  -  查詢`/staging/reserve`空間
 
@@ -360,11 +360,11 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
      -  分享`$Fileset`讀取權限給someone帳號
 
-	指令：`setfacl -R -m u:someone:r-X,g::---,o::--- /staging/reserve/$Fileset`
+        指令：`setfacl -R -m u:someone:r-X,g::---,o::--- /staging/reserve/$Fileset`
 
      -  設定讀取繼承權限給someone帳號，未來該目錄內檔案繼承目錄權限，自動設定權限給someone帳號。
 
-	指令：`setfacl -d -m u:someone:r-X,g::---,o::--- /staging/reserve/$Fileset`
+        指令：`setfacl -d -m u:someone:r-X,g::---,o::--- /staging/reserve/$Fileset`
 
     > 若您需要讓someone有權限寫入分享目錄，請將`r-X`改為`rwX`即可。
 
@@ -432,15 +432,15 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
     指令：`qstat -ngs`
 
     ```
-		      Total  Total Running Running  Pending Pending
+                      Total  Total Running Running  Pending Pending
     Queue_Name  STAT    Job   Core     Job    Core      Job    Core
     ---------------------------------------------------------------
        ngsTest    up      4      4       0       0        4       4
-	 ngs7G    up      2      2       0       0        2       2
-	ngs12G    up      1      1       0       0        1       1
-	ngs24G    up      1      1       0       0        1       1
-	ngs48G    up     59    826      59     826        0       0
-	ngs96G    up      0      0       0       0        0       0
+         ngs7G    up      2      2       0       0        2       2
+        ngs12G    up      1      1       0       0        1       1
+        ngs24G    up      1      1       0       0        1       1
+        ngs48G    up     59    826      59     826        0       0
+        ngs96G    up      0      0       0       0        0       0
        ngs192G    up      0      0       0       0        0       0
     ngs224core    up      0      0       0       0        0       0
     ngs448core    up      0      0       0       0        0       0
@@ -456,7 +456,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
        ngs4gpu    up      0      0       0       0        0       0
        ngs8gpu    up      0      0       0       0        0       0
     ---------------------------------------------------------------
-	   SUM           67    834      59     826        8       8
+           SUM           67    834      59     826        8       8
     ```
 
  -  查詢排程與節點狀態
@@ -493,10 +493,10 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
     指令：`sacctmgr show qos -o format=name,MinTRES%28,MaxTRES%28,MaxJobsPU|grep ngs`
 
     ```
-	  Name                      MinTRES                      MaxTRES MaxJobsPU
+          Name                      MinTRES                      MaxTRES MaxJobsPU
     ---------- ---------------------------- ---------------------------- ---------
        ngstest                 cpu=1,mem=7G                 cpu=1,mem=7G         2
-	 ngs7g                 cpu=1,mem=7G                 cpu=1,mem=7G      1000
+         ngs7g                 cpu=1,mem=7G                 cpu=1,mem=7G      1000
     ngs224core                      cpu=224                      cpu=224         4
     ngs448core                      cpu=448                      cpu=448         2
        ngs512g               cpu=9,mem=500G               cpu=9,mem=500G         8
@@ -511,10 +511,10 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
        ngs4gpu   cpu=24,gres/gpu=4,mem=360G   cpu=24,gres/gpu=4,mem=360G         4
        ngs8gpu   cpu=48,gres/gpu=8,mem=720G   cpu=48,gres/gpu=8,mem=720G         2
     ngsconsole                 cpu=1,mem=7G                 cpu=1,mem=7G         2
-	ngs13g                cpu=2,mem=13G                cpu=2,mem=13G       500
-	ngs26g                cpu=4,mem=26G                cpu=4,mem=26G       250
-	ngs53g                cpu=8,mem=53G                cpu=8,mem=53G       120
-	ngs92g               cpu=14,mem=92G               cpu=14,mem=92G        80
+        ngs13g                cpu=2,mem=13G                cpu=2,mem=13G       500
+        ngs26g                cpu=4,mem=26G                cpu=4,mem=26G       250
+        ngs53g                cpu=8,mem=53G                cpu=8,mem=53G       120
+        ngs92g               cpu=14,mem=92G               cpu=14,mem=92G        80
        ngs186g              cpu=28,mem=186G              cpu=28,mem=186G        60
        ngs372g              cpu=56,mem=372G              cpu=56,mem=372G        30
     ```
@@ -762,5 +762,5 @@ $ get_su_balance
 
 ---
 
-> [!Note]
+> [!Info]
 > Last updated: 2024/06/11 12:08
