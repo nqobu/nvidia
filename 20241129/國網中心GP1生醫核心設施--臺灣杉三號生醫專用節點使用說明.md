@@ -55,7 +55,7 @@ sftp>
 | 4TB大記憶體節點	| 1		| 72		| 4 TB		| 0.56 元/核心小時	| 1.68 元/核心小時 |
 | 6TB大記憶體節點	| 2		| 112		| 6 TB		| 0.56 元/核心小時	| 1.68 元/核心小時 |
 
-> [!Note]
+> [!CAUTION]
 > **GPU與大記憶體節點費率較高，使用時請謹慎選擇排程。**
 
 ## 高速計算儲存空間
@@ -74,7 +74,7 @@ sftp>
  -  國科會計畫之帳號於新建立時，系統將預設免費儲存空間額度為家目錄區域100 GB，暫存工作目錄為100 GB。若有需要提高暫存工作區域之免費額度，須請客戶自行調高。用戶欲調整免費儲存空間之額度，請由申購高速儲存系統（HFS）介面進行調整，相關說明文件可參考下面臺灣杉三號可用儲存資源與調整之說明文件連結。
  -  臺灣杉三號可用儲存資源與調整之說明文件請參考: https://man.twcc.ai/@TWCC-III-manual/HyOgKIiuu
 
-> [!Note]
+> [!CAUTION]
 > **調整額度時，請勿超過1500GB，避免被收取超用額度的費用，超過的額度收費依據國網中心HFS公告收費，並將由使用者負擔，每GB每月定價4元，一個月1TB收費4000元。**
 
 ## 巨量資料儲存空間
@@ -196,62 +196,63 @@ sftp>
 
 ### 1. 使用SLURM排程系統來送出工作
 
-**請編寫一個檔案內容如下:**
+請編寫如下內容的檔案：
 
- -  SLURM Job Script（CPU Queue）範例如下：
+#### SLURM Job Script（CPU Queue）範例如下
 
-    ```shell=
-    #!/usr/bin/sh
-    #SBATCH -A MST109178                        # Account name/project number
-    #SBATCH -J Job_name                         # Job name
-    #SBATCH -p ngs53G                           # Partition Name等同PBS裡面的 -q Queue name
-    #SBATCH -c 8                                # 使用的core數，請參考Queue資源設定
-    #SBATCH --mem=53g                           # 使用的記憶體量，請參考Queue資源設定
-    #SBATCH -o out.log                          # Path to the standard output file
-    #SBATCH -e err.log                          # Path to the standard error ouput file
-    #SBATCH --mail-user=XXXX@narlabs.org.tw     # email
-    #SBATCH --mail-type=BEGIN,END               # 指定送出email時機，可為NONE, BEGIN, END, FAIL, REQUEUE, ALL
+```shell=
+#!/usr/bin/sh
+#SBATCH -A MST109178                        # Account name/project number
+#SBATCH -J Job_name                         # Job name
+#SBATCH -p ngs53G                           # Partition Name等同PBS裡面的 -q Queue name
+#SBATCH -c 8                                # 使用的core數，請參考Queue資源設定
+#SBATCH --mem=53g                           # 使用的記憶體量，請參考Queue資源設定
+#SBATCH -o out.log                          # Path to the standard output file
+#SBATCH -e err.log                          # Path to the standard error ouput file
+#SBATCH --mail-user=XXXX@narlabs.org.tw     # email
+#SBATCH --mail-type=BEGIN,END               # 指定送出email時機，可為NONE, BEGIN, END, FAIL, REQUEUE, ALL
 
-    echo 'Hello world!'                         # 這邊寫入你要執行的指令
+echo 'Hello world!'                         # 這邊寫入你要執行的指令
 
-    ##以BWA為例
-    module load biology
-    module load BWA/0.7.17
-    bwa mem
-    ```
+##以BWA為例
+module load biology
+module load BWA/0.7.17
+bwa mem
+```
 
-    > 上面的core數與記憶體搭配，請[參考Queue資源設定或排程限制](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#PartitionQueue-%E8%B3%87%E6%BA%90%E8%A8%AD%E5%AE%9A)，要設對工作才能正常送出。
+> [!TIP]
+> 上面的core數與記憶體搭配，請[參考Queue資源設定或排程限制](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#PartitionQueue-%E8%B3%87%E6%BA%90%E8%A8%AD%E5%AE%9A)，要設對工作才能正常送出。
 
- -  SLURM Job Script（GPU Queue）範例如下：
+#### SLURM Job Script（GPU Queue）範例如下
 
-    ```shell=
-    #!/usr/bin/sh
-    #SBATCH -A MST109178                        # Account name/project number
-    #SBATCH -J Job_name                         # Job name
-    #SBATCH -p ngs1gpu                          # Partition Name等同PBS裡面的 -q Queue name
-    #SBATCH -c 6                                # 使用的core數，請參考Queue資源設定
-    #SBATCH --mem=90g                           # 使用的記憶體量，請參考Queue資源設定
-    #SBATCH --gres=gpu:1                        # 使用的GPU數，請參考Queue資源設定
-    #SBATCH -o out.log                          # Path to the standard output file
-    #SBATCH -e err.log                          # Path to the standard error ouput file
-    #SBATCH --mail-user=XXXX@narlabs.org.tw     # email
-    #SBATCH --mail-type=BEGIN,END               # 指定送出email時機，可為NONE, BEGIN, END, FAIL, REQUEUE, ALL
+```shell=
+#!/usr/bin/sh
+#SBATCH -A MST109178                        # Account name/project number
+#SBATCH -J Job_name                         # Job name
+#SBATCH -p ngs1gpu                          # Partition Name等同PBS裡面的 -q Queue name
+#SBATCH -c 6                                # 使用的core數，請參考Queue資源設定
+#SBATCH --mem=90g                           # 使用的記憶體量，請參考Queue資源設定
+#SBATCH --gres=gpu:1                        # 使用的GPU數，請參考Queue資源設定
+#SBATCH -o out.log                          # Path to the standard output file
+#SBATCH -e err.log                          # Path to the standard error ouput file
+#SBATCH --mail-user=XXXX@narlabs.org.tw     # email
+#SBATCH --mail-type=BEGIN,END               # 指定送出email時機，可為NONE, BEGIN, END, FAIL, REQUEUE, ALL
 
-    nvidia-smi                                  # 這邊寫入你要執行的指令
-    ```
+nvidia-smi                                  # 這邊寫入你要執行的指令
+```
 
- -  **寫完工作指令稿（`jobscript.sh`）後送出執行**
+#### 寫完工作指令稿（`jobscript.sh`）後送出執行
 
-    執行指令：`sbatch jobscript.sh`
+**指令：**`sbatch jobscript.sh`
 
-    執行結果：
+**結果：**
 
-    ```console=
-    $ sbatch jobscript.sh
-    Submitted batch job 84684
-    ```
+```console=
+$ sbatch jobscript.sh
+Submitted batch job 84684
+```
 
-    進行工作遞交後，將會獲得一個Job ID（上述範例為84684）。
+進行工作遞交後，將會獲得一個Job ID（上述範例為84684）。
 
 ### 2. 送工作時指定參數
 
@@ -762,5 +763,22 @@ $ get_su_balance
 
 ---
 
-> [!Info]
+<!--
+> [!NOTE]  
+> Highlights information that users should take into account, even when skimming.
+
+> [!TIP]
+> Optional information to help a user be more successful.
+
+> [!IMPORTANT]  
+> Crucial information necessary for users to succeed.
+
+> [!WARNING]  
+> Critical content demanding immediate user attention due to potential risks.
+
+> [!CAUTION]
+> Negative potential consequences of an action.
+  -->
+
+> [!Note]
 > Last updated: 2024/06/11 12:08
