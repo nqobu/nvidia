@@ -83,9 +83,9 @@ sftp>
 
 ## 儲存空間管理政策與使用須知
 
- 1. 高速計算磁碟空間（`/work/\$USER`、`/staging/biology/\$USER`）為計算工作短期暫存之用，若需長期保留，請將檔案移至核心設施[巨量資料儲存服務](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#%E5%B7%A8%E9%87%8F%E8%B3%87%E6%96%99%E5%84%B2%E5%AD%98%E7%A9%BA%E9%96%93)。
- 2. 高速計算磁碟空間（`/work/\$USER`、`/staging/biology/\$USER`）預設權限為700（`rwx------`），若需要分享給實驗室夥伴，請參閱[資料權限設定、共享](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#2-%E8%B3%87%E6%96%99%E6%AC%8A%E9%99%90%E8%A8%AD%E5%AE%9A%E3%80%81%E5%85%B1%E4%BA%AB)章節，請使用者妥善管理上述空間的權限，本核心設施無法代為管理，若造成檔案外洩、遺失或刪除，本核心設施不負任何還原或賠償責任。
- 3. [巨量資料儲存服務](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#%E5%B7%A8%E9%87%8F%E8%B3%87%E6%96%99%E5%84%B2%E5%AD%98%E7%A9%BA%E9%96%93)提供您實驗室產出資料的備份，採用Erasure Code（4+2）保護機制來保護您的資料，可用性及完整性高，不另外進行資料備份。
+ 1. 高速計算磁碟空間（`/work/\$USER`、`/staging/biology/\$USER`）為計算工作短期暫存之用，若需長期保留，請將檔案移至核心設施[巨量資料儲存服務](#%E5%B7%A8%E9%87%8F%E8%B3%87%E6%96%99%E5%84%B2%E5%AD%98%E7%A9%BA%E9%96%93)。
+ 2. 高速計算磁碟空間（`/work/\$USER`、`/staging/biology/\$USER`）預設權限為700（`rwx------`），若需要分享給實驗室夥伴，請參閱[資料權限設定、共享](#2-%E8%B3%87%E6%96%99%E6%AC%8A%E9%99%90%E8%A8%AD%E5%AE%9A%E5%85%B1%E4%BA%AB)章節，請使用者妥善管理上述空間的權限，本核心設施無法代為管理，若造成檔案外洩、遺失或刪除，本核心設施不負任何還原或賠償責任。
+ 3. [巨量資料儲存服務](#%E5%B7%A8%E9%87%8F%E8%B3%87%E6%96%99%E5%84%B2%E5%AD%98%E7%A9%BA%E9%96%93)提供您實驗室產出資料的備份，採用Erasure Code（4+2）保護機制來保護您的資料，可用性及完整性高，不另外進行資料備份。
  4. 本核心設施不會對高速計算磁碟空間做任何備份，若系統毀損或檔案刪除皆無法復原。
  5. 磁碟空間上的檔案用戶需自行備份保留，若發生檔案毀損、遺失或刪除，本核心設施不負任何還原或賠償責任。
  6. 本儲存空間可讓您上傳、儲存、下載內容，您的資料仍屬於您所有。對於您的任何內容（包括您在儲存空間中上傳、共用或儲存的所有資訊和檔案），我們都不會聲明擁有權。因此，如果您決定與他人共用文件，我們可以提供這項功能。您可以跟他人共同編輯檔案，但內容的「擁有者」為控制內容和其用途的使用者。
@@ -259,14 +259,14 @@ sftp>
 
 ```shell
 sbatch -A MST109178 -J Job_name -p ngs48G -c 14 --mem=46g -o out.log -e err.log \
-    --mail-user=XXXX@narlabs.org.tw --mail-type=BEGIN,END job.sh
+  --mail-user=XXXX@narlabs.org.tw --mail-type=BEGIN,END job.sh
 ```
 
 如果要執行的工作只有一行指令，可以利用`--wrap=""`參數傳入指令，無需再寫工作指令稿
 
 ```shell
 sbatch -A MST109178 -J Job_name -p ngs48G -c 14 --mem=46g -o out.log -e err.log \
-    --mail-user=wadehwang@narlabs.org.tw --mail-type=BEGIN,END --wrap="ls /opt/ohpc/Taiwania3/pkg/biology"
+  --mail-user=wadehwang@narlabs.org.tw --mail-type=BEGIN,END --wrap="ls /opt/ohpc/Taiwania3/pkg/biology"
 ```
 
 ### 3. 引入外部變數
@@ -587,7 +587,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
 ```shell
 $ get_su_balance
-{&#34;PROJECT_ID&#34;:&#34;MST109178&#34;,&#34;PROJECT_NAME&#34;:&#34;國家生醫數位資料與分析運算雲端服務平臺III&#34;,&#34;SU_BALANCE&#34;:&#34;237010.1157&#34;}
+{"PROJECT_ID":"MST109178","PROJECT_NAME":"國家生醫數位資料與分析運算雲端服務平臺III","SU_BALANCE":"237010.1157"}
 ```
 
 > 您必須要加入MST109178計畫才能使用生醫專用計算環境。
@@ -635,7 +635,7 @@ $ get_su_balance
     ```r=
     #!/usr/bin/env Rscript
     library(XXXX)
-    data=read.table(&#34;XXXX&#34;)
+    data=read.table("XXXX")
     ......
     ```
 
@@ -738,14 +738,14 @@ $ get_su_balance
 
 請參考下列使用說明連結:
 
-[T3生醫節點Parabricks使用說明](https://man.twcc.ai/@nchcbio/ryS4mnjZh &#34;Parabricks&#34;)
+[T3生醫節點Parabricks使用說明](https://man.twcc.ai/@nchcbio/ryS4mnjZh "Parabricks")
 
 ### 如何使用AlphaFold v2
 
 請參考下列使用說明連結:
 
- -  [臺灣杉三號生醫服務平臺AlphaFold2說明](https://man.twcc.ai/@nchcbio/HkHhchdpo &#34;AlphaFold2中文&#34;)
- -  [Manual on Using AlphaFold2 on Taiwania3 Bio](https://man.twcc.ai/@nchcbio/HJOE34NCs &#34;AlphaFold2&#34;)
+ -  [臺灣杉三號生醫服務平臺AlphaFold2說明](https://man.twcc.ai/@nchcbio/HkHhchdpo "AlphaFold2中文")
+ -  [Manual on Using AlphaFold2 on Taiwania3 Bio](https://man.twcc.ai/@nchcbio/HJOE34NCs "AlphaFold2")
 
 ### 如何使用Google Drive、Amazon等雲端資料資料
 
