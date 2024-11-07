@@ -521,19 +521,19 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
     使用指令：`scontrol show partition ngs12G`來了解ngs12G partition的QoS
 
-```
-PartitionName=ngs12G
-   AllowGroups=MST109178 AllowAccounts=mst109178 AllowQos=ALL
-   AllocNodes=ALL Default=NO QoS=ngs12g
-   DefaultTime=NONE DisableRootJobs=NO ExclusiveUser=NO GraceTime=0 Hidden=NO
-   MaxNodes=UNLIMITED MaxTime=2-00:00:00 MinNodes=0 LLN=NO MaxCPUsPerNode=UNLIMITED
-   Nodes=cpn[3856-3894]
-   PriorityJobFactor=1 PriorityTier=100 RootOnly=NO ReqResv=NO OverSubscribe=NO
-   OverTimeLimit=NONE PreemptMode=OFF
-   State=UP TotalCPUs=2184 TotalNodes=39 SelectTypeParameters=NONE
-   JobDefaults=(null)
-   DefMemPerNode=UNLIMITED MaxMemPerNode=UNLIMITED
-```
+    ```
+    PartitionName=ngs12G
+       AllowGroups=MST109178 AllowAccounts=mst109178 AllowQos=ALL
+       AllocNodes=ALL Default=NO QoS=ngs12g
+       DefaultTime=NONE DisableRootJobs=NO ExclusiveUser=NO GraceTime=0 Hidden=NO
+       MaxNodes=UNLIMITED MaxTime=2-00:00:00 MinNodes=0 LLN=NO MaxCPUsPerNode=UNLIMITED
+       Nodes=cpn[3856-3894]
+       PriorityJobFactor=1 PriorityTier=100 RootOnly=NO ReqResv=NO OverSubscribe=NO
+       OverTimeLimit=NONE PreemptMode=OFF
+       State=UP TotalCPUs=2184 TotalNodes=39 SelectTypeParameters=NONE
+       JobDefaults=(null)
+       DefMemPerNode=UNLIMITED MaxMemPerNode=UNLIMITED
+    ```
 
  -  查詢節點使用狀態
 
