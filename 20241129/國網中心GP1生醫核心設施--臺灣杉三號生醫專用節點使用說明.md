@@ -303,7 +303,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
 ### 1. 列出送出的工作
 
-指令：`squeue -u [username]`
+**指令：**`squeue -u [username]`
 
 **範例：**
 
@@ -311,7 +311,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
 ### 2. 個別工作詳細資訊
 
-指令：`scontrol show job [job ID]`
+**指令：**`scontrol show job [job ID]`
 
 **範例：**
 
@@ -319,7 +319,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
 ### 3. 刪除工作
 
-指令：`scancel -i [job ID]`
+**指令：**`scancel -i [job ID]`
 
 ## 進階
 
@@ -327,7 +327,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
  -  查詢work、home空間
 
-    指令：`/usr/lpp/mmfs/bin/mmlsquota -u $USER --block-size auto fs01 fs02`
+    **指令：**`/usr/lpp/mmfs/bin/mmlsquota -u $USER --block-size auto fs01 fs02`
 
     ![](https://i.imgur.com/AmPrqZD.png)
 
@@ -337,7 +337,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
  -  查詢`/staging/biology`空間
 
-    指令：`/usr/lpp/mmfs/bin/mmlsquota -u $USER --block-size auto 5Kstaging:biology`
+    **指令：**`/usr/lpp/mmfs/bin/mmlsquota -u $USER --block-size auto 5Kstaging:biology`
 
     ![](https://i.imgur.com/NmEtvgs.png)
 
@@ -346,7 +346,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
  -  查詢`/staging/reserve`空間
 
-    指令：`/usr/lpp/mmfs/bin/mmlsquota -j $Fileset --block-size auto 5Kstaging`
+    **指令：**`/usr/lpp/mmfs/bin/mmlsquota -j $Fileset --block-size auto 5Kstaging`
 
     ![](https://i.imgur.com/T81ZjUc.png)
 
@@ -360,11 +360,11 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
      -  分享`$Fileset`讀取權限給someone帳號
 
-        指令：`setfacl -R -m u:someone:r-X,g::---,o::--- /staging/reserve/$Fileset`
+        **指令：**`setfacl -R -m u:someone:r-X,g::---,o::--- /staging/reserve/$Fileset`
 
      -  設定讀取繼承權限給someone帳號，未來該目錄內檔案繼承目錄權限，自動設定權限給someone帳號。
 
-        指令：`setfacl -d -m u:someone:r-X,g::---,o::--- /staging/reserve/$Fileset`
+        **指令：**`setfacl -d -m u:someone:r-X,g::---,o::--- /staging/reserve/$Fileset`
 
     > 若您需要讓someone有權限寫入分享目錄，請將`r-X`改為`rwX`即可。
 
@@ -389,13 +389,13 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
  -  移除someone帳號的權限，與設定時一樣需執行兩行指令，移除即時讀取與繼承權限。
 
-    指令：`setfacl -x u:someone /staging/reserve/$Fileset`
+    **指令：**`setfacl -x u:someone /staging/reserve/$Fileset`
 
-    指令：`setfacl -d -x u:someone /staging/reserve/$Fileset`
+    **指令：**`setfacl -d -x u:someone /staging/reserve/$Fileset`
 
 ### 3. 查詢工作記憶體使用狀況
 
-指令：`sacct -j $jobid -o JobID,JobName,Partition,User,NCPUS,AllocNodes,maxrss,Start,End,Elapsed,State`
+**指令：**`sacct -j $jobid -o JobID,JobName,Partition,User,NCPUS,AllocNodes,maxrss,Start,End,Elapsed,State`
 
 ```
        JobID    JobName  Partition      User      NCPUS AllocNodes     MaxRSS               Start                 End    Elapsed      State
@@ -409,7 +409,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
 ### 4. 查詢歷史工作
 
-指令：`sacct --starttime YYYY-MM-DD -u $USER -o JobID,JobName,Partition,State,ExitCode`
+**指令：**`sacct --starttime YYYY-MM-DD -u $USER -o JobID,JobName,Partition,State,ExitCode`
 
 ```
        JobID    JobName  Partition      State ExitCode
@@ -429,7 +429,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
  -  查詢可用排程狀態
 
-    指令：`qstat -ngs`
+    **指令：**`qstat -ngs`
 
     ```
                       Total  Total Running Running  Pending Pending
@@ -461,7 +461,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
  -  查詢排程與節點狀態
 
-    指令：`sinfo -s|grep ngs`
+    **指令：**`sinfo -s|grep ngs`
 
     ```
     ngsTest          up      10:00       23/22/0/45 cpn[3856-3900]
@@ -490,7 +490,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
  -  查詢排程限制
 
-    指令：`sacctmgr show qos -o format=name,MinTRES%28,MaxTRES%28,MaxJobsPU|grep ngs`
+    **指令：**`sacctmgr show qos -o format=name,MinTRES%28,MaxTRES%28,MaxJobsPU|grep ngs`
 
     ```
           Name                      MinTRES                      MaxTRES MaxJobsPU
@@ -537,7 +537,7 @@ PartitionName=ngs12G
 
  -  查詢節點使用狀態
 
-    指令：`ngsnodes`
+    **指令：**`ngsnodes`
 
     ```
     Nodes Status for NGS and Protein Platform
@@ -583,7 +583,7 @@ PartitionName=ngs12G
 
 ### 6. 查詢是否已加入生醫核心設施計畫
 
-指令：`get_su_balance`
+**指令：**`get_su_balance`
 
 ```shell
 $ get_su_balance
@@ -706,9 +706,9 @@ $ get_su_balance
 
  5. 客戶端建立SSH tunnel，`{...}`中填入對應的資訊，就可以使用jupyter notebook做訓練了。
 
-    `ssh -NfL {localport}:{nodename}:{port} {username}@t3-c4.nchc.org.tw`
+    **指令：**`ssh -NfL {localport}:{nodename}:{port} {username}@t3-c4.nchc.org.tw`
 
-    範例：
+    **範例：**
 
     ```
     ssh -NfL 10002:gpn3002:8888 u00cwh00@t3-c4.nchc.org.tw
@@ -716,7 +716,7 @@ $ get_su_balance
 
  6. 使用瀏覽器打開
 
-    網址：localhost:10002
+    **網址：**localhost:10002
 
     ![](https://cos.twcc.ai/SYS-MANUAL/uploads/upload_1670a613ddc21b43e090a17d08c8dc9a.png)
 
@@ -726,9 +726,9 @@ $ get_su_balance
 
  8. 使用完成後，請記得刪除保留的GPU資源，以免資源浪費與產生額外的費用
 
-    `scancel -i $jobid`
+    **指令：**`scancel -i $jobid`
 
-    範例：
+    **範例：**
 
     ```
     scancel -i 742593
