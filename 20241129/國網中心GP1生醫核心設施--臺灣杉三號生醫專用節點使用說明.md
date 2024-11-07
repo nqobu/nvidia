@@ -296,7 +296,8 @@ sbatch --export=A=$A,b=$b job.sh
 echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 ```
 
-其他Array Job詳細用法請見：<https://slurm.schedmd.com/job_array.html>
+> [!TIP]
+> 其他Array Job詳細用法請見：<https://slurm.schedmd.com/job_array.html>
 
 ## 查看job狀態/刪除工作
 
