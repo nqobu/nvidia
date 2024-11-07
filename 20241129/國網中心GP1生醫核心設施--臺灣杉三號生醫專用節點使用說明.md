@@ -34,9 +34,9 @@ Please select the 2FA login method.
 1. Mobile APP OTP
 2. Mobile APP PUSH
 3. Email OTP
-Login method: 1				# 1 or 2 or 3
-Password:				# 主機密碼
-OTP: XXXXXX				# OPT
+Login method: 1	# 1 or 2 or 3
+Password:	# 主機密碼
+OTP: XXXXXX	# OPT
 ```
 
 成功後出現
