@@ -5,7 +5,7 @@ Join us for an exciting hands-on BioNeMo Protein Design workshop where you’ll 
 
 **Please note, the event will be held in Taiwanese.**
 
-## 師資陣容 (Instructor and TA)
+## 師資陣容 (Instructor and TAs)
 
 -  Ying-Ja Chen (NVIDIA, Instructor)
 -  Warren Tseng (NVIDIA)
