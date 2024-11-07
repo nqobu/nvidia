@@ -22,11 +22,13 @@ Join us for an exciting hands-on BioNeMo Protein Design workshop where you’ll 
 
 ## 報名網址 (Registration)
 
-[To Be Updated]()
+<https://www.openhackathons.org/s/siteevent/a0CUP00001AF1CS2A1/se000388>
 
 ## 活動地點 (Address)
 
-[National Taiwan University Center for Intelligent Agriculture Education and Research]
+國立臺灣大學生農學院智慧農業教學與研究發展中心教室\
+臺北市大安區羅斯福路四段一號，鄭江樓南棟506室\
+National Taiwan University Center for Intelligent Agriculture Education and Research\
 Tseng Jiang Hall South Building Room 506. 1, Sec. 4, Roosevelt Rd., Da'an Dist., Taipei City 10617, Taiwan (R.O.C.)
 
 ## 預備知識 (Preliminary)
@@ -44,17 +46,17 @@ Tseng Jiang Hall South Building Room 506. 1, Sec. 4, Roosevelt Rd., Da'an Dist.,
 
 (以下日期與時間，均以臺灣標準時間 UTC+8 為準)
 
-**2024/11/12: Application Deadline**
+**2024/11/29, 09:30 AM - 12:00 PM: In-person Event**
 
-**2024/11/29, 09:30 AM - 12:00 PM: Physical Event**
+| Start Time<br>(CST) | End<br>(CST) | Session |
+| :------: | :------: | ------- |
+| 09:30 AM | 10:00 AM | NCHC Introduction and Environment Setup |
+| 10:00 AM | 10:20 AM | Introduction to BioNeMo, NIMs and Protein Design |
+| 10:20 AM | 10:30 AM | Break |
+| 10:30 AM | 11:40 AM | Demo & Hands-on Protein Design Workflow |
+| 11:40 AM | 12:00 PM | Q&A + Open Discussion |
 
 **Recordings**: To be updated
-
- -  09:30 AM ~ 10:00 AM: NCHC Introduction and Environment Setup
- -  10:00 AM ~ 10:20 AM: Introduction to BioNeMo, NIMs and Protein Design
- -  10:20 AM ~ 10:30 AM: Break
- -  10:30 AM ~ 11:40 AM: Demo & Hands-on Protein Design Workflow
- -  11:40 AM ~ 12:00 PM: Q&A + Open Discussion
 
 ## 相關資訊 (Useful Information)
 
@@ -85,7 +87,7 @@ Tseng Jiang Hall South Building Room 506. 1, Sec. 4, Roosevelt Rd., Da'an Dist.,
 
 ---
 
-**聯絡窗口**：葉博士 &lt;[terryyeh@narlabs.org.tw](mailto:terryyeh@narlabs.org.tw)&gt;
+**聯絡窗口**：葉先生 &lt;[terryyeh@narlabs.org.tw](mailto:terryyeh@narlabs.org.tw)&gt;
 
 **聯絡電話**：[(03)5776085 分機 293](tel:+886-3-5776085,293)
 
