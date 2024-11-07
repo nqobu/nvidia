@@ -198,7 +198,7 @@ sftp>
 
 **請編寫一個檔案內容如下:**
 
- -  SLURM Job Script (CPU Queue)範例如下：
+ -  SLURM Job Script（CPU Queue）範例如下：
 
     ```shell=
     #!/usr/bin/sh
@@ -222,7 +222,7 @@ sftp>
 
     > 上面的core數與記憶體搭配，請[參考Queue資源設定或排程限制](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#PartitionQueue-%E8%B3%87%E6%BA%90%E8%A8%AD%E5%AE%9A)，要設對工作才能正常送出。
 
- -  SLURM Job Script (GPU Queue)範例如下：
+ -  SLURM Job Script（GPU Queue）範例如下：
 
     ```shell=
     #!/usr/bin/sh
@@ -578,7 +578,7 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
     T = Total ; U = Used ; A = Available
     ```
 
-     -  由於臺灣杉3號有NRQ(Non-Reserved Queue)設計，當GP1核心設施生醫專用資源閒置時，將會釋放至NRQ供其他用戶使用，若GP1核心設施使用者送出工作後，NRQ使用者的工作會被中斷，優先計算GP1核心設施使用者所送出之工作。
+     -  由於臺灣杉3號有NRQ（Non-Reserved Queue）設計，當GP1核心設施生醫專用資源閒置時，將會釋放至NRQ供其他用戶使用，若GP1核心設施使用者送出工作後，NRQ使用者的工作會被中斷，優先計算GP1核心設施使用者所送出之工作。
      -  查詢節點狀態時，請注意Partition Used欄位，若有非ngs開頭Partition使用生醫專用節點，代表生醫專用資源有多餘資源可供使用，並非資源被占滿。
 
 ### 6. 查詢是否已加入生醫核心設施計畫
@@ -610,7 +610,7 @@ $ get_su_balance
 
  -  巨量資料儲存空間檔案加密
 
-    可使用IBM Aspera(Aspera CLI指令ascp或是Aspera Desktop Client)來加解密上傳後的檔案，相關使用說明請參考[Client-Side Encryption-at-Rest (EAR)](https://www.ibm.com/docs/en/ahts/3.9.6?topic=ascp-client-side-encryption-rest-ear)
+    可使用IBM Aspera（Aspera CLI指令`ascp`或是Aspera Desktop Client）來加解密上傳後的檔案，相關使用說明請參考[Client-Side Encryption-at-Rest (EAR)](https://www.ibm.com/docs/en/ahts/3.9.6?topic=ascp-client-side-encryption-rest-ear)
 
 ## 軟體使用說明
 
@@ -622,7 +622,7 @@ $ get_su_balance
     /opt/ohpc/Taiwania3/pkg/biology/SRAToolkit/sratoolkit_v2.11.1/bin/vdb-config --interactive
     ```
 
- 2. 進入界面後，按<kbd>s</kbd>儲存，按<kbd>x</kbd>離開。
+ 2. 進入界面後，按`s`儲存，按`x`離開。
 
     ![](https://cos.twcc.ai/SYS-MANUAL/uploads/upload_fa8f794e5fa8e6cf4a5129a1cb85ad4f.png)
 
