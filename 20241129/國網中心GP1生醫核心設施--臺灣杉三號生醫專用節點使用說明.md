@@ -220,8 +220,8 @@ sftp>
     bwa mem
     ```
 
-    > [!Note]
-    > 上面的core數與記憶體搭配，請[參考Queue資源設定或排程限制](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#PartitionQueue-%E8%B3%87%E6%BA%90%E8%A8%AD%E5%AE%9A)，要設對工作才能正常送出。
+> [!Note]
+> 上面的core數與記憶體搭配，請[參考Queue資源設定或排程限制](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#PartitionQueue-%E8%B3%87%E6%BA%90%E8%A8%AD%E5%AE%9A)，要設對工作才能正常送出。
 
  -  SLURM Job Script (GPU Queue)範例如下：
 
@@ -365,8 +365,8 @@ echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 
 	指令：`setfacl -d -m u:someone:r-X,g::---,o::--- /staging/reserve/$Fileset`
 
-    > [!Note]
-    > 若您需要讓someone有權限寫入分享目錄，請將`r-X`改為`rwX`即可。
+> [!Note]
+> 若您需要讓someone有權限寫入分享目錄，請將`r-X`改為`rwX`即可。
 
     設定完成後，可以透過指令`getfacl`進行確認。
 
