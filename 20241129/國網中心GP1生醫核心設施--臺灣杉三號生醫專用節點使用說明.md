@@ -190,7 +190,7 @@ sftp>
 | ngscourse	| 13G					| 2						| 48 hrs	| 500		| CPU節點 |
 | ngscourse92G	| 92G					| 14						| unlimit	| 80		| CPU節點 |
 
- -  為確保記憶體與核心數能有效且充分利用，因此設定上述排程與記憶體核心數搭配與限制。
+> 為確保記憶體與核心數能有效且充分利用，因此設定上述排程與記憶體核心數搭配與限制。
 
 ## 工作指令稿
 
@@ -200,7 +200,7 @@ sftp>
 
  -  SLURM Job Script (CPU Queue)範例如下：
 
-    ```shell
+    ```shell=
     #!/usr/bin/sh
     #SBATCH -A MST109178			# Account name/project number
     #SBATCH -J Job_name				# Job name
@@ -224,7 +224,7 @@ sftp>
 
  -  SLURM Job Script (GPU Queue)範例如下：
 
-    ```shell
+    ```shell=
     #!/usr/bin/sh
     #SBATCH -A MST109178			# Account name/project number
     #SBATCH -J Job_name				# Job name
