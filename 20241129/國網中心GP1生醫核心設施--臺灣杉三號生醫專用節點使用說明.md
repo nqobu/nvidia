@@ -99,9 +99,9 @@ sftp>
 
 ### 1. 公用軟體安裝位置
 
-軟體絕對路徑在`/opt/ohpc/Taiwania3/pkg/biology/軟體名稱/軟體版本`內：
-
 `/opt/ohpc/Taiwania3/pkg/biology`
+
+軟體絕對路徑在`/opt/ohpc/Taiwania3/pkg/biology/{軟體名稱}/{軟體版本}`內。
 
 ### 2. 如何使用模組載入程式?
 
