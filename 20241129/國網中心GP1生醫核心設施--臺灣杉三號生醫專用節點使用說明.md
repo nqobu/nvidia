@@ -63,9 +63,9 @@ sftp>
 目前使用者在以下位置所擁有的空間如下：
 
 | 空間				| 容量			| 刪除期限 |
-| :---				| :---			| -------- |
-| `/home/$USER`			| 100G			| 無 |
-| `/staging/biology/$USER`	| 10T			| 無 |
+| :---				| ---:			| "------: |
+| `/home/$USER`			| 100GB			| 無 |
+| `/staging/biology/$USER`	| 10TB			| 無 |
 | `/work/$USER`			| 1500GB		| 一個月不動檔案刪除 |
 | `/staging/reserve/PI_folder`	| 付費空間需另外申請	| 無 |
 | 巨量資料儲存服務		| 付費空間需另外申請	| 無 |
