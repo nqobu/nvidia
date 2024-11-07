@@ -220,7 +220,8 @@ sftp>
     bwa mem
     ```
 
-    > 上面的core數與記憶體搭配，請[參考Queue資源設定或排程限制](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#PartitionQueue-%E8%B3%87%E6%BA%90%E8%A8%AD%E5%AE%9A)，要設對工作才能正常送出，請注意。
+    > [!Note]
+    > 上面的core數與記憶體搭配，請[參考Queue資源設定或排程限制](https://man.twcc.ai/@Ldk_QYrOR2yo3m8Cb1549A/rkegDKslF#PartitionQueue-%E8%B3%87%E6%BA%90%E8%A8%AD%E5%AE%9A)，要設對工作才能正常送出。
 
  -  SLURM Job Script (GPU Queue)範例如下：
 
@@ -258,13 +259,15 @@ sftp>
 將上述工作指令稿改為如下指令，並在最後加入`job.sh`即可。
 
 ```shell
-sbatch -A MST109178 -J Job_name -p ngs48G -c 14 --mem=46g -o out.log -e err.log --mail-user=XXXX@narlabs.org.tw --mail-type=BEGIN,END job.sh
+sbatch -A MST109178 -J Job_name -p ngs48G -c 14 --mem=46g -o out.log -e err.log \
+    --mail-user=XXXX@narlabs.org.tw --mail-type=BEGIN,END job.sh
 ```
 
 如果要執行的工作只有一行指令，可以利用`--wrap=""`參數傳入指令，無需再寫工作指令稿
 
 ```shell
-sbatch -A MST109178 -J Job_name -p ngs48G -c 14 --mem=46g -o out.log -e err.log --mail-user=wadehwang@narlabs.org.tw --mail-type=BEGIN,END --wrap=&#34;ls /opt/ohpc/Taiwania3/pkg/biology&#34;
+sbatch -A MST109178 -J Job_name -p ngs48G -c 14 --mem=46g -o out.log -e err.log \
+    --mail-user=wadehwang@narlabs.org.tw --mail-type=BEGIN,END --wrap="ls /opt/ohpc/Taiwania3/pkg/biology"
 ```
 
 ### 3. 引入外部變數
@@ -273,7 +276,7 @@ sbatch -A MST109178 -J Job_name -p ngs48G -c 14 --mem=46g -o out.log -e err.log 
 
 ```
 A=5
-b=&#39;test&#39;
+b='test'
 sbatch --export=A=$A,b=$b job.sh
 ```
 
