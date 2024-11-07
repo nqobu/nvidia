@@ -243,14 +243,12 @@ nvidia-smi                                  # 這邊寫入你要執行的指令
 
 #### 寫完工作指令稿（`jobscript.sh`）後送出執行
 
-**指令：**`sbatch jobscript.sh`
-
-**結果：**
-
-```console=
-$ sbatch jobscript.sh
-Submitted batch job 84684
-```
+ -  **指令：**`sbatch jobscript.sh`
+ -  **結果：**
+    ```console=
+    $ sbatch jobscript.sh
+    Submitted batch job 84684
+    ```
 
 進行工作遞交後，將會獲得一個Job ID（上述範例為84684）。
 
