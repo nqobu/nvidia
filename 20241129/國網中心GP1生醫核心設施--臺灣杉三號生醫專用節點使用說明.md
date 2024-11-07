@@ -202,17 +202,17 @@ sftp>
 
     ```shell=
     #!/usr/bin/sh
-    #SBATCH -A MST109178			# Account name/project number
-    #SBATCH -J Job_name				# Job name
-    #SBATCH -p ngs53G				# Partition Name等同PBS裡面的 -q Queue name
-    #SBATCH -c 8				# 使用的core數，請參考Queue資源設定
-    #SBATCH --mem=53g				# 使用的記憶體量，請參考Queue資源設定
-    #SBATCH -o out.log				# Path to the standard output file
-    #SBATCH -e err.log				# Path to the standard error ouput file
-    #SBATCH --mail-user=XXXX@narlabs.org.tw	# email
-    #SBATCH --mail-type=BEGIN,END		# 指定送出email時機，可為NONE, BEGIN, END, FAIL, REQUEUE, ALL
+    #SBATCH -A MST109178                        # Account name/project number
+    #SBATCH -J Job_name                         # Job name
+    #SBATCH -p ngs53G                           # Partition Name等同PBS裡面的 -q Queue name
+    #SBATCH -c 8                                # 使用的core數，請參考Queue資源設定
+    #SBATCH --mem=53g                           # 使用的記憶體量，請參考Queue資源設定
+    #SBATCH -o out.log                          # Path to the standard output file
+    #SBATCH -e err.log                          # Path to the standard error ouput file
+    #SBATCH --mail-user=XXXX@narlabs.org.tw     # email
+    #SBATCH --mail-type=BEGIN,END               # 指定送出email時機，可為NONE, BEGIN, END, FAIL, REQUEUE, ALL
 
-    echo 'Hello world!'				# 這邊寫入你要執行的指令
+    echo 'Hello world!'                         # 這邊寫入你要執行的指令
 
     ##以BWA為例
     module load biology
@@ -226,18 +226,18 @@ sftp>
 
     ```shell=
     #!/usr/bin/sh
-    #SBATCH -A MST109178			# Account name/project number
-    #SBATCH -J Job_name				# Job name
-    #SBATCH -p ngs1gpu				# Partition Name等同PBS裡面的 -q Queue name
-    #SBATCH -c 6				# 使用的core數，請參考Queue資源設定
-    #SBATCH --mem=90g				# 使用的記憶體量，請參考Queue資源設定
-    #SBATCH --gres=gpu:1			# 使用的GPU數，請參考Queue資源設定
-    #SBATCH -o out.log				# Path to the standard output file
-    #SBATCH -e err.log				# Path to the standard error ouput file
-    #SBATCH --mail-user=XXXX@narlabs.org.tw	# email
-    #SBATCH --mail-type=BEGIN,END		# 指定送出email時機，可為NONE, BEGIN, END, FAIL, REQUEUE, ALL
+    #SBATCH -A MST109178                        # Account name/project number
+    #SBATCH -J Job_name                         # Job name
+    #SBATCH -p ngs1gpu                          # Partition Name等同PBS裡面的 -q Queue name
+    #SBATCH -c 6                                # 使用的core數，請參考Queue資源設定
+    #SBATCH --mem=90g                           # 使用的記憶體量，請參考Queue資源設定
+    #SBATCH --gres=gpu:1                        # 使用的GPU數，請參考Queue資源設定
+    #SBATCH -o out.log                          # Path to the standard output file
+    #SBATCH -e err.log                          # Path to the standard error ouput file
+    #SBATCH --mail-user=XXXX@narlabs.org.tw     # email
+    #SBATCH --mail-type=BEGIN,END               # 指定送出email時機，可為NONE, BEGIN, END, FAIL, REQUEUE, ALL
 
-    nvidia-smi					# 這邊寫入你要執行的指令
+    nvidia-smi                                  # 這邊寫入你要執行的指令
     ```
 
  -  **寫完工作指令稿（`jobscript.sh`）後送出執行**
@@ -283,16 +283,16 @@ sbatch --export=A=$A,b=$b job.sh
 
 **範例：**
 
-```shell
+```shell=
 #！/usr/bin/sh
-#SBATCH -A MST109178		# Account name/project number
-#SBATCH -J Job_name		# Job name
-#SBATCH -p ngs53G		# Partition Name 等同PBS裡面的 -q Queue name
-#SBATCH -c 8			# 使用的core數，請參考Queue資源設定
-#SBATCH --mem=53g		# 使用的記憶體量，請參考Queue資源設定
-#SBATCH --array=1-10		# 定義index範圍為1～10
+#SBATCH -A MST109178            # Account name/project number
+#SBATCH -J Job_name             # Job name
+#SBATCH -p ngs53G               # Partition Name 等同PBS裡面的 -q Queue name
+#SBATCH -c 8                    # 使用的core數，請參考Queue資源設定
+#SBATCH --mem=53g               # 使用的記憶體量，請參考Queue資源設定
+#SBATCH --array=1-10            # 定義index範圍為1～10
 
-echo $SLURM_ARRAY_TASK_ID	# SLURM_ARRAY_TASK_ID 為該Task的index
+echo $SLURM_ARRAY_TASK_ID       # SLURM_ARRAY_TASK_ID 為該Task的index
 ```
 
 其他Array Job詳細用法請見：<https://slurm.schedmd.com/job_array.html>
@@ -367,7 +367,7 @@ echo $SLURM_ARRAY_TASK_ID	# SLURM_ARRAY_TASK_ID 為該Task的index
 
     設定完成後，可以透過指令`getfacl`進行確認。
 
-    ```shell
+    ```shell=
     $ getfacl /staging/reserve/$Fileset
     # file: Fileset
     # owner: yourself
