@@ -8,9 +8,12 @@ Join us for an exciting hands-on BioNeMo Protein Design workshop where you’ll 
 ## 師資陣容 (Instructor and TAs)
 
 -  Ying-Ja Chen (NVIDIA, Instructor)
--  Warren Tseng (NVIDIA)
--  Ken Liao (NVIDIA)
--  Jay Chen (NVIDIA)
+-  紀郁祥 (NCHC, Instructor)
+-  吳郁雯 (NCHC, TA)
+-  黃介瑋 (NCHC, TA)
+-  葉昌偉 (NCHC, TA)
+-  Ken Liao (NVIDIA, TA)
+-  Jay Chen (NVIDIA, TA)
 
 ## 活動日期 (Date)
 
