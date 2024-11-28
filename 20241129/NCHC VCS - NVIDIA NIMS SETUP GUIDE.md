@@ -177,7 +177,17 @@ docker run -d \
     -v "$LOCAL_NIM_CACHE":/home/nvs/.cache/nim \
     nvcr.io/nim/ipd/proteinmpnn:1.0.0
 ## launch bionemo conatiner and jupyter lab
-docker run -d --gpus all --network host  -e NGC_CLI_API_KEY -v $PWD:$PWD   nvcr.io/nvidia/clara/bionemo-framework:2.1 jupyter lab --allow-root --ip=0.0.0.0 --port=8888 --no-browser --NotebookApp.token='' --NotebookApp.allow_origin='*' --ContentsManager.allow_hidden=True --notebook-dir=$PWD
+docker run -d \
+    --gpus all --network host \
+    -e NGC_CLI_API_KEY \
+    -v $PWD:$PWD \
+    nvcr.io/nvidia/clara/bionemo-framework:2.1 \
+    jupyter lab --allow-root \
+    --ip=0.0.0.0 --port=8888 \
+    --no-browser --NotebookApp.token='' \
+    --NotebookApp.allow_origin='*' \
+    --ContentsManager.allow_hidden=True \
+    --notebook-dir=$PWD
 ```
 
 Use `docker ps` to view running containers. You should see output similar to the following:
