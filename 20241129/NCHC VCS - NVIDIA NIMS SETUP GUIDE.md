@@ -229,9 +229,15 @@ ssh -i <your ssh private key> -fNL 8888:localhost:8888 ubuntu@<YOUR VM PUBLIC IP
 
 open your browser: http://localhost:8888
 
-### How to stop containers?
+### Download workshop notebook
+
+download the latest [workshop notebook](de-novo-protein-design-workflow-local.ipynb), then upload it in your jupyter lab.
+
+### FAQ
+
+#### How to stop containers?
  
-Use `docker stop <CONTAINER ID>` to stop one or `docker stop $(docker ps -aq)` to stop all.
+In server side, use `docker stop <CONTAINER ID>` to stop one or `docker stop $(docker ps -aq)` to stop all.
 
 ```bash
 docker stop $(docker ps -aq)
