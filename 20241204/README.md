@@ -35,6 +35,20 @@ This hackathon is open to everyone looking to take their projects to the next le
 
 無須進階 GPU 技能，但具備 GPU 的基礎知識將有助於活動期間的程式編寫與分析。並建議參賽隊伍在活動前透過 GPU 講座和實作課程來熟悉這些概念。如需更多的相關資訊或協助，請聯繫活動主辦單位。
 
+### GPU Programming/Profiling 教學資源
+
+- Learn [NVIDIA profiling tools](https://www.nvidia.com/en-us/on-demand/session/gtcsj20-s22141/) before coming to the event, and visit the "Tools" section on the [Technical Resources page](https://www.openhackathons.org/s/technical-resources).
+- lectures in Mandarin
+  - [2024/10/24-25 NCHC N-WAY GPU Bootcamp (with 2 Recordings)](https://github.com/nqobu/nvidia/tree/main/20240924)
+  - [2023 Hackathon Nsight System Session](https://youtu.be/pz69bwhjm3o)
+- lectures in English
+  - [Basic Languages Tutorial given by Jeff Larkin/NVIDIA](https://drive.google.com/file/d/1phZGnFnss6iYtJrHYUsKRpwQNB63mLAU/view?usp=sharing)
+  - [Math Library: cuSparse and cuSolver Overview by Samuel Rodriguez / Federico Busato](https://drive.google.com/file/d/1EgUYtgpqCr51jC9WWUz2W5wqx-k3aS0s/view?usp=sharing)
+  - [Nsight Tutorial given by Max Katz/NVIDIA](https://drive.google.com/file/d/1TEPiRpxqZXK2iqzy1uAQoAlrH3u7z-iX/view?usp=sharing)
+  - [Nsight Compute + Nsight System Q&A + Demo by Chris Ashton / Jackson Marusarz / Tod Courtney](https://drive.google.com/file/d/1nt6cfGNfFU-jdj6ZVYmjOT_DQx5m-JVL/view?usp=sharing)
+  - [Profiling with TensorFlow Demo, presented by Kaleb Smith/NVIDIA](https://drive.google.com/file/d/1DXO0xNZj_zrN46HszCyPX-BJMqFQ_Er5/view?usp=sharing)
+  - [Pytorch Nsight System Demo given by Tod Courtney/NVIDIA](https://drive.google.com/file/d/1EAfSgt1UzPRgP_xkf3zDnVvdumfnDk_2/view?usp=sharing)
+
 ## 計算資源
 
 本次活動將使用 NCHC 及 OpenACC 計算資源，團隊需要將資料集與程式碼等相關資源上傳至 NCHC 及 OpenACC，並且為自行準備的所有資料負責。
