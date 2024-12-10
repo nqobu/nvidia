@@ -1,7 +1,7 @@
 
-# NCHC Open Hackathons 2024
+# NCHC Open Hackathon 2024
 
-Open Hackathons 是為期 3 週密集的實作活動，和以往常見的 Hackathon 不同，Open Hackathons 的競賽題目自訂，唯一的競賽對手就是前一天的自己！活動目的是藉由團隊成員與經驗豐富業師的互動，來優化運算並進而加速團隊的研究與創新。參賽的團隊，除了在活動後可獲得參賽證明之外，同時還可以將加速後的成果發布於活動配合之平臺。
+NCHC Open Hackathon 是為期 3 週密集的實作活動，和以往常見的 Hackathon 不同，NCHC Open Hackathon 的競賽題目自訂，唯一的競賽對手就是前一天的自己！活動目的是藉由團隊成員與經驗豐富業師的互動，來優化運算並進而加速團隊的研究與創新。參賽的團隊，除了在活動後可獲得參賽證明之外，同時還可以將加速後的成果發布於活動配合之平臺。
 
 Together with NVIDIA and OpenACC organization, the NCHC (National Center for High-performance Computing) will host am in-person Open Hackathon starting November 13 and concluding December 4. The hackathon provides exciting opportunities for scientists to accelerate their AI or HPC research under the guidance of expert mentors from national laboratories, universities and industry leaders in a collaborative environment. Representing distinguished scholars and preeminent institutions around the world, the teams of mentors and attendees work together to achieve performance goals and speedups using a variety of programming models, libraries and tools.
 
@@ -10,7 +10,7 @@ The goal of the hackathon is for computational scientists to port, accelerate an
 This hackathon is open to everyone looking to take their projects to the next level; however, priority acceptance will be given to TWS/NCHC affiliated scientists and their collaborators.
 
 **Please note, the event will be held in Taiwanese.**
-
+<!--
 ## 報名日期
 
 自即日起至 2024 年 10 月 15 日 截止
@@ -18,7 +18,7 @@ This hackathon is open to everyone looking to take their projects to the next le
 ## 報名網址
 
 <https://www.openhackathons.org/s/siteevent/a0C5e000008dX2GEAU/se000298>
-
+  -->
 ## 活動日期
 
 2024 年 11 月 13 日 &mdash; 2024 年 12 月 04 日
@@ -104,10 +104,6 @@ This hackathon is open to everyone looking to take their projects to the next le
  -  大氣數值模式網格 透過 OpenACC 加速 8 倍 (HPC)
  -  超大語言模型 透過 TensorRT-LLM 加速 3 倍 (AI)
  -  醫療心電監控模型 透過 TensorRT+Triton 加速 40 倍 (AI)
-
-**聯絡窗口**：吳先生 &lt;[z@narlabs.org.tw](mailto:z@narlabs.org.tw)&gt;
-
-**聯絡電話**：[(03)5776085 分機 220](tel:+886-3-5776085,220)
 
 <!--
   vim: ft=markdown ic noet norl wrap sw=8 ts=8 sts=4:
