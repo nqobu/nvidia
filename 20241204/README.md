@@ -54,7 +54,7 @@ This hackathon is open to everyone looking to take their projects to the next le
 本次活動將使用 NCHC 及 OpenACC 計算資源，團隊需要將資料集與程式碼等相關資源上傳至 NCHC 及 OpenACC，並且為自行準備的所有資料負責。
 
 計算資源的使用請遵照 NCHC 及 OpenACC 相關使用規定，如有違規之情事，主辦方除有權逕行刪除該等違反規定之內容或採取其他必要處置之外，還得中止該團隊之參賽資格。
-  -->
+
 ## 活動形式
 
 本次 Open Hackathon 2024 將於臺灣標準時間 (UTC+8) 在線上舉辦，將透過 MS Teams、slack 和 email 作為主要溝通與交流工具。每個團隊將與導師配對，共同討論與優化程式碼，並於活動期間向所有團隊分享進度。
@@ -64,7 +64,7 @@ This hackathon is open to everyone looking to take their projects to the next le
  -  NCHC
  -  NVIDIA
  -  OpenACC
-
+  -->
 ## 活動行程
 
 (以下日期與時間，均以臺灣標準時間 UTC+8 為準)
