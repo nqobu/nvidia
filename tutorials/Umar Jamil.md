@@ -2,7 +2,7 @@
 # [Umar Jamil](https://www.youtube.com/@umarjamilai) -- a Machine Learning Coach
 
  -  Flash Attention derived and coded from first principles with Triton (Python). \[[Video](https://youtu.be/zy8ChVd_oTM)\]\[[Code](https://github.com/hkproj/triton-flash-attention)\]
- -  Coding a Multimodal (Vision) Language Model from scratch in PyTorch with full explanation. \[[Video](https://youtu.be/vAmKB7iPkWw)\]\[[Slide](https://github.com/hkproj/pytorch-paligemma)\]
+ -  Coding a Multimodal (Vision) Language Model from scratch in PyTorch with full explanation. \[[Video](https://youtu.be/vAmKB7iPkWw)\]\[[Code](https://github.com/hkproj/pytorch-paligemma)\]
  -  ML Interpretability: Feature visualization, adversarial example, interp. for language models. \[[Video](https://youtu.be/lg1-M8hEX50)\]\[[Slide](https://github.com/hkproj/ml-interpretability-notes)\]
  -  Kolmogorov-Arnold Networks: MLP vs KAN, Math, B-Splines, Universal Approximation Theorem. \[[Video](https://youtu.be/-PFIkkwWdnM)\]\[[Slide](https://github.com/hkproj/kan-notes)\]
  -  Direct Preference Optimization (DPO) Explained: Bradley-Terry model, Log Probabilities, Math. \[[Video](https://youtu.be/hvGa5Mba4c8)\]\[[Slide](https://github.com/hkproj/dpo-notes)\]
