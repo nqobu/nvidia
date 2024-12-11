@@ -94,7 +94,7 @@ This hackathon is open to everyone looking to take their projects to the next le
  -  12:00 &mdash; 13:30: Lunch time
  -  13:30 &mdash; 15:00: Result presentation (12 presentation + 3 QA minutes per team)
  -  15:00 &mdash; 16:00: Ending
-
+<!--
 ## 參考 Open Hackathon 2023 活動故事
 
 <https://www.nchc.org.tw/Message/MessageView?id=3874&menutype=0&sitemenuid=5&mid=46>
@@ -104,7 +104,7 @@ This hackathon is open to everyone looking to take their projects to the next le
  -  大氣數值模式網格 透過 OpenACC 加速 8 倍 (HPC)
  -  超大語言模型 透過 TensorRT-LLM 加速 3 倍 (AI)
  -  醫療心電監控模型 透過 TensorRT+Triton 加速 40 倍 (AI)
-
+  -->
 <!--
   vim: ft=markdown ic noet norl wrap sw=8 ts=8 sts=4:
   -->
