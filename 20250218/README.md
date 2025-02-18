@@ -12,6 +12,7 @@ February 18, 2025
 
 NVIDIA Grace CPU
 
+<!--
 ## Region
 
 Taiwan
@@ -20,7 +21,6 @@ Taiwan
 
 NCHC Classroom B, No. 7, R&D 6th Rd., East Dist., Hsinchu City, Taiwan
 
-<!--
 ## Registration Link
 
 https://forms.office.com/r/cWtBLu0AUg
