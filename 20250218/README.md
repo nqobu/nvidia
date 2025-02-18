@@ -39,8 +39,8 @@ Filippo Spiga, NVIDIA <https://developer.nvidia.com/blog/author/fspiga/>
 
 ## Agenda
 
-| Start Time<br>(CST)| End (CST) | Session |
-| ----- | ----- | ------ |
+| Start Time<br>(CST)| End<br>(CST) | Session |
+| :---: | :---: | ------ |
 | 09:50 | 10:00 | Session 1: Registration, Logistics and Welcome (10 mins) |
 | 10:15 | 10:45 | Session 2: NVIDIA Grace, GH200 and GB200 products and platforms (30 mins) |
 | 10:45 | 11:15 | Session 3: Software/Hardware Deep Dive (30 mins) |
