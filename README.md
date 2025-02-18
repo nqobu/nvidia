@@ -24,6 +24,7 @@
  -  20241114 - Earth-2 Overview
  -  20241129 - NCHC &times; NTU - NVIDIA BioNeMo Protein Design Workshop 2024
  -  20241204 - NCHC Open Hackathons 2024
+ -  20250218 - NCHC Grace Workshop 2025
 
 > [!NOTE]
 > DO NOT add issues, discussion, or files to this repo.
