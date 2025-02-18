@@ -28,7 +28,8 @@ https://forms.office.com/r/cWtBLu0AUg
 
 ## Instructor
 
-Filippo Spiga, NVIDIA <https://developer.nvidia.com/blog/author/fspiga/>
+[Gabriel Noaje](https://sg.linkedin.com/in/gabrielnoaje), NVIDIA
+[Filippo Spiga](https://developer.nvidia.com/blog/author/fspiga), NVIDIA
 
 ## Prerequisites
 
@@ -48,6 +49,7 @@ Filippo Spiga, NVIDIA <https://developer.nvidia.com/blog/author/fspiga/>
 | 11:30 | 12:00 | Session 4: Getting ready for hands-on + Live Demo (30 mins) |
 | 12:00 | 12:30 | Session 5: Ask Me Anything (30 mins) |
 
+<!--
 ## Notes
 
  -  This event will be conducted entirely in **English**.
@@ -55,6 +57,7 @@ Filippo Spiga, NVIDIA <https://developer.nvidia.com/blog/author/fspiga/>
  -  The organizer reserves the right for the acceptance of your registration.
     The approval notice of your registration along with other information of the event will sent to you by the email registered.
  -  You are encouraged to bring your own devices for the in-person course. A free WiFi and lunch will be provided for this event.
+  -->
 
 <!--
   vim: ft=markdown ic nort nort wrap sw=4 ts=8 sts=4:
