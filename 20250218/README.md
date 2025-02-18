@@ -28,7 +28,7 @@ https://forms.office.com/r/cWtBLu0AUg
 
 ## Instructor
 
-[Gabriel Noaje](https://sg.linkedin.com/in/gabrielnoaje), NVIDIA
+[Gabriel Noaje](https://sg.linkedin.com/in/gabrielnoaje), NVIDIA\
 [Filippo Spiga](https://developer.nvidia.com/blog/author/fspiga), NVIDIA
 
 ## Prerequisites
