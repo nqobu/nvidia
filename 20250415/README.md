@@ -43,14 +43,14 @@ In-person course
 
 | Start Time<br>(CST)| End<br>(CST) | Session |
 | :---: | :---: | ------ |
-| 09:00 AM | 09:30 AM | Welcome and connecting to the Cluster |
-| 09:30 AM | 10:45 AM | Directive-Based Programming with OpenACC on GPUs (Lecture and Lab) (Continued) |
-| 10:45 AM | 11:00 AM | Break |
-| 11:00 AM | 12:00 PM | CUDA C/Fortran Programming (Lecture + Lab) |
-| 12:00 PM | 01:00 PM | Lunch |
-| 01:00 PM | 02:00 PM | CUDA C/Fortran Programming (Lecture + Lab) (Continuation) |
-| 02:00 PM | 02:30 PM | Memory Coherent CPU-GPU Programming (Lecture + Lab) |
-| 02:30 PM | 04:30 PM | Coding Challenge |
+| 09:00 | 09:30 | Welcome and connecting to the Cluster |
+| 09:30 | 10:45 | Directive-Based Programming with OpenACC on GPUs (Lecture and Lab) (Continued) |
+| 10:45 | 11:00 | Break |
+| 11:00 | 12:00 | CUDA C/Fortran Programming (Lecture + Lab) |
+| 12:00 | 13:00 | Lunch |
+| 13:00 | 14:00 | CUDA C/Fortran Programming (Lecture + Lab) (Continuation) |
+| 14:00 | 14:30 | Memory Coherent CPU-GPU Programming (Lecture + Lab) |
+| 14:30 | 16:30 | Coding Challenge |
 
 <!--
   vim: ft=markdown ic nort nort wrap sw=4 ts=8 sts=4:
