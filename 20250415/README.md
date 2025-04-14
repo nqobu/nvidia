@@ -24,7 +24,10 @@ NVIDIA N-Way GPU Programmiong
 
 ### Day 1: Tuesday, April 15, 2025 / 09:00 AM - 12:30 PM
 
-On-line course: [Join the meeting now](https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWNiYTExNjItOWFkOC00ZTI0LWI1YWMtNDY1NDQxMzUzN2Ex%40thread.v2/0?context=%7b%22Tid%22%3a%2243083d15-7273-40c1-b7db-39efd9ccc17a%22%2c%22Oid%22%3a%22ce218103-5e8c-4c2f-9459-4cd40d72e332%22%7d)
+On-line course:
+ -  Meeting URL: <https://teams.microsoft.com/l/meetup-join/19%3ameeting_MWNiYTExNjItOWFkOC00ZTI0LWI1YWMtNDY1NDQxMzUzN2Ex%40thread.v2/0?context=%7b%22Tid%22%3a%2243083d15-7273-40c1-b7db-39efd9ccc17a%22%2c%22Oid%22%3a%22ce218103-5e8c-4c2f-9459-4cd40d72e332%22%7d>
+ -  Meeting ID: `295 477 925 989`
+ -  Passcode: `hS3p4WS2`
 
 | Start Time<br>(CST)| End<br>(CST) | Session |
 | :---: | :---: | ------ |
