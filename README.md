@@ -25,7 +25,7 @@
  -  20241129 - NCHC &times; NTU - NVIDIA BioNeMo Protein Design Workshop 2024
  -  20241204 - NCHC Open Hackathons 2024
  -  20250218 - NCHC Grace Workshop 2025
- -  20250415 - NCHC N-Way Bootcamp 2024 – NVIDIA GPU 加速運算
+ -  20250415 - NCHC N-Way Bootcamp 2025 – NVIDIA GPU 加速運算
 
 > [!NOTE]
 > DO NOT add issues, discussion, or files to this repo.
