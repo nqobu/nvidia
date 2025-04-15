@@ -1,6 +1,8 @@
 
 # [Umar Jamil](https://www.youtube.com/@umarjamilai) -- a Machine Learning Coach
 
+ -  Titans: Learning to Memorize at Test Time. \[[Video](https://youtu.be/A6kPQVejN4o)\]\[[Paper](https://arxiv.org/abs/2501.00663)\]
+ -  Paper: DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning. \[[Video](https://youtu.be/XMnxKGVnEUc)\]\[[Paper](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf)\]
  -  Flash Attention derived and coded from first principles with Triton (Python). \[[Video](https://youtu.be/zy8ChVd_oTM)\]\[[Code](https://github.com/hkproj/triton-flash-attention)\]
  -  Coding a Multimodal (Vision) Language Model from scratch in PyTorch with full explanation. \[[Video](https://youtu.be/vAmKB7iPkWw)\]\[[Code](https://github.com/hkproj/pytorch-paligemma)\]
  -  ML Interpretability: Feature visualization, adversarial example, interp. for language models. \[[Video](https://youtu.be/lg1-M8hEX50)\]\[[Slide](https://github.com/hkproj/ml-interpretability-notes)\]
