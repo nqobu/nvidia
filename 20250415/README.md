@@ -6,7 +6,7 @@ NVIDIA N-Way GPU Programmiong
 
 ## Instructor
 
-Leo Chen
+Leo Chen (NVIDIA)
 
 ## Prerequisites
 
