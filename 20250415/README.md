@@ -6,11 +6,7 @@ NVIDIA N-Way GPU Programmiong
 
 ## Instructor
 
- -  Leo Chen (Instructor）
- -  Anthony Chang (TA)
- -  Rosie Wu (TA)
- -  Johnson Sun (TA)
- -  Jay Chen (TA)
+Leo Chen
 
 ## Prerequisites
 
