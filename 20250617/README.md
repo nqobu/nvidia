@@ -46,7 +46,7 @@ Large Language Model Training and Inference
 | 09:30 | 12:00 | Hands-on with NeMo Framework (Lab) |
 | 12:00 | 12:00 | Lunch |
 | 13:00 | 13:30 | Introduction to NCHC Taiwan AI RAP LLM Platform（游輝宏） |
-| 13:30 | 13:00 | RAP Platform: Multi-Model API Service（蔡顓澤、助教：葉東佑） |
+| 13:30 | 13:00 | RAP Platform: Multi-Model API Service（蔡顓澤、助教：葉東祐） |
 | 14:00 | 14:10 | Break |
 | 14:10 | 14:00 | RAP Platform: Customized Process Design Frontend（許伯豪） |
 | 15:00 | 15:10 | Break |
