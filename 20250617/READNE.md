@@ -20,7 +20,7 @@ Large Language Model Training and Inference
 
 ### Day 1: Tuesday, June 17, 2025 / 09:00 AM - 13:00 PM
 
-On-line course:
+**On-line course**
 
  -  Meeting URL: https://teams.microsoft.com/meet/227899422688?p=E2fL99DFoxVPstmNlZ
  -  Meeting ID:  `227 899 422 688`
@@ -37,7 +37,7 @@ On-line course:
 
 ### Day 2: Wednesday, June 18, 2025 / 09:00 AM - 04:30 PM
 
-In-person course
+**In-person course**
 
 | Start Time<br>(CST)| End<br>(CST) | Session |
 | :---: | :---: | ------ |
