@@ -6,11 +6,11 @@ Large Language Model Training and Inference
 
 ## Instructors
 
-Cliff Chiu, NVIDIA
-游輝宏, NCHC
-蔡顓澤, NCHC
-許伯豪, NCHC
-陳諺匀, NCHC
+ -  Cliff Chiu, NVIDIA
+ -  游輝宏, NCHC
+ -  蔡顓澤, NCHC
+ -  許伯豪, NCHC
+ -  陳諺匀, NCHC
 
 ## Model Download
 
