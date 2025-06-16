@@ -53,6 +53,12 @@ Large Language Model Training and Inference
 | 15:10 | 15:00 | RAP Platform: Model Fine-Tuning and Evaluation（陳諺匀） |
 | 16:00 | 16:30 | Open Discussion + Q&A |
 
+## Reference
+
+ -  [Understanding LLMs: A Comprehensive Overview from Training to Inference](https://arxiv.org/abs/2401.02038v2)
+ -  [Language Model Training and Inference: From Concept to Code](https://cameronrwolfe.substack.com/p/language-model-training-and-inference)
+ -  [Understanding LLM Inference | NVIDIA Experts Deconstruct How AI Works](https://www.youtube.com/live/NJ1jAfWR84k)
+
 <!--
   vim: ft=markdown ic nort nort wrap sw=4 ts=8 sts=4:
   -->
