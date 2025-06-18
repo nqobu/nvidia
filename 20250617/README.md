@@ -59,6 +59,7 @@ Large Language Model Training and Inference
  -  [Understanding LLMs: A Comprehensive Overview from Training to Inference](https://arxiv.org/abs/2401.02038v2)
  -  [Understanding LLM Inference | NVIDIA Experts Deconstruct How AI Works](https://www.youtube.com/live/NJ1jAfWR84k)\
     [Mastering LLM Inference Optimization From Theory to Cost Effective Deployment: Mark Moyou](https://youtu.be/9tvJ_GYJA-o)
+ -  [Taiwan AI RAP](https://rap.genai.nchc.org.tw/)
 
 <!--
   vim: ft=markdown ic nort nort wrap sw=4 ts=8 sts=4:
