@@ -8,7 +8,7 @@
  -  20220415 - NVIDIA Techniques Update 2022
  -  20220530 - NCHC-NVIDIA Techniques Sharing 2022
  -  20220629 - PINN 與 NVIDIA Modulus 實作訓練營
- -  20221111 - Quantum Computing Workshop / 量子計算模擬實作
+ -  20221111 - Quantum Computing Workshop / 量子計算模擬
  -  20230413 - NVIDIA Techniques Sharing 2023
  -  20230517 - NVIDIA Techniques Briefing: NVIDIA Federated Learning
  -  20230525 - AI for Science: NVIDIA Modulus 及 NVIDIA Omniverse 實作
@@ -26,6 +26,8 @@
  -  20241204 - NCHC Open Hackathons 2024
  -  20250218 - NCHC Grace Workshop 2025
  -  20250415 - NCHC N-Way Bootcamp 2025 – NVIDIA GPU 加速運算
+ -  20250617 - NCHC LLM Bootcamp 2025 - 大語言模型
+ -  20250716 - NCHC CUDA-Q Bootcamp 2025 - 量子計算模擬
 
 > [!NOTE]
 > DO NOT add issues, discussion, or files to this repo.
