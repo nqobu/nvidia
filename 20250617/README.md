@@ -2,19 +2,8 @@
 
 ## Event Focus
 
-Large Language Model Training and Inference
-
-## Instructors
-
- -  Cliff Chiu, NVIDIA
- -  游輝宏, NCHC
- -  蔡顓澤, NCHC
- -  許伯豪, NCHC
- -  陳諺匀, NCHC
-
-## Model Download
-
-<https://ndrive.niar.org.tw/navigate/a/#/s/folder/MjgwMjU2LDI2OTYxMTcsbmRyaXZlLm5pYXIub3JnLnR3L3NnLDI4MDI1Ng%3D%3D>
+-  Large Language Model Training and Inference
+-  TAIWAN AI RAP
 
 ## Agenda
 
