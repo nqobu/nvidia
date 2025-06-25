@@ -11,9 +11,9 @@
 
 **On-line course**
 
- -  Meeting URL: https://teams.microsoft.com/meet/227899422688?p=E2fL99DFoxVPstmNlZ
- -  Meeting ID:  `227 899 422 688`
- -  Passcode:    `qP2iT2nN`
+Video:
+
+ -  [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Day1](https://youtu.be/W1akMSRQcE8)
  
 | Start Time<br>(CST)| End<br>(CST) | Session |
 | :---: | :---: | ------ |
@@ -27,6 +27,11 @@
 ### Day 2: Wednesday, June 18, 2025 / 09:00 AM - 04:30 PM
 
 **In-person course**
+
+Video:
+
+ -  [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Day2](https://youtu.be/i6B4FyqX_5s)
+ -  [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練_Taiwan AI RAP](https://youtu.be/yH6JV2eDEng)
 
 | Start Time<br>(CST)| End<br>(CST) | Session |
 | :---: | :---: | ------ |
