@@ -9,8 +9,6 @@
 
 ### Day 1: Tuesday, June 17, 2025 / 09:00 AM - 13:00 PM
 
-**On-line course**
-
 Video:
 
  -  [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Day1](https://youtu.be/W1akMSRQcE8)
@@ -25,8 +23,6 @@ Video:
 | 11:30 | 13:00 | LLM Inference Theory (Lecture) |
 
 ### Day 2: Wednesday, June 18, 2025 / 09:00 AM - 04:30 PM
-
-**In-person course**
 
 Video:
 
