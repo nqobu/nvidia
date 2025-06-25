@@ -27,7 +27,7 @@ Video:
 Video:
 
  -  [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Day2](https://youtu.be/i6B4FyqX_5s)
- -  [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練_Taiwan AI RAP](https://youtu.be/yH6JV2eDEng)
+ -  [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Taiwan AI RAP](https://youtu.be/yH6JV2eDEng)
 
 | Start Time<br>(CST)| End<br>(CST) | Session |
 | :---: | :---: | ------ |
