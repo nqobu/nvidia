@@ -9,9 +9,7 @@
 
 ### Day 1: Tuesday, June 17, 2025 / 09:00 AM - 13:00 PM
 
-Video: [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Day1](https://youtu.be/W1akMSRQcE8)
-
-On-line course:
+On-line course: [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Day1](https://youtu.be/W1akMSRQcE8)
 
 | Start Time<br>(CST)| End<br>(CST) | Session |
 | :---: | :---: | ------ |
