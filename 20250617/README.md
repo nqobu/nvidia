@@ -9,8 +9,7 @@
 
 ### Day 1: Tuesday, June 17, 2025 / 09:00 AM - 13:00 PM
 
-Video:
-: [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Day1](https://youtu.be/W1akMSRQcE8)
+Video: [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Day1](https://youtu.be/W1akMSRQcE8)
 
 On-line course:
 
@@ -25,9 +24,8 @@ On-line course:
 
 ### Day 2: Wednesday, June 18, 2025 / 09:00 AM - 04:30 PM
 
-Video:
-: [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Day2](https://youtu.be/i6B4FyqX_5s)
-: [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Taiwan AI RAP](https://youtu.be/yH6JV2eDEng)
+In-person course: [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Day2](https://youtu.be/i6B4FyqX_5s)\
+Taiwan AI RAP: [NCHC LLM Bootcamp 2025 - 大語言模型教育訓練 Taiwan AI RAP](https://youtu.be/yH6JV2eDEng)
 
 | Start Time<br>(CST)| End<br>(CST) | Session |
 | :---: | :---: | ------ |
