@@ -20,9 +20,7 @@ Leo Chen (NVIDIA)
 
 ### Day 1: Tuesday, April 15, 2025 / 09:00 AM - 12:30 PM
 
-Video: [NCHC N-WAY Bootcamp 2025 – NVIDIA GPU 加速運算 Day1](https://youtu.be/qqU0jKyMwzg)
-
-On-line course:
+On-line course: [NCHC N-WAY Bootcamp 2025 – NVIDIA GPU 加速運算 Day1](https://youtu.be/qqU0jKyMwzg)
 
 | Start Time<br>(CST)| End<br>(CST) | Session |
 | :---: | :---: | ------ |
@@ -34,9 +32,7 @@ On-line course:
 
 ### Day 2: Wednesday, April 16, 2025 / 09:00 AM - 04:30 PM
 
-Video: [NCHC N-WAY Bootcamp 2025 – NVIDIA GPU 加速運算 Day2](https://youtu.be/fOVxQkOTpfA)
-
-In-person course
+In-person course: [NCHC N-WAY Bootcamp 2025 – NVIDIA GPU 加速運算 Day2](https://youtu.be/fOVxQkOTpfA)
 
 | Start Time<br>(CST)| End<br>(CST) | Session |
 | :---: | :---: | ------ |
