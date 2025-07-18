@@ -37,7 +37,7 @@
     If you do not receive an approval notice before the event, it means your application has been denied.
 
  6. 建議您攜帶自已的筆記型電腦參加 2025/07/16 的實體課程，期間將提供免費的 WiFi 連線服務及午餐。\
-    You are encouraged to bring your own devices to the July 16, 2025 in-person course, during which free WiFi and lunch will be provided.
+    You are encouraged to bring your own devices to the July 23, 2025 in-person course, during which free WiFi and lunch will be provided.
 
 ## 聯絡窗口
 
