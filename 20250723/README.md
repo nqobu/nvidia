@@ -2,7 +2,7 @@
 
 ## Event Focus
 
- -  CUDA-Q
+ -  NVIDIA CUDA-Q
  -  Scalable Quantum Circuit Simulation with CUDA-Q
 
 ## Agenda
