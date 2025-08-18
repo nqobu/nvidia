@@ -1,8 +1,8 @@
 # NCHC CUDA-Q Bootcamp 2025 - 量子計算模擬教育訓練
 
-## 課程內容
+## Agenda
 
-**影片連結**：<https://youtu.be/M4EairrRdj0>
+**In-person course:**：[NCHC CUDA-Q Bootcamp 2025 - 量子計算模擬教育訓練](https://youtu.be/M4EairrRdj0)
 
 <!--
 **實體課程**：2025 年 07 月 23 日 10:30 AM - 16:30 PM
