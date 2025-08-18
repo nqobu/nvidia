@@ -1,5 +1,10 @@
 # NCHC CUDA-Q Bootcamp 2025 - 量子計算模擬教育訓練
 
+## Event Focus
+
+ -  CUDA-Q
+ -  Scalable Quantum Circuit Simulation with CUDA-Q
+
 ## Agenda
 
 **In-person course:**：[NCHC CUDA-Q Bootcamp 2025 - 量子計算模擬教育訓練](https://youtu.be/M4EairrRdj0)
