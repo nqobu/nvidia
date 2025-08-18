@@ -10,18 +10,18 @@
 **活動地點**：國網中心新竹本部（新竹市東區研發六路 7 號）
   -->
 
-| 時間 | 活動內容 |
-| :--: | -------- |
-| 10:30 AM - 10:45 AM | Welcome
-| 10:45 AM - 11:00 AM | NVIDIA Quantum Platform Overview
-| 11:00 AM - 12:00 AM | Introduction to CUDA-Q & CUDA-QX
-| 12:00 PM - 01:30 PM | Lunch Break
-| 01:30 PM - 02:00 PM | Environment Setup
-| 01:00 PM - 02:30 PM | CUDA-Q Fundamentals
-| 02:30 PM - 03:20 PM | CUDA-Q Use Cases Shared by NCHC Researcher - Dr. Tai-Yue Li
-| 03:20 PM - 03:50 PM | CUDA-Q Dynamics for Open Quantum System
-| 03:50 PM - 04:20 PM | Solving Combinatorial Optimization by CUDA-QX
-| 04:20 PM - 04:30 PM | Q&A + Open Discussion
+| Start Time<br>(CST) | End Time<br>(CST) |Session |
+| :--: | :--: | -------- |
+| 10:30 AM | 10:45 AM | Welcome
+| 10:45 AM | 11:00 AM | NVIDIA Quantum Platform Overview
+| 11:00 AM | 12:00 AM | Introduction to CUDA-Q & CUDA-QX
+| 12:00 PM | 01:30 PM | Lunch Break
+| 01:30 PM | 02:00 PM | Environment Setup
+| 01:00 PM | 02:30 PM | CUDA-Q Fundamentals
+| 02:30 PM | 03:20 PM | CUDA-Q Use Cases Shared by NCHC Researcher - Dr. Tai-Yue Li
+| 03:20 PM | 03:50 PM | CUDA-Q Dynamics for Open Quantum System
+| 03:50 PM | 04:20 PM | Solving Combinatorial Optimization by CUDA-QX
+| 04:20 PM | 04:30 PM | Q&A + Open Discussion
 
 <!--
 ## 注意事項
