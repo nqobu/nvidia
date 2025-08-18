@@ -2,9 +2,13 @@
 
 ## 課程內容
 
+**影片連結**：<https://youtu.be/M4EairrRdj0>
+
+<!--
 **實體課程**：2025 年 07 月 23 日 10:30 AM - 16:30 PM
 
 **活動地點**：國網中心新竹本部（新竹市東區研發六路 7 號）
+  -->
 
 | 時間 | 活動內容 |
 | :--: | -------- |
@@ -19,6 +23,7 @@
 | 03:50 PM - 04:20 PM | Solving Combinatorial Optimization by CUDA-QX
 | 04:20 PM - 04:30 PM | Q&A + Open Discussion
 
+<!--
 ## 注意事項
 
  1. **本次活動將完全以中文進行。**\
@@ -43,3 +48,4 @@
 
 吳先生 &lt;[z@narlabs.org.tw](mailto:z@narlabs.org.tw)&gt;\
 電話：(03) 5776085 分機 220
+  -->
