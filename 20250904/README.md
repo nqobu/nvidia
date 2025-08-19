@@ -6,8 +6,13 @@ https://www.openhackathons.org/s/siteevent/a0CUP00001h4i0z2AA/se000416
 
 ## Event Focus
 
- -  生成式 AI 技術應用於蛋白質設計：透過 NVIDIA BioNeMo 平台，實作 RFdiffusion 與 ProteinMPNN 等創新技術。
- -  基因定序資料分析與加速運算實作：運用 Parabricks 工具，加速處理大規模基因資料，掌握分析流程最佳化。
+ -  生成式 AI 技術應用於蛋白質設計
+
+    透過 NVIDIA BioNeMo 平台，實作 RFdiffusion 與 ProteinMPNN 等創新技術。
+
+ -  基因定序資料分析與加速運算實作
+
+    運用 Parabricks 工具，加速處理大規模基因資料，掌握分析流程最佳化。
 
 ## Agenda
 
