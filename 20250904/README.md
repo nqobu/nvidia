@@ -26,6 +26,7 @@ No. 138, Shengli Rd., North Dist., Tainan City 704302, Taiwan (R.O.C.)
 
  -  Ying-Ja CHEN (NVIDIA, Instructor)
  -  Wade HWANG (NCHC, Instructor)
+ -  Ken LIAO (NVIDIA, TA)
  -  Jay CHEN (NVIDIA, TA)
 
 ## Agenda / 活動行程
@@ -39,7 +40,7 @@ No. 138, Shengli Rd., North Dist., Tainan City 704302, Taiwan (R.O.C.)
 | 10:15	| 10:30	| System Setup / 系統環境設置 |
 | 10:30	| 11:00	| BioNeMo Introduction / BioNeMo 介紹 |
 | 11:00	| 12:30	| Protein Design Hands-on Session / 蛋白設計實作 |
-| 12:30	| 13:30	| Session 1 Ends, Lunch Break / 午餐／交流時間 |
+| 12:30	| 13:30	| Session 1 Ends / 交流時間 |
 
 ### Session 2: Thursday, September 4, 2025 / 13:30 &ndash; 16:00 (In-Person)
 
