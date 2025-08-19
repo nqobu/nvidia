@@ -22,7 +22,7 @@ National Cheng Kung University Kun-Yen Medical Library
 臺南市北區勝利路 138 號\
 No. 138, Shengli Rd., North Dist., Tainan City 704302, Taiwan (R.O.C.)
 
-## Instructor and TAs / 師資陣容
+## Instructors and TAs / 師資陣容
 
  -  Ying-Ja CHEN (NVIDIA, Instructor)
  -  Wade HWANG (NCHC, Instructor)
