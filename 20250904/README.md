@@ -17,8 +17,8 @@ Date:
 
 Address:
 
- -  國立成功大學 醫學院圖書館電腦教室
-    National Cheng Kung University Kun-Yen Medical Library
+ -  國立成功大學 醫學院圖書館電腦教室\
+    National Cheng Kung University Kun-Yen Medical Library\
     臺南市北區勝利路138號
 
 Session 1: Thursday, September 4, 2025 // 10:00 AM - 12:30 PM (In-Person)
