@@ -24,9 +24,9 @@ No. 138, Shengli Rd., North Dist., Tainan City 704302, Taiwan (R.O.C.)
 
 ## Instructor and TAs / 師資陣容
 
- -  Ying-Ja Chen (NVIDIA, Instructor)
- -  黃介瑋 (NCHC, Instructor)
- -  Jay Chen (NVIDIA, TA)
+ -  Ying-Ja CHEN (NVIDIA, Instructor)
+ -  Wade HWANG (NCHC, Instructor)
+ -  Jay CHEN (NVIDIA, TA)
 
 ## Agenda / 活動行程
 
