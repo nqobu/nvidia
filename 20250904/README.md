@@ -11,17 +11,18 @@ https://www.openhackathons.org/s/siteevent/a0CUP00001h4i0z2AA/se000416
 
 ## Agenda
 
-Date:
+### Date:
 
- -  Tuesday, September 4, 2025 / 10:00 AM - 16:30 PM
+Tuesday, September 4, 2025 / 10:00 AM - 16:30 PM
 
-Address:
+### Address
 
- -  國立成功大學 醫學院圖書館電腦教室\
-    National Cheng Kung University Kun-Yen Medical Library\
-    臺南市北區勝利路138號
+國立成功大學 醫學院圖書館電腦教室\
+National Cheng Kung University Kun-Yen Medical Library
 
-Session 1: Thursday, September 4, 2025 // 10:00 AM - 12:30 PM (In-Person)
+臺南市北區勝利路138號
+
+### Session 1: Thursday, September 4, 2025 // 10:00 AM - 12:30 PM (In-Person)
 
 | Start Time<br>(CST) | End Time<br>(CST) | Session |
 | :--: | :--: |-------- |
@@ -32,7 +33,7 @@ Session 1: Thursday, September 4, 2025 // 10:00 AM - 12:30 PM (In-Person)
 | 11:00 | 12:30 | Protein Design Hands-on Session / 蛋白設計實作 |
 | 12:30 | 13:30 | Session 1 Ends, Lunch Break / 午餐／交流時間 |
                                                                          
-Session 2: Thursday, September 4, 2025 // 01:30 PM –  04:00 PM (In-Person)
+### Session 2: Thursday, September 4, 2025 // 01:30 PM –  04:00 PM (In-Person)
 
 | Start Time<br>(CST) | End Time<br>(CST) | Session |
 | :--: | :--: |-------- |
