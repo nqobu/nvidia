@@ -41,4 +41,4 @@ Session 2: Thursday, September 4, 2025 // 01:30 PM –  04:00 PM (In-Person)
 | 13:45 | 14:00 | System Setup / 系統設置 |
 | 14:00 | 14:30 | Parabricks Introduction / Parabricks 介紹 |
 | 14:30 | 16:00 | Genomic Analysis Hands-on Session / 基因分析實作 |
-| 16:00 | | Session 2 Ends / 結束 |
+| 16:00 | ... | Session 2 Ends / 結束 |
