@@ -48,7 +48,7 @@ No. 138, Shengli Rd., North Dist., Tainan City 704302, Taiwan (R.O.C.)
 | :---:	| :---:	| ------- |
 | 13:30	| 13:35	| Welcome / 歡迎與開場 |
 | 13:35	| 13:45	| NCHC Introduction / NCHC 介紹 |
-| 13:45	| 14:00	| System Setup / 系統設置 |
+| 13:45	| 14:00	| System Setup / 系統環境設置 |
 | 14:00	| 14:30	| Parabricks Introduction / Parabricks 介紹 |
 | 14:30	| 16:00	| Genomic Analysis Hands-on Session / 基因分析實作 |
 | 16:00	| ...	| Session 2 Ends / 結束 |
