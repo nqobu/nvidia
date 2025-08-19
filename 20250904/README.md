@@ -11,21 +11,34 @@ https://www.openhackathons.org/s/siteevent/a0CUP00001h4i0z2AA/se000416
 
 ## Agenda
 
-Day: Tuesday, September 4, 2025 / 10:00 AM - 16:30 PM
+Date:
 
-In-person course: 國立成功大學 醫學院圖書館電腦教室
+ -  Tuesday, September 4, 2025 / 10:00 AM - 16:30 PM
 
-| Time<br>(CST) | Session |
-| :--: | -------- |
-| 10:00 | 歡迎與開場 |
-| 10:05 | NCHC 介紹 |
-| 10:15 | 系統環境設置 |
-| 10:30 | BioNeMo 介紹 |
-| 11:00 | 蛋白設計實作 |
-| 12:30 | 午餐／交流時間 |
-| 13:30 | 歡迎與開場 |
-| 13:35 | NCHC 介紹 |
-| 13:45 | 系統設置 |
-| 14:00 | Parabricks 介紹 |
-| 14:30 | 基因分析實作 |
-| 16:00 | 結束 |
+Address:
+
+ -  國立成功大學 醫學院圖書館電腦教室
+    National Cheng Kung University Kun-Yen Medical Library
+    臺南市北區勝利路138號
+
+Session 1: Thursday, September 4, 2025 // 10:00 AM - 12:30 PM (In-Person)
+
+| Start Time<br>(CST) | End Time<br>(CST) | Session |
+| :--: | :--: |-------- |
+| 10:00 | 10:05 | Welcome / 歡迎與開場 |
+| 10:05 | 10:15 | NCHC Introduction / NCHC 介紹 |
+| 10:15 | 10:30 | System Setup / 系統環境設置 |
+| 10:30 | 11:00 | BioNeMo Introduction / BioNeMo 介紹 |
+| 11:00 | 12:30 | Protein Design Hands-on Session / 蛋白設計實作 |
+| 12:30 | 13:30 | Session 1 Ends, Lunch Break / 午餐／交流時間 |
+                                                                         
+Session 2: Thursday, September 4, 2025 // 01:30 PM –  04:00 PM (In-Person)
+
+| Start Time<br>(CST) | End Time<br>(CST) | Session |
+| :--: | :--: |-------- |
+| 13:30 | 13:35 | Welcome / 歡迎與開場 |
+| 13:35 | 13:45 | NCHC Introduction / NCHC 介紹 |
+| 13:45 | 14:00 | System Setup / 系統設置 |
+| 14:00 | 14:30 | Parabricks Introduction / Parabricks 介紹 |
+| 14:30 | 16:00 | Genomic Analysis Hands-on Session / 基因分析實作 |
+| 16:00 | | Session 2 Ends / 結束 |
