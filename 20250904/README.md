@@ -1,4 +1,4 @@
-# NCHC × NCKU Digital Biology Bootcamp -- 數位生物技術訓練營
+# NCHC &times; NCKU Digital Biology Bootcamp &mdash; 數位生物技術訓練營
 
 ## Event Focus / 活動重點
 
@@ -30,7 +30,7 @@ No. 138, Shengli Rd., North Dist., Tainan City 704302, Taiwan (R.O.C.)
 
 ## Agenda / 活動行程
 
-**Session 1:** Thursday, September 4, 2025 / 10:00 - 12:30 (In-Person)
+**Session 1:** Thursday, September 4, 2025 / 10:00 &ndash; 12:30 (In-Person)
 
 | Start Time<br>(CST) | End Time<br>(CST) | Session |
 | :---:	| :---:	| ------- |
@@ -41,7 +41,7 @@ No. 138, Shengli Rd., North Dist., Tainan City 704302, Taiwan (R.O.C.)
 | 11:00	| 12:30	| Protein Design Hands-on Session / 蛋白設計實作 |
 | 12:30	| 13:30	| Session 1 Ends, Lunch Break / 午餐／交流時間 |
 
-**Session 2:** Thursday, September 4, 2025 / 13:30 – 16:00 (In-Person)
+**Session 2:** Thursday, September 4, 2025 / 13:30 &ndash; 16:00 (In-Person)
 
 | Start Time<br>(CST) | End Time<br>(CST) | Session |
 | :---:	| :---:	| ------- |
