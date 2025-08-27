@@ -232,7 +232,16 @@ if GPU driver not ready,
 follow [Installation Guide](https://man.twcc.ai/@twccdocs/doc-vcs-main-zh/https%3A%2F%2Fman.twcc.ai%2F%40twccdocs%2Fhowto-vcs-install-nvidia-gpu-driver-zh) to install NVIDIA GPU Driver. see example below:
 
 ```bash
-echo "blacklist nouveau" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf && echo "options nouveau modeset=0" | sudo tee -a /etc/modprobe.d/blacklist-nouveau.conf && sudo update-initramfs -u && sudo modprobe -r nouveau && sudo modprobe nouveau && sudo apt-get update && sudo apt-get install libc-dev -y && sudo apt-get install linux-headers-$(uname -r) -y && wget https://tw.download.nvidia.com/tesla/550.90.07/NVIDIA-Linux-x86_64-550.90.07.run && sudo sh NVIDIA-Linux-x86_64-550.90.07.run --accept-license --no-questions --dkms -s
+echo "blacklist nouveau" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf &&
+    echo "options nouveau modeset=0" | sudo tee -a /etc/modprobe.d/blacklist-nouveau.conf &&
+    sudo update-initramfs -u &&
+    sudo modprobe -r nouveau &&
+    sudo modprobe nouveau &&
+    sudo apt-get update &&
+    sudo apt-get install libc-dev -y &&
+    sudo apt-get install linux-headers-$(uname -r) -y &&
+    wget https://tw.download.nvidia.com/tesla/550.90.07/NVIDIA-Linux-x86_64-550.90.07.run &&
+    sudo sh NVIDIA-Linux-x86_64-550.90.07.run --accept-license --no-questions --dkms -s
 ```
 
 follow [Installation Guide](https://docs.nvidia.com/ai-enterprise/deployment/vmware/latest/docker.html) to install Docker and NVIDIA Container Toolkit. see example below:
@@ -243,17 +252,21 @@ curl -fsSL get.docker.com | bash
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
+
 ## verfiy docker is ready
 docker run hello-world
+
 # install NVIDIA Container Toolkit
-curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg \
-  && curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list | \
-    sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' | \
+curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey |
+    sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg &&
+curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list |
+    sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' |
     sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 sudo apt-get update
 sudo apt-get install -y nvidia-container-toolkit
 sudo nvidia-ctk runtime configure --runtime=docker
 sudo systemctl restart docker
+
 ## verify docker with nvidia container toolkit
 docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi
 ```
