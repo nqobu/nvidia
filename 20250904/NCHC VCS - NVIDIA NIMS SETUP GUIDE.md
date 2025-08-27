@@ -28,7 +28,9 @@ Will run 3 docker contgainers to server 2 NIMs and 1 JupyterLab for this bootcam
 
     ![](images/image-1.png)
 
- -  Select the image "(private)bionemo20250904", we pre-built the image for the bootcamp, you could build your own by following "[How to create your own bootcamp-ready VM image](#how-to-create-your-own-bootcamp-ready-vm-image)"
+ -  Select the image "(private)bionemo20250904",
+    we pre-built the image for the bootcamp,
+    you could build your own by following "[How to create your own bootcamp-ready VM image](#how-to-create-your-own-bootcamp-ready-vm-image)"
 
     ![](images/image-2.png)
 
@@ -36,20 +38,25 @@ Will run 3 docker contgainers to server 2 NIMs and 1 JupyterLab for this bootcam
 
     ![](images/image-3.png)
 
- -  In "VIRTUAL NETWORK INTERFACE", "Assign Public IP", choose "Auto-assign Floating IP"
+ -  In "VIRTUAL NETWORK INTERFACE",
+    "Assign Public IP",
+    choose "Auto-assign Floating IP"
 
     ![](images/image-4.png)
 
- -  In "STORAGE", make sure "System Disk Size (GB)" with at least "200".
+ -  In "STORAGE",
+    make sure "System Disk Size (GB)" with at least "200".
 
     ![](images/image-5.png)
 
- -  In "KEY PAIR", click "+CREATE KEY PAIR" to create your own.
+ -  In "KEY PAIR",
+    click "+CREATE KEY PAIR" to create your own.
     Note that we had disabled key pair in this pre-built VM image for simplicity.
 
     ![](images/image-6.png)
 
- -  All config are ready, please click "REVIEW & CREATE" then "CREATE" to launch the VM.
+ -  All config are ready,
+    please click "REVIEW & CREATE" then "CREATE" to launch the VM.
 
     ![](images/image-7.png)
 
@@ -57,7 +64,8 @@ Will run 3 docker contgainers to server 2 NIMs and 1 JupyterLab for this bootcam
 
     ![](images/image-8.png)
 
- -  In "VCS Instance Detail", click "CONNECT" to find out the "public IP".
+ -  In "VCS Instance Detail",
+    click "CONNECT" to find out the "public IP".
 
     ![](images/image-9.png)
 
@@ -69,25 +77,32 @@ Will run 3 docker contgainers to server 2 NIMs and 1 JupyterLab for this bootcam
 
     ![](images/image-10.png)
 
- -  Wonderful, now the VM is ready, next, we will launch 3 docker containers for our bootcamp.
+ -  Wonderful,
+    now the VM is ready,
+    next,
+    we will launch 3 docker containers for our bootcamp.
 
 ### Have the Free Developer API Key Ready
 
- -  Access to <https://build.nvidia.com/explore/biology>, and create a free developer account if you don't have one yet.
+ -  Access to <https://build.nvidia.com/explore/biology>,
+    and create a free developer account if you don't have one yet.
 
  -  Click the upper-right user account and select "API Keys".
 
     ![](images/image-11.png)
 
- -  Go "Generate API Key" to create your own developer API KEY, please "COPY API Key" for the NIMs used in bootcamp.
+ -  Go "Generate API Key" to create your own developer API KEY,
+    please "COPY API Key" for the NIMs used in bootcamp.
 
     ![](images/image-12.png)
 
- -  Back to terminal, then `vim ~/.bashrc` to replace the "BOOTCAMP_KEY" with your granted "API Key"
+ -  Back to terminal,
+    then `vim ~/.bashrc` to replace the "BOOTCAMP_KEY" with your granted "API Key"
 
     ![](images/image-13.png)
 
-    Or you could just skip this step and use the default "BOOTCAMP_KEY", note that is will be expired after the bootcamp.
+    Or you could just skip this step and use the default "BOOTCAMP_KEY",
+    note that is will be expired after the bootcamp.
 
  -  Use `source ~/.bashrc` to activate your environment variable "BOOTCAMP_KEY".
 
@@ -146,7 +161,8 @@ An example:
 #b4ad6b6858e6   nvcr.io/nim/ipd/rfdiffusion:2                "/bin/sh -c 'exec \"$…"   18 seconds ago   Up 16 seconds   0.0.0.0:8002->8000/tcp, :::8002->8000/tcp     practical_elbakyan
 ```
 
-Wait a few minutes for launching NIMs service, and then use `curl` to check API health status:
+Wait a few minutes for launching NIMs service,
+and then use `curl` to check API health status:
 
 ```bash
 # check rfdiffusion
@@ -164,13 +180,16 @@ An example:
 
 ### Develop on your own client device.
 
-setup ssh tunneling, port forwarding jupyter lab to localhost. use below command on client terminal.
+Setup SSH tunneling,
+port forwarding jupyter lab to `localhost`.
+Use below command on client terminal.
 
 ```
 ssh -fNL 8888:localhost:8888 ubuntu@<YOUR VM PUBLIC IP>
 ```
 
-Then open your browser: http://localhost:8888, and find notebook "de-novo-protein-design-workflow-local 1.ipynb".
+Then open your browser: <http://localhost:8888>,
+and find notebook "de-novo-protein-design-workflow-local 1.ipynb".
 
 ![](images/image-14.png)
 
@@ -198,13 +217,19 @@ see more VCS tutorials made by TWCC on [YouTube](https://www.youtube.com/watch?v
 
 ### Remote Access VM and Setup Docker
 
-After your VM's state show `Active`, In `BASICS` tab, click `CONNECT` to have your VM public IP. Launch your local terminal, and ssh to the remote VM.
+After your VM's state show `Active`,
+In `BASICS` tab,
+click `CONNECT` to have your VM public IP.
+
+Launch your local terminal,
+and ssh to the remote VM.
 
 ```bash
 ssh -i <your ssh private key> ubuntu@<YOUR VM PUBLIC IP>
 ```
 
-if GPU driver not ready, follow [Installation Guide](https://man.twcc.ai/@twccdocs/doc-vcs-main-zh/https%3A%2F%2Fman.twcc.ai%2F%40twccdocs%2Fhowto-vcs-install-nvidia-gpu-driver-zh) to install NVIDIA GPU Driver. see example below:
+if GPU driver not ready,
+follow [Installation Guide](https://man.twcc.ai/@twccdocs/doc-vcs-main-zh/https%3A%2F%2Fman.twcc.ai%2F%40twccdocs%2Fhowto-vcs-install-nvidia-gpu-driver-zh) to install NVIDIA GPU Driver. see example below:
 
 ```bash
 echo "blacklist nouveau" | sudo tee /etc/modprobe.d/blacklist-nouveau.conf && echo "options nouveau modeset=0" | sudo tee -a /etc/modprobe.d/blacklist-nouveau.conf && sudo update-initramfs -u && sudo modprobe -r nouveau && sudo modprobe nouveau && sudo apt-get update && sudo apt-get install libc-dev -y && sudo apt-get install linux-headers-$(uname -r) -y && wget https://tw.download.nvidia.com/tesla/550.90.07/NVIDIA-Linux-x86_64-550.90.07.run && sudo sh NVIDIA-Linux-x86_64-550.90.07.run --accept-license --no-questions --dkms -s
@@ -241,13 +266,15 @@ ssh -i <your ssh private key> ubuntu@<YOUR VM PUBLIC IP>
 
 ### Firstly, have Free Developer API Key Ready
 
- -  Access to [https://build.nvidia.com/explore/biology](https://build.nvidia.com/explore/biology), and create a free developer account if you don't have one yet.
+ -  Access to <https://build.nvidia.com/explore/biology>,
+    and create a free developer account if you don't have one yet.
 
  -  Click the upper-right user account and select "API Keys".
 
     ![](images/image-11.png)
 
- -  Go "Generate API Key" to create your own developer API KEY, please "COPY API Key" for the NIMs used in bootcamp.
+ -  Go "Generate API Key" to create your own developer API KEY,
+    please "COPY API Key" for the NIMs used in bootcamp.
 
     ![](images/image-12.png)
 
@@ -262,7 +289,8 @@ log in with your NGC API (enter the key as password when prompted.)
 docker login nvcr.io --username='$oauthtoken'
 ```
 
-It is recommended to add the following environment variables to your `~/.bashrc` file, enabling them to auto-load in every bash session.
+It is recommended to add the following environment variables to your `~/.bashrc` file,
+enabling them to auto-load in every bash session.
 
 ```bash
 vim ~/.bashrc
@@ -300,15 +328,18 @@ fi
 
 ### Build your own VM image (optional)
 
-At this stage, it is recommended to create a VM image to avoid repeating the above steps in the future. Please refer to the [documentation](https://man.twcc.ai/@twccdocs/doc-vcs-main-zh/https%3A%2F%2Fman.twcc.ai%2F%40twccdocs%2Fhowto-vcs-resize-instance-zh) for guidance on creating your own VM image.
+At this stage,
+it is recommended to create a VM image to avoid repeating the above steps in the future.
+Please refer to the [documentation](https://man.twcc.ai/@twccdocs/doc-vcs-main-zh/https%3A%2F%2Fman.twcc.ai%2F%40twccdocs%2Fhowto-vcs-resize-instance-zh) for guidance on creating your own VM image.
 
-### Then following the section: [#Setup bootcamp containers](#setup-bootcamp-containers)
+### Then following the section: [Setup bootcamp containers](#setup-bootcamp-containers)
 
 ## FAQ
 
 ### How to stop containers?
 
-In server side, use `docker stop <CONTAINER ID>` to stop one or `docker stop $(docker ps -aq)` to stop all.
+In server side,
+use `docker stop <CONTAINER ID>` to stop one or `docker stop $(docker ps -aq)` to stop all.
 
 ```bash
 docker stop $(docker ps -aq)
