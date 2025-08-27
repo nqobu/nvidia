@@ -170,7 +170,9 @@ setup ssh tunneling, port forwarding jupyter lab to localhost. use below command
 ssh -fNL 8888:localhost:8888 ubuntu@<YOUR VM PUBLIC IP>
 ```
 
-Then open your browser: http://localhost:8888, and find notebook "de-novo-protein-design-workflow-local 1.ipynb".![](images/image-14.png)
+Then open your browser: http://localhost:8888, and find notebook "de-novo-protein-design-workflow-local 1.ipynb".
+
+![](images/image-14.png)
 
 ### Reference
 
@@ -240,8 +242,14 @@ ssh -i <your ssh private key> ubuntu@<YOUR VM PUBLIC IP>
 ### Firstly, have Free Developer API Key Ready
 
  -  Access to [https://build.nvidia.com/explore/biology](https://build.nvidia.com/explore/biology), and create a free developer account if you don't have one yet.
- -  Click the upper-right user account and select "API Keys".![](images/image-11.png)
- -  Go "Generate API Key" to create your own developer API KEY, please "COPY API Key" for the NIMs used in bootcamp.![](images/image-12.png)
+
+ -  Click the upper-right user account and select "API Keys".
+
+    ![](images/image-11.png)
+
+ -  Go "Generate API Key" to create your own developer API KEY, please "COPY API Key" for the NIMs used in bootcamp.
+
+    ![](images/image-12.png)
 
 ### Setup Keys
 
