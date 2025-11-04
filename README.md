@@ -29,6 +29,7 @@
  -  20250617 - NCHC LLM Bootcamp 2025 / 大語言模型訓練課程
  -  20250723 - NCHC CUDA-Q Bootcamp 2025 / 量子計算模擬訓練課程
  -  20250904 - NCHC &times; NCKU – Digital Biology Bootcamp / 數位生物技術訓練營
+ -  20251101 - NCHC CUDA-Q Tech Salon
  -  20251112 - NCHC Open Hackathons 2025
 
 > [!NOTE]
