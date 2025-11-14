@@ -3,19 +3,17 @@
 
 ## Teams / 參賽隊伍
 
-參加本次活動的隊伍及他們的參賽主題如下：
-
-| 隊伍名稱		| 單位	| 指導教授				| 參賽主題 |
-| --------		| ----	| --------				| -------- |
-| Usagi			| NYU	| 臺大資工/李濬屹			| 在 Exascale Climate Emulator 項目上，成功運行並加速球諧轉換 (SHT) 與 Cholesky 分解管線 |
-| Parallel		| NCKU	| 成大資工				| 驗證 Diffusion-U-Net 解決方案，實現亞秒級 (sub-second) 的超解析度與去模糊，並優化 API 整合 |
-| Qa-MolGen		| NCKU	| 成大材料/陳雨澤; 亞大生醫/吳家樂	| 建立量子加速的分子生成與分類管線，用於設計水系鋅離子電池 (AZIBs) 的電解液添加劑 |
-| NYCU_Bocchi the CUDA!	| NYCU	| 陽明交大資工/吳凱強			| 透過推論優化和分散式訓練策略，加速 RLHF (人類回饋強化學習) 訓練 |
-| PTSG Taiwan		| NTUT	| 韓國漢陽大學; 北科大/林銘杰		| 將 XPDP1（PIC-MCC 粒子模擬程式）程式碼移植到 GPU 並進行加速 |
-| AI-Taiwan VVM		| NYU	| 臺大大氣/吳健銘			| 透過 GPU 優化，顯著加速用於大氣數據重建的 U-Net 模型 的訓練和推論 |
-| NDVIgnition		| NTHU	| 清大資工/黃能富			| 演示 GPU 加速如何使大規模 UAV 影像分析（影像拼接與花期預測）在農業上變得可行 |
-| Paw Patrol		| NTHU	| 清大資工/朱宏國			| 優化多視角 3D 人體姿態重建管線，加速人體檢測、2D 關鍵點估計和 SMPL 擬合 |
-| CYCU Power Lab	| CYCU	| 中原電機/洪穎怡			| 克服硬體限制，擴展量子增強型預測架構至設計容量，加速訓練工作流程以進行電力系統颱風預測 |
+| Team | Domain | How much Speedup? | Why acceleration matters? |
+| ---- | ------ | ----------------- | ------------------------- |
+| Usagi | Climate, HPC | 777.0&times;<br>Before: 112&times; CPU cores<br>After: 8&times; H100 | Reduces months of computation to just days. Saves energy equivalent to the absorption of 80, 000 trees over a decade. Faster climate prediction. Marks a major milestone in climate science and high performance computing. |
+| Parallel | Computer Vision | 184.2&times; (end to end)<br>Before: 128&times; CPU cores<br>After: 1&times; A100 | This optimization makes the application practical. By reducing the latency to ~1.17 seconds, the tool becomes responsive and viable for deployment, enabling its integration into high-performance service workflows. |
+| Qa-MolGen | Material Science, Quantum ML | 5417.9&times; (end to end)<br>Before: 64&times; CPU cores<br>After: 2&times; A100 | It enables the massive-scale sampling needed to rapidly test the validity and uniqueness of new molecular structures, making the exploration of the vast chemical space feasible. |
+| NYCU\_Bocchi the CUDA! | LLM | 4.6&times; (end to end)<br>Before: 1&times; V100<br>After: 1&times; H100 | Inference speedup become one of bottleneck while training RL. Speedup enable fine-tune models more efficiently with techniques like FP8 quantization, CUDA Graphs, and multi-GPU parallelism. |
+| PTSG Taiwan | Plasma | 15.1&times;<br>Before: 1&times; V100<br>After: 1&times; RTX4080 | The PIC/MCC simulations are a very important tool to explore processes in low-temperature plasma discharges for Today's semiconductor processing and Future. |
+| AI-Taiwan VVM | Weather | 12.8&times; (end to end)<br>Before: 3&times; P100<br>After: 3&times; A100 | This huge speedup makes it practical to use our 1-TB Taiwan's complex terrain dataset, enabling us to train a more accurate, robust, and realistic weather model for Taiwan. |
+| NDVIgnition | Computer Vision, Agriculture | 5.3&times;<br>Before: 128&times; CPU cores<br>After: 1&times; A100 | Enables faster UAV mapping for precision agriculture and environmental monitoring, reducing hours of processing tominutes. |
+| Paw Patrol | Computer Vision, Sports Science | 8.5&times; (end to end)<br>Before: 1&times; RTX2060<br>After: 1&times; A100 | Current reconstruction pipelines are computationally expensive and too slow for real-time or large-scale applications, speedup make it pratical for real-time interaction. |
+| CYCU Power Lab | Weather, Quantum ML | 109.2&times; (end to end)<br>Before: 16&times; CPU cores<br>After: 1&times; H100 | Enables hourly refresh forecasts with higher confidence for curtailment, crew scheduling, and trading&mdash;while cutting compute time/cost and accelerating experimentation. |
 
 ## Agenda / 活動規劃
 
