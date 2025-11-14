@@ -7,7 +7,6 @@
 
 | 隊伍名稱		| 單位	| 指導教授				| 參賽主題 |
 | --------		| ----	| --------				| -------- |
-| NTCU K201		| NTCU	| 中教大資工/黃國展			| 建立 OpenDrift 粒子的 GPU 加速原型 (RK2/RK4)，目標速度提升 5–20 倍；實現快速 GPU 內插與 Zarr-based I/O 管線 |
 | Usagi			| NYU	| 臺大資工/李濬屹			| 在 Exascale Climate Emulator 項目上，成功運行並加速球諧轉換 (SHT) 與 Cholesky 分解管線 |
 | Parallel		| NCKU	| 成大資工				| 驗證 Diffusion-U-Net 解決方案，實現亞秒級 (sub-second) 的超解析度與去模糊，並優化 API 整合 |
 | Qa-MolGen		| NCKU	| 成大材料/陳雨澤; 亞大生醫/吳家樂	| 建立量子加速的分子生成與分類管線，用於設計水系鋅離子電池 (AZIBs) 的電解液添加劑 |
