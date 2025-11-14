@@ -1,23 +1,6 @@
 
 # 2025 NCHC Open Hackathon
 
-## Sign-up Website / 報名網站
-
-https://www.openhackathons.org/s/siteevent/a0CUP000013V9Xs2AK/se000378
-
- -  This event is open only to who live in Taiwan, Penghu, Kinmen, and Matsu, and will be conducted entirely in Chinese.\
-    本次活動僅限居住在臺灣、澎湖、金門、馬祖地區的人參加，並完全以中文進行。
-
- -  All notifications for this event will be sent via email, so please leave a valid email address when applying.\
-    本次活動的所有通知訊息都將透過 email 發送，因此請在報名時留下可以聯絡到的 email 信箱。
-
- -  Application Deadline: October 1, 2025\
-    報名截止日期：2025 年 10 月 1 日
-
-## Event Period / 活動期間
-
-October 22, 2025 - November 12, 2025
-
 ## Teams / 參賽隊伍
 
 參加本次活動的隊伍及他們的參賽主題如下：
