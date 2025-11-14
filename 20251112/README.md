@@ -1,5 +1,5 @@
-<img width="1024" height="921" alt="NCHC Open Hackathon 2025" src="https://github.com/user-attachments/assets/47a330a2-1906-4245-969a-a304a25ab7a4" />
-# 2025 NCHC Open Hackathon
+
+# NCHC Open Hackathon 2025
 
 ## Teams / 參賽隊伍
 
@@ -15,7 +15,6 @@
 | Paw Patrol | Computer Vision, Sports Science | 8.5&times;&nbsp;(end to end)<br>Before:&nbsp;1&times;&nbsp;RTX2060<br>After:&nbsp;1&times;&nbsp;A100 | Current reconstruction pipelines are computationally expensive and too slow for real-time or large-scale applications, speedup make it pratical for real-time interaction. |
 | CYCU Power Lab | Weather, Quantum ML | 109.2&times;&nbsp;(end to end)<br>Before:&nbsp;16&times;&nbsp;CPU&nbsp;cores<br>After:&nbsp;1&times;&nbsp;H100 | Enables hourly refresh forecasts with higher confidence for curtailment, crew scheduling, and trading&mdash;while cutting compute time/cost and accelerating experimentation. |
 
-<!-- img width="1024" height="921" alt="NCHC Open Hackathon 2025" src="https://github.com/user-attachments/assets/8178c664-af45-4c88-b9f1-d5f0369adbdb" / -->
 ![NCHC Open Hackathon 2025](NCHC%20Open%20Hackathon%202025.png)
 
 ## Agenda / 活動規劃
