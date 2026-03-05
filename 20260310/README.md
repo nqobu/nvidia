@@ -127,6 +127,12 @@ All times are in Taiwan timezone.
 ### Venue / 活動地點
 
  -  Day 1 (March 10) will happen online
+
+    **Microsoft Teams meeting**\
+    Join: <https://teams.microsoft.com/meet/21647596055230?p=qfsDIKD7cI52LnxB7P>\
+    Meeting ID: `216 475 960 552 30`\
+    Passcode: `PU74dk9j`
+
  -  Day 2 (March 11) Address:
 
     No. 7, Yanfa 6th Rd., East Dist., Hsinchu City 300092, Taiwan (R.O.C.)
