@@ -31,6 +31,7 @@
  -  20250904 - NCHC &times; NCKU – Digital Biology Bootcamp / 數位生物技術訓練營
  -  20251110 - NCHC Quantum-HPC Tech Salon
  -  20251112 - NCHC Open Hackathons 2025
+ -  20260310 - NCHC AI Powered Physics Bootcamp, 2026
 
 > [!NOTE]
 > DO NOT add issues, discussion, or files to this repo.
