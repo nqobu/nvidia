@@ -1,4 +1,4 @@
-# NCHC AI Powered Physics Bootcamp
+# NCHC AI Powered Physics Bootcamp, 2026
 
 ## Overview / 活動說明
 
