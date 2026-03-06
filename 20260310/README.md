@@ -6,7 +6,7 @@ Together with NVIDIA and OpenACC organization will host an online bootcamp on **
 
 The AI-Powered Physics Bootcamp helps participants revolutionize their approach to computational physics problems by combining traditional physics-based modeling with modern artificial intelligence (AI) to tackle real-world scientific computing challenges orders of magnitude faster than traditional simulation methods.
 
-Attendees are introduced to NVIDIAR PhysicsNeMo, an open-source Python framework for building, training, and fine-tuning physics AI models, and guided through progressive challenges to solve complex scientific problems by combining physics-based partial differential equations (PDEs) with AI.
+Attendees are introduced to [NVIDIA PhysicsNeMo](https://developer.nvidia.com/physicsnemo), an open-source Python framework for building, training, and fine-tuning physics AI models, and guided through progressive challenges to solve complex scientific problems by combining physics-based partial differential equations (PDEs) with AI.
 
 Hands-on practical skills are gained by participants to speed up their research and engineering workflows, whether they are optimizing designs, forecasting complex phenomena, or solving multi-physics problems.  Afterwards, the attendees will have the confidence to apply physics-informed AI to their domain, comprehend when to use physics constraints versus data-driven approaches, and how to visualize and validate their results.
 
