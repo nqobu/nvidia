@@ -653,7 +653,9 @@ docker run -d \
     physicsnemo-bootcamp:25.06
 ```
 
+> [!TIP]
 > **容器已存在時**（例如VM重開機後）：`docker run`會因名稱衝突而報錯。
+>
 > 請改用以下指令重新啟動已存在的容器：
 >
 > ```bash
@@ -913,7 +915,7 @@ docker login nvcr.io -u '$oauthtoken' -p <YOUR_NGC_API_KEY>
 
 ### JupyterLab無法從外部存取
 
-```bash
+```
 # Ubuntu ufw防火牆
 sudo ufw allow 8888/tcp
 sudo ufw reload
@@ -928,7 +930,7 @@ Cloud VM請在Security Group / Firewall Rules中開放TCP port 8888 inbound。
 
 確認`docker run`指令包含以下參數：
 
-```bash
+```
 --ipc=host
 --ulimit memlock=-1
 --ulimit stack=67108864
