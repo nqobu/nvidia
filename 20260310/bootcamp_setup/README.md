@@ -1,5 +1,5 @@
 
-# PhysicsNeMo AI-Powered Physics Bootcamp &mdash; 完整環境建置手冊
+# PhysicsNeMo AI-Powered Physics Bootcamp  &mdash;  完整環境建置手冊
 
 > [!NOTE]
 > **閱讀說明**：本檔案為自給自足的操作手冊，所有指令與設定檔內容皆內嵌於此。在一臺全新的Linux VM（GPU：NVIDIA H200）上，依序執行各步驟即可完成環境建置。
@@ -16,19 +16,19 @@
 
 ### NCHC-1. 登入平臺
 
-前往<https://ai-cloud.iic.nchc.org.tw/>登入，確認專案名稱為「NCHC-NVIDIA Joint Lab教育訓練」（專案ID：GOV114072）。
+前往 <https://ai-cloud.iic.nchc.org.tw/> 登入，確認專案名稱為「NCHC-NVIDIA Joint Lab教育訓練」（專案ID：GOV114072）。
 
 ![NCHC登入後首頁](images/nchc-01-login.png)
 
 ### NCHC-2. 建立安全群組
 
-在首頁（如NCHC-1截圖）服務區塊中，點擊「安全群組」，進入「安全群組管理」頁面，點擊「+建立」。
+在首頁（如NCHC-1截圖）服務區塊中，點擊「安全群組」，進入「安全群組管理」頁面，點擊「＋建立」。
 
 ![安全群組管理頁面](images/nchc-02-security-group-mgmt.png)
 
 進入「建立安全群組」頁面，「名稱」欄位保留預設值（例如：`sg1772642623211`），點擊「下一步：規則設定>」。
 
-![建立安全群組&mdash;基本資訊](images/nchc-03-security-group-basic.png)
+![建立安全群組 &mdash; 基本資訊](images/nchc-03-security-group-basic.png)
 
 進入規則設定頁面，預設已有一條`egress ipv4`規則。點擊「新增安全群組規則」。
 
@@ -37,7 +37,7 @@
 新增「SSH (port 22)」規則，欄位填寫如下：
 
 | 欄位			| 填寫內容 |
-| ----			| -------- |
+| ----			| :------: |
 | 方向			| `ingress` |
 | 連接埠範圍（最小）	| `22` |
 | 連接埠範圍（最大）	| `22` |
@@ -46,27 +46,28 @@
 
 > [!TIP]
 > **如何取得CIDR？**
-> 1. 前往<https://www.whatismyip.com.tw/en/>查詢目前的公開IP（例如：`123.123.123.45`）
+>
+> 1. 前往 <https://www.whatismyip.com.tw/en/> 查詢目前的公開IP（例如：`123.123.123.45`）
 > 2. 若只允許單一IP連線：填入`123.123.123.45/32`
 > 3. 若允許整個網段（例如辦公室IP範圍）：填入`123.123.123.0/24`
 
 填寫完成後點擊「確定」。
 
-![新增安全群組規則&mdash;SSH port 22](images/nchc-05-sg-rule-ssh.png)
+![新增安全群組規則 &mdash; SSH port 22](images/nchc-05-sg-rule-ssh.png)
 
 規則新增完成後，清單中應出現`egress`與`ingress port 22`兩條規則。確認後點擊「下一步：檢閱+建立>」。
 
 ![安全群組規則清單](images/nchc-06-sg-rule-added.png)
 
-確認名稱與規則(egress + ingress port 22)無誤後，點擊左下角「建立」。
+確認名稱與規則（egress + ingress port 22）無誤後，點擊左下角「建立」。
 
-![建立安全群組&mdash;確認並建立](images/nchc-07-sg-review.png)
+![建立安全群組 &mdash; 確認並建立](images/nchc-07-sg-review.png)
 
 安全群組建立完成。
 
 ### NCHC-3. 進入虛擬機器管理頁面
 
-在左側選單點擊「虛擬機器」&rarr;「虛擬機器管理」，進入管理頁面後點擊「+建立」。
+在左側選單點擊「虛擬機器」&rarr;「虛擬機器管理」，進入管理頁面後點擊「＋建立」。
 
 ![虛擬機器管理頁面](images/nchc-08-vm-create.png)
 
@@ -97,10 +98,12 @@
 | **GPU.small**&#x2705;	| **H200**	| **1**		| **96**	| **512**	| **120** |
 | CPU.medium		| -		| 0		| 16		| 32		| 120 |
 
+> [!NOTE]
 > **為何選GPU.small？**
+>
 > PhysicsNeMo需要NVIDIA H200 GPU（建議 &ge;20 GB VRAM）、&ge;32 GB RAM、Ubuntu 22.04+、可連外網路。GPU.small提供H200&times;1、512 GiB RAM、Ubuntu 24.04，完全符合需求。
 
-![硬體設定&mdash;選擇GPU.small](images/nchc-10-vm-hardware.png)
+![硬體設定 &mdash; 選擇GPU.small](images/nchc-10-vm-hardware.png)
 
 ### NCHC-6. 虛擬網路設定
 
@@ -142,7 +145,7 @@
 
 ![建立虛擬磁碟](images/nchc-15-vm-disk.png)
 
-確認清單出現磁碟名稱與容量(100 GiB)後，點擊「下一步：認證>」。
+確認清單出現磁碟名稱與容量（100 GiB）後，點擊「下一步：認證>」。
 
 ![儲存資訊完成](images/nchc-16-vm-storage-done.png)
 
@@ -178,7 +181,7 @@
 | 映像檔來源	| `Ubuntu` |
 | 映像檔標籤	| `24.04` |
 | 硬體設定	| `GPU.small` |
-| 虛擬網路	| `bootcamp` +安全群組 |
+| 虛擬網路	| `bootcamp`+安全群組 |
 
 確認後點擊左下角「建立」。
 
@@ -186,7 +189,7 @@
 
 ### NCHC-11. 等待VM啟動並取得IP
 
-建立後回到「虛擬機器管理」頁面，等待數分鐘，狀態由`build`變為「`active`」即表示VM已就緒。
+建立後回到「虛擬機器管理」頁面，等待數分鐘，狀態由**build**變為**active**即表示VM已就緒。
 
 點擊VM名稱進入詳細頁面，後續步驟將在此取得**浮動IP**。
 
@@ -194,23 +197,23 @@
 
 進入VM詳細資料頁面，確認：
 
- -  **狀態**：`active`
- -  **登入帳號**：`ubuntu`
+ -  **狀態**：active
+ -  **登入帳號**：ubuntu
 
-在「虛擬網路資訊」區塊中，點擊`bootcamp`列右側的「&vellip；」按鈕，選擇「組態浮動IP」。
+在「虛擬網路資訊」區塊中，點擊`bootcamp`列右側的「&vellip；」按鈕，選擇「配置浮動IP」。
 
-![VM詳細資料&mdash;組態浮動IP](images/nchc-21-vm-detail.png)
+![VM詳細資料 &mdash; 配置浮動IP](images/nchc-21-vm-detail.png)
 
-在「組態浮動IP」對話框中選擇「自動組態浮動IP」，點擊「確定」。
+在「配置浮動IP」對話框中選擇「自動配置浮動IP」，點擊「確定」。
 
-![組態浮動IP](images/nchc-22-vm-floating-ip.png)
+![配置浮動IP](images/nchc-22-vm-floating-ip.png)
 
-組態完成後，虛擬網路資訊欄位會顯示**浮動IP**（例如：`140.110.108.39`），此即為從外部SSH連線時使用的IP。
+配置完成後，虛擬網路資訊欄位會顯示**浮動IP**（例如：`140.110.108.39`），此即為從外部SSH連線時使用的IP。
 
 > [!IMPORTANT]
 > **請記下或複製此浮動IP**，下一步SSH連線時會需要用到。
 
-![浮動IP組態完成](images/nchc-23-vm-floating-ip-done.png)
+![浮動IP配置完成](images/nchc-23-vm-floating-ip-done.png)
 
 ### NCHC-12. SSH連線至VM
 
@@ -222,7 +225,7 @@
 | **macOS**	| `Spotlight` (`&#x2318; + Space`)搜尋`Terminal`，或至「應用程式&rarr;工具程式&rarr;終端機」 |
 | **Linux**	| 快捷鍵`Ctrl + Alt + T`，或在應用程式選單中搜尋`Terminal` |
 
-> Windows 10/11內建的PowerShell與cmd均支援`ssh`指令，無需額外安裝。
+> Windows 10/11內建的PowerShell與`cmd`均支援`ssh`指令，無需額外安裝。
 
 使用浮動IP從本機連線至VM：
 
@@ -244,18 +247,18 @@ ssh ubuntu@140.110.108.39
 
 ## 流程總覽
 
- -  步驟1：確認GPU可見
- -  步驟2：安裝NVIDIA Driver（如未安裝）
- -  步驟3：安裝Docker Engine
- -  步驟4：安裝NVIDIA Container Toolkit
- -  步驟5：設定Docker daemon支援GPU
- -  步驟6：建立工作目錄
- -  步驟7：Clone bootcamp教材
- -  步驟8：建立Dockerfile
- -  步驟9：建置Docker Image
- -  步驟10：啟動JupyterLab
- -  步驟11：開始上機教學
- -  步驟12：關閉VM（課程結束後）
+ -  步驟1｜確認GPU可見
+ -  步驟2｜安裝NVIDIA Driver（如未安裝）
+ -  步驟3｜安裝Docker Engine
+ -  步驟4｜安裝NVIDIA Container Toolkit
+ -  步驟5｜設定Docker daemon支援GPU
+ -  步驟6｜建立工作目錄
+ -  步驟7｜Clone bootcamp教材
+ -  步驟8｜建立Dockerfile
+ -  步驟9｜建置Docker Image
+ -  步驟10｜啟動JupyterLab
+ -  步驟11｜開始上機教學
+ -  步驟12｜關閉VM（課程結束後）
 
 ---
 
@@ -271,14 +274,14 @@ lspci | grep -i nvidia
 06:00.0 3D controller: NVIDIA Corporation Device 233b (rev a1)
 ```
 
-> `3D controller`（非`VGA compatible controller`）是資料中心GPU的正常顯示方式。
-> Device ID `233b`對應H200 NVL。若無任何輸出，請確認VM已正確組態GPU passthrough。
+ -  `3D controller`（非`VGA compatible controller`）是資料中心GPU的正常顯示方式。
+ -  Device ID `233b`對應H200 NVL。若無任何輸出，請確認VM已正確配置GPU passthrough。
 
 ---
 
 ## 步驟2｜安裝NVIDIA Driver
 
-### 2-1.確認目前是否已安裝Driver
+### 2-1. 確認目前是否已安裝Driver
 
 ```bash
 nvidia-smi
@@ -287,7 +290,7 @@ nvidia-smi
  -  若指令執行成功且Driver Version &ge; 535，**跳至步驟3**。
  -  若指令不存在或版本過舊，繼續以下步驟。
 
-### 2-2.更新系統並安裝必要工具
+### 2-2. 更新系統並安裝必要工具
 
 ```bash
 sudo apt-get update && sudo apt-get upgrade -y
@@ -295,10 +298,10 @@ sudo apt-get install -y \
     build-essential \
     curl wget git \
     software-properties-common \
-    linux-headers-$ (uname -r)
+    linux-headers-$(uname -r)
 ```
 
-> `linux-headers-$ (uname -r) `為必要項目：NVIDIA driver透過DKMS編譯核心模組時需要對應的kernel headers，
+> `linux-headers-$(uname -r) `為必要項目：NVIDIA driver透過DKMS編譯核心模組時需要對應的kernel headers，
 > 若缺少此套件，driver安裝後`nvidia-smi`仍會失敗。
 
 ### 2-3.安裝Driver
@@ -359,10 +362,10 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg \
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
 
 echo \
-    "deb [arch=$ (dpkg --print-architecture) \
+    "deb [arch=$(dpkg --print-architecture) \
     signed-by=/etc/apt/keyrings/docker.gpg] \
     https://download.docker.com/linux/ubuntu \
-    $ (lsb_release -cs) stable" \
+    $(lsb_release -cs) stable" \
     | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
@@ -783,7 +786,7 @@ http://localhost:8888
 
 點擊該欄位最右側的「&vellip；」按鈕，選擇「刪除」，即可永久移除此VM並停止計費。
 
-![VM管理頁面&mdash;刪除VM](images/nchc-24-vm-delete.png)
+![VM管理頁面 &mdash; 刪除VM](images/nchc-24-vm-delete.png)
 
 ---
 
@@ -862,7 +865,7 @@ docker start physicsnemo-bootcamp
 
 ```bash
 # 安裝目前kernel headers
-sudo apt-get install linux-headers-$ (uname -r)
+sudo apt-get install linux-headers-$(uname -r)
 
 # 觸發DKMS為目前kernel重新編譯module
 sudo dkms autoinstall
@@ -982,4 +985,3 @@ Script會自動完成步驟1–10，包含：
  -  [AI-Powered Physics Bootcamp GitHub](https://github.com/openhackathons-org/AI-Powered-Physics-Bootcamp)
  -  [Bootcamp官方Dockerfile](https://github.com/openhackathons-org/AI-Powered-Physics-Bootcamp/blob/main/Dockerfile)
  -  [NVIDIA Container Toolkit安裝指南](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
-
