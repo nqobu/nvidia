@@ -156,7 +156,7 @@
 | 欄位		| 填寫內容 |
 | ----		| -------- |
 | 鑰匙對認證	| **停用** |
-| 密碼		| <PASSWORD> |
+| 密碼		| \<PASSWORD\> |
 
 > [!IMPORTANT]
 > **請務必記住此密碼**，後續SSH連線至VM時會需要輸入。
@@ -225,6 +225,7 @@
 | **macOS**	| `Spotlight` (<kbd>&#x2318;</kbd>+<kbd>Space</kbd>)搜尋`Terminal`，或至「應用程式&rarr;工具程式&rarr;終端機」 |
 | **Linux**	| 快捷鍵<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>，或在應用程式選單中搜尋`Terminal` |
 
+> [!NOTE]
 > Windows 10/11內建的PowerShell與`cmd`均支援`ssh`指令，無需額外安裝。
 
 使用浮動IP從本機連線至VM：
@@ -241,7 +242,8 @@ ssh ubuntu@140.110.108.39
 
 輸入建立VM時設定的**密碼**即可登入。
 
-> 密碼：<PASSWORD>
+> [!IMPORTANT]
+> 密碼：\<PASSWORD\>
 
 ---
 
@@ -320,7 +322,7 @@ sudo reboot
 ```
 
 > - 重開機後VM需要約**1&ndash;2分鐘**才會重新接受SSH連線，請稍候再重新登入。
-> - 登入密碼：<PASSWORD>
+> - 登入密碼：\<PASSWORD\>
 
 ### 2-5. 重開機後確認Driver安裝成功
 
@@ -404,7 +406,7 @@ exit
 
 重新SSH登入後，再繼續以下步驟。
 
-> 密碼：<PASSWORD>
+> 密碼：\<PASSWORD\>
 
 ### 3-6. 確認Docker安裝成功
 
@@ -716,7 +718,7 @@ ssh -L 8888:localhost:8888 ubuntu@<VM_IP>
 
 輸入密碼後會出現遠端shell提示符(`ubuntu@vm:~$`)，**保持此terminal開啟**，tunnel即持續運作。
 
-> 密碼：<PASSWORD>
+> 密碼：\<PASSWORD\>
 
 在本機瀏覽器開啟：
 
