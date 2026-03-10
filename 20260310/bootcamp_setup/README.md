@@ -293,9 +293,9 @@ nvidia-smi
 ### 2-2. 更新系統並安裝必要工具
 
 ```bash
-sudo apt update
-sudo apt upgrade -y
-sudo apt install -y \
+sudo apt-get update
+sudo apt-get upgrade -y
+sudo apt-get install -y \
     build-essential \
     curl wget git \
     software-properties-common \
@@ -310,7 +310,7 @@ sudo apt install -y \
 Ubuntu 22.04/24.04的預設repo已內建nvidia-driver-570，**不需要加PPA**：
 
 ```bash
-sudo apt install -y nvidia-driver-570
+sudo apt-get install -y nvidia-driver-570
 ```
 
 ### 2-4. 重新開機（Driver安裝後必須重開機）
@@ -358,16 +358,15 @@ sudo apt-get remove -y docker docker-engine docker.io containerd runc 2>/dev/nul
 sudo apt-get install -y ca-certificates gnupg lsb-release
 sudo install -m 0755 -d /etc/apt/keyrings
 
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg \
-    | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg |
+    sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
 sudo chmod a+r /etc/apt/keyrings/docker.gpg
 
-echo \
-    "deb [arch=$(dpkg --print-architecture) \
+echo "deb [arch=$(dpkg --print-architecture) \
     signed-by=/etc/apt/keyrings/docker.gpg] \
     https://download.docker.com/linux/ubuntu \
-    $(lsb_release -cs) stable" \
-    | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+    $(lsb_release -cs) stable" |
+    sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
 ### 3-3. 安裝Docker Engine
@@ -429,12 +428,12 @@ Docker version 29.2.1，build a5c7197
 ### 4-1. 加入NVIDIA Container Toolkit repository
 
 ```bash
-curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey \
-    | sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
+curl https://nvidia.github.io/libnvidia-container/gpgkey -fsSL |
+    sudo gpg --dearmor -o /usr/share/keyrings/nvidia-container-toolkit-keyring.gpg
 
-curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list \
-    | sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' \
-    | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
+curl https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-container-toolkit.list -fsSL |
+    sed 's#deb https://#deb [signed-by=/usr/share/keyrings/nvidia-container-toolkit-keyring.gpg] https://#g' |
+    sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 ```
 
 ### 4-2. 安裝
@@ -528,8 +527,8 @@ git clone https://github.com/openhackathons-org/AI-Powered-Physics-Bootcamp.git
 ## 步驟8｜建立Dockerfile
 
 以下Dockerfile以bootcamp官方Dockerfile為基礎，加入JupyterLab設定。
-Base image `nvcr.io/nvidia/physicsnemo/physicsnemo`托管於NGC公開Catalog，
-** 直接pull即可，不需要API Key**，且已內含完整PhysicsNeMo、PhysicsNeMo-Sym (PINNs)與所有CUDA依賴。
+
+Base image `nvcr.io/nvidia/physicsnemo/physicsnemo`托管於NGC公開Catalog，**直接pull即可，不需要API Key**，且已內含完整PhysicsNeMo、PhysicsNeMo-Sym (PINNs)與所有CUDA依賴。
 
 直接複製整段貼到terminal執行：
 
@@ -538,15 +537,15 @@ cat > ~/physicsnemo-workshop/Dockerfile << 'DOCKERFILE_EOF'
 # ============================================================
 # PhysicsNeMo AI-Powered Physics Bootcamp
 # Base: nvcr.io/nvidia/physicsnemo/physicsnemo:25.06
-# &rarr;NGC公開Catalog, docker pull無需API Key
-# &rarr;已內含PhysicsNeMo、PhysicsNeMo-Sym (PINNs)、CUDA完整環境
+# →NGC公開Catalog, docker pull無需API Key
+# →已內含PhysicsNeMo、PhysicsNeMo-Sym (PINNs)、CUDA完整環境
 # JupyterLab on port 8888
 # ============================================================
 
 ARG PHYSICSNEMO_VERSION=25.06
 FROM nvcr.io/nvidia/physicsnemo/physicsnemo:${PHYSICSNEMO_VERSION}
 
-# ──額外系統工具──────────────────────────────────────────────
+# --額外系統工具----------------------------------------------
 USER root
 RUN apt-get update && apt-get install -y --no-install-recommends \
         git \
@@ -556,7 +555,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
-# ──Bootcamp額外Python依賴─────────────────────────────────
+# --Bootcamp額外Python依賴------------------------------------
 RUN pip install --no-cache-dir \
         gdown \
         ipympl \
@@ -565,7 +564,7 @@ RUN pip install --no-cache-dir \
         ipywidgets \
     && pip install --no-cache-dir --upgrade nbconvert
 
-# ──JupyterLab設定───────────────────────────────────────────
+# --JupyterLab設定--------------------------------------------
 RUN mkdir -p /root/.jupyter && \
     cat > /root/.jupyter/jupyter_lab_config.py << 'EOF'
 c.ServerApp.ip = '0.0.0.0'
@@ -704,8 +703,8 @@ NOTE: CUDA Forward Compatibility mode ENABLED.
 [I 2026-xx-xx xx:xx:xx.xxx ServerApp]     http://127.0.0.1:8888/lab
 ```
 
-> 啟動時出現的`DEPRECATION`與`UserWarning`為已知提示，不影響功能，可忽略。
-> `All authentication is disabled`表示無需密碼或token，可直接開啟瀏覽器存取。
+ -  啟動時出現的`DEPRECATION`與`UserWarning`為已知提示，不影響功能，可忽略。
+ -  `All authentication is disabled`表示無需密碼或token，可直接開啟瀏覽器存取。
 
 ### 10-4. 開啟瀏覽器(SSH tunnel)
 
@@ -727,9 +726,8 @@ http://localhost:8888
 
 > 結束使用後，在該terminal輸入`exit`即可關閉tunnel並登出VM。
 
-> **若為Cloud VM** (AWS / Azure / GCP)且可直接存取VM public IP：
-> 請在Security Group / Firewall Rules中開放TCP port 8888的Inbound流量，
-> 然後直接在瀏覽器輸入`http://<VM_IP_ADDRESS>:8888`。
+> **若為Cloud VM**（AWS/Azure/GCP）且可直接存取VM public IP：
+> 請在Security Group / Firewall Rules中開放TCP port 8888的Inbound流量，然後直接在瀏覽器輸入`http://<VM_IP_ADDRESS>:8888`。
 
 ---
 
@@ -760,18 +758,19 @@ http://localhost:8888
 
 每跑完一個Challenge題目，分數會自動寫入challenge資料夾下的`leaderboard_metrics.csv`。
 
-** 下載CSV：**
+#### 下載CSV：
 
 在JupyterLab左側檔案瀏覽器，切換到`challenge/`目錄，對`leaderboard_metrics.csv`按右鍵&rarr;選擇**Download**。
 
 ![從JupyterLab下載leaderboard_metrics.csv](images/leaderboard-download-csv.png)
 
-** 上傳至記分板：**
+#### 上傳至記分板：
 
  1.將下載的`leaderboard_metrics.csv`壓縮成`.zip`檔，**檔名格式為`xxx_1.zip`**（`xxx`可自訂，例如團隊名稱）
  2.上傳至：[記分板Google Drive資料夾](https://drive.google.com/drive/folders/1nZRAMdVwUUBYQBVAuLsWDdEX4-GQan-x?usp=drive_link)
 
-> [!INFO] **注意事項**
+> [!NOTE]
+> **注意事項**
 >
 > - **CSV檔名必須完全相同**：zip壓縮包內的檔案名稱必須是`leaderboard_metrics.csv`，一字不差。若檔名有任何變動（例如重新命名），背景表單將無法分析，分數欄位會顯示為`NA`。
 > - **每次重新提交必須遞增編號**：若已上傳過`xxx_1.zip`，再次上傳同名`xxx_1.zip` **不會**更新記分板。請改用`xxx_2.zip`、`xxx_3.zip`（依序+1）重新上傳，`xxx`部分需與第一次相同。
@@ -780,8 +779,9 @@ http://localhost:8888
 
 ## 步驟12｜關閉VM（課程結束後）
 
-> [!INFO]
-> **執行前請確認**：已完成記分板提交（步驟11-1），且不再需要保留此VM。**刪除後無法復原。**
+> [!NOTE]
+> **執行前請確認**：已完成記分板提交（步驟11-1），且不再需要保留此VM。
+> **刪除後無法復原。**
 
 課程結束後，回到NCHC雲平臺的**虛擬機器管理**頁面，找到對應的VM。
 
@@ -794,7 +794,7 @@ http://localhost:8888
 ## 常用指令速查
 
 ```bash
-# ──容器管理──────────────────────────────────────────────
+# --容器管理----------------------------------------------
 # 首次啟動（容器不存在時）
 docker run -d \
     --name physicsnemo-bootcamp \
@@ -815,21 +815,21 @@ docker start physicsnemo-bootcamp
 # 移除容器（停止後才可執行）
 docker rm physicsnemo-bootcamp
 
-# ──狀態查看──────────────────────────────────────────────
+# --狀態查看----------------------------------------------
 docker ps
 docker logs -f physicsnemo-bootcamp
 
-# ──進入容器terminal─────────────────────────────────────
+# --進入容器terminal-------------------------------------
 docker exec -it physicsnemo-bootcamp bash
 
-# ──GPU監控──────────────────────────────────────────────
+# --GPU監控----------------------------------------------
 # Host上即時監控
 watch -n 1 nvidia-smi
 
 # 容器內監控（在JupyterLab terminal執行）
 nvidia-smi dmon -s pucvmet
 
-# ──重新build image──────────────────────────────────────
+# --重新build image--------------------------------------
 docker build --no-cache -t physicsnemo-bootcamp:25.06 ~/physicsnemo-workshop/
 ```
 
@@ -839,7 +839,7 @@ docker build --no-cache -t physicsnemo-bootcamp:25.06 ~/physicsnemo-workshop/
 
 ### GPU無法在容器記憶體取
 
-** 錯誤訊息**：`could not select device driver "nvidia" with capabilities: [[gpu]]`
+> 錯誤訊息：`could not select device driver "nvidia" with capabilities: [[gpu]]`
 
 ```bash
 sudo nvidia-ctk runtime configure --runtime=docker
@@ -850,11 +850,11 @@ sudo systemctl restart docker
 
 ### 容器啟動失敗：Driver Not Loaded
 
-** 錯誤訊息**：`failed to initialize NVML: Driver Not Loaded`
+> 錯誤訊息：`failed to initialize NVML: Driver Not Loaded`
 
 VM連線中斷後恢復可能導致NVIDIA kernel module未載入。
 
-** 方法一**：重新載入module（最快）
+#### 方法一：重新載入module（最快）
 
 ```bash
 sudo modprobe nvidia
@@ -862,7 +862,7 @@ sudo systemctl restart docker
 docker start physicsnemo-bootcamp
 ```
 
-** 方法二**：若出現`Module nvidia not found in directory /lib/modules/<kernel>`，代表目前kernel缺少對應的module，需重新編譯：
+#### 方法二：若出現`Module nvidia not found in directory /lib/modules/<kernel>`，代表目前kernel缺少對應的module，需重新編譯：
 
 ```bash
 # 安裝目前kernel headers
@@ -876,7 +876,7 @@ sudo systemctl restart docker
 docker start physicsnemo-bootcamp
 ```
 
-** 方法三**：若DKMS失敗，重裝Driver（最穩定）：
+#### 方法三：若DKMS失敗，重裝Driver（最穩定）：
 
 ```bash
 sudo apt-get install --reinstall nvidia-driver-570
@@ -889,7 +889,7 @@ docker start physicsnemo-bootcamp
 
 ### Driver版本不匹配
 
-** 錯誤訊息**：`Failed to initialize NVML: Driver/library version mismatch`
+> 錯誤訊息：`Failed to initialize NVML: Driver/library version mismatch`
 
 ```bash
 sudo reboot
@@ -899,11 +899,9 @@ sudo reboot
 
 ### 無法pull base image (unauthorized)
 
-** 錯誤訊息**：`unauthorized: authentication required`
+> 錯誤訊息：`unauthorized: authentication required`
 
-NGC公開Catalog image偶爾會更新版本，舊版仍可直接pull，新版若遇到此錯誤，
-可至[NGC Catalog](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/physicsnemo/containers/physicsnemo)
-確認仍公開的tag，或免費註冊NGC帳號後執行：
+NGC公開Catalog image偶爾會更新版本，舊版仍可直接pull，新版若遇到此錯誤，可至[NGC Catalog](https://catalog.ngc.nvidia.com/orgs/nvidia/teams/physicsnemo/containers/physicsnemo)確認仍公開的tag，或免費註冊NGC帳號後執行：
 
 ```bash
 docker login nvcr.io -u '$oauthtoken' -p <YOUR_NGC_API_KEY>
@@ -938,13 +936,13 @@ Cloud VM請在Security Group / Firewall Rules中開放TCP port 8888 inbound。
 
 ## 版本更新說明
 
-|  Image Tag  |  CUDA版本 | 狀態 |
-|  ---------  |  ---------  |  ---------------------------------------------------- |
-|  `25.06`    |  12.4       | 穩定，本手冊預設版本 |
-|  `25.08`    |  12.5       | 穩定 |
-|  `25.11`    |  12.6       | 最新版（注意：`onnxruntime-gpu`尚不支援CUDA 13.x） |
+| Image Tag	| CUDA版本	| 狀態 |
+| ---------	| --------	| ---- |
+| `25.06`	| 12.4	        | 穩定，本手冊預設版本 |
+| `25.08`	| 12.5  	| 穩定 |
+| `25.11`	| 12.6	        | 最新版（注意：`onnxruntime-gpu`尚不支援CUDA 13.x） |
 
-** 切換版本**：重新build時指定新的tag：
+**切換版本**：重新build時指定新的tag：
 
 ```bash
 docker build --build-arg PHYSICSNEMO_VERSION=25.11 -t physicsnemo-bootcamp:25.11 ~/physicsnemo-workshop/
@@ -967,7 +965,7 @@ cd ~/physicsnemo_bootcamp_setup
 bash setup.sh
 ```
 
-Script會自動完成步驟1–10，包含：
+Script會自動完成步驟1&ndash;10，包含：
 
  -  確認GPU、安裝Driver（若需要）、安裝Docker與NVIDIA Container Toolkit
  -  Clone bootcamp教材、建立Dockerfile、build image、啟動JupyterLab
@@ -986,3 +984,7 @@ Script會自動完成步驟1–10，包含：
  -  [AI-Powered Physics Bootcamp GitHub](https://github.com/openhackathons-org/AI-Powered-Physics-Bootcamp)
  -  [Bootcamp官方Dockerfile](https://github.com/openhackathons-org/AI-Powered-Physics-Bootcamp/blob/main/Dockerfile)
  -  [NVIDIA Container Toolkit安裝指南](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html)
+
+<!--
+  vim:ft=markdown ic noet norl wrap sw=4 sts=4 ts=8:
+  -->
