@@ -222,7 +222,7 @@
 | 平臺	        | 開啟方式 |
 | ----	        | -------- |
 | **Windows**	| 開始選單搜尋`PowerShell`或`cmd`，或安裝[Windows Terminal](https://aka.ms/terminal) |
-| **macOS**	| `Spotlight` (<kbd>&#x2318;</kbd>+<kbd>Space</kbd>)搜尋`Terminal`，或至「應用程式&rarr;工具程式&rarr;終端機」 |
+| **macOS**	| `Spotlight`（<kbd>&#x2318;</kbd>+<kbd>Space</kbd>）搜尋`Terminal`，或至「應用程式&rarr;工具程式&rarr;終端機」 |
 | **Linux**	| 快捷鍵<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>，或在應用程式選單中搜尋`Terminal` |
 
 > [!NOTE]
@@ -710,7 +710,7 @@ NOTE: CUDA Forward Compatibility mode ENABLED.
  -  啟動時出現的`DEPRECATION`與`UserWarning`為已知提示，不影響功能，可忽略。
  -  `All authentication is disabled`表示無需密碼或token，可直接開啟瀏覽器存取。
 
-### 10-4. 開啟瀏覽器(SSH tunnel)
+### 10-4. 開啟瀏覽器（SSH tunnel）
 
 在本機**另開一個新的terminal**，建立SSH tunnel：
 
@@ -718,7 +718,7 @@ NOTE: CUDA Forward Compatibility mode ENABLED.
 ssh -L 8888:localhost:8888 ubuntu@<VM_IP>
 ```
 
-輸入密碼後會出現遠端shell提示符(`ubuntu@vm:~$`)，**保持此terminal開啟**，tunnel即持續運作。
+輸入密碼後會出現遠端shell提示符（`ubuntu@vm:~$`），**保持此terminal開啟**，tunnel即持續運作。
 
 > 密碼：\<PASSWORD\>
 
@@ -750,10 +750,10 @@ http://localhost:8888
 │   └──Lab4_advanced_pde/        進階PDE系統
 │
 └──challenge/                     Challenge（約4小時）
-    ├──Challenge1_wave/           波動方程(Wave dynamics)
+    ├──Challenge1_wave/           波動方程（Wave dynamics）
     ├──Challenge2_darcy/          Darcy flow
     ├──Challenge3_fourcastnet/    FourCastNet天氣預報
-    └──Challenge4_mhd/           磁流體動力學(MHD)
+    └──Challenge4_mhd/           磁流體動力學（MHD）
 ```
 
 **建議教學順序**：Tutorial (2h)&rarr;Challenge (4h)，合計約6小時
@@ -901,7 +901,7 @@ sudo reboot
 
 ---
 
-### 無法pull base image (unauthorized)
+### 無法pull base image（unauthorized）
 
 > 錯誤訊息：`unauthorized: authentication required`
 
@@ -926,7 +926,7 @@ Cloud VM請在Security Group / Firewall Rules中開放TCP port 8888 inbound。
 
 ---
 
-### 容器記憶體不足(OOM)
+### 容器記憶體不足（OOM）
 
 確認`docker run`指令包含以下參數：
 
