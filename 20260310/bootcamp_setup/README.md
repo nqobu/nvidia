@@ -156,7 +156,7 @@
 | 欄位		| 填寫內容 |
 | ----		| -------- |
 | 鑰匙對認證	| **停用** |
-| 密碼		| `NCHCbootcamp2026_` |
+| 密碼		| <PASSWORD> |
 
 > [!IMPORTANT]
 > **請務必記住此密碼**，後續SSH連線至VM時會需要輸入。
@@ -241,7 +241,7 @@ ssh ubuntu@140.110.108.39
 
 輸入建立VM時設定的**密碼**即可登入。
 
-> 密碼：`NCHCbootcamp2026_`
+> 密碼：<PASSWORD>
 
 ---
 
@@ -293,35 +293,36 @@ nvidia-smi
 ### 2-2. 更新系統並安裝必要工具
 
 ```bash
-sudo apt-get update && sudo apt-get upgrade -y
-sudo apt-get install -y \
+sudo apt update
+sudo apt upgrade -y
+sudo apt install -y \
     build-essential \
     curl wget git \
     software-properties-common \
     linux-headers-$(uname -r)
 ```
 
-> `linux-headers-$(uname -r) `為必要項目：NVIDIA driver透過DKMS編譯核心模組時需要對應的kernel headers，
-> 若缺少此套件，driver安裝後`nvidia-smi`仍會失敗。
+> [!NOTE]
+> `linux-headers-$(uname -r)`為必要項目：NVIDIA driver透過DKMS編譯核心模組時需要對應的kernel headers，若缺少此套件，driver安裝後`nvidia-smi`仍會失敗。
 
-### 2-3.安裝Driver
+### 2-3. 安裝Driver
 
-Ubuntu 22.04 / 24.04的預設repo已內建nvidia-driver-570，**不需要加PPA**：
+Ubuntu 22.04/24.04的預設repo已內建nvidia-driver-570，**不需要加PPA**：
 
 ```bash
-sudo apt-get install -y nvidia-driver-570
+sudo apt install -y nvidia-driver-570
 ```
 
-### 2-4.重新開機（Driver安裝後必須重開機）
+### 2-4. 重新開機（Driver安裝後必須重開機）
 
 ```bash
 sudo reboot
 ```
 
-> 重開機後VM需要約**1–2分鐘**才會重新接受SSH連線，請稍候再重新登入。
-> 登入密碼：`NCHCbootcamp2026_`
+> - 重開機後VM需要約**1&ndash;2分鐘**才會重新接受SSH連線，請稍候再重新登入。
+> - 登入密碼：<PASSWORD>
 
-### 2-5.重開機後確認Driver安裝成功
+### 2-5. 重開機後確認Driver安裝成功
 
 ```bash
 nvidia-smi
@@ -345,13 +346,13 @@ nvidia-smi
 
 ## 步驟3｜安裝Docker Engine
 
-### 3-1.移除舊版（若存在）
+### 3-1. 移除舊版（若存在）
 
 ```bash
 sudo apt-get remove -y docker docker-engine docker.io containerd runc 2>/dev/null || true
 ```
 
-### 3-2.設定Docker官方APT repository
+### 3-2. 設定Docker官方APT repository
 
 ```bash
 sudo apt-get install -y ca-certificates gnupg lsb-release
@@ -369,7 +370,7 @@ echo \
     | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
 ```
 
-### 3-3.安裝Docker Engine
+### 3-3. 安裝Docker Engine
 
 ```bash
 sudo apt-get update
@@ -381,14 +382,14 @@ sudo apt-get install -y \
     docker-compose-plugin
 ```
 
-### 3-4.啟動並設定Docker開機自動啟動
+### 3-4. 啟動並設定Docker開機自動啟動
 
 ```bash
 sudo systemctl start docker
 sudo systemctl enable docker
 ```
 
-### 3-5.將目前用戶加入docker群組（避免每次都需sudo）
+### 3-5. 將目前用戶加入docker群組（避免每次都需sudo）
 
 ```bash
 sudo usermod -aG docker $USER
@@ -404,9 +405,9 @@ exit
 
 重新SSH登入後，再繼續以下步驟。
 
-> 密碼：`NCHCbootcamp2026_`
+> 密碼：<PASSWORD>
 
-### 3-6.確認Docker安裝成功
+### 3-6. 確認Docker安裝成功
 
 ```bash
 docker --version
@@ -425,7 +426,7 @@ Docker version 29.2.1，build a5c7197
 
 此工具讓Docker container可以存取Host的GPU。
 
-### 4-1.加入NVIDIA Container Toolkit repository
+### 4-1. 加入NVIDIA Container Toolkit repository
 
 ```bash
 curl -fsSL https://nvidia.github.io/libnvidia-container/gpgkey \
@@ -436,14 +437,14 @@ curl -s -L https://nvidia.github.io/libnvidia-container/stable/deb/nvidia-contai
     | sudo tee /etc/apt/sources.list.d/nvidia-container-toolkit.list
 ```
 
-### 4-2.安裝
+### 4-2. 安裝
 
 ```bash
 sudo apt-get update
 sudo apt-get install -y nvidia-container-toolkit
 ```
 
-### 4-3.確認安裝版本
+### 4-3. 確認安裝版本
 
 ```bash
 nvidia-ctk --version
@@ -459,7 +460,7 @@ NVIDIA Container Toolkit CLI version 1.18.2
 
 ## 步驟5｜設定Docker daemon支援GPU
 
-### 5-1.寫入Docker daemon設定檔
+### 5-1. 寫入Docker daemon設定檔
 
 ```bash
 sudo tee /etc/docker/daemon.json > /dev/null << 'EOF'
@@ -480,13 +481,13 @@ sudo tee /etc/docker/daemon.json > /dev/null << 'EOF'
 EOF
 ```
 
-### 5-2.重啟Docker daemon使設定生效
+### 5-2. 重啟Docker daemon使設定生效
 
 ```bash
 sudo systemctl restart docker
 ```
 
-### 5-3.驗證GPU在Docker內可見
+### 5-3. 驗證GPU在Docker內可見
 
 ```bash
 docker run --rm --gpus all \
@@ -632,7 +633,7 @@ physicsnemo-bootcamp:25.06   <IMAGE_ID>   ...   49.2GB   16.9GB
 
 ## 步驟10｜啟動JupyterLab
 
-### 10-1.背景啟動容器
+### 10-1. 背景啟動容器
 
 ** 首次啟動**（尚未建立過容器）：
 
@@ -658,7 +659,7 @@ docker run -d \
 > docker start physicsnemo-bootcamp
 > ```
 
-### 10-2.確認容器正常執行
+### 10-2. 確認容器正常執行
 
 ```bash
 docker ps
@@ -671,7 +672,7 @@ CONTAINER ID   IMAGE                        COMMAND                  CREATED    
 xxxxxxxxxxxx   physicsnemo-bootcamp:25.06   "/opt/nvidia/physics…"   X seconds ago   Up X seconds   6006/tcp, 0.0.0.0:8888-8889->8888-8889/tcp, [::]:8888-8889->8888-8889/tcp   physicsnemo-bootcamp
 ```
 
-### 10-3.查看啟動日誌
+### 10-3. 查看啟動日誌
 
 ```bash
 docker logs -f physicsnemo-bootcamp
@@ -706,7 +707,7 @@ NOTE: CUDA Forward Compatibility mode ENABLED.
 > 啟動時出現的`DEPRECATION`與`UserWarning`為已知提示，不影響功能，可忽略。
 > `All authentication is disabled`表示無需密碼或token，可直接開啟瀏覽器存取。
 
-### 10-4.開啟瀏覽器(SSH tunnel)
+### 10-4. 開啟瀏覽器(SSH tunnel)
 
 在本機**另開一個新的terminal**，建立SSH tunnel：
 
@@ -716,7 +717,7 @@ ssh -L 8888:localhost:8888 ubuntu@<VM_IP>
 
 輸入密碼後會出現遠端shell提示符(`ubuntu@vm:~$`)，**保持此terminal開啟**，tunnel即持續運作。
 
-> 密碼：`NCHCbootcamp2026_`
+> 密碼：<PASSWORD>
 
 在本機瀏覽器開啟：
 
@@ -755,7 +756,7 @@ http://localhost:8888
 
 ** 建議教學順序**：Tutorial (2h)&rarr;Challenge (4h)，合計約6小時
 
-### 11-1.記分板提交
+### 11-1. 記分板提交
 
 每跑完一個Challenge題目，分數會自動寫入challenge資料夾下的`leaderboard_metrics.csv`。
 
