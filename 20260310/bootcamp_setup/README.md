@@ -200,7 +200,7 @@
  -  **狀態**：active
  -  **登入帳號**：ubuntu
 
-在「虛擬網路資訊」區塊中，點擊`bootcamp`列右側的「&vellip'」按鈕，選擇「配置浮動IP」。
+在「虛擬網路資訊」區塊中，點擊`bootcamp`列右側的「&vellip;」按鈕，選擇「配置浮動IP」。
 
 ![VM詳細資料 &mdash; 配置浮動IP](images/nchc-21-vm-detail.png)
 
