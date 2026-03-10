@@ -974,10 +974,10 @@ Script會自動完成步驟1&ndash;10，包含：
  -  確認GPU、安裝Driver（若需要）、安裝Docker與NVIDIA Container Toolkit
  -  Clone bootcamp教材、建立Dockerfile、build image、啟動JupyterLab
 
-> [!TIP]
+> [!IMPORTANT]
 > **若NVIDIA Driver尚未安裝**：script安裝完成後會提示`sudo reboot`。
 >
-> 重開機並重新SSH登入後，**再次執行`bash setup.sh`**即可從中斷處繼續。
+> 重開機並重新SSH登入後，**再次執行**`bash setup.sh`即可從中斷處繼續。
 >
 > Script為冪等設計，已完成的步驟會自動略過，可安全重複執行。
 
