@@ -200,7 +200,7 @@
  -  **狀態**：active
  -  **登入帳號**：ubuntu
 
-在「虛擬網路資訊」區塊中，點擊`bootcamp`列右側的「&vellip；」按鈕，選擇「配置浮動IP」。
+在「虛擬網路資訊」區塊中，點擊`bootcamp`列右側的「&vellip'」按鈕，選擇「配置浮動IP」。
 
 ![VM詳細資料 &mdash; 配置浮動IP](images/nchc-21-vm-detail.png)
 
@@ -785,7 +785,7 @@ http://localhost:8888
 
 課程結束後，回到NCHC雲平臺的**虛擬機器管理**頁面，找到對應的VM。
 
-點擊該欄位最右側的「&vellip；」按鈕，選擇「刪除」，即可永久移除此VM並停止計費。
+點擊該欄位最右側的「&vellip;」按鈕，選擇「刪除」，即可永久移除此VM並停止計費。
 
 ![VM管理頁面 &mdash; 刪除VM](images/nchc-24-vm-delete.png)
 
