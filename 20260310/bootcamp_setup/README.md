@@ -222,8 +222,8 @@
 | 平臺	        | 開啟方式 |
 | ----	        | -------- |
 | **Windows**	| 開始選單搜尋`PowerShell`或`cmd`，或安裝[Windows Terminal](https://aka.ms/terminal) |
-| **macOS**	| `Spotlight` (`&#x2318; + Space`)搜尋`Terminal`，或至「應用程式&rarr;工具程式&rarr;終端機」 |
-| **Linux**	| 快捷鍵`Ctrl + Alt + T`，或在應用程式選單中搜尋`Terminal` |
+| **macOS**	| `Spotlight` (<kbd>&#x2318;</kbd>+<kbd>Space</kbd>)搜尋`Terminal`，或至「應用程式&rarr;工具程式&rarr;終端機」 |
+| **Linux**	| 快捷鍵<kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>，或在應用程式選單中搜尋`Terminal` |
 
 > Windows 10/11內建的PowerShell與`cmd`均支援`ssh`指令，無需額外安裝。
 
@@ -677,7 +677,7 @@ xxxxxxxxxxxx   physicsnemo-bootcamp:25.06   "/opt/nvidia/physics…"   X seconds
 docker logs -f physicsnemo-bootcamp
 ```
 
-看到以下訊息代表JupyterLab已就緒，按`Ctrl+C`離開log追蹤：
+看到以下訊息代表JupyterLab已就緒，按<kbd>Ctrl</kbd>+<kbd>C</kbd>離開log追蹤：
 
 ```
 DEPRECATION: Loading egg at /usr/local/lib/python3.12/dist-packages/dill-...
