@@ -1,3 +1,6 @@
+via: <https://github.com/kevin5826536/physicsnemo_bootcamp_setup/>
+
+---
 
 # PhysicsNeMo AI-Powered Physics Bootcamp  &mdash;  完整環境建置手冊
 
