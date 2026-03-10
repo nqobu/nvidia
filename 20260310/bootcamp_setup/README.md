@@ -823,17 +823,17 @@ docker rm physicsnemo-bootcamp
 docker ps
 docker logs -f physicsnemo-bootcamp
 
-# --進入容器terminal-------------------------------------
+# --進入容器terminal--------------------------------------
 docker exec -it physicsnemo-bootcamp bash
 
-# --GPU監控----------------------------------------------
+# --GPU監控-----------------------------------------------
 # Host上即時監控
 watch -n 1 nvidia-smi
 
 # 容器內監控（在JupyterLab terminal執行）
 nvidia-smi dmon -s pucvmet
 
-# --重新build image--------------------------------------
+# --重新build image---------------------------------------
 docker build --no-cache -t physicsnemo-bootcamp:25.06 ~/physicsnemo-workshop/
 ```
 
@@ -974,9 +974,11 @@ Script會自動完成步驟1&ndash;10，包含：
  -  確認GPU、安裝Driver（若需要）、安裝Docker與NVIDIA Container Toolkit
  -  Clone bootcamp教材、建立Dockerfile、build image、啟動JupyterLab
 
+> [!TIP]
 > **若NVIDIA Driver尚未安裝**：script安裝完成後會提示`sudo reboot`。
+>
 > 重開機並重新SSH登入後，**再次執行`bash setup.sh`**即可從中斷處繼續。
-
+>
 > Script為冪等設計，已完成的步驟會自動略過，可安全重複執行。
 
 ---
