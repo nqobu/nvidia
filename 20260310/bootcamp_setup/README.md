@@ -602,7 +602,7 @@ cat ~/physicsnemo-workshop/Dockerfile
 docker build -t physicsnemo-bootcamp:25.06 ~/physicsnemo-workshop/
 ```
 
-** 預期耗時**：首次建置約**10–15分鐘**，主要耗時於：
+**預期耗時**：首次建置約**10–15分鐘**，主要耗時於：
 
  -  下載`nvcr.io/nvidia/physicsnemo/physicsnemo:25.06` base image（約15 GB）
  -  安裝少量額外pip套件（gdown、ipympl、jupyterlab等）
@@ -636,7 +636,7 @@ physicsnemo-bootcamp:25.06   <IMAGE_ID>   ...   49.2GB   16.9GB
 
 ### 10-1. 背景啟動容器
 
-** 首次啟動**（尚未建立過容器）：
+**首次啟動**（尚未建立過容器）：
 
 ```bash
 docker run -d \
@@ -756,7 +756,7 @@ http://localhost:8888
     └──Challenge4_mhd/           磁流體動力學(MHD)
 ```
 
-** 建議教學順序**：Tutorial (2h)&rarr;Challenge (4h)，合計約6小時
+**建議教學順序**：Tutorial (2h)&rarr;Challenge (4h)，合計約6小時
 
 ### 11-1. 記分板提交
 
