@@ -32,6 +32,7 @@
  -  20251110 - NCHC Quantum-HPC Tech Salon
  -  20251112 - NCHC Open Hackathons 2025
  -  20260310 - NCHC AI Powered Physics Bootcamp, 2026
+ -  20260520 - NCHC LLM & Agentic AI Bootcamp, 2026
 
 > [!NOTE]
 > DO NOT add issues, discussion, or files to this repo.
