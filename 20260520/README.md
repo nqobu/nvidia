@@ -81,11 +81,8 @@ All times are in Taiwan timezone.
 
 ### Venue / 活動地點
 
- -  Day 1 (March 10) will happen online
- -  Day 2 (March 11) Address:
-
-    No. 7, Yanfa 6th Rd., East Dist., Hsinchu City 300092, Taiwan (R.O.C.)
-    新竹市 300092 東區（新竹科學園區）研發六路7號
+No. 7, Yanfa 6th Rd., East Dist., Hsinchu City 300092, Taiwan (R.O.C.)
+新竹市 300092 東區（新竹科學園區）研發六路7號
 
 ### Transportation / 交通運輸
 
@@ -102,7 +99,7 @@ Attendees are responsible for their own accomodation.
 
 ### Event Format / 活動形式
 
-Day 1( March 10) NCHC AI-Powered Physics bootcamp will be hosted online and Day 2 (March 11) will be conducted in-person in the Taiwan Standard time zone.
+NCHC LLM & Agentic AI Bootcamp will be conducted in-person in the Taiwan Standard time zone.
 All communication will be done via email.
 
 ### Compute Resources / 計算資源
