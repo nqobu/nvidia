@@ -41,6 +41,9 @@ By attending this bootcamp, participants will:
  -  The event is limited to those living in Taiwan, Penghu, Kinmen, and Matsu and will happen in Mandarin language.\
     本次活動僅限居住在臺灣、澎湖、金門、馬祖地區的人參加，並完全以中文進行。
 
+ -  Need to be present in-person in Taiwan for the bootcamp day.\
+    通過報名審核者，須於活動當天到場參加。
+
 ## Agenda / 活動規劃
 
 All times are in Taiwan timezone.
@@ -99,8 +102,7 @@ Attendees are responsible for their own accomodation.
 
 ### Event Format / 活動形式
 
-NCHC LLM & Agentic AI Bootcamp will be conducted in-person in the Taiwan Standard time zone.
-All communication will be done via email.
+The bootcamp will be in-person in the Taiwan Standard time zone on May 20. All communication will be done through Microsoft Teams and email.
 
 ### Compute Resources / 計算資源
 
