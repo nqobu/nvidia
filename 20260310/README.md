@@ -18,6 +18,7 @@ By attending this bootcamp, participants will:
  -  Gain practical experience visualizing simulation results using ParaView; and
  -  Learn advanced topics such as DoMINO and Earth-2.
 
+<!--
 ## Timeline / 活動期程
 
  -  **Registration Deadline / 報名截止日期:**
@@ -45,6 +46,7 @@ By attending this bootcamp, participants will:
 
  -  The event is limited to those living in Taiwan, Penghu, Kinmen, and Matsu and will be entirely in Chinese.\
     本次活動僅限居住在臺灣、澎湖、金門、馬祖地區的人參加，並完全以中文進行。
+  -->
 
 ## Agenda / 活動規劃
 
@@ -122,6 +124,7 @@ All times are in Taiwan timezone.
  -  **16:00 PM**\
     **Wrap-up, Q&A, and Next Steps**
 
+<!--
 ## Logistics
 
 ### Venue / 活動地點
@@ -167,3 +170,4 @@ Accepted participants must:
 
  -  Register for the event,
  -  Review the Attendee Guide.
+  -->
