@@ -7,7 +7,7 @@ Together with NVIDIA, OpenACC organization and NCHC will host a bootcamp on May 
 
 Agentic AI employs sophisticated reasoning to solve complex problems, utilizing data from multiple sources to analyze, strategize, and complete tasks independently. There are many powerful building blocks that developers and researchers can use to enable and accelerate the development and deployment of their agentic AI workflows.
 
-The Agentic AI Bootcamp covers some of these powerful tools from both NCHC Taiwan AI RAP platform and NVIDIA open source stack , including NeMo AutoModel for finetuning, TensorRT-LLM for inference, NeMo Agent Toolkit for agentic AI apps and multiple features from Taiwan AI Rap Platform.
+The Agentic AI Bootcamp covers some of these powerful tools from both NCHC [Taiwan AI RAP](https://rap.genai.nchc.org.tw/) platform and NVIDIA open source stack , including NeMo [AutoModel](https://github.com/NVIDIA-NeMo/Automodel) for finetuning, [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM) for inference, [NeMo Agent Toolkit](https://github.com/NVIDIA/NeMo-Agent-Toolkit) for agentic AI apps and multiple features from Taiwan AI Rap Platform.
 
 This virtual bootcamp is a hands-on learning experience where you will be guided through step-by-step instructions with teaching assistants on hand to help throughout.
 
