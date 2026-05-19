@@ -88,7 +88,6 @@ All times are in Taiwan timezone.
 No. 7, Yanfa 6th Rd., East Dist., Hsinchu City 300092, Taiwan (R.O.C.)
 新竹市 300092 東區（新竹科學園區）研發六路7號
 
-<!--
 ### Transportation / 交通運輸
 
 Attendees are responsible for their own transportation.
@@ -117,4 +116,3 @@ Accepted participants must:
 
  -  Register for the event,
  -  Review the Attendee Guide.
-  -->
