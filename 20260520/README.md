@@ -14,7 +14,7 @@ This virtual bootcamp is a hands-on learning experience where you will be guided
 By attending this bootcamp, participants will:
 
  1. Learn the fundamentals and the latest progress of agentic AI development.
- 2. Learn how to build your own agentic AI apps by leveraging tools from both NCHC Taiwan AI Rap platform and NVIDIA NeMo open sources.
+ 2. Learn how to build your own agentic AI apps by leveraging tools from both NCHC [Taiwan AI RAP](https://rap.genai.nchc.org.tw/) platform and [NVIDIA NeMo](https://github.com/NVIDIA-NeMo) open sources.
 
 <!--
 ## Timeline / 活動期程
