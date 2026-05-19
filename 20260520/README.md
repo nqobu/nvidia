@@ -81,6 +81,7 @@ All times are in Taiwan timezone.
  -  **16:00 PM**\
     **Wrap-up, Q&A, and Next Steps**
 
+<!--
 ## Logistics
 
 ### Venue / 活動地點
@@ -116,3 +117,4 @@ Accepted participants must:
 
  -  Register for the event,
  -  Review the Attendee Guide.
+  -->
