@@ -16,6 +16,7 @@ By attending this bootcamp, participants will:
  1. Learn the fundamentals and the latest progress of agentic AI development.
  2. Learn how to build your own agentic AI apps by leveraging tools from both NCHC Taiwan AI Rap platform and NVIDIA NeMo open sources.
 
+<!--
 ## Timeline / 活動期程
 
  -  **Application Deadline / 報名截止日期:**
@@ -43,7 +44,7 @@ By attending this bootcamp, participants will:
 
  -  Need to be present in-person in Taiwan for the bootcamp day.\
     通過報名審核者，須於活動當天到場參加。
-
+  -->
 ## Agenda / 活動規劃
 
 All times are in Taiwan timezone.
