@@ -1,0 +1,17 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools >= 64"]
+
+[project]
+name = "temperature-converter"
+version = "1.0.0"
+dependencies = ["nvidia-nat>=1.6"]
+requires-python = ">=3.11,<3.14"
+description = "NCHC 工作坊 Tutorial 03 — 自訂的溫度轉換 tool"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+# nat 透過 nat.components entry point group 發現 tool。
+[project.entry-points.'nat.components']
+temperature_converter = "temperature_converter.register"

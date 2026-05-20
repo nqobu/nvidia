@@ -1,0 +1,38 @@
+# Tutorial 02：寫程式 + 執行 Code 的 Agent
+#
+# 示範 ReAct（Reasoning + Acting）agent pattern。
+# Agent 自己寫 Python 程式碼、丟到本地 sandbox 執行、再看結果決定下一步。
+#
+# code_execution 內建於 nvidia-nat。本工作坊把它的 sandbox server 用
+# Flask 啟動在 127.0.0.1:6000（不必跑 docker）— notebook 的 setup cell 會
+# 自動把它拉起來；只要 jupyter kernel 還活著、sandbox 也活著。
+#
+# 執行：
+#   nat run --config_file tutorial_02_code_agent/configs/config.yml \
+#           --input "Compute 2^100 and tell me how many digits it has."
+
+# ── Tools (Functions) ────────────────────────────────────────────────────────
+functions:
+  py:
+    _type: code_execution      # 在 sandbox 內跑 Python，回傳 stdout/stderr/狀態
+    sandbox_type: local        # local = 走 HTTP 打本地 Flask sandbox（已啟動）
+    uri: http://127.0.0.1:6000 # sandbox 位址（在 container 內 / VM 內皆同）
+    timeout: 15                # 單次 exec 的秒數上限
+
+# ── Language Models ──────────────────────────────────────────────────────────
+llms:
+  nemotron:
+    _type: nim
+    model_name: nvidia/nemotron-3-nano-30b-a3b
+    temperature: 0.0       # code 任務用低溫，避免亂寫
+    max_tokens: 4096
+
+# ── Workflow ─────────────────────────────────────────────────────────────────
+# react_agent = Reason → Act → Observe → 重複直到完成
+workflow:
+  _type: react_agent
+  llm_name: nemotron
+  tool_names:
+    - py
+  verbose: true
+  parse_agent_response_max_retries: 3

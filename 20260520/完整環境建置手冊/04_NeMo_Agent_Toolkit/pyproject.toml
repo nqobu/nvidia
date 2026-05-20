@@ -1,0 +1,10 @@
+[project]
+name = "nchc-llm-workshop-2026"
+version = "2026.1"
+requires-python = ">=3.11,<3.14"
+description = "NCHC LLM 工作坊 2026 — NeMo Agent Toolkit 教學"
+dependencies = [
+    "nvidia-nat[langchain]>=1.6",   # nat CLI + 核心 toolkit + LangChain 外掛
+    "jupyterlab>=4",                 # notebook 介面
+    "ipykernel",                     # 把 venv 接到 Jupyter
+]

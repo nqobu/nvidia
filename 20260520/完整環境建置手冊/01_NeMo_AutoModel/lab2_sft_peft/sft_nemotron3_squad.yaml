@@ -1,0 +1,72 @@
+# SFT 微調 – 在 SQuAD v1.1 上對 NVIDIA Nemotron-3-Nano-4B-BF16 做 Supervised Fine-Tuning
+# 各次執行的參數可用 CLI 覆寫，例如：  --step_scheduler.max_steps=10
+#
+# Nemotron-3 使用 HF Hub 上的自訂 modeling 程式碼，model 需 trust_remote_code: true
+
+step_scheduler:
+  global_batch_size: 4
+  local_batch_size: 4
+  ckpt_every_steps: 10
+  val_every_steps: 10
+  max_steps: 10
+
+dist_env:
+  backend: nccl
+  timeout_minutes: 5
+
+rng:
+  _target_: nemo_automodel.components.training.rng.StatefulRNG
+  seed: 42
+  ranked: true
+
+model:
+  _target_: nemo_automodel.NeMoAutoModelForCausalLM.from_pretrained
+  pretrained_model_name_or_path: nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16
+  torch_dtype: bf16
+  attn_implementation: eager
+  trust_remote_code: true
+
+checkpoint:
+  enabled: true
+  checkpoint_dir: ./checkpoints/sft/
+  model_save_format: safetensors
+  save_consolidated: true
+
+distributed:
+  _target_: nemo_automodel.components.distributed.fsdp2.FSDP2Manager
+  dp_size: none
+  tp_size: 1
+  cp_size: 1
+  sequence_parallel: false
+
+loss_fn:
+  _target_: nemo_automodel.components.loss.masked_ce.MaskedCrossEntropy
+
+dataset:
+  _target_: nemo_automodel.components.datasets.llm.squad.make_squad_dataset
+  dataset_name: rajpurkar/squad
+  split: train
+
+packed_sequence:
+  packed_sequence_size: 0
+
+dataloader:
+  _target_: torchdata.stateful_dataloader.StatefulDataLoader
+  collate_fn: nemo_automodel.components.datasets.utils.default_collater
+  shuffle: false
+
+validation_dataset:
+  _target_: nemo_automodel.components.datasets.llm.squad.make_squad_dataset
+  dataset_name: rajpurkar/squad
+  split: validation
+
+validation_dataloader:
+  _target_: torchdata.stateful_dataloader.StatefulDataLoader
+  collate_fn: nemo_automodel.components.datasets.utils.default_collater
+
+optimizer:
+  _target_: torch.optim.AdamW
+  betas: [0.9, 0.95]
+  eps: 1e-8
+  lr: 1.0e-5
+  weight_decay: 0.01

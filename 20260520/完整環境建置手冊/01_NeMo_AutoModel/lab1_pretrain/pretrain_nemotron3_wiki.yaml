@@ -1,0 +1,83 @@
+# 接續預訓練 – 在 WikiText-103（Megatron 二進位格式）上對 NVIDIA Nemotron-3-Nano-4B-BF16 做 Continued Pretraining
+# 資料路徑相對於 lab1_pretrain/ 目錄。
+# 各次執行的參數可用 CLI 覆寫，例如：  --step_scheduler.max_steps=10
+#
+# Nemotron-3 使用 HF Hub 上的自訂 modeling 程式碼，model 與 tokenizer 都需 trust_remote_code: true
+
+step_scheduler:
+  global_batch_size: 4
+  local_batch_size: 4
+  ckpt_every_steps: 1000
+  val_every_steps: 1000
+  max_steps: 100
+
+dist_env:
+  backend: nccl
+  timeout_minutes: 5
+
+rng:
+  _target_: nemo_automodel.components.training.rng.StatefulRNG
+  seed: 42
+  ranked: true
+
+model:
+  _target_: nemo_automodel.NeMoAutoModelForCausalLM.from_pretrained
+  pretrained_model_name_or_path: nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16
+  torch_dtype: bf16
+  attn_implementation: eager
+  trust_remote_code: true
+
+checkpoint:
+  enabled: false
+  checkpoint_dir: ./checkpoints/pretrain/
+
+distributed:
+  _target_: nemo_automodel.components.distributed.fsdp2.FSDP2Manager
+  dp_size: none
+  tp_size: 1
+  cp_size: 1
+  sequence_parallel: false
+
+loss_fn:
+  _target_: nemo_automodel.components.loss.masked_ce.MaskedCrossEntropy
+
+dataset:
+  _target_: nemo_automodel.components.datasets.llm.megatron_dataset.MegatronPretraining
+  paths: ./data/wiki_megatron/wiki_0_text_document
+  index_mapping_dir: ./data/wiki_megatron/mapping/
+  tokenizer:
+    _target_: nemo_automodel._transformers.auto_tokenizer.NeMoAutoTokenizer.from_pretrained
+    pretrained_model_name_or_path: nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16
+    trust_remote_code: true
+  seq_length: 512
+  split: "0.99, 0.01, 0.00"
+  splits_to_build: "train"
+
+dataloader:
+  _target_: torchdata.stateful_dataloader.StatefulDataLoader
+  collate_fn: torch.utils.data.default_collate
+  dataloader_type: "single"
+
+validation_dataset:
+  _target_: nemo_automodel.components.datasets.llm.megatron_dataset.MegatronPretraining
+  paths: ./data/wiki_megatron/wiki_0_text_document
+  index_mapping_dir: ./data/wiki_megatron/mapping/
+  tokenizer:
+    _target_: nemo_automodel._transformers.auto_tokenizer.NeMoAutoTokenizer.from_pretrained
+    pretrained_model_name_or_path: nvidia/NVIDIA-Nemotron-3-Nano-4B-BF16
+    trust_remote_code: true
+  seq_length: 512
+  split: "0.99, 0.01, 0.00"
+  splits_to_build: "validation"
+  num_val_samples: 4
+
+validation_dataloader:
+  _target_: torchdata.stateful_dataloader.StatefulDataLoader
+  collate_fn: torch.utils.data.default_collate
+  dataloader_type: "single"
+
+optimizer:
+  _target_: torch.optim.AdamW
+  betas: [0.9, 0.95]
+  lr: 1.0e-4
+  weight_decay: 0.01
