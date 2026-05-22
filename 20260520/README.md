@@ -65,7 +65,7 @@ All times are in Taiwan timezone.
     **Model Inference**
 
      -  NCHC Taiwan AI RAP &mdash; API calling
-     -  NVIDIA TensorRT-LLM/ NIMs
+     -  NVIDIA TensorRT-LLM / NIMs
 
  -  **12:00 PM &ndash; 13:00 PM**\
     **Lunch Break**
@@ -75,7 +75,7 @@ All times are in Taiwan timezone.
 
      -  NCHC AI RAP &mdash; Dify
      -  NVIDIA NeMo Agent Toolkit (NAT)
-     -  NVIDIA AI-Q Blueprint/ NeMoClaw
+     -  NVIDIA AI-Q Blueprint / NeMoClaw
      -  Challenge &mdash; build your own AI agent
 
  -  **16:00 PM**\
