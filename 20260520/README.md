@@ -51,32 +51,32 @@ All times are in Taiwan timezone.
 
 ### Wednesday, May 20 / 09:30 AM - 16:30 PM (In-person)
 
- -  **09:30 AM -- 09:50 AM**\
+ -  **09:30 AM &ndash; 09:50 AM**\
     **Welcome and Getting Started**
 
- -  **09:50 AM -- 10:50 AM**\
+ -  **09:50 AM &ndash; 10:50 AM**\
     **Model Fine-tuning**
 
-     -  NCHC Taiwan AI RAP --- Airflow-based 
+     -  NCHC Taiwan AI RAP &mdash; Airflow-based 
      -  NVIDIA NeMo Overview
      -  NVIDIA AutoModel
 
- -  **11:00 AM -- 12:00 AM**\
+ -  **11:00 AM &ndash; 12:00 AM**\
     **Model Inference**
 
-     -  NCHC Taiwan AI RAP --- API calling
+     -  NCHC Taiwan AI RAP &mdash; API calling
      -  NVIDIA TensorRT-LLM/ NIMs
 
- -  **12:00 PM -- 13:00 PM**\
+ -  **12:00 PM &ndash; 13:00 PM**\
     **Lunch Break**
 
- -  **13:00 PM -- 16:00 PM**\
+ -  **13:00 PM &ndash; 16:00 PM**\
     **Agentic AI Applications**
 
-     -  NCHC AI RAP --- Dify
+     -  NCHC AI RAP &mdash; Dify
      -  NVIDIA NeMo Agent Toolkit (NAT)
      -  NVIDIA AI-Q Blueprint/ NeMoClaw
-     -  Challenge --- build your own AI agent
+     -  Challenge &mdash; build your own AI agent
 
  -  **16:00 PM**\
     **Wrap-up, Q&A, and Next Steps**
