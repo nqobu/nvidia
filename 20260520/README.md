@@ -1,11 +1,6 @@
 
 # NCHC LLM & Agentic AI Bootcamp
 
-## Questionnaire / 問卷調查
-
-Link: <https://forms.gle/RQKS984JZWftCrC98>
-![Questionnaire](Questionnaire.png)
-
 ## Overview / 活動說明
 
 Together with NVIDIA, OpenACC organization and NCHC will host a bootcamp on May 20, 2026 will happen in-person.
@@ -122,4 +117,9 @@ Accepted participants must:
 
  -  Register for the event,
  -  Review the Attendee Guide.
+
+## Questionnaire / 問卷調查
+
+Link: <https://forms.gle/RQKS984JZWftCrC98>
+![Questionnaire](Questionnaire.png)
   -->
