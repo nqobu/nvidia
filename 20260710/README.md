@@ -1,6 +1,6 @@
 
 
-# NVIDIA Techniques Sharing 2026 for HiPAC
+# NVIDIA Techniques Sharing for HiPAC 2026
 
 ## Instructors
 
