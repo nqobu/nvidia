@@ -30,6 +30,14 @@ The hands-on lab uses coding agents such as OpenCode, Claude, or Codex to write,
  -  [Introduction and Agentic AI for Science](1_Introduction_Public.pdf)
  -  [Building Quantum-GPU Supercomputing](2_CUDAQ_Bootcamp_NVQ.pdf) — _Pika Wang_
 
+### Recording / 活動錄影
+
+ -  [Bootcamp Recording (Unlisted)](https://youtu.be/1LeC9muSEXw)
+
+The morning session was recorded without audio. Since it mainly covered environment setup and introductory material, please refer to the presentation slides above. Most of the core bootcamp content was delivered in the afternoon and is included in the recording.
+
+上午場錄影因未成功收音而無聲；上午內容以環境設定與基礎介紹為主，請搭配上方投影片參考。主要 bootcamp 內容集中於下午場，錄影仍包含完整且豐富的核心內容。
+
 ## Timeline / 活動期程
 
  -  **Application Deadline / 報名截止日期:**
