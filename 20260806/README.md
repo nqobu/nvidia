@@ -19,8 +19,6 @@ NVIDIA supported the final day of NCHC HiPAC 2026 on August 6 through a technica
 
 -  [NVIDIA Platform for Science - Public Version](HiPAC_-_NVIDIA_Tech_Sharing_Public.pdf)
 
-   Source slides marked "NVIDIA CONFIDENTIAL. DO NOT DISTRIBUTE." were removed from this public version.
-
 <!--
   vim:ft=markdown ic noet norl ts=8 sts=4 sw=4:
   -->
