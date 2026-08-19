@@ -33,6 +33,7 @@
  -  20251112 - NCHC Open Hackathons 2025
  -  20260310 - NCHC AI Powered Physics Bootcamp, 2026
  -  20260520 - NCHC LLM & Agentic AI Bootcamp, 2026
+ -  20260710 - HiPAC 2026 Pre-Competition Training / NVIDIA Sharing
  -  20260710 - NVIDIA Techniques Sharing for HiPAC 2026
  -  20260807 - SINICA NCHC CUDA-Q Agentic Coding Bootcamp, 2026
 
