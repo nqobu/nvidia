@@ -34,6 +34,7 @@
  -  20260310 - NCHC AI Powered Physics Bootcamp, 2026
  -  20260520 - NCHC LLM & Agentic AI Bootcamp, 2026
  -  20260710 - HiPAC 2026 Pre-Competition Training / NVIDIA Sharing
+ -  20260806 - NVIDIA Tech Sharing and Judging for HiPAC 2026 Finals
  -  20260807 - SINICA NCHC CUDA-Q Agentic Coding Bootcamp, 2026
 
 > [!NOTE]
