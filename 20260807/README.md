@@ -11,11 +11,32 @@ This bootcamp provides an end-to-end introduction to the NVIDIA quantum computin
 
 By attending this bootcamp, participants will:
 
- -  Learn the fundamentals of the NVIDIA Quantum Platform, including CUDA-Q, NVIDIA Ising, and -the vision of quantum-GPU supercomputing;
+ -  Learn the fundamentals of the NVIDIA Quantum Platform, including CUDA-Q, NVIDIA Ising, and the vision of quantum-GPU supercomputing;
  -  Gain hands-on experience with CUDA-Q through guided labs, environment setup, and interactive calibration playgrounds powered by NVIDIA NIM;
  -  Explore real-world quantum computing workflows, including CUDA-Q application development, QPU-GPU integration, and agentic calibration for real quantum hardware;
  -  Learn how to leverage agentic AI powered by NCHC RAP services to accelerate quantum programming with CUDA-Q;
  -  Discover advanced CUDA-Q programming techniques, including Bring-Your-Own-Code session and emerging agentic coding capabilities for future quantum applications.
+
+## Materials / 教材
+
+### Hands-on Lab / 實作教材
+
+ -  [CUDA-Q Agentic Coding Bootcamp hands-on repository](https://github.com/Squirtle007/cudaq-agentic-coding/tree/opencode-nchc-rap)
+
+The hands-on lab uses coding agents such as OpenCode, Claude, or Codex to write, run, and verify GPU-accelerated CUDA-Q programs. It begins with CUDA-Q fundamentals and NVIDIA Ising Calibration, then advances a QAOA map-coloring workflow from state-vector simulation to tensor-network and matrix product state methods, with Bring-Your-Own-Code and reusable agent-skill exercises.
+
+### Presentation Slides / 活動投影片
+
+ -  [Introduction and Agentic AI for Science](1_Introduction_Public.pdf)
+ -  [Building Quantum-GPU Supercomputing](2_CUDAQ_Bootcamp_NVQ.pdf) — _Pika Wang_
+
+### Recording / 活動錄影
+
+ -  [Bootcamp Recording (Unlisted)](https://youtu.be/1LeC9muSEXw)
+
+The morning session was recorded without audio. Since it mainly covered environment setup and introductory material, please refer to the presentation slides above. Most of the core bootcamp content was delivered in the afternoon and is included in the recording.
+
+上午場錄影因未成功收音而無聲；上午內容以環境設定與基礎介紹為主，請搭配上方投影片參考。主要 bootcamp 內容集中於下午場，錄影仍包含完整且豐富的核心內容。
 
 ## Timeline / 活動期程
 
