@@ -9,9 +9,33 @@ China Medical University (CMU) and the National Center for High-performance Comp
 
 ## Registration / 報名資訊
 
- -  **Application deadline / 報名截止**：October 27, 2026
- -  **Event date / 活動日期**：November 10, 2026, 10:00 AM--4:00 PM (Taiwan time)
- -  **Registration / 報名網站**：[Open Hackathons event page](https://www.openhackathons.org/s/siteevent/a0CUP00006FlgPw2AJ/se000524)
+ -  **Application Deadline / 報名截止**：\
+    **October 27, 2026**
+
+ -  **Event Date / 活動日期**：\
+    November 10, 2026, 10:00 AM--16:00 PM (Taiwan time)
+
+ -  **Registration / 報名網站**：\
+    <https://www.openhackathons.org/s/siteevent/a0CUP00006FlgPw2AJ/se000524>
+
+     -  To receive notifications for this event, please ensure that you leave a valid email address when applying.\
+        本次活動的所有通知訊息都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。
+
+     -  The event is limited to those living in Taiwan, Penghu, Kinmen, and Matsu and will happen in Mandarin language.\
+        本次活動僅限居住在臺灣、澎湖、金門、馬祖地區的人士參加，並完全以中文進行。
+
+     -  Need to be present in-person in Taiwan for the bootcamp day.\
+        通過報名審核者，須於活動當天到場參加。
+
+     -  Attendees are responsible for their own lunch, transportation, and accommodation.\
+        參加活動者需自行負擔午餐、交通，以及可能的住宿費用。
+     
+     -  During the bootcamp, attendees will have access to one of the NCHC's GPU clusters. So, please apply for an NCHC iService account in advance..\
+        活動期間，參加活動者將會使用到 NCHC 的 GPU 叢集，所以請事先申請 NCHC 的 iService 帳號。
+
+## Prerequisites / 預備知識
+
+Participants should have basic familiarity with Python, Singularity/Docker, machine learning concepts, and biomolecular or genomic data formats.
 
 ## Agenda / 活動議程
 
@@ -34,17 +58,14 @@ All times are in Taiwan Standard Time (UTC+8). The agenda is subject to change.
 | 15:10--16:00	| Single-Cell Analysis Hands-on Session |
 | 16:00		| End of Bootcamp |
 
-## Logistics / 活動地點
+## Venue / 活動地點
 
-Library & Information Center, China Medical University / 中國醫藥大學圖書資訊中心\
-No. 100, Section 1, Jingmao Road, Gangwei Village, Beitun District, Taichung City / 臺中市北屯區經貿路一段100號（卓越大樓7樓）
+Library & Information Center, China Medical University\
+中國醫藥大學圖書資訊中心
 
-The bootcamp will be conducted in Mandarin Chinese. Attendees are responsible for their own lunch, transportation, and accommodation. Attendees will be given access to a GPU cluster for the duration of the workshop; event communications will be sent by email.
-
-## Prerequisites / 預備知識
-
-Participants should have basic familiarity with Python, Docker, machine learning concepts, and biomolecular or genomic data formats.
-
+No. 100, Section 1, Jingmao Road, Gangwei Village, Beitun District, Taichung City\
+臺中市北屯區經貿路一段100號（卓越大樓7樓）
+ 
 <!--
-  vim:ft=markdown ic noel norl swap ts=8 sts=4 sw=4:
+  vim:ft=markdown ic noet norl nowrap ts=8 sts=4 sw=4:
   -->
