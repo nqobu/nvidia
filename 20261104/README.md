@@ -11,7 +11,7 @@
 [觀看活動完整錄影（YouTube，不公開列出/Unlisted）](https://youtu.be/w42k0eUZ-w8)
 
 | 場次/資料 | 日期 | PDF |
-| --------- | ---- | --- |
+| --------- | :--: | --- |
 | Day 0：Kick-off Meeting | 2026-10-14 | [活動簡報](slides/Day%200.pdf) |
 | Day 1：Scrum #1 | 2026-10-21 | [活動簡報](slides/Day%201.pdf) |
 | Day 2：Scrum #2 | 2026-10-28 | [活動簡報](slides/Day%202.pdf) |
