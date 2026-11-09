@@ -37,6 +37,19 @@ China Medical University (CMU) and the National Center for High-performance Comp
 
 Participants should have basic familiarity with Python, Singularity/Docker, machine learning concepts, and biomolecular or genomic data formats.
 
+## Course Materials / 課程教材
+
+All slides are available as PDFs. Use **Preview** to read online or **Download PDF** to save a copy. The BioNeMo, cellular image analysis, and single-cell materials correspond to both the introduction and hands-on sessions.
+
+教材皆為 PDF 格式，可點選 **預覽** 線上閱讀，或點選 **下載 PDF** 儲存檔案。BioNeMo、細胞影像分析與單細胞分析教材分別對應各主題的介紹及實作課程。
+
+| Session / 對應課程 | Materials / 教材 | PDF |
+| --- | --- | --- |
+| Introduction to Agentic AI | NVIDIA Agent Toolkit | [Preview / 預覽](0_NVIDIA%20Agent%20Toolkit.pdf) · [Download PDF / 下載 PDF](0_NVIDIA%20Agent%20Toolkit.pdf?raw=true) |
+| Introduction to BioNeMo | NVIDIA BioNeMo | [Preview / 預覽](1_BioNeMo.pdf) · [Download PDF / 下載 PDF](1_BioNeMo.pdf?raw=true) |
+| Introduction to Cellular Image Analysis | NVIDIA MONAI / VISTA2D | [Preview / 預覽](2_NVIDIA%20MONAI-VISTA2D.pdf) · [Download PDF / 下載 PDF](2_NVIDIA%20MONAI-VISTA2D.pdf?raw=true) |
+| Introduction to Single-Cell Analysis | NVIDIA Omics and Single-cell Analysis | [Preview / 預覽](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf) · [Download PDF / 下載 PDF](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf?raw=true) |
+
 ## Agenda / 活動議程
 
 All times are in Taiwan Standard Time (UTC+8). The agenda is subject to change.
@@ -46,15 +59,15 @@ All times are in Taiwan Standard Time (UTC+8). The agenda is subject to change.
 | 10:00--10:05	| Welcome |
 | 10:05--10:25	| NCHC Introduction |
 | 10:25--10:40	| System Setup |
-| 10:40--11:00	| Introduction to Agentic AI |
+| 10:40--11:00	| [Introduction to Agentic AI](0_NVIDIA%20Agent%20Toolkit.pdf) |
 | 11:00--11:10	| Break |
-| 11:10--11:30	| Introduction to BioNeMo |
+| 11:10--11:30	| [Introduction to BioNeMo](1_BioNeMo.pdf) |
 | 11:30--12:20	| BioNeMo Hands-on Session |
 | 12:20--13:30	| Lunch Break |
-| 13:30--13:50	| Introduction to Cellular Image Analysis |
+| 13:30--13:50	| [Introduction to Cellular Image Analysis](2_NVIDIA%20MONAI-VISTA2D.pdf) |
 | 13:50--14:40	| Cellular Image Analysis Hands-on Session |
 | 14:40--14:50	| Break |
-| 14:50--15:10	| Introduction to Single-Cell Analysis |
+| 14:50--15:10	| [Introduction to Single-Cell Analysis](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf) |
 | 15:10--16:00	| Single-Cell Analysis Hands-on Session |
 | 16:00		| End of Bootcamp |
 
