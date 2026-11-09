@@ -1,6 +1,6 @@
 # NCHC Open Hackathon 2026
 
-由國研院國網中心與 NVIDIA 共同主辦的 NCHC Open Hackathon 2026，匯集 16 隊在高效能計算、量子運算、DPU、生醫與跨域 AI 的研究成果。本頁收錄本年度各隊期末報告、成果總表、活動簡報與錄影。
+由國研院國網中心與 NVIDIA 共同主辦的 NCHC Open Hackathon 2026，匯集 16 隊在高效能計算、量子運算、DPU、生醫與跨域 AI 的研究成果。本頁收錄本年度各隊期末報告、成果總表、活動證明、活動簡報與錄影。
 
 ## 活動錄影與簡報
 
@@ -13,6 +13,10 @@
 | Day 2：Scrum #2 | 2026-10-28 | [活動簡報](slides/Day%202.pdf) |
 | Final Day：期末成果發表 | 2026-11-04 | [活動簡報](slides/Day%20Fianl.pdf) |
 | NCHC × NVIDIA 七年 Open Hackathon 回顧 | — | [七年回顧](NCHC-NVIDIA-7year-OpenHackathon-Review.pdf) |
+
+## 活動證明
+
+16 組活動證明統一收錄於[活動證明資料夾](certificates/)，每份 PDF 依下方成果表的隊伍編號命名。
 
 ## 2026 年各隊期末成果
 
