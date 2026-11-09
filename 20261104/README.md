@@ -72,6 +72,7 @@
 
 October 14, 2026 -- November 04, 2026
 
+<!--
 ## Agenda / 活動規劃
 
 **All times are in Taipei time zone**
@@ -103,6 +104,7 @@ October 14, 2026 -- November 04, 2026
  -  12:00 PM -- 01:30 PM: Lunch time
  -  01:30 PM -- 03:00 PM: Final presentation (12 minutes presentation +3 QA minutes per team)
  -  03:00 PM -- 04:00 PM: Wrap-up session
+-->
 
 ## Highlights / 活動剪影
 
