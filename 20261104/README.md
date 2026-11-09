@@ -66,13 +66,11 @@
 
  -  Application Deadline: **September 30, 2026**\
     報名截止日期：**2026 年 09 月 30 日**
--->
 
 ## Event Period / 活動期間
 
 October 14, 2026 -- November 04, 2026
 
-<!--
 ## Agenda / 活動規劃
 
 **All times are in Taipei time zone**
