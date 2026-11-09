@@ -104,7 +104,7 @@ October 14, 2026 -- November 04, 2026
  -  03:00 PM -- 04:00 PM: Wrap-up session
 -->
 
-## Highlights / 活動剪影
+## Highlights / 歷年成果
 
  -  2025 highlights: <https://www.nchc.org.tw/Message/MessageView/4040?mid=46&page=1>
  -  2024 highlights: <https://www.nchc.org.tw/Message/MessageView/3949?mid=46&page=1>
