@@ -41,14 +41,14 @@ Participants should have basic familiarity with Python, Singularity/Docker, mach
 
 All slides are available as PDFs. Use **Preview** to read online or **Download PDF** to save a copy. The BioNeMo, cellular image analysis, and single-cell materials correspond to both the introduction and hands-on sessions.
 
-教材皆為 PDF 格式，可點選 **預覽** 線上閱讀，或點選 **下載 PDF** 儲存檔案。BioNeMo、細胞影像分析與單細胞分析教材分別對應各主題的介紹及實作課程。
+教材皆為 PDF 格式，可點選 **Preview / 預覽** 線上閱讀，或點選 **Download / 下載** 儲存檔案。BioNeMo、細胞影像分析與單細胞分析教材分別對應各主題的介紹及實作課程。
 
 | Session / 對應課程 | Materials / 教材 | PDF |
-| --- | --- | --- |
-| Introduction to Agentic AI | NVIDIA Agent Toolkit | [Preview / 預覽](0_NVIDIA%20Agent%20Toolkit.pdf) · [Download PDF / 下載 PDF](0_NVIDIA%20Agent%20Toolkit.pdf?raw=true) |
-| Introduction to BioNeMo | NVIDIA BioNeMo | [Preview / 預覽](1_BioNeMo.pdf) · [Download PDF / 下載 PDF](1_BioNeMo.pdf?raw=true) |
-| Introduction to Cellular Image Analysis | NVIDIA MONAI / VISTA2D | [Preview / 預覽](2_NVIDIA%20MONAI-VISTA2D.pdf) · [Download PDF / 下載 PDF](2_NVIDIA%20MONAI-VISTA2D.pdf?raw=true) |
-| Introduction to Single-Cell Analysis | NVIDIA Omics and Single-cell Analysis | [Preview / 預覽](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf) · [Download PDF / 下載 PDF](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf?raw=true) |
+| ------------------ | ---------------- | --- |
+| Introduction to Agentic AI | NVIDIA Agent Toolkit | [Preview / 預覽](0_NVIDIA%20Agent%20Toolkit.pdf) &middot; [Download / 下載](0_NVIDIA%20Agent%20Toolkit.pdf?raw=true) |
+| Introduction to BioNeMo | NVIDIA BioNeMo | [Preview / 預覽](1_BioNeMo.pdf) &middot; [Download / 下載](1_BioNeMo.pdf?raw=true) |
+| Introduction to Cellular Image Analysis | NVIDIA MONAI / VISTA2D | [Preview / 預覽](2_NVIDIA%20MONAI-VISTA2D.pdf) &middot; [Download / 下載](2_NVIDIA%20MONAI-VISTA2D.pdf?raw=true) |
+| Introduction to Single-Cell Analysis | NVIDIA Omics and Single-cell Analysis | [Preview / 預覽](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf) &middot; [Download / 下載](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf?raw=true) |
 
 ## Agenda / 活動議程
 
