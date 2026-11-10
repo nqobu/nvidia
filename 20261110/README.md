@@ -39,7 +39,7 @@ Participants should have basic familiarity with Python, Singularity/Docker, mach
 
 ## Course Materials / 課程教材
 
-All slides are available as PDFs. Use **Preview** to read online or **Download PDF** to save a copy. The BioNeMo, cellular image analysis, and single-cell materials correspond to both the introduction and hands-on sessions.
+All slides are available as PDFs. Use "**Preview**" to read online or "**Download**" to save a copy. The BioNeMo, cellular image analysis, and single-cell materials correspond to both the introduction and hands-on sessions.
 
 教材皆為 PDF 格式，可點選 **Preview / 預覽** 線上閱讀，或點選 **Download / 下載** 儲存檔案。BioNeMo、細胞影像分析與單細胞分析教材分別對應各主題的介紹及實作課程。
 
