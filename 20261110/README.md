@@ -21,7 +21,7 @@ China Medical University (CMU) and the National Center for High-performance Comp
      -  To receive notifications for this event, please ensure that you leave a valid email address when applying.\
         本次活動的所有通知訊息都將透過 email 發送，請在報名時務必留下可以聯絡到的 email 信箱。
 
-     -  The event is limited to those living in Taiwan, Penghu, Kinmen, and Matsu and will happen in Mandarin language.\
+     -  The event is limited to those living in Taiwan, Penghu, Kinmen, and Matsu and will happen in **Mandarin** language.\
         本次活動僅限居住在臺灣、澎湖、金門、馬祖地區的人士參加，並完全以中文進行。
 
      -  Need to be present in-person in Taiwan for the bootcamp day.\
