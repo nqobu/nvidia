@@ -33,7 +33,7 @@ China Medical University (CMU) and the National Center for High-performance Comp
      
      -  During the bootcamp, attendees will have access to one of the NCHC's GPU clusters. So, please apply for an NCHC iService account in advance..\
         活動期間，參加活動者將會使用到 NCHC 的 GPU 叢集，所以請事先申請 NCHC 的 iService 帳號。
--->
+  -->
 
 ## Prerequisites / 預備知識
 
@@ -73,6 +73,7 @@ All times are in Taiwan Standard Time (UTC+8). The agenda is subject to change.
 | 15:10&ndash;16:00	| Single-Cell Analysis Hands-on Session |
 | 16:00		| End of Bootcamp |
 
+<!--
 ## Venue / 活動地點
 
 Library & Information Center, China Medical University\
@@ -80,7 +81,8 @@ Library & Information Center, China Medical University\
 
 No. 100, Section 1, Jingmao Road, Gangwei Village, Beitun District, Taichung City\
 臺中市北屯區經貿路一段100號（卓越大樓7樓）
- 
+  -->
+
 <!--
   vim:ft=markdown ic noet norl nowrap ts=8 sts=4 sw=4:
   -->
