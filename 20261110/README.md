@@ -45,10 +45,10 @@ All slides are available as PDFs. Use "**Preview**" to read online or "**Downloa
 
 | Session / 對應課程 | Materials / 教材 | PDF |
 | ------------------ | ---------------- | --- |
-| Introduction to Agentic AI | NVIDIA Agent Toolkit | [Preview / 預覽](0_NVIDIA%20Agent%20Toolkit.pdf) &middot; [Download / 下載](0_NVIDIA%20Agent%20Toolkit.pdf?raw=true) |
-| Introduction to BioNeMo | NVIDIA BioNeMo | [Preview / 預覽](1_BioNeMo.pdf) &middot; [Download / 下載](1_BioNeMo.pdf?raw=true) |
-| Introduction to Cellular Image Analysis | NVIDIA MONAI / VISTA2D | [Preview / 預覽](2_NVIDIA%20MONAI-VISTA2D.pdf) &middot; [Download / 下載](2_NVIDIA%20MONAI-VISTA2D.pdf?raw=true) |
-| Introduction to Single-Cell Analysis | NVIDIA Omics and Single-cell Analysis | [Preview / 預覽](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf) &middot; [Download / 下載](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf?raw=true) |
+| Introduction to Agentic AI | NVIDIA Agent Toolkit | [Preview / 預覽](0_NVIDIA%20Agent%20Toolkit.pdf)<br>[Download / 下載](0_NVIDIA%20Agent%20Toolkit.pdf?raw=true) |
+| Introduction to BioNeMo | NVIDIA BioNeMo | [Preview / 預覽](1_BioNeMo.pdf)<br>[Download / 下載](1_BioNeMo.pdf?raw=true) |
+| Introduction to Cellular Image Analysis | NVIDIA MONAI / VISTA2D | [Preview / 預覽](2_NVIDIA%20MONAI-VISTA2D.pdf)<br>[Download / 下載](2_NVIDIA%20MONAI-VISTA2D.pdf?raw=true) |
+| Introduction to Single-Cell Analysis | NVIDIA Omics and Single-cell Analysis | [Preview / 預覽](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf)<br>[Download / 下載](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf?raw=true) |
 
 ## Agenda / 活動議程
 
