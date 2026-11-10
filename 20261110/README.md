@@ -7,6 +7,7 @@ China Medical University (CMU) and the National Center for High-performance Comp
 
 本次實體訓練營由中國醫藥大學、國家高速網路與計算中心，攜手 NVIDIA 與 OpenACC 舉辦，透過實作認識 BioNeMo 藥物探索、Vista2D 與 MONAI 細胞影像分析，以及單細胞分析，並介紹 Agentic AI 輔助程式開發。
 
+<!--
 ## Registration / 報名資訊
 
  -  **Application Deadline / 報名截止**：\
@@ -32,6 +33,7 @@ China Medical University (CMU) and the National Center for High-performance Comp
      
      -  During the bootcamp, attendees will have access to one of the NCHC's GPU clusters. So, please apply for an NCHC iService account in advance..\
         活動期間，參加活動者將會使用到 NCHC 的 GPU 叢集，所以請事先申請 NCHC 的 iService 帳號。
+-->
 
 ## Prerequisites / 預備知識
 
