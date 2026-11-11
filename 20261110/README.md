@@ -52,6 +52,10 @@ All slides are available as PDFs. Use "**Preview**" to read online or "**Downloa
 | Introduction to Cellular Image Analysis | NVIDIA MONAI / VISTA2D | [Preview / 預覽](2_NVIDIA%20MONAI-VISTA2D.pdf)<br>[Download / 下載](2_NVIDIA%20MONAI-VISTA2D.pdf?raw=true) |
 | Introduction to Single-Cell Analysis | NVIDIA Omics and Single-cell Analysis | [Preview / 預覽](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf)<br>[Download / 下載](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf?raw=true) |
 
+## Recording / 課程錄影
+
+[剪輯版課程錄影：2026/11/10 NCHC CMU Digital Biology Bootcamp](https://www.youtube.com/watch?v=NeHkIvgAmtw)
+
 ## Hands-on / 課後實作與環境建置
 
 先閱讀[課後實作總覽](hands-on/README.md)，確認 GPU 可用，再選一個主題建立獨立環境。Notebook、程式與範例資料都可在 GitHub 上直接瀏覽。
