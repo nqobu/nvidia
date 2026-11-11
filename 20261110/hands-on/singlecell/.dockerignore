@@ -1,0 +1,5 @@
+*
+!environment/
+environment/*
+!environment/Dockerfile
+!environment/requirements.txt

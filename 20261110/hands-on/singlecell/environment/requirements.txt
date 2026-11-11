@@ -1,0 +1,12 @@
+rapids_singlecell==0.14.1
+scanpy==1.12
+decoupler==2.1.4
+anndata==0.12.10
+numpy==2.2.6
+omnipath==1.0.12
+h5py==3.15.1
+scikit-misc==0.5.2
+jupyterlab==4.5.3
+ipykernel==7.2.0
+nbclient==0.10.4
+nbformat==5.10.4

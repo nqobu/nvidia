@@ -1,0 +1,79 @@
+{
+  "url": "http://genmol:8001/generate",
+  "request": {
+    "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1O",
+    "num_molecules": 20,
+    "temperature": 1.0,
+    "noise": 1.0,
+    "min_add_len": 24,
+    "scoring": "QED",
+    "unique": true,
+    "filter": false
+  },
+  "image": "nvcr.io/nim/nvidia/genmol:2.0.0",
+  "response": {
+    "status": "success",
+    "molecules": [
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC",
+        "score": 0.776
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC=O",
+        "score": 0.709
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(C)C",
+        "score": 0.696
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(C)(C)C",
+        "score": 0.666
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(C)(C)C=O",
+        "score": 0.624
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(C)=O",
+        "score": 0.557
+      },
+      {
+        "smiles": "COOc1cc2c(Nc3ccc(F)c(Cl)c3)ncnc2cc1OC",
+        "score": 0.552
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(=O)CCCO",
+        "score": 0.455
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(=O)C(N)C(C)(C)C",
+        "score": 0.453
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(=O)C(C)C(C)(C)C",
+        "score": 0.409
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OS(=O)(=O)C(F)(F)F",
+        "score": 0.349
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(=O)c1ccc(F)cc1",
+        "score": 0.324
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(=O)c1ccc(Cl)cc1",
+        "score": 0.29
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(=O)CCc1ccc(F)cc1",
+        "score": 0.27
+      },
+      {
+        "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(=O)[C@@H](Cl)C(F)(F)F",
+        "score": 0.241
+      }
+    ]
+  }
+}

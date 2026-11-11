@@ -1,0 +1,80 @@
+{
+  "vista_source": {
+    "url": "https://github.com/Project-MONAI/VISTA.git",
+    "commit": "d4a8fe0dbf5cb4b76c531fccca8e29c1e6f6ee45",
+    "path": "vendor/VISTA"
+  },
+  "checkpoint_source": "https://github.com/Project-MONAI/model-zoo/blob/dev/models/vista2d/large_files.yml",
+  "checkpoints": [
+    {
+      "name": "SAM ViT-B initialization",
+      "path": "models/sam_vit_b_01ec64.pth",
+      "url": "https://dl.fbaipublicfiles.com/segment_anything/sam_vit_b_01ec64.pth",
+      "md5": "01ec64d29a2fca3f0661936605ae66f8"
+    },
+    {
+      "name": "Pretrained VISTA2D cell segmentation",
+      "path": "models/model.pt",
+      "url": "https://developer.download.nvidia.com/assets/Clara/monai/tutorials/model_zoo/model_vista2d_v1.pt",
+      "md5": "c8e2f4a6236fe63e75c9d1ba8294344c"
+    }
+  ],
+  "images": [
+    {
+      "id": "fluorescence",
+      "path": "data/microscopy/img00.png",
+      "source_url": "https://github.com/surajinacademia/cellpose_mcp/blob/fa94d223cd28bb9519ba5aa950f331bbbe6d1990/poster/poster_images/img00.png",
+      "github_blob_sha": "25bae71f940a5fc56eaa614cd9b5f5bb5340d067",
+      "sha256": "34952b1e05d3a9631353c3b01e2b1e3cd24780670a821e74dce4d346fb2d1570",
+      "size": [
+        512,
+        512
+      ],
+      "mode": "RGB",
+      "note": "Dense RGB fluorescence example; source README describes cytoplasm and nuclei. Exact original dataset ID unverified.",
+      "classroom_transform": "none; downloaded bytes preserved"
+    },
+    {
+      "id": "cellpose_demo",
+      "path": "data/microscopy/cellpose_demo_img02.png",
+      "source_url": "https://github.com/bgruening/galaxytools/blob/81c6be8cc2502367ae52bf093b838e9764b22c00/tools/cellpose/test-data/img02.png",
+      "github_blob_sha": "577c6034073c60f647ee2ff8b9d446501b4b62c3",
+      "sha256": "c5feed1a3f9ca7d3ac62655856d5d3b52f5f7aa4a52e7cb371e5462d9b0551e1",
+      "size": [
+        467,
+        349
+      ],
+      "mode": "RGB",
+      "note": "Cellpose img02 example used by the Galaxy wrapper; published Cellpose/Omnipose example notebooks also reference this filename. Exact VISTA tutorial datalist membership unverified.",
+      "classroom_transform": "none; downloaded bytes preserved"
+    },
+    {
+      "id": "grayscale",
+      "path": "data/microscopy/cyto.png",
+      "source_url": "https://github.com/bgruening/galaxytools/blob/b85231e12e69dfac2634ede70458182f25886fd5/tools/cellpose/test-data/img01_XY_cyto.png",
+      "github_blob_sha": "2ae03c56757eb5a6daa97ffc34b7d5ce30cc8694",
+      "sha256": "d51f8c4e4904fdce831d0b56094977f7654f2383f1ca04821927cce5bb9f8678",
+      "size": [
+        467,
+        349
+      ],
+      "mode": "L",
+      "note": "Grayscale cytoplasm example from Cellpose Galaxy wrapper tests; exact original dataset ID unverified.",
+      "classroom_transform": "none; downloaded bytes preserved"
+    },
+    {
+      "id": "nuclei",
+      "path": "data/microscopy/nuclei.png",
+      "source_url": "https://github.com/bgruening/galaxytools/blob/b85231e12e69dfac2634ede70458182f25886fd5/tools/cellpose/test-data/img02_XY_nuclei.png",
+      "github_blob_sha": "525151c1adc87a9ff56c51c15e79fc6578f4ece7",
+      "sha256": "5696ddd1ae8b19cd4ccf013222086f0aed9bf85cc183ce81053f7b049575de0e",
+      "size": [
+        467,
+        349
+      ],
+      "mode": "L",
+      "note": "Optional nuclei-only target discussion; not an equivalent whole-cell test.",
+      "classroom_transform": "none; downloaded bytes preserved"
+    }
+  ]
+}

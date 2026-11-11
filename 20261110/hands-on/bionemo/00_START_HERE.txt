@@ -1,0 +1,2 @@
+課後下載版：先讀 README.md 建立自己的環境，再開啟 BioNeMo_with_Agent.md。
+教材中 Workshop VM Only 的資源指令僅適用當日 VM；課後依 README 使用自己的 Compose。
