@@ -52,6 +52,23 @@ All slides are available as PDFs. Use "**Preview**" to read online or "**Downloa
 | Introduction to Cellular Image Analysis | NVIDIA MONAI / VISTA2D | [Preview / 預覽](2_NVIDIA%20MONAI-VISTA2D.pdf)<br>[Download / 下載](2_NVIDIA%20MONAI-VISTA2D.pdf?raw=true) |
 | Introduction to Single-Cell Analysis | NVIDIA Omics and Single-cell Analysis | [Preview / 預覽](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf)<br>[Download / 下載](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf?raw=true) |
 
+## Hands-on / 課後實作與環境建置
+
+**[下載完整實作教材 ZIP](hands-on.zip?raw=true)**。解壓後保留 `hands-on/` 資料夾結構，先閱讀 `hands-on/README.md`、確認 GPU 可用，再選一個主題，依該主題的 README 建立獨立環境。
+
+ -  **自有 GPU 主機：** 使用 Linux 與 NVIDIA 驅動；需要容器的課程另須 Docker、NVIDIA Container Toolkit 及足夠的磁碟空間。
+ -  **國網資源：** 從 [iService](https://iservice.nchc.org.tw/)取得 GPU 配額；在獲配的計算資源上依站點規則使用容器與 Jupyter，勿在登入節點執行 GPU 工作。
+ -  **[Brev](https://docs.nvidia.com/brev/concepts/environments)：** 選擇有足夠 GPU 記憶體與磁碟的 **VM Mode**，再依同一份教材建置。
+
+| 主題 | ZIP 內的建置說明 |
+| --- | --- |
+| BioNeMo | `hands-on/bionemo/README.md` |
+| MONAI／VISTA2D | `hands-on/vista2d/README.md` |
+| Single-cell | `hands-on/singlecell/README.md` |
+| Genomics（延伸） | `hands-on/genomics/README.md` |
+
+版本與來源記錄於 ZIP 內的 `hands-on/environment.json`。大型模型與資料需依主題說明另行下載，憑證請使用自己的帳號。
+
 ## Agenda / 活動議程
 
 All times are in Taiwan Standard Time (UTC+8). The agenda is subject to change.
