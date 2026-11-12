@@ -50,14 +50,16 @@ Hackathon 同時涵蓋多個領域，請另見[歷年隊伍成果](EVENTS.md#hac
 
 ## 只取得所需的活動教材
 
-不必下載整個儲存庫。先以局部方式複製，再指定想要的**活動路徑**（以下以 2026/11/10 數位生醫訓練營為例）：
+不必下載整個儲存庫。先以局部方式複製，再指定想要的**活動路徑**。
+
+以 2026/11/10 數位生醫訓練營為例：
 
 ``` bash
 git clone --filter=blob:none --sparse --depth 1 https://github.com/nqobu/nvidia.git
 git -C nvidia sparse-checkout set events/bootcamps/20261110
 ```
 
-要再加入另一場活動，例如 2026/08/07 的量子訓練營：
+如果要再加入另一場活動，例如 2026/08/07 的量子訓練營：
 
 ``` bash
 git -C nvidia sparse-checkout add events/bootcamps/20260807
