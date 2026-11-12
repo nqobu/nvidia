@@ -3,26 +3,19 @@
 
 國家高速網路與計算中心（NCHC）與 NVIDIA 透過技術交流、實作訓練營與 Open Hackathon，讓研究社群及運算資源與技術工具、導師經驗相互結合，協助不同領域的研究者將 GPU 與 AI 用於自己的研究問題。這個儲存庫整理歷年活動、課程教材及公開成果。
 
-<!-- TOC START -->
-<!-- TOC END -->
-
-**[找 Bootcamp 教材](#bootcamp)** &middot; **[看 Hackathon 成果](#open-hackathon)** &middot; **[依領域瀏覽](EVENTS.md)**
+ -  **[找 Bootcamp 教材](#bootcamp)**
+ -  **[看 Hackathon 成果](#open-hackathon)**
+ -  **[依領域瀏覽](EVENTS.md)**
 
 > **第一次來？** 活動已按形式收在 [events](events/README.md)；各場仍以日期命名。找教材或成果，請從下方圖片與[分類索引](EVENTS.md)開始。
 
 ## Bootcamp
-
-<!-- toc-name: Bootcamp -->
-<!-- toc-order: 1 -->
 
 [![歷年 Bootcamp 與實作活動現場照片拼貼](assets/bootcamp-events.webp)](EVENTS.md)
 
 從技術介紹走到動手實作，活動頁可能提供投影片、Notebook、環境建置說明與錄影，供學員課後繼續練習。近期教材包括：[數位生醫：BioNeMo、細胞影像與單細胞分析](events/bootcamps/20261110/README.md)，以及[量子運算：CUDA-Q Agentic Coding](events/bootcamps/20260807/README.md)。您可以[依領域找更多課程](#依領域找教材)。
 
 ## Open Hackathon
-
-<!-- toc-name: Hackathon -->
-<!-- toc-order: 1 -->
 
 [![2020 至 2026 年 Open Hackathon：七年、73 筆年度科研專案紀錄，橫跨六大研究領域](assets/open-hackathon-seven-years.svg)](events/hackathons/20261104/NCHC-NVIDIA-7year-OpenHackathon-Review.pdf)
 
@@ -39,9 +32,6 @@
 此外也收錄技術分享、Workshop 與跨機構合作活動。各場活動的主辦單位、教材與公開內容，以個別活動頁為準。
 
 ## 依領域找教材
-
-<!-- toc-name: 依領域找教材 -->
-<!-- toc-order: 1 -->
 
 | 領域 | 從這裡開始 |
 | ---- | ---------- |
