@@ -39,7 +39,7 @@ This hackathon is open to everyone looking to take their projects to the next le
 
 - Learn [NVIDIA profiling tools](https://www.nvidia.com/en-us/on-demand/session/gtcsj20-s22141/) before coming to the event, and visit the "Tools" section on the [Technical Resources page](https://www.openhackathons.org/s/technical-resources).
 - lectures in Mandarin
-  - [2024/10/24-25 NCHC N-WAY GPU Bootcamp (with 2 Recordings)](https://github.com/nqobu/nvidia/tree/main/20240924)
+  - [2024/10/24-25 NCHC N-WAY GPU Bootcamp (with 2 Recordings)](https://github.com/nqobu/nvidia/tree/main/events/bootcamps/20240924)
   - [2023 Hackathon Nsight System Session](https://youtu.be/pz69bwhjm3o)
 - lectures in English
   - [Basic Languages Tutorial given by Jeff Larkin/NVIDIA](https://drive.google.com/file/d/1phZGnFnss6iYtJrHYUsKRpwQNB63mLAU/view?usp=sharing)
