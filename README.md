@@ -11,12 +11,7 @@
 
 [![歷年 Bootcamp 與實作活動現場照片拼貼](assets/bootcamp-events.webp)](EVENTS.md)
 
-從技術介紹走到動手實作，活動頁可能提供投影片、Notebook、環境建置說明與錄影，供學員課後繼續練習。近期教材包括：
-
- -  [數位生醫：BioNeMo、細胞影像與單細胞分析](events/bootcamps/20261110/README.md)，以及
- -  [量子運算：CUDA-Q Agentic Coding](events/bootcamps/20260807/README.md)。
-
-[依領域找更多課程](#依領域找教材)。
+從技術介紹走到動手實作，活動頁可能提供投影片、Notebook、環境建置說明與錄影，供學員課後繼續練習。近期教材包括：[數位生醫：BioNeMo、細胞影像與單細胞分析](events/bootcamps/20261110/README.md)，以及[量子運算：CUDA-Q Agentic Coding](events/bootcamps/20260807/README.md)。您可以[依領域找更多課程](#依領域找教材)。
 
 ## Open Hackathon
 
@@ -27,9 +22,7 @@
 | 2020 | 2021 | 2022 | 2023 |
 | :--: | :--: | :--: | :--: |
 | [![2020 年線上 Hackathon](assets/hackathon-2020.webp)](events/hackathons/20261104/NCHC-NVIDIA-7year-OpenHackathon-Review.pdf) | [![2021 年 Hackathon 團隊合照](assets/hackathon-2021.webp)](events/hackathons/20261104/NCHC-NVIDIA-7year-OpenHackathon-Review.pdf) | [![2022 年 Hackathon 專案成果縮圖](assets/hackathon-2022.webp)](events/hackathons/20261104/NCHC-NVIDIA-7year-OpenHackathon-Review.pdf) | [![2023 年線上 Hackathon 合照](assets/hackathon-2023.webp)](events/hackathons/20231207/README.md) |
-
 | **2024** | **2025** | **2026** | [**完整回顧**](events/hackathons/20261104/NCHC-NVIDIA-7year-OpenHackathon-Review.pdf) |
-| :--: | :--: | :--: | :--: |
 | [![2024 年 Hackathon 活動現場](assets/hackathon-2024.webp)](events/hackathons/20241204/README.md) | [![2025 年 Hackathon 團隊合照](assets/hackathon-2025.webp)](events/hackathons/20251112/README.md) | [![2026 年 Hackathon 團隊合照](assets/hackathon-2026.webp)](events/hackathons/20261104/README.md) | [七年成果 PDF](events/hackathons/20261104/NCHC-NVIDIA-7year-OpenHackathon-Review.pdf) |
 
 研究團隊帶著自己的題目，與導師共同移植、分析及優化程式。[七年回顧](events/hackathons/20261104/NCHC-NVIDIA-7year-OpenHackathon-Review.pdf)整理了 **2020&ndash;2026 年、73 筆年度科研專案紀錄、六大研究領域**；[2026 年活動頁](events/hackathons/20261104/README.md)另有 16 隊成果表與期末報告。例如 MFC 團隊在相同的 8&times;H200 上，將完整模擬時間由 280.6 秒縮至 87.5 秒（3.21 倍）。[閱讀歷年 Hackathon 成果](EVENTS.md#hackathon)。
