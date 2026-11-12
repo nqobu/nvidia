@@ -1,0 +1,16 @@
+name: singlecell-selfstudy-20261110
+services:
+  jupyter:
+    image: bootcamp-singlecell:20261110
+    build:
+      context: .
+      dockerfile: environment/Dockerfile
+      network: host
+    gpus: all
+    shm_size: 8gb
+    ports: ["127.0.0.1:8888:8888"]
+    volumes: [".:/course"]
+networks:
+  default:
+    driver_opts:
+      com.docker.network.driver.mtu: "${COURSE_NETWORK_MTU:-1500}"

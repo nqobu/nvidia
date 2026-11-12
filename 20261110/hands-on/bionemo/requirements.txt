@@ -1,0 +1,8 @@
+jupyterlab>=4.4,<5
+ipykernel>=6,<7
+numpy==2.5.4
+pandas==2.3.3
+rdkit==2026.9.1
+py3Dmol==2.5.5
+biopython==1.88
+requests==2.34.2

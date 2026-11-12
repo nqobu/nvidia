@@ -1,0 +1,118 @@
+{
+  "release_date": "2026-11-10",
+  "classroom_snapshot_captured_utc": "2026-11-03T06:35:29.963005+00:00",
+  "scope": "Observed classroom reference, not a promise of a fully rebuilt public environment. See PROVENANCE.md.",
+  "classroom_host": {
+    "os": "Ubuntu 22.04.5 LTS",
+    "gpu": "NVIDIA H200",
+    "driver": "580.178.04",
+    "disk_bytes": 536870912000
+  },
+  "python_environments": {
+    "vista2d": {
+      "python": "3.11.18",
+      "key_packages": {
+        "jupyterlab": "4.6.4",
+        "jupyter_server": "2.21.1",
+        "ipykernel": "7.4.0",
+        "torch": "2.4.0+cu124",
+        "torchvision": "0.19.0+cu124",
+        "monai": "1.4.0",
+        "numpy": "1.24.4"
+      }
+    },
+    "bionemo": {
+      "python": "3.12.16",
+      "key_packages": {
+        "jupyterlab": "4.6.5",
+        "jupyter_server": "2.21.1",
+        "ipykernel": "6.31.0",
+        "numpy": "2.5.4",
+        "notebook-intelligence": "6.3.0",
+        "rdkit": "2026.9.1",
+        "py3Dmol": "2.5.5"
+      }
+    },
+    "singlecell": {
+      "python": "3.12.12",
+      "key_packages": {
+        "jupyterlab": "4.5.3",
+        "jupyter_server": "2.17.0",
+        "ipykernel": "7.2.0",
+        "rapids-singlecell": "0.14.1",
+        "scanpy": "1.12",
+        "decoupler": "2.1.4",
+        "anndata": "0.12.10",
+        "numpy": "2.2.6"
+      }
+    },
+    "genomics": {
+      "python": "3.12.12",
+      "key_packages": {
+        "ipykernel": "7.2.0",
+        "torch": "2.5.1+cu124",
+        "torchvision": "0.20.1+cu124",
+        "numpy": "1.26.4",
+        "transformers": "4.54.1"
+      }
+    }
+  },
+  "images": [
+    {
+      "reference": "nvcr.io/nim/nvidia/genmol:2.0.0",
+      "digest": "nvcr.io/nim/nvidia/genmol@sha256:139b909a450fe1fb81198214784a15f67e172e766a93a1569827ba5aa05b4541"
+    },
+    {
+      "reference": "nvcr.io/nim/mit/diffdock:2.3.0",
+      "digest": "nvcr.io/nim/mit/diffdock@sha256:300696eb8331d78face40f84d835cc1e278c7d3c391c5aabbbee5884366da480"
+    },
+    {
+      "reference": "nvcr.io/nim/mit/boltz2:1.10.0",
+      "digest": "nvcr.io/nim/mit/boltz2@sha256:1c5af539467c232ce641f7f0913ba9a957775e8a94c461aebcdf8b9d5fc47e56"
+    },
+    {
+      "reference": "nvcr.io/nvidia/clara/clara-parabricks:4.6.0-1",
+      "digest": "nvcr.io/nvidia/clara/clara-parabricks@sha256:d0761eb4b9921bc046c53520287316d545eb79feaeb8f22387e9bb5734650447"
+    }
+  ],
+  "singlecell_base_image": "nvcr.io/nvidia/rapidsai/base:26.02-cuda12-py3.12",
+  "sources": {
+    "vista": {
+      "url": "https://github.com/Project-MONAI/VISTA",
+      "commit": "d4a8fe0dbf5cb4b76c531fccca8e29c1e6f6ee45"
+    },
+    "bionemo_agent_toolkit": {
+      "url": "https://github.com/NVIDIA-BioNeMo/bionemo-agent-toolkit",
+      "commit": "f9bb5bb3aacc881c89eb15e93fd119e91915eea8"
+    },
+    "genomics": "https://github.com/NVIDIA-AI-Blueprints/genomics-analysis",
+    "singlecell": "https://github.com/NVIDIA-AI-Blueprints/single-cell-analysis-blueprint",
+    "codonfm": {
+      "url": "https://github.com/NVIDIA-Digital-Bio/CodonFM",
+      "version": "Included exact classroom source snapshot; local git metadata unavailable; per-file SHA256 in release."
+    }
+  },
+  "upstream_notebooks": [
+    {
+      "file": "00_variant_effect_prediction.ipynb",
+      "source_url": "https://raw.githubusercontent.com/NVIDIA-AI-Blueprints/genomics-analysis/main/notebooks/variant_effect_prediction.ipynb",
+      "sha256": "d56415f815c92e9dbcab2d31694c7f2938b4faf1eb2d3bfd71bb82c80e522635",
+      "etag": "\"c5171953b429065d1bd7f9bbf84a0c2ffbebc891bc8b89b4e1818e9f543e0727\"",
+      "cells": 79
+    },
+    {
+      "file": "01_scRNA_analysis_preprocessing.ipynb",
+      "source_url": "https://raw.githubusercontent.com/NVIDIA-AI-Blueprints/single-cell-analysis-blueprint/main/notebooks/01_scRNA_analysis_preprocessing.ipynb",
+      "sha256": "a5aa6103e3f09ef279a6ae346e061e66b83ca71bcd866b7a345102946d93bb51",
+      "etag": "\"db136e1209e5229b8ba66f4964202b5515e606e394bb78cf374e1b811efab121\"",
+      "cells": 90
+    },
+    {
+      "file": "02_scRNA_analysis_extended.ipynb",
+      "source_url": "https://raw.githubusercontent.com/NVIDIA-AI-Blueprints/single-cell-analysis-blueprint/main/notebooks/02_scRNA_analysis_extended.ipynb",
+      "sha256": "8745503dfa9ddd19a57d5003ff2756c25df014aec3ad12ccebb3845f700f7b65",
+      "etag": "\"d900db9f9e91266f3647c9af8bf93a312fd0864ebe128003e22b6a94c79919c7\"",
+      "cells": 18
+    }
+  ]
+}

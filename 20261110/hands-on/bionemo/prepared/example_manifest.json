@@ -1,0 +1,31 @@
+{
+  "pdb": "2ITY",
+  "chain": "A",
+  "reference": {
+    "candidate_id": "mol_d3cd41e66b",
+    "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OCCCN1CCOCC1",
+    "MW": 446.9100000000004,
+    "cLogP": 4.275600000000003,
+    "QED": 0.517854527865434
+  },
+  "chosen_candidate": {
+    "candidate_id": "mol_f124f87d81",
+    "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(C)C"
+  },
+  "candidate_scores": {
+    "candidate_id": "mol_f124f87d81",
+    "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(C)C",
+    "MW": 361.80400000000014,
+    "cLogP": 4.961700000000003,
+    "QED": 0.6955117413230263,
+    "affinity_pic50": 10.123437500000001,
+    "affinity_pred_value": -1.421875,
+    "affinity_probability_binary": 0.78125,
+    "structural_confidence": 0.9224221110343933
+  },
+  "figures": [
+    "figures/genmol_molecules.png",
+    "figures/diffdock_pose.png",
+    "figures/boltz2_complex.png"
+  ]
+}

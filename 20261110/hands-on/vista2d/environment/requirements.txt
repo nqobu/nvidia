@@ -1,0 +1,17 @@
+# Install torch 2.4.0 and torchvision 0.19.0 from the cu124 index first.
+monai==1.4.0
+numpy==1.24.4
+Pillow==12.2.0
+scipy==1.15.3
+cellpose==3.0.8
+fastremap==1.15.0
+opencv-python-headless==4.10.0.84
+tifffile==2024.7.2
+imagecodecs==2024.6.1
+einops==0.7.0
+PyYAML==6.0.3
+pytorch-ignite==0.5.1
+numba==0.59.1
+segment-anything @ git+https://github.com/facebookresearch/segment-anything.git@6fdee8f2727f4506cfbbe553e23b895e27956588
+jupyterlab==4.6.4
+ipykernel==7.4.0

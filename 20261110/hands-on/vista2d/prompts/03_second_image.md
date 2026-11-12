@@ -1,0 +1,40 @@
+# Mission 3 Write the result visualization 任務三撰寫結果視覺化
+
+Copy only one language section into your agent.
+請只選擇一種語言的段落貼給代理。
+
+## English
+
+Read the visualize.py contract in docs/VISTA2D_API.md. Create visualize.py using Pillow.
+Read the original image and the predicted integer TIFF mask, validate matching sizes,
+and draw deterministic bright boundaries on a copy. Save the original and prediction
+side by side as one comparison.png without resizing or changing the inputs. Provide
+--image, --mask, and --output. Do not use a completed overlay helper or alter model results.
+Syntax-check and test --help, then stop for notebook inspection and execution. You cannot
+see the image: ask me to inspect the resulting comparison.
+
+Reply in English.
+
+Work from the lesson root and use the existing uv-managed environment. Use
+`.venv/bin/python` for Python syntax checks and `--help`. For the model subprocess,
+use the absolute interpreter already configured in `classroom.json`. Do not create
+an environment, run `uv venv`, install or upgrade packages, or change GPU drivers.
+The official checkpoints are pre-cached under `models/` in this VM image: verify
+and reuse them. Never delete or force a re-download of valid cached weights.
+
+Every positive label must use a bright color; never assign the black background color to a foreground boundary. The comparison canvas must be exactly twice the input width, without a horizontal gutter; an extra caption height is allowed.
+## 繁體中文
+
+請閱讀 docs/VISTA2D_API.md 中 visualize.py 的介面說明，以 Pillow 建立 visualize.py。
+讀取原始影像與模型預測的整數 TIFF 遮罩，檢查尺寸一致，在副本上畫出固定且明亮的預測邊界。
+將原圖與預測並排存成 comparison.png，不縮放，也不更動輸入影像或遮罩。
+支援 --image、--mask、--output。不要使用已完成的疊圖工具，也不要改變模型結果。
+請檢查語法並執行 --help，然後停止，讓我在筆記本檢視程式並親自執行。
+你無法觀看影像，請提醒我觀察輸出的比較圖。請以繁體中文回覆。
+
+請在教材根目錄工作，沿用已建立的 uv 虛擬環境，以 `.venv/bin/python` 執行語法檢查
+與 `--help`；模型子程序使用 `classroom.json` 已設定的絕對 Python 路徑。
+不要建立新環境、執行 `uv venv`、安裝或升級套件，也不要更動 GPU 驅動。
+這個 VM 映像已在 `models/` 預放官方權重，請驗證後沿用，不要刪除或強制重新下載有效快取。
+
+所有正標籤都必須使用明亮色彩，前景邊界不可使用黑色背景色。比較圖的寬度必須恰為輸入寬度的兩倍，中間不要留水平空隙；高度可另加標題區域。

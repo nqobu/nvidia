@@ -1,0 +1,64 @@
+name: bionemo-selfstudy-20261110
+
+x-nim: &nim
+  runtime: nvidia
+  environment: &nim-env
+    NGC_API_KEY: "${NGC_API_KEY:?Set your personal NGC_API_KEY in .env}"
+  deploy:
+    resources:
+      reservations:
+        devices:
+          - driver: nvidia
+            device_ids: ["${NIM_GPU_ID:-0}"]
+            capabilities: [gpu]
+  ulimits:
+    memlock: -1
+    stack: 67108864
+  healthcheck:
+    test: ["CMD-SHELL", "curl -fsS --max-time 5 http://127.0.0.1:$${NIM_HTTP_API_PORT}/v1/health/ready >/dev/null"]
+    interval: 30s
+    timeout: 10s
+    start_period: 120m
+    retries: 3
+
+services:
+  genmol:
+    <<: *nim
+    image: nvcr.io/nim/nvidia/genmol:2.0.0@sha256:139b909a450fe1fb81198214784a15f67e172e766a93a1569827ba5aa05b4541
+    shm_size: 2gb
+    ports: ["127.0.0.1:8001:8001"]
+    environment:
+      <<: *nim-env
+      NIM_HTTP_API_PORT: "8001"
+    volumes: ["genmol_cache:/opt/nim/.cache"]
+  diffdock:
+    <<: *nim
+    image: nvcr.io/nim/mit/diffdock:2.3.0@sha256:300696eb8331d78face40f84d835cc1e278c7d3c391c5aabbbee5884366da480
+    shm_size: 2gb
+    ports: ["127.0.0.1:8002:8002"]
+    environment:
+      <<: *nim-env
+      NIM_HTTP_API_PORT: "8002"
+    volumes: ["diffdock_cache:/opt/nim/.cache"]
+  boltz2:
+    <<: *nim
+    image: nvcr.io/nim/mit/boltz2:1.10.0@sha256:1c5af539467c232ce641f7f0913ba9a957775e8a94c461aebcdf8b9d5fc47e56
+    shm_size: 16gb
+    ports: ["127.0.0.1:8003:8003"]
+    environment:
+      <<: *nim-env
+      NIM_HTTP_API_PORT: "8003"
+      NIM_OUTPUT_PATH: /opt/nim/output
+    volumes:
+      - boltz2_cache:/opt/nim/.cache
+      - boltz2_output:/opt/nim/output
+
+networks:
+  default:
+    driver_opts:
+      com.docker.network.driver.mtu: "${NIM_NETWORK_MTU:-1500}"
+volumes:
+  genmol_cache:
+  diffdock_cache:
+  boltz2_cache:
+  boltz2_output:

@@ -1,0 +1,23 @@
+[
+  {
+    "candidate_id": "mol_90064663d1",
+    "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC",
+    "MW": 333.7500000000001,
+    "cLogP": 4.183100000000002,
+    "QED": 0.7757387424369416
+  },
+  {
+    "candidate_id": "mol_af406e4225",
+    "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC=O",
+    "MW": 347.7330000000001,
+    "cLogP": 3.7097000000000016,
+    "QED": 0.7091895668354351
+  },
+  {
+    "candidate_id": "mol_f124f87d81",
+    "smiles": "COc1cc2ncnc(Nc3ccc(F)c(Cl)c3)c2cc1OC(C)C",
+    "MW": 361.80400000000014,
+    "cLogP": 4.961700000000003,
+    "QED": 0.6955117413230263
+  }
+]

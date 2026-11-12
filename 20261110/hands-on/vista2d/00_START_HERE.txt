@@ -1,0 +1,3 @@
+課後下載版：先讀 README.md，完成虛擬環境、固定來源與權重設定。
+接著開啟 notebooks/01_cellular_image_analysis.ipynb。
+教室的 bootcamp-resources 不需要安裝；課後依平台規則管理自己的 GPU 與 kernel。

@@ -1,0 +1,15 @@
+{
+  "backend": "vista2d",
+  "vista2d": {
+    "bundle": "vendor/VISTA/vista2d",
+    "sam_checkpoint": "models/sam_vit_b_01ec64.pth",
+    "model_checkpoint": "models/model.pt",
+    "python": ".venv/bin/python"
+  },
+  "images": {
+    "fluorescence": "data/microscopy/img00.png",
+    "grayscale": "data/microscopy/cyto.png",
+    "nuclei": "data/microscopy/nuclei.png",
+    "cellpose_demo": "data/microscopy/cellpose_demo_img02.png"
+  }
+}

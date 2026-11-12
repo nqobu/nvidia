@@ -52,6 +52,33 @@ All slides are available as PDFs. Use "**Preview**" to read online or "**Downloa
 | Introduction to Cellular Image Analysis | NVIDIA MONAI / VISTA2D | [Preview / 預覽](2_NVIDIA%20MONAI-VISTA2D.pdf)<br>[Download / 下載](2_NVIDIA%20MONAI-VISTA2D.pdf?raw=true) |
 | Introduction to Single-Cell Analysis | NVIDIA Omics and Single-cell Analysis | [Preview / 預覽](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf)<br>[Download / 下載](3_NVIDIA%20Omics%20and%20Single-cell%20Analysis.pdf?raw=true) |
 
+## Recording / 課程錄影
+
+[剪輯版課程錄影：2026/11/10 NCHC CMU Digital Biology Bootcamp](https://www.youtube.com/watch?v=NeHkIvgAmtw)
+
+## Hands-on / 課後實作與環境建置
+
+先閱讀[課後實作總覽](hands-on/README.md)，確認 GPU 可用，再選一個主題建立獨立環境。Notebook、程式與範例資料都可在 GitHub 上直接瀏覽。
+
+ -  **自有 GPU 主機：** 使用 Linux 與 NVIDIA 驅動；需要容器的課程另須 Docker、NVIDIA Container Toolkit 及足夠的磁碟空間。
+ -  **國網資源：** 從 [iService](https://iservice.nchc.org.tw/)取得 GPU 配額；在獲配的計算資源上依站點規則使用容器與 Jupyter，勿在登入節點執行 GPU 工作。
+ -  **[Brev](https://docs.nvidia.com/brev/concepts/environments)：** 選擇有足夠 GPU 記憶體與磁碟的 **VM Mode**，再依同一份教材建置。
+
+| 主題 | 建置說明 | 實作教材 |
+| --- | --- | --- |
+| BioNeMo | [環境建置](hands-on/bionemo/README.md) | [Agent 教材](hands-on/bionemo/BioNeMo_with_Agent.md) · [Notebook](hands-on/bionemo/BioNeMo_Workflow.ipynb) |
+| MONAI／VISTA2D | [環境建置](hands-on/vista2d/README.md) | [Notebook](hands-on/vista2d/notebooks/01_cellular_image_analysis.ipynb) |
+| Single-cell | [環境建置](hands-on/singlecell/README.md) | [01 前處理](hands-on/singlecell/notebooks/01_scRNA_analysis_preprocessing.ipynb) · [02 延伸分析](hands-on/singlecell/notebooks/02_scRNA_analysis_extended.ipynb) |
+| Genomics（延伸） | [環境建置](hands-on/genomics/README.md) | [Notebook](hands-on/genomics/notebooks/00_variant_effect_prediction.ipynb) |
+
+[版本與來源](hands-on/environment.json)已記錄；大型模型與資料需依主題說明另行下載，憑證請使用自己的帳號。要在自己的環境執行，可只下載這個教材目錄：
+
+```bash
+git clone --filter=blob:none --sparse --depth 1 https://github.com/nqobu/nvidia.git
+git -C nvidia sparse-checkout set 20261110/hands-on
+cd nvidia/20261110/hands-on
+```
+
 ## Agenda / 活動議程
 
 All times are in Taiwan Standard Time (UTC+8). The agenda is subject to change.
