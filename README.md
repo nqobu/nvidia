@@ -11,7 +11,12 @@
 
 [![歷年 Bootcamp 與實作活動現場照片拼貼](assets/bootcamp-events.webp)](EVENTS.md)
 
-從技術介紹走到動手實作，活動頁可能提供投影片、Notebook、環境建置說明與錄影，供學員課後繼續練習。近期教材包括[數位生醫：BioNeMo、細胞影像與單細胞分析](events/bootcamps/20261110/README.md)，以及[量子運算：CUDA-Q Agentic Coding](events/bootcamps/20260807/README.md)。[依領域找更多課程](#依領域找教材)。
+從技術介紹走到動手實作，活動頁可能提供投影片、Notebook、環境建置說明與錄影，供學員課後繼續練習。近期教材包括：
+
+ -  [數位生醫：BioNeMo、細胞影像與單細胞分析](events/bootcamps/20261110/README.md)，以及
+ -  [量子運算：CUDA-Q Agentic Coding](events/bootcamps/20260807/README.md)。
+
+[依領域找更多課程](#依領域找教材)。
 
 ## Open Hackathon
 
