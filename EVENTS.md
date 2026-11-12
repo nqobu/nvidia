@@ -1,0 +1,93 @@
+# 活動與教材索引 / Events & Materials
+
+依**領域**找到訓練營與技術交流，或從[跨領域 Open Hackathon](#hackathon)閱讀研究團隊成果。每筆連結都通往該場活動頁；「內容」只列出儲存庫目前可找到的資料，沒有列出的教材不表示活動當時未使用。
+
+[HPC](#hpc) · [AI for Science](#ai-for-science) · [LLM](#llm) · [量子](#quantum) · [數位生醫](#digital-biology) · [技術分享](#tech-sharing) · [Hackathon](#hackathon)
+
+活動保留原本的 `YYYYMMDD/` 目錄。需要在本機練習時，可按[首頁的局部取得指令](README.md#只取得需要的活動教材)只選一場或數場活動；單一檔案可在活動頁直接開啟。
+
+## HPC
+
+GPU 程式設計、效能分析及運算架構。以下依日期由新至舊排列。
+
+| 日期目錄 | 活動形式與名稱 | 可取得的內容 |
+| --- | --- | --- |
+| `20250415` | Bootcamp · [NCHC N-Way Bootcamp 2025](20250415/README.md) | 投影片、錄影連結 |
+| `20250218` | Workshop · [NCHC Grace Workshop 2025](20250218/README.md) | 投影片 |
+| `20240924` | Bootcamp · [NCHC N-Way Bootcamp 2024](20240924/README.md) | 投影片、錄影連結 |
+| `20230821` | 技術分享 · [Programming the NVIDIA Superchip](20230821/README.md) | 投影片 |
+| `20230727` | Bootcamp · [N-Way to GPU Programming Bootcamp](20230727/README.md) | 投影片 |
+
+## AI for Science
+
+物理模擬、PINN 與地球科學；相關跨域研究亦可參考 [Hackathon](#hackathon)。
+
+| 日期目錄 | 活動形式與名稱 | 可取得的內容 |
+| --- | --- | --- |
+| `20260310` | Bootcamp · [AI Powered Physics Bootcamp 2026](20260310/README.md) | 投影片、環境建置說明 |
+| `20241114` | 技術分享 · [NVIDIA Earth-2 Overview](20241114/README.md) | 投影片 |
+| `20240626` | Bootcamp · [AI for Science / Modulus 物理模擬](20240626/README.md) | 投影片、延伸閱讀 |
+| `20240506` | 技術分享 · [Modulus、Omniverse 與 Earth-2](20240506/README.md) | 投影片、延伸閱讀 |
+| `20230525` | Workshop · [Modulus 與 Omniverse 實作](20230525/README.md) | 投影片 |
+| `20220629` | Bootcamp · [PINN 與 NVIDIA Modulus](20220629/README.md) | 投影片、範例程式 |
+| `20211221` | 技術分享 · [以 NVIDIA Modulus 實作 PINN](20211221/README.md) | 投影片、範例程式 |
+
+## LLM
+
+大型語言模型、模型訓練／推論與 Agentic AI。
+
+| 日期目錄 | 活動形式與名稱 | 可取得的內容 |
+| --- | --- | --- |
+| `20260520` | Bootcamp · [NCHC LLM & Agentic AI Bootcamp 2026](20260520/README.md) | 投影片、環境建置與實作教材 |
+| `20250617` | Bootcamp · [NCHC LLM Bootcamp 2025](20250617/README.md) | 投影片、錄影連結 |
+| `20240806` | Bootcamp · [End-to-end LLM Bootcamp 2024](20240806/README.md) | 投影片、錄影連結 |
+
+## Quantum
+
+CUDA-Q、cuQuantum、量子模擬與古典—量子整合；相關隊伍成果亦可參考 [Hackathon](#hackathon)。
+
+| 日期目錄 | 活動形式與名稱 | 可取得的內容 |
+| --- | --- | --- |
+| `20260807` | Bootcamp · [CUDA-Q Agentic Coding Bootcamp 2026](20260807/README.md) | 投影片、hands-on 教材連結、錄影 |
+| `20251110` | Salon · [NCHC CUDA-Q Tech Salon](20251110/README.md) | 活動資訊 |
+| `20250723` | Bootcamp · [NCHC CUDA-Q Bootcamp 2025](20250723/README.md) | 投影片、錄影連結 |
+| `20240410` | Bootcamp · [Quantum Computing Bootcamp 2024](20240410/README.md) | 投影片、Notebook、Colab/TWCC 教學 |
+| `20221111` | Workshop · [Quantum Computing Workshop 2022](20221111/README.md) | 投影片 |
+
+## Digital Biology
+
+蛋白質設計、基因體、細胞影像與單細胞分析；生醫研究隊伍成果亦可參考 [Hackathon](#hackathon)。
+
+| 日期目錄 | 活動形式與名稱 | 可取得的內容 |
+| --- | --- | --- |
+| `20261110` | Bootcamp · [NCHC × CMU Digital Biology Bootcamp 2026](20261110/README.md) | 投影片、Notebook、環境建置、錄影 |
+| `20250904` | Bootcamp · [NCHC × NCKU Digital Biology Bootcamp](20250904/README.md) | 活動資訊與議程 |
+| `20241129` | Workshop · [BioNeMo Protein Design Workshop](20241129/README.md) | 投影片、Notebook、環境說明 |
+
+## Tech Sharing
+
+跨領域技術分享、Workshop 與競賽支援。活動涵蓋多個主題，因此集中列在此處。
+
+| 日期目錄 | 活動形式與名稱 | 可取得的內容 |
+| --- | --- | --- |
+| `20260806` | 技術分享 · [HiPAC 2026 決賽分享與評審](20260806/README.md) | 投影片 |
+| `20260710` | Workshop · [HiPAC 2026 賽前特訓分享](20260710/README.md) | 投影片 |
+| `20240508` | 技術分享 · [NCHC Techniques Sharing 2024](20240508/README.md) | 投影片、錄影連結 |
+| `20230517` | 技術分享 · [NVIDIA Federated Learning](20230517/README.md) | 投影片 |
+| `20230413` | 技術分享 · [NVIDIA Techniques Sharing 2023](20230413/README.md) | 投影片、錄影連結 |
+| `20220530` | 技術分享 · [NCHC–NVIDIA Techniques Sharing 2022](20220530/README.md) | 投影片 |
+| `20220415` | 技術分享 · [NVIDIA Techniques Update 2022](20220415/README.md) | 投影片 |
+| `20211202` | 技術分享 · [NVIDIA Techniques Update 2021](20211202/README.md) | 投影片 |
+| `20210706` | 技術分享 · [NCHC Techniques Sharing 2021](20210706/README.md) | 投影片 |
+| `20210412` | 技術分享 · [NVIDIA Techniques Sharing 2021](20210412/README.md) | 投影片 |
+
+## Hackathon
+
+Open Hackathon 以研究團隊自身的程式與題目為起點，跨領域成果請閱讀個別活動頁及隊伍報告。加速數字的基準硬體、GPU 數量和測試範圍可能不同，不宜直接比較。
+
+| 日期目錄 | 活動與成果 | 可取得的內容 |
+| --- | --- | --- |
+| `20261104` | [NCHC Open Hackathon 2026](20261104/README.md) | 16 隊成果表、期末報告、活動簡報、錄影、七年回顧 |
+| `20251112` | [NCHC Open Hackathon 2025](20251112/README.md) | 隊伍成果摘要、期末報告 |
+| `20241204` | [NCHC Open Hackathon 2024](20241204/README.md) | 活動簡報、隊伍報告 |
+| `20231207` | [NCHC Open Hackathon 2023](20231207/README.md) | 活動簡報、隊伍報告 |
