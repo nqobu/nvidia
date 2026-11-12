@@ -3,12 +3,12 @@
 
 國家高速網路與計算中心（NCHC）與 NVIDIA 透過技術交流、實作訓練營與 Open Hackathon，讓研究社群及運算資源與技術工具、導師經驗相互結合，協助不同領域的研究者將 GPU 與 AI 用於自己的研究問題。這個儲存庫整理歷年活動、課程教材及公開成果。
 
-<table width="100%" style="border:0;border-collapse:collapse">
+<table style="width:100%;border:0;border-collapse:collapse">
 <thead>
 <tr>
 <th><a href="#bootcamp">找 Bootcamp 教材</a></th>
 <th>&middot;</th>
-<th>>a href="#open-hackathon">看 Hackathon 成果</a></th>
+<th><a href="#open-hackathon">看 Hackathon 成果</a></th>
 <th>&middot;</th>
 <th><a href="EVENTS.md">依領域瀏覽</a></th>
 </tr>
