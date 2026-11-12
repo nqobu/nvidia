@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1130" height="506" viewBox="0 0 1130 506" role="img" aria-labelledby="title description">
+  <title id="title">Seven years of NCHC NVIDIA Open Hackathons</title>
+  <desc id="description">From 2020 to 2026: 73 annual research project records across six scientific domains. Earth, fluids, astronomy and plasma: 14. Vision, agriculture, sports and robotics: 10. Health, biomedicine and life sciences: 14. Climate, weather and ocean: 10. Language, audio and smart infrastructure: 13. Quantum, materials and optimization: 12.</desc>
+  <rect width="1130" height="506" fill="#f4f7fb"/>
+  <rect x="4" y="3" width="225" height="500" fill="#13549d"/>
+  <text x="116" y="44" fill="#cfe5ff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" text-anchor="middle" letter-spacing="2">NCHC × NVIDIA</text>
+  <text x="116" y="100" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">OPEN</text>
+  <text x="116" y="136" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700" text-anchor="middle">HACKATHON</text>
+  <line x1="34" y1="161" x2="198" y2="161" stroke="#80bc23" stroke-width="4"/>
+  <text x="116" y="225" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" text-anchor="middle">7</text>
+  <text x="116" y="254" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" text-anchor="middle" letter-spacing="2">YEARS</text>
+  <text x="116" y="285" fill="#d5e8ff" font-family="Arial, Helvetica, sans-serif" font-size="17" text-anchor="middle">2020–2026</text>
+  <line x1="34" y1="305" x2="198" y2="305" stroke="#80bc23" stroke-width="4"/>
+  <text x="116" y="378" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" text-anchor="middle">73</text>
+  <text x="116" y="413" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" text-anchor="middle">ANNUAL PROJECT</text>
+  <text x="116" y="436" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" text-anchor="middle">RECORDS</text>
+  <text x="116" y="480" fill="#d5e8ff" font-family="Arial, Helvetica, sans-serif" font-size="15" text-anchor="middle">6 RESEARCH DOMAINS</text>
+
+  <text x="258" y="42" fill="#133456" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700">Seven years across scientific domains</text>
+  <text x="258" y="67" fill="#52667b" font-family="Arial, Helvetica, sans-serif" font-size="16">Annual project records from the NCHC × NVIDIA Open Hackathon review</text>
+
+  <g fill="#ffffff" stroke="#d6e2ed" stroke-width="2">
+    <rect x="258" y="84" width="417" height="124" rx="8"/>
+    <rect x="691" y="84" width="417" height="124" rx="8"/>
+    <rect x="258" y="222" width="417" height="124" rx="8"/>
+    <rect x="691" y="222" width="417" height="124" rx="8"/>
+    <rect x="258" y="360" width="417" height="124" rx="8"/>
+    <rect x="691" y="360" width="417" height="124" rx="8"/>
+  </g>
+  <g fill="#77ae1a">
+    <rect x="258" y="84" width="8" height="124" rx="4"/>
+    <rect x="691" y="84" width="8" height="124" rx="4"/>
+    <rect x="258" y="222" width="8" height="124" rx="4"/>
+    <rect x="691" y="222" width="8" height="124" rx="4"/>
+    <rect x="258" y="360" width="8" height="124" rx="4"/>
+    <rect x="691" y="360" width="8" height="124" rx="4"/>
+  </g>
+  <g fill="#173b60" font-family="Arial, Helvetica, sans-serif" font-size="20" font-weight="700">
+    <text x="285" y="126">Earth, fluids, astronomy</text><text x="285" y="153">&amp; plasma</text>
+    <text x="718" y="126">Vision, agriculture, sports</text><text x="718" y="153">&amp; robotics</text>
+    <text x="285" y="264">Health, biomedicine</text><text x="285" y="291">&amp; life sciences</text>
+    <text x="718" y="264">Climate, weather</text><text x="718" y="291">&amp; ocean</text>
+    <text x="285" y="402">Language, audio</text><text x="285" y="429">&amp; smart infrastructure</text>
+    <text x="718" y="402">Quantum, materials</text><text x="718" y="429">&amp; optimization</text>
+  </g>
+  <g fill="#4c7607" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="700" text-anchor="end">
+    <text x="650" y="181">14</text><text x="1083" y="181">10</text>
+    <text x="650" y="319">14</text><text x="1083" y="319">10</text>
+    <text x="650" y="457">13</text><text x="1083" y="457">12</text>
+  </g>
+</svg>

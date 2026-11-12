@@ -2,22 +2,23 @@
 
 國家高速網路與計算中心（NCHC）與 NVIDIA 透過技術交流、實作訓練營與 Open Hackathon，讓研究社群及運算資源與技術工具、導師經驗相互結合，協助不同領域的研究者將 GPU 與 AI 用於自己的研究問題。這個儲存庫整理歷年活動、課程教材及公開成果。
 
-**[看合作成果](EVENTS.md#hackathon) · [依領域找教材](#依領域找教材) · [瀏覽全部活動](EVENTS.md)**
+**[找 Bootcamp 教材](#bootcamp) · [看 Hackathon 成果](#open-hackathon) · [依領域瀏覽](EVENTS.md)**
 
-## 兩種主要合作形式
+> **第一次來？** 頁面上方的 `YYYYMMDD` 資料夾保留原有活動網址與教材路徑。找教材或成果，請從下方圖片與[分類索引](EVENTS.md)開始。
 
-- **Bootcamp／訓練營：** 從技術介紹走到動手實作；活動頁可能提供投影片、Notebook、環境建置說明與錄影，供學員課後繼續練習。
-- **Open Hackathon：** 研究團隊帶著自己的題目，與導師共同移植、分析及優化程式；活動頁收錄隊伍報告與成果，閱讀效能數字時請一併查看各隊的比較條件。
+## Bootcamp
+
+[![歷年 Bootcamp 與實作活動現場照片拼貼](assets/bootcamp-events.png)](EVENTS.md)
+
+從技術介紹走到動手實作，活動頁可能提供投影片、Notebook、環境建置說明與錄影，供學員課後繼續練習。近期教材包括[數位生醫：BioNeMo、細胞影像與單細胞分析](20261110/README.md)，以及[量子運算：CUDA-Q Agentic Coding](20260807/README.md)。[依領域找更多課程](#依領域找教材)。
+
+## Open Hackathon
+
+[![2020 至 2026 年 Open Hackathon：七年、73 筆年度科研專案紀錄，橫跨六大研究領域](assets/open-hackathon-seven-years.svg)](20261104/NCHC-NVIDIA-7year-OpenHackathon-Review.pdf)
+
+研究團隊帶著自己的題目，與導師共同移植、分析及優化程式。[七年回顧](20261104/NCHC-NVIDIA-7year-OpenHackathon-Review.pdf)整理了 **2020–2026 年、73 筆年度科研專案紀錄、六大研究領域**；[2026 年活動頁](20261104/README.md)另有 16 隊成果表與期末報告。例如 MFC 團隊在相同的 8 張 H200 上，將完整模擬時間由 280.6 秒縮至 87.5 秒（3.21 倍）。[閱讀歷年 Hackathon 成果](EVENTS.md#hackathon)。
 
 此外也收錄技術分享、Workshop 與跨機構合作活動。各場活動的主辦單位、教材與公開內容，以個別活動頁為準。
-
-## 合作成果與課程實例
-
-- **[NCHC Open Hackathon 2026](20261104/README.md)：** 16 支隊伍橫跨 HPC、量子、DPU、生醫與 AI；可閱讀各隊期末報告及成果表。例如 MFC 團隊在相同的 8 張 H200 上，將完整模擬時間由 280.6 秒縮至 87.5 秒（3.21 倍）。[七年 Open Hackathon 回顧](20261104/NCHC-NVIDIA-7year-OpenHackathon-Review.pdf)亦收錄於此。
-- **[NCHC × CMU Digital Biology Bootcamp 2026](20261110/README.md)：** BioNeMo、細胞影像與單細胞分析的投影片、可瀏覽的實作教材及課程錄影；課後可依主題說明在自有 GPU、NCHC 或 Brev 環境重建。
-- **[SINICA NCHC CUDA-Q Agentic Coding Bootcamp 2026](20260807/README.md)：** 結合量子運算投影片、外部 hands-on 教材與下午場錄影，方便課後接續操作。
-
-上述數字與成果出自各活動頁／團隊報告，不代表不同硬體或工作負載的加速倍率可以直接比較。[更多歷年 Hackathon 成果](EVENTS.md#hackathon)。
 
 ## 依領域找教材
 
