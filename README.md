@@ -6,11 +6,11 @@
 <table width="100%" style="border:0;border-collapse:collapse">
 <thead>
 <tr>
-<th>[找 Bootcamp 教材](#bootcamp)</th>
+<th><a href="#bootcamp">找 Bootcamp 教材</a></th>
 <th>&middot;</th>
-<th>[看 Hackathon 成果](#open-hackathon)</th>
+<th>>a href="#open-hackathon">看 Hackathon 成果</a></th>
 <th>&middot;</th>
-<th>[依領域瀏覽](EVENTS.md)</th>
+<th><a href="EVENTS.md">依領域瀏覽</a></th>
 </tr>
 </thead>
 </table>
