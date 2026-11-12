@@ -75,8 +75,8 @@ All slides are available as PDFs. Use "**Preview**" to read online or "**Downloa
 
 ```bash
 git clone --filter=blob:none --sparse --depth 1 https://github.com/nqobu/nvidia.git
-git -C nvidia sparse-checkout set 20261110/hands-on
-cd nvidia/20261110/hands-on
+git -C nvidia sparse-checkout set events/bootcamps/20261110/hands-on
+cd nvidia/events/bootcamps/20261110/hands-on
 ```
 
 ## Agenda / 活動議程
